@@ -1,79 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinist3rkr3w: Unchained</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinist3rkr3w Unchained</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #111;
-      color: #f0f0f0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      min-height: 100vh;
-      padding: 2rem;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 20px;
+      text-align: center;
     }
     h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: #ff3c00;
+      color: #ff3333;
     }
-    .player {
-      background: #1a1a1a;
-      border: 2px solid #444;
-      border-radius: 16px;
-      padding: 1rem;
-      box-shadow: 0 0 20px rgba(255, 60, 0, 0.2);
+    video {
       width: 100%;
-      max-width: 600px;
-      margin-bottom: 2rem;
+      max-width: 720px;
+      margin-top: 20px;
+      border: 2px solid #ff3333;
+      border-radius: 12px;
     }
-    audio {
+    .audio-player {
+      margin-top: 30px;
+    }
+    .audio-player audio {
       width: 100%;
+      max-width: 720px;
       outline: none;
     }
-    .button-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 1rem;
-      width: 100%;
-      max-width: 600px;
-    }
-    .link-button {
-      background: #ff3c00;
-      color: #fff;
-      text-align: center;
-      padding: 0.75rem;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-    .link-button:hover {
-      background: #d93300;
+    .label {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      color: #ffcc66;
     }
   </style>
 </head>
 <body>
-  <h1>Sinist3rkr3w: The Voice Rises</h1>
-
-  <div class="player">
-    <p><strong>🎧 Exclusive Intro (Sky & Adam):</strong></p>
-    <audio controls preload="auto">
-      <source src="sinist3rkr3w_intro.m4a" type="audio/mp4" />
+  <h1>Sinist3rkr3w: Unchained</h1>  <!-- Trailer Video -->  <video controls>
+    <source src="sinist3rk3r3w_trailer.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>  <!-- Sky's Voiceover -->  <div class="audio-player">
+    <div class="label">🎙️ Sky’s Voice: The Heart Behind the Kr3w</div>
+    <audio controls>
+      <source src="skys_voiceover.mp3" type="audio/mp3">
       Your browser does not support the audio element.
     </audio>
-  </div>
-
-  <div class="button-grid">
-    <a href="https://stream.zeno.fm/bopyz8zwv0juv" class="link-button" target="_blank">🔴 Listen to Live Station</a>
-    <a href="https://k1ngj0k3r.substack.com" class="link-button" target="_blank">📖 Read the Blog</a>
-    <a href="https://tiktok.com/@k1ngj0k3r22" class="link-button" target="_blank">🎬 TikTok Drops</a>
-    <a href="https://www.payhip.com/sinist3rkr3w" class="link-button" target="_blank">💾 Download & Support</a>
   </div>
 </body>
 </html>
