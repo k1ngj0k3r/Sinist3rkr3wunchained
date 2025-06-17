@@ -13,7 +13,22 @@
       margin: 0;
       padding: 20px;
     }
+.fake-player {
+  background-color: #FFD700; /* Gold */
+  color: #000;
+  font-weight: bold;
+  padding: 12px 24px;
+  margin: 20px auto;
+  width: fit-content;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff0000aa;
+  transition: background-color 0.3s;
+}
 
+.fake-player:hover {
+  background-color: #e6c200;
+}
     h1 {
       font-size: 2.2rem;
       color: #ff3333;
@@ -113,8 +128,9 @@
 
   <!-- 📻 Radio Embed -->
   <div class="section">
-    <iframe src="https://zeno.fm/player/bopyz8zwv0juv" width="100%" height="100"></iframe>
-  </div>
+    <div class="fake-player" onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
+  ▶️ Tap to Listen Live on Zeno
+    </div>
 
   <!-- 🔗 Buttons -->
   <div class="section">
