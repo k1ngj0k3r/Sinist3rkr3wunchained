@@ -1,81 +1,96 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sinist3rkr3w: Unchained</title>
   <style>
     body {
-      margin: 0;
-      background-color: #111;
-      color: #fff;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      font-family: 'Segoe UI', sans-serif;
       text-align: center;
-    }h1 {
-  margin-top: 30px;
-  font-size: 2em;
-  color: #f33;
-}
+      margin: 0;
+      padding: 20px;
+    }
 
-video, audio {
-  display: block;
-  margin: 20px auto;
-  width: 90%;
-  max-width: 720px;
-  border-radius: 10px;
-}
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #ff3333;
+    }
 
-video {
-  border: 3px solid #f33;
-}
+    video {
+      width: 90%;
+      max-width: 720px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px #ff0000aa;
+    }
 
-.btn-container {
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-}
+    audio {
+      margin-top: 20px;
+      width: 90%;
+      max-width: 500px;
+    }
 
-.link-btn {
-  background-color: #f33;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1em;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-  width: 80%;
-  max-width: 300px;
-}
+    .btn {
+      background-color: #ff3333;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 16px;
+      margin: 12px;
+      cursor: pointer;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
 
-.link-btn:hover {
-  background-color: #c00;
-}
+    .btn:hover {
+      background-color: #cc0000;
+    }
 
-footer {
-  margin-top: 40px;
-  font-size: 0.8em;
-  color: #777;
-}
+    .section {
+      margin: 40px 0;
+    }
 
+    iframe {
+      width: 100%;
+      max-width: 700px;
+      height: 100px;
+      margin: 20px 0;
+    }
   </style>
 </head>
 <body>
-  <h1>Sinist3rkr3w: Unchained</h1>  <video controls>
-    <source src="https://k1ngj0k3r.github.io/Sinist3rkr3wunchained/sinist3rk3r3w_trailer.mp4" type="video/mp4">
+
+  <h1>Sinist3rkr3w: Unchained</h1>
+
+  <!-- 🎥 Trailer Video -->
+  <video controls poster="https://k1ngj0k3r.github.io/Sinist3rkr3wunchained/assets/poster.jpg">
+    <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
     Your browser does not support the video tag.
-  </video>  <h2 style="margin-top: 40px;">🎧 Sky’s Voice</h2>
-  <audio controls>
-    <source src="https://k1ngj0k3r.github.io/Sinist3rkr3wunchained/skys_voiceover.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>  <div class="btn-container">
-    <a href="https://stream.zeno.fm/bopyz8zwv0juv" class="link-btn" target="_blank">📻 Listen to the Station</a>
-    <a href="https://k1ngj0k3r.substack.com" class="link-btn" target="_blank">📬 Substack</a>
-    <a href="https://tiktok.com/@k1ngj0k3r22" class="link-btn" target="_blank">📱 TikTok</a>
-    <a href="https://cash.app/$hunt3rlee21" class="link-btn" target="_blank">💸 Support the Kr3w</a>
-  </div>  <footer>
-    &copy; 2025 Sinist3rkr3w. All rights reserved.
-  </footer>
+  </video>
+
+  <!-- 🔊 Sky's Voiceover -->
+  <div class="section">
+    <h2>Sky’s Message</h2>
+    <audio controls>
+      <source src="sky_voiceover_web.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <!-- 🔗 Buttons -->
+  <div class="section">
+    <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">🎧 Listen to the Station</a>
+    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📬 Read the Blog</a>
+    <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">📱 TikTok</a>
+    <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💸 Download & Support</a>
+  </div>
+
 </body>
 </html>
