@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinist3rkr3w: Unchained</title>
+  <title>Sinist3rKr3w: Unchained</title>
   <style>
     body {
       background-color: #0d0d0d;
@@ -13,24 +13,9 @@
       margin: 0;
       padding: 20px;
     }
-.fake-player {
-  background-color: #FFD700; /* Gold */
-  color: #000;
-  font-weight: bold;
-  padding: 12px 24px;
-  margin: 20px auto;
-  width: fit-content;
-  border-radius: 6px;
-  cursor: pointer;
-  box-shadow: 0 0 10px #ff0000aa;
-  transition: background-color 0.3s;
-}
 
-.fake-player:hover {
-  background-color: #e6c200;
-}
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.5rem;
       color: #ff3333;
       margin-bottom: 10px;
     }
@@ -51,13 +36,13 @@
 
     .btn {
       background-color: #ff3333;
-      border: none;
       color: white;
       padding: 12px 24px;
       text-align: center;
       font-size: 16px;
       margin: 12px;
       cursor: pointer;
+      border: none;
       border-radius: 6px;
       text-decoration: none;
       display: inline-block;
@@ -72,90 +57,93 @@
       margin: 40px 0;
     }
 
-    iframe {
-      max-width: 700px;
+    .ticker {
+      position: fixed;
+      bottom: 0;
       width: 100%;
-      height: 100px;
-      margin: 20px 0;
-      border: none;
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      z-index: 9999;
     }
-  </style>.ticker {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFD700;
-  color: #000;
-  font-weight: bold;
-  overflow: hidden;
-  white-space: nowrap;
-  z-index: 9999;
-}
 
-.ticker p {
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll-left 20s linear infinite;
-}
+    .ticker p {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 20s linear infinite;
+    }
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+    @keyframes scroll-left {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .fake-player {
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+      padding: 12px 24px;
+      margin: 20px auto;
+      width: fit-content;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 0 10px #ff0000aa;
+      transition: background-color 0.3s;
+    }
+
+    .fake-player:hover {
+      background-color: #e6c200;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Sinist3rkr3w: Unchained</h1>
+  <h1>Sinist3rKr3w: Unchained</h1>
   <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
   <!-- 🎬 Trailer Video -->
-<video controls width="100%" poster="poster.jpg">
-  <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  <video controls>
+    <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
-  <!-- 🎙️ Sky's Voiceover -->
+  <!-- 🎤 Sky's Voiceover -->
   <div class="section">
     <h2>🎙️ Sky’s Message</h2>
     <audio controls>
-      <source src="https://k1ngj0k3r.github.io/Sinist3rkr3wunchained/sky_voiceover.mp3" type="audio/mpeg">
+      <source src="sky_voiceover.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </div>
 
-  <!-- 📻 Radio Embed -->
+  <!-- 📻 Zeno Radio Fallback Button -->
   <div class="section">
-    <div class="fake-player" onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
-  ▶️ Tap to Listen Live on Zeno
+    <div class="fake-player" onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv', '_blank')">
+      ▶️ Tap to Listen Live on Zeno
     </div>
+  </div>
 
   <!-- 🔗 Buttons -->
   <div class="section">
     <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">📻 Listen to the Station</a>
-    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📰 Read the Blog</a>
-    <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎥 TikTok</a>
-    <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💸 Download & Support</a>
-    <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📩 Email the Kr3w</a>
+    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
+    <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
+    <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Download & Support</a>
+    <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">✉️ Email the Kr3w</a>
   </div>
-<!-- 🔥 Sinist3rKr3w Shout-Out Ticker -->
-<div class="ticker">
-  <p>
-    🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
-    📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
-    🔥 Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
-    🎙️ Dory’s vibin’ with us down in Texas! &nbsp;&nbsp;
-    🌍 Who's next to join the wave?
-  </p>
-</div>
-  <script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./service-worker.js')
-      .then(() => console.log('✅ Service Worker registered'))
-      .catch(err => console.error('❌ Service Worker failed:', err));
-  }
-</script>
+
+  <!-- 🟨 Shout-Out Ticker -->
+  <div class="ticker">
+    <p>
+      🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
+      📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
+      🔥 Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
+      🎙️ Dory’s vibin’ with us down in Texas! &nbsp;&nbsp;
+      🌍 Who's next to join the wave?
+    </p>
+  </div>
+
 </body>
 </html>
