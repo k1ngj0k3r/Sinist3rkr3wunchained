@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <title>Sinist3rKr3w: Unchained</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- NEXT-LEVEL Styles -->
 <style>
 body {
   background-color: #0d0d0d;
@@ -17,6 +18,10 @@ h1 {
   font-size: 2.2rem;
   color: #ff3333;
   margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.5rem;
+  color: #ff4500;
 }
 video {
   width: 100%;
@@ -37,8 +42,6 @@ audio {
   padding: 12px 24px;
   font-size: 16px;
   margin: 12px;
-  border: none;
-  cursor: pointer;
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
@@ -82,6 +85,7 @@ audio {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
+/* =================== FLAME PARTICLES =================== */
 .flame-particle {
   position: fixed;
   bottom: -30px;
@@ -103,6 +107,7 @@ audio {
     opacity: 0;
   }
 }
+/* =================== FLOATING QUOTES =================== */
 .floating-quote {
   position: fixed;
   font-size: 1.2rem;
@@ -121,40 +126,11 @@ audio {
     transform: translateY(-100px) scale(1.1);
   }
 }
-.news-feed {
-  margin: 40px 0;
-  padding: 20px;
-  background-color: #111;
-  border-radius: 12px;
-}
-.news-feed h2 {
-  font-size: 1.8rem;
-  color: #ff4500;
-}
 </style>
 </head>
 <body>
 
 <h1>Sinist3rKr3w: Unchained</h1>
-
-<!-- 🌦️ Weather Widget for Monahans, TX -->
-<div class="weather">
-  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark">MONAHANS WEATHER</a>
-</div>
-<script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
-  }
-}(document,'script','weatherwidget-io-js');
-</script>
-
-<!-- Main Text -->
 <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
 <!-- 🎬 Trailer Video -->
@@ -193,10 +169,33 @@ audio {
   <a class="btn" href="about.html">About Us</a>
 </nav>
 
-<!-- 📰 Underreported News Feed -->
-<div class="news-feed">
+<!-- 🌦️ Weather Widget for Monahans, TX -->
+<div class="weather">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
+     data-label_1="MONAHANS" 
+     data-label_2="WEATHER" 
+     data-theme="dark">MONAHANS WEATHER</a>
+</div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+
+<!-- 👁️ Underreported Stories Section -->
+<div class="underreported">
   <h2>👁️ Underreported Stories</h2>
-  <iframe src="https://www.allsides.com/sites/all/modules/custom/allsidefeed/embed_iframe/index.html" scrolling="no" style="border:none;" width="100%" height="600px"></iframe>
+  <iframe src="https://www.undercurrentnews.com/feed/" 
+          style="width:100%; max-width:720px; height:400px; border:none;" 
+          title="Underreported Stories Feed">
+    Your browser does not support iframes.
+  </iframe>
 </div>
 
 <!-- 🔥 Shout-Out Ticker -->
