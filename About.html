@@ -7,74 +7,140 @@
 <style>
 body {
   font-family: Arial, sans-serif;
-  background-color: #000;
-  color: #fff;
+  background: radial-gradient(#000, #111);
+  color: #f2f2f2;
   text-align: center;
   padding: 40px 20px;
+  margin: 0;
 }
-
 h1 {
   font-size: 3rem;
-  color: #ff4500;
   text-transform: uppercase;
+  color: #ff4500;
+  text-shadow: 0px 0px 15px #ff4500;
 }
-
 h2 {
   font-size: 1.5rem;
   margin: 20px 0;
 }
-
 p {
   font-size: 1.25rem;
   max-width: 600px;
   margin: 20px auto;
   line-height: 1.5;
 }
-
 .cta {
   font-size: 1.25rem;
   font-weight: bold;
   color: #ff4500;
 }
-
-footer {
-  margin-top: 40px;
-  font-size: 1rem;
-  color: #888;
+.nav, .cards {
+  margin: 30px 0;
 }
-
-nav {
-  margin: 20px 0;
-}
-
-.back-button {
+.nav a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 24px;
+  margin: 10px;
   font-size: 1.1rem;
   color: #ff4500;
   border: 2px solid #ff4500;
-  border-radius: 6px;
+  border-radius: 8px;
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  transition: all 0.3s ease;
 }
-
-.back-button:hover {
+.nav a:hover {
   background-color: #ff4500;
   color: #000;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #111;
+  border: 1px solid #ff4500;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 250px;
+  flex: 1;
+  box-shadow: 0px 0px 15px #ff450099;
+}
+.card h3 {
+  font-size: 1.3rem;
+  color: #ff4500;
+}
+.whats-next {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ff4500;
+  margin: 40px 0 10px;
+}
+.whats-next p {
+  font-size: 1.1rem;
+  color: #f2f2f2;
+}
+footer {
+  margin: 40px 0;
+  font-size: 1rem;
+  color: #888;
+}
+.flame {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ff4500;
+  animation: flame-flicker 1.5s infinite;
+}
+@keyframes flame-flicker {
+  0%,100% {text-shadow: 0 0 10px #ff4500, 0 0 30px #ff4500;}
+  50% {text-shadow: 0 0 5px #ff4500, 0 0 15px #ff4500;}
 }
 </style>
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="back-button">← Back to Home</a>
-</nav>
-
+<!-- Branding -->
 <h1>Sinist3rkr3w Unchained</h1>
 <h2>More than a name — it's a Movement</h2>
-<p>Sinist3rkr3w Unchained is about standing strong when the world tries to break you down. It's a rallying cry for resilience, strength, and the voice that refuses to be silenced. It's for those who rise from the ashes, shed their chains, and walk tall in their truth — sharp, loud, and unchained. We create bold apparel, compelling stories, and a space for those who won't be kept down by fear or doubt.</p>
-<p class="cta">Stay sharp. Stay loud. Stay UNCHAINED.</p>
 
+<!-- Main Paragraph -->
+<p>Sinist3rkr3w Unchained is about standing strong when the world tries to break you down. It's a rallying cry for resilience, strength, and the voice that refuses to be silenced. It's for those who rise from the ashes, shed their chains, and walk tall in their truth — sharp, loud, and unchained. We create bold apparel, compelling stories, and a space for those who won't be kept down by fear or doubt.</p>
+<p class="cta flame">Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
+
+<!-- Links / Buttons -->
+<div class="nav">
+  <a href="index.html">← Back to Home</a>
+  <a href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Shop the Drop</a>
+  <a href="https://tiktok.com/@k1ngj0k3r22" target="_blank">📱 Join the Movement</a>
+</div>
+
+<!-- Info Cards Section -->
+<div class="cards">
+  <div class="card">
+    <h3>🔥 The Mission</h3>
+    <p>Break chains. Build strength. Speak the truth. Our mission is to unite rebels, misfits, and fighters under one banner — UNCHAINED.</p>
+  </div>
+  <div class="card">
+    <h3>👕 The Gear</h3>
+    <p>Apparel built for warriors. Designs that scream resilience, defiance, and belonging. Wear your voice, wear your pride.</p>
+  </div>
+  <div class="card">
+    <h3>🎙️ The Movement</h3>
+    <p>More than threads and words — it's a movement. Together, we'll rise from the ashes and redefine strength for ourselves and the world.</p>
+  </div>
+</div>
+
+<!-- What's Next Section -->
+<div class="whats-next">
+  ⚔️ What’s NEXT? ⚔️
+  <p>More stories. New designs. Bigger ideas.<br/>
+  Sinist3rkr3w is building a space for rebels, creators, and the unbreakable.<br/>
+  Stay tuned. Stay sharp. Stay UNCHAINED.<br/>
+  The best is yet to come…</p>
+</div>
+
+<!-- Footer -->
 <footer>© 2025 Sinist3rkr3w Unchained. All Rights Reserved.</footer>
 
 </body>
