@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>Sinist3rKr3w: Unchained</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- NEXT-LEVEL Styles -->
+
 <style>
 body {
   background-color: #0d0d0d;
@@ -18,6 +18,10 @@ h1 {
   font-size: 2.2rem;
   color: #ff3333;
   margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.5rem;
+  color: #ff3333;
 }
 video {
   width: 100%;
@@ -38,6 +42,8 @@ audio {
   padding: 12px 24px;
   font-size: 16px;
   margin: 12px;
+  border: none;
+  cursor: pointer;
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
@@ -81,7 +87,6 @@ audio {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
-/* =================== FLAME PARTICLES =================== */
 .flame-particle {
   position: fixed;
   bottom: -30px;
@@ -103,7 +108,6 @@ audio {
     opacity: 0;
   }
 }
-/* =================== FLOATING QUOTES =================== */
 .floating-quote {
   position: fixed;
   font-size: 1.2rem;
@@ -121,34 +125,6 @@ audio {
     opacity: 0;
     transform: translateY(-100px) scale(1.1);
   }
-}
-/* =================== UNDERREPORTED STORIES =================== */
-.underreported {
-  margin: 40px auto;
-  text-align: center;
-}
-.underreported h2 {
-  font-size: 2rem;
-  color: #ff3333;
-}
-.underreported p {
-  font-size: 1rem;
-  color: #f2f2f2;
-}
-.underreported .headline {
-  padding: 12px;
-  margin: 10px auto;
-  border-radius: 8px;
-  background-color: #111;
-  border-left: 4px solid #ff4500;
-  max-width: 600px;
-}
-.underreported .headline a {
-  color: #ff4500;
-  text-decoration: none;
-}
-.underreported .headline a:hover {
-  text-decoration: underline;
 }
 </style>
 </head>
@@ -175,7 +151,7 @@ audio {
 <!-- 📻 Zeno Radio Fallback Button -->
 <div class="section">
   <div class="fake-player" 
-       onClick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
+       onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
     ▶️ Tap to Listen Live on Zeno
   </div>
 </div>
@@ -193,31 +169,21 @@ audio {
   <a class="btn" href="about.html">About Us</a>
 </nav>
 
-<!-- 🌦️ Monahans, TX Weather (Fahrenheit) -->
-<div style="margin:20px auto;text-align:center;">
-  <h2>🌦️ Monahans, TX Weather</h2>
-  <img 
-    src="https://wttr.in/Monahans.png?format=3&units=u" 
-    alt="Current weather for Monahans, TX in Fahrenheit" 
-    style="border-radius:8px;">
-  <p style="font-size:1rem;color:#f2f2f2;">
-    Get your quick snapshot of Monahans weather in Fahrenheit.
-  </p>
+<!-- 🌞 WEATHER WIDGET (Fahrenheit) -->
+<div style="margin:30px auto;">
+  <h2>Monahans, TX Weather</h2>
+  <img src="https://wttr.in/Monahans.png?format=3&u" alt="Current weather for Monahans, TX in Fahrenheit" style="border-radius:8px;" />
+  <p>Get your quick snapshot of Monahans weather in Fahrenheit!</p>
 </div>
 
-<!-- 👁️ Underreported Stories Section -->
-<div class="underreported">
+<!-- 📰 Underreported Stories Section -->
+<div style="margin:40px auto;">
   <h2>👁️ Underreported Stories</h2>
-  <p>Check out these stories that deserve more attention:</p>
-  <div class="headline">
-    🔥 <a href="https://www.reuters.com/article/idUSKBN2R229P" target="_blank">Climate Protests in Remote Areas Draw Little Attention</a>
-  </div>
-  <div class="headline">
-    📰 <a href="https://www.democracynow.org/" target="_blank">Democracy Now! Report on Displaced Families</a>
-  </div>
-  <div class="headline">
-    🌍 <a href="https://therealnews.com" target="_blank">Real News Network Investigates Local Environmental Impact</a>
-  </div>
+  <iframe 
+    src="https://www.allsides.com/unbiased-news-feed" 
+    style="width:100%; height:500px; border:none;" 
+    title="AllSides Underreported Stories">
+  </iframe>
 </div>
 
 <!-- 🔥 Shout-Out Ticker -->
