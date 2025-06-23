@@ -81,6 +81,7 @@ audio {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
+/* =================== FLAME PARTICLES =================== */
 .flame-particle {
   position: fixed;
   bottom: -30px;
@@ -102,6 +103,7 @@ audio {
     opacity: 0;
   }
 }
+/* =================== FLOATING QUOTES =================== */
 .floating-quote {
   position: fixed;
   font-size: 1.2rem;
@@ -119,6 +121,34 @@ audio {
     opacity: 0;
     transform: translateY(-100px) scale(1.1);
   }
+}
+/* =================== UNDERREPORTED STORIES =================== */
+.underreported {
+  margin: 40px auto;
+  text-align: center;
+}
+.underreported h2 {
+  font-size: 2rem;
+  color: #ff3333;
+}
+.underreported p {
+  font-size: 1rem;
+  color: #f2f2f2;
+}
+.underreported .headline {
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 8px;
+  background-color: #111;
+  border-left: 4px solid #ff4500;
+  max-width: 600px;
+}
+.underreported .headline a {
+  color: #ff4500;
+  text-decoration: none;
+}
+.underreported .headline a:hover {
+  text-decoration: underline;
 }
 </style>
 </head>
@@ -145,7 +175,7 @@ audio {
 <!-- 📻 Zeno Radio Fallback Button -->
 <div class="section">
   <div class="fake-player" 
-       onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
+       onClick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
     ▶️ Tap to Listen Live on Zeno
   </div>
 </div>
@@ -173,6 +203,21 @@ audio {
   <p style="font-size:1rem;color:#f2f2f2;">
     Get your quick snapshot of Monahans weather in Fahrenheit.
   </p>
+</div>
+
+<!-- 👁️ Underreported Stories Section -->
+<div class="underreported">
+  <h2>👁️ Underreported Stories</h2>
+  <p>Check out these stories that deserve more attention:</p>
+  <div class="headline">
+    🔥 <a href="https://www.reuters.com/article/idUSKBN2R229P" target="_blank">Climate Protests in Remote Areas Draw Little Attention</a>
+  </div>
+  <div class="headline">
+    📰 <a href="https://www.democracynow.org/" target="_blank">Democracy Now! Report on Displaced Families</a>
+  </div>
+  <div class="headline">
+    🌍 <a href="https://therealnews.com" target="_blank">Real News Network Investigates Local Environmental Impact</a>
+  </div>
 </div>
 
 <!-- 🔥 Shout-Out Ticker -->
