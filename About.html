@@ -7,7 +7,22 @@
 <style>
   <nav>
   <a href="index.html" style="font-size:1.2rem; color:#ff4500; text-decoration:none;">
-    ← Back to Home
+    ← Back to Home .back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 1.1rem;
+  color: #ff4500;
+  border: 2px solid #ff4500;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #ff4500;
+  color: #000;
+}
   </a>
 </nav>
 body {
