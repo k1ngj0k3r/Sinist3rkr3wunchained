@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <title>Sinist3rKr3w: Unchained</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Styles -->
 <style>
 body {
   background-color: #0d0d0d;
@@ -28,7 +29,6 @@ video {
   margin: 20px auto;
   border-radius: 12px;
   box-shadow: 0 0 12px #ff0000aa;
-  display: block;
 }
 audio {
   margin-top: 20px;
@@ -46,10 +46,12 @@ audio {
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
-  transition: background-color 0.3s;
 }
 .btn:hover {
   background-color: #cc0000;
+}
+.section {
+  margin: 30px 0;
 }
 .fake-player {
   background-color: #FFD700;
@@ -61,7 +63,6 @@ audio {
   border-radius: 6px;
   cursor: pointer;
   box-shadow: 0 0 10px #ff0000aa;
-  transition: background-color 0.3s;
 }
 .fake-player:hover {
   background-color: #e6c200;
@@ -86,83 +87,27 @@ audio {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
-.flame-particle {
-  position: fixed;
-  bottom: -30px;
-  width: 8px;
-  height: 8px;
-  background-color: #ff4500;
-  border-radius: 50%;
-  pointer-events: none;
-  opacity: 0.8;
-  animation: rise 5s ease-out forwards;
-}
-@keyframes rise {
-  0% { transform: translateY(0) scale(1); opacity: 1; }
-  100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
-}
-.floating-quote {
-  position: fixed;
-  font-size: 1.2rem;
-  color: #ff4500;
-  text-shadow: 0px 0px 10px #ff4500;
-  pointer-events: none;
-  animation: floatQuote 4s ease-out;
-}
-@keyframes floatQuote {
-  0% { opacity: 1; transform: translateY(0px) scale(1); }
-  100% { opacity: 0; transform: translateY(-100px) scale(1.1); }
-}
 .news-item {
-  background-color: #111;
-  border-radius: 8px;
-  padding: 12px;
-  margin: 12px auto;
-  max-width: 600px;
-  border-left: 4px solid #ff3333;
+  font-size: 1rem;
+  margin: 12px 0;
 }
-.cta-donate {
-  background-color: #ff3333;
-  color: #fff;
+.news-item a {
+  color: #ff3333;
+  text-decoration: none;
+}
+.news-item a:hover {
+  text-decoration: underline;
+}
+.cta {
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 600px;
-  margin: 30px auto;
-}
-.cta-donate a {
-  color: #fff;
-  text-decoration: underline;
+  margin: 20px 0;
 }
 </style>
 </head>
 <body>
 
 <h1>Sinist3rKr3w: Unchained</h1>
-<p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
-
-<!-- 🌡️ Monahans, TX Weather in Fahrenheit -->
-<div class="weather">
-  <a class="weatherwidget-io" 
-     href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" 
-     data-label_2="WEATHER" 
-     data-theme="dark" 
-     data-units="us">MONAHANS WEATHER</a>
-</div>
-<script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementsById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
-  }
-}(document,'script','weatherwidget-io-js');
-</script>
-
 <!-- 🎬 Trailer Video -->
 <video controls>
   <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
@@ -195,26 +140,34 @@ audio {
   <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📧 Email the Kr3w</a>
 </div>
 
-<nav>
-  <a class="btn" href="about.html">About Us</a>
-</nav>
-
-<!-- 💵 CTA DONATION BUTTON -->
-<div class="cta-donate">
-  🔥 Help Us Stay UNCHAINED! 👉 <a href="https://payhip.com/Sinist3rkr3w" target="_blank">Donate & Support the Movement</a> 👈
+<!-- CTA -->
+<div class="cta">
+  🔥 Support the Movement — <a href="https://www.paypal.com/donate?business=ryan@sinist3rkr3w.it.com" target="_blank" style="color:#ff3333">Donate Here</a> 🔥
 </div>
 
-<!-- 👁️ Underreported Stories -->
+<!-- 🌦️ Weather Widget (Fahrenheit) -->
+<h2>🌦️ Monahans, TX Weather</h2>
+<div id="weather-widget">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" data-units="imperial">MONAHANS WEATHER</a>
+</div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+
+<!-- 👁️ Underreported Stories Section -->
 <h2>👁️ Underreported Stories</h2>
-<div class="news-item">
-  📰 Climate Protests in Remote Areas Draw Little Attention
-</div>
-<div class="news-item">
-  🗞️ Democracy Now! Report on Displaced Families
-</div>
-<div class="news-item">
-  🌍 Real News Network Investigates Local Environmental Impact
-</div>
+<p>Check out these stories that deserve more attention:</p>
+<div class="news-item">📰 <a href="https://www.climate.gov/" target="_blank">Climate Protests in Remote Areas Draw Little Attention</a></div>
+<div class="news-item">🗞️ <a href="https://www.democracynow.org/" target="_blank">Democracy Now! Report on Displaced Families</a></div>
+<div class="news-item">🌍 <a href="https://therealnews.com/" target="_blank">Real News Network Investigates Local Environmental Impact</a></div>
 
 <!-- 🔥 Shout-Out Ticker -->
 <div class="ticker">
