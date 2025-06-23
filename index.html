@@ -19,10 +19,6 @@ h1 {
   color: #ff3333;
   margin-bottom: 10px;
 }
-h2 {
-  font-size: 1.5rem;
-  color: #ff4500;
-}
 video {
   width: 100%;
   max-width: 720px;
@@ -126,6 +122,32 @@ audio {
     transform: translateY(-100px) scale(1.1);
   }
 }
+/* =================== UNDERREPORTED STORIES =================== */
+.underreported {
+  margin: 40px auto;
+  text-align: center;
+}
+.underreported h2 {
+  font-size: 2rem;
+  color: #ff3333;
+}
+.underreported p {
+  font-size: 1rem;
+  color: #f2f2f2;
+}
+.underreported .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 12px 0;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff3333;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.underreported .btn:hover {
+  background-color: #cc0000;
+}
 </style>
 </head>
 <body>
@@ -169,33 +191,11 @@ audio {
   <a class="btn" href="about.html">About Us</a>
 </nav>
 
-<!-- 🌦️ Weather Widget for Monahans, TX -->
-<div class="weather">
-  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" 
-     data-label_2="WEATHER" 
-     data-theme="dark">MONAHANS WEATHER</a>
-</div>
-<script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
-  }
-}(document,'script','weatherwidget-io-js');
-</script>
-
 <!-- 👁️ Underreported Stories Section -->
 <div class="underreported">
   <h2>👁️ Underreported Stories</h2>
-  <iframe src="https://www.undercurrentnews.com/feed/" 
-          style="width:100%; max-width:720px; height:400px; border:none;" 
-          title="Underreported Stories Feed">
-    Your browser does not support iframes.
-  </iframe>
+  <p>Check out these stories that deserve more attention:</p>
+  <a class="btn" href="https://www.allsides.com/" target="_blank">Visit AllSides for Underreported Stories →</a>
 </div>
 
 <!-- 🔥 Shout-Out Ticker -->
