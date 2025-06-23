@@ -38,8 +38,6 @@ audio {
   padding: 12px 24px;
   font-size: 16px;
   margin: 12px;
-  border: none;
-  cursor: pointer;
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
@@ -83,7 +81,6 @@ audio {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
-/* =================== FLAME PARTICLES =================== */
 .flame-particle {
   position: fixed;
   bottom: -30px;
@@ -105,7 +102,6 @@ audio {
     opacity: 0;
   }
 }
-/* =================== FLOATING QUOTES =================== */
 .floating-quote {
   position: fixed;
   font-size: 1.2rem;
@@ -167,26 +163,17 @@ audio {
   <a class="btn" href="about.html">About Us</a>
 </nav>
 
-<!-- 🌦️ Monahans Weather Widget (Fahrenheit) -->
-<div class="weather" style="margin:20px auto;">
-  <a class="weatherwidget-io" 
-     href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" 
-     data-label_2="WEATHER" 
-     data-theme="dark"
-     data-units="us">MONAHANS WEATHER</a>
+<!-- 🌦️ Monahans, TX Weather (Fahrenheit) -->
+<div style="margin:20px auto;text-align:center;">
+  <h2>🌦️ Monahans, TX Weather</h2>
+  <img 
+    src="https://wttr.in/Monahans.png?format=3&units=u" 
+    alt="Current weather for Monahans, TX in Fahrenheit" 
+    style="border-radius:8px;">
+  <p style="font-size:1rem;color:#f2f2f2;">
+    Get your quick snapshot of Monahans weather in Fahrenheit.
+  </p>
 </div>
-<script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
-  }
-}(document,'script','weatherwidget-io-js');
-</script>
 
 <!-- 🔥 Shout-Out Ticker -->
 <div class="ticker">
