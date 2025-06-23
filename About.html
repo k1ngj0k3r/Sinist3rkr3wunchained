@@ -1,50 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Inside the <head> of index.html and about.html -->
-<script src="site.js" defer></script>
 <meta charset="UTF-8">
 <title>About Sinist3rkr3w Unchained</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link your site.js here -->
+<script src="site.js" defer></script>
 <style>
-  <style>
-/* =================== FLAME PARTICLES =================== */
-.flame-particle {
-  position: fixed;
-  bottom: -30px;
-  width: 8px;
-  height: 8px;
-  background-color: #ff4500;
-  border-radius: 50%;
-  pointer-events: none;
-  opacity: 0.8;
-  animation: rise 5s ease-out forwards;
-}
-@keyframes rise {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100vh) scale(0.5);
-    opacity: 0;
-  }
-}
-
-/* =================== FLOATING QUOTES =================== */
-.floating-quote {
-  position: fixed;
-  font-size: 1.2rem;
-  color: #ff4500;
-  text-shadow: 0px 0px 10px #ff4500;
-  pointer-events: none;
-  animation: floatQuote 4s ease-out;
-}
-@keyframes floatQuote {
-  0% { opacity: 1; transform: translateY(0px) scale(1); }
-  100% { opacity: 0; transform: translateY(-100px) scale(1.1); }
-}
-</style>
 body {
   font-family: Arial, sans-serif;
   background: radial-gradient(#000, #111);
@@ -55,9 +17,8 @@ body {
 }
 h1 {
   font-size: 3rem;
-  text-transform: uppercase;
   color: #ff4500;
-  text-shadow: 0px 0px 15px #ff4500;
+  text-transform: uppercase;
 }
 h2 {
   font-size: 1.5rem;
@@ -74,7 +35,7 @@ p {
   font-weight: bold;
   color: #ff4500;
 }
-.nav, .cards {
+.nav {
   margin: 30px 0;
 }
 .nav a {
@@ -136,6 +97,33 @@ footer {
   0%,100% {text-shadow: 0 0 10px #ff4500, 0 0 30px #ff4500;}
   50% {text-shadow: 0 0 5px #ff4500, 0 0 15px #ff4500;}
 }
+.flame-particle {
+  position: fixed;
+  bottom: -30px;
+  width: 8px;
+  height: 8px;
+  background-color: #ff4500;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.8;
+  animation: rise 5s ease-out forwards;
+}
+@keyframes rise {
+  0% {transform: translateY(0) scale(1); opacity: 1;}
+  100% {transform: translateY(-100vh) scale(0.5); opacity: 0;}
+}
+.floating-quote {
+  position: fixed;
+  font-size: 1.2rem;
+  color: #ff4500;
+  text-shadow: 0px 0px 10px #ff4500;
+  pointer-events: none;
+  animation: floatQuote 4s ease-out;
+}
+@keyframes floatQuote {
+  0% {opacity: 1; transform: translateY(0px) scale(1);}
+  100% {opacity: 0; transform: translateY(-100px) scale(1.1);}
+}
 </style>
 </head>
 <body>
@@ -146,7 +134,7 @@ footer {
 
 <!-- Main Paragraph -->
 <p>Sinist3rkr3w Unchained is about standing strong when the world tries to break you down. It's a rallying cry for resilience, strength, and the voice that refuses to be silenced. It's for those who rise from the ashes, shed their chains, and walk tall in their truth — sharp, loud, and unchained. We create bold apparel, compelling stories, and a space for those who won't be kept down by fear or doubt.</p>
-<p class="cta flame">Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
+<p class="cta">Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
 
 <!-- Links / Buttons -->
 <div class="nav">
@@ -171,7 +159,7 @@ footer {
   </div>
 </div>
 
-<!-- What's Next Section -->
+<!-- What’s NEXT Section -->
 <div class="whats-next">
   ⚔️ What’s NEXT? ⚔️
   <p>More stories. New designs. Bigger ideas.<br/>
