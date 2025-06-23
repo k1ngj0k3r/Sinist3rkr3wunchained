@@ -1,39 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <title>Sinist3rKr3w: Unchained</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<!-- Styles -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <style>
 body {
   background-color: #0d0d0d;
   color: #f2f2f2;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
   margin: 0;
-  padding: 20px;
 }
-h1 {
-  font-size: 2.2rem;
-  color: #ff3333;
-  margin-bottom: 10px;
+.hero {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.5)), url('https://picsum.photos/1920/600?grayscale') center/cover no-repeat;
+  padding: 100px 20px;
 }
-h2 {
-  font-size: 1.5rem;
+.hero h1 {
+  font-size: 3rem;
   color: #ff3333;
 }
-video {
-  width: 100%;
-  max-width: 720px;
-  margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 0 12px #ff0000aa;
+.hero p {
+  font-size: 1.25rem;
 }
-audio {
-  margin-top: 20px;
-  width: 90%;
-  max-width: 500px;
+.section {
+  padding: 30px 20px;
 }
 .btn {
   background-color: #ff3333;
@@ -41,51 +32,13 @@ audio {
   padding: 12px 24px;
   font-size: 16px;
   margin: 12px;
-  border: none;
-  cursor: pointer;
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
+  transition: background-color 0.3s;
 }
 .btn:hover {
   background-color: #cc0000;
-}
-.section {
-  margin: 30px 0;
-}
-.fake-player {
-  background-color: #FFD700;
-  color: #000;
-  font-weight: bold;
-  padding: 12px 24px;
-  margin: 20px auto;
-  width: fit-content;
-  border-radius: 6px;
-  cursor: pointer;
-  box-shadow: 0 0 10px #ff0000aa;
-}
-.fake-player:hover {
-  background-color: #e6c200;
-}
-.ticker {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFD700;
-  color: #000;
-  font-weight: bold;
-  overflow: hidden;
-  white-space: nowrap;
-  z-index: 9999;
-}
-.ticker p {
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll-left 20s linear infinite;
-}
-@keyframes scroll-left {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
 }
 .news-item {
   font-size: 1rem;
@@ -103,18 +56,46 @@ audio {
   font-weight: bold;
   margin: 20px 0;
 }
+.footer {
+  padding: 30px;
+  font-size: 1rem;
+  color: #888;
+}
+.footer p {
+  max-width: 600px;
+  margin: 10px auto;
+}
+#backToTop {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  font-size: 1.5rem;
+  color: #ff3333;
+  cursor: pointer;
+  display: none;
+}
+#backToTop:hover {
+  color: #cc0000;
+}
 </style>
 </head>
 <body>
 
-<h1>Sinist3rKr3w: Unchained</h1>
-<!-- 🎬 Trailer Video -->
-<video controls>
-  <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<!-- Hero Section -->
+<div class="hero">
+  <h1>Sinist3rKr3w: Unchained</h1>
+  <p>🔥 Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
+</div>
 
-<!-- 🎙️ Sky’s Voiceover -->
+<!-- Video Section -->
+<div class="section">
+  <video controls>
+    <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- Voiceover Section -->
 <div class="section">
   <h2>🎙️ Sky’s Message</h2>
   <audio controls>
@@ -123,15 +104,13 @@ audio {
   </audio>
 </div>
 
-<!-- 📻 Zeno Radio Fallback Button -->
+<!-- Radio Station Embed -->
 <div class="section">
-  <div class="fake-player" 
-       onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
-    ▶️ Tap to Listen Live on Zeno
-  </div>
+  <h2>📻 Listen Live</h2>
+  <iframe src="https://stream.zeno.fm/bopyz8zwv0juv" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
 </div>
 
-<!-- 🔗 Buttons -->
+<!-- Buttons Section -->
 <div class="section">
   <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">🎧 Listen to the Station</a>
   <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📝 Read the Blog</a>
@@ -140,47 +119,63 @@ audio {
   <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📧 Email the Kr3w</a>
 </div>
 
-<!-- CTA -->
+<!-- CTA Donate Section -->
 <div class="cta">
   🔥 Support the Movement — <a href="https://www.paypal.com/donate?business=ryan@sinist3rkr3w.it.com" target="_blank" style="color:#ff3333">Donate Here</a> 🔥
 </div>
 
-<!-- 🌦️ Weather Widget (Fahrenheit) -->
-<h2>🌦️ Monahans, TX Weather</h2>
-<div id="weather-widget">
-  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" data-units="imperial">MONAHANS WEATHER</a>
+<!-- Weather Section -->
+<div class="section">
+  <h2>🌦️ Monahans, TX Weather</h2>
+  <div id="weather-widget">
+    <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" data-units="imperial">MONAHANS WEATHER</a>
+  </div>
 </div>
+
+<!-- Underreported Stories Section -->
+<div class="section">
+  <h2>👁️ Underreported Stories</h2>
+  <p>Check out these stories that deserve more attention:</p>
+  <div class="news-item">📰 <a href="https://www.climate.gov/" target="_blank">Climate Protests in Remote Areas Draw Little Attention</a></div>
+  <div class="news-item">🗞️ <a href="https://www.democracynow.org/" target="_blank">Democracy Now! Report on Displaced Families</a></div>
+  <div class="news-item">🌍 <a href="https://therealnews.com/" target="_blank">Real News Network Investigates Local Environmental Impact</a></div>
+</div>
+
+<!-- About Us Section -->
+<div class="section">
+  <h2>About Us</h2>
+  <p>Sinist3rKr3w Unchained is about rising from the ashes. We are a movement dedicated to resilience, strength, and making sure every voice is heard. From bold storytelling and fearless music to revolutionary designs and articles, we walk tall in our truth — sharp, loud, and unchained. Join the crew. Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <p>© 2025 Sinist3rKr3w Unchained. All Rights Reserved.<br>Built for rebels, misfits, and fighters. Stay sharp, stay loud, stay unchained. 🔥</p>
+</div>
+
+<!-- Scripts -->
 <script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
+window.onscroll = function() {
+  const btn = document.getElementById('backToTop');
+  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    btn.style.display = 'block';
+  } else {
+    btn.style.display = 'none';
   }
-}(document,'script','weatherwidget-io-js');
+};
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
 </script>
+<!-- Back To Top Button -->
+<div id="backToTop" title="Back to top" onclick="scrollToTop()">⬆️</div>
 
-<!-- 👁️ Underreported Stories Section -->
-<h2>👁️ Underreported Stories</h2>
-<p>Check out these stories that deserve more attention:</p>
-<div class="news-item">📰 <a href="https://www.climate.gov/" target="_blank">Climate Protests in Remote Areas Draw Little Attention</a></div>
-<div class="news-item">🗞️ <a href="https://www.democracynow.org/" target="_blank">Democracy Now! Report on Displaced Families</a></div>
-<div class="news-item">🌍 <a href="https://therealnews.com/" target="_blank">Real News Network Investigates Local Environmental Impact</a></div>
-
-<!-- 🔥 Shout-Out Ticker -->
-<div class="ticker">
-  <p>
-    🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
-    Tuned in from Seminole, TX! &nbsp;&nbsp;
-    Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
-    Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?
-  </p>
-</div>
-
-<!-- NEXT-LEVEL Scripts -->
-<script src="site.js" defer></script>
+<!-- Weather Widget Script -->
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+if(!d.getElementById(id)){js=d.createElement(s);
+js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
 
 </body>
 </html>
