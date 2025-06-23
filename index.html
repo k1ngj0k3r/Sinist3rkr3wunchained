@@ -1,50 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Inside the <head> of index.html and about.html -->
-<script src="site.js" defer></script>
+  <script src="site.js" defer></script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinist3rkr3w: Unchained</title>
+  <title>Sinist3rKr3w: Unchained</title>
   <style>
-    <style>
-/* =================== FLAME PARTICLES =================== */
-.flame-particle {
-  position: fixed;
-  bottom: -30px;
-  width: 8px;
-  height: 8px;
-  background-color: #ff4500;
-  border-radius: 50%;
-  pointer-events: none;
-  opacity: 0.8;
-  animation: rise 5s ease-out forwards;
-}
-@keyframes rise {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100vh) scale(0.5);
-    opacity: 0;
-  }
-}
+    /* =================== FLAME PARTICLES =================== */
+    .flame-particle {
+      position: fixed;
+      bottom: -30px;
+      width: 8px;
+      height: 8px;
+      background-color: #ff4500;
+      border-radius: 50%;
+      pointer-events: none;
+      opacity: 0.8;
+      animation: rise 5s ease-out forwards;
+    }
+    @keyframes rise {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
+    }
 
-/* =================== FLOATING QUOTES =================== */
-.floating-quote {
-  position: fixed;
-  font-size: 1.2rem;
-  color: #ff4500;
-  text-shadow: 0px 0px 10px #ff4500;
-  pointer-events: none;
-  animation: floatQuote 4s ease-out;
-}
-@keyframes floatQuote {
-  0% { opacity: 1; transform: translateY(0px) scale(1); }
-  100% { opacity: 0; transform: translateY(-100px) scale(1.1); }
-}
-</style>
+    /* =================== FLOATING QUOTES =================== */
+    .floating-quote {
+      position: fixed;
+      font-size: 1.2rem;
+      color: #ff4500;
+      text-shadow: 0px 0px 10px #ff4500;
+      pointer-events: none;
+      animation: floatQuote 4s ease-out;
+    }
+    @keyframes floatQuote {
+      0% { opacity: 1; transform: translateY(0) scale(1); }
+      100% { opacity: 0; transform: translateY(-100px) scale(1.1); }
+    }
+
+    /* =================== GENERAL STYLES =================== */
     body {
       background-color: #0d0d0d;
       color: #f2f2f2;
@@ -73,7 +66,7 @@
     }
     .btn {
       background-color: #ff3333;
-      color: white;
+      color: #fff;
       padding: 12px 24px;
       font-size: 16px;
       margin: 12px;
@@ -159,9 +152,11 @@
     <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Download & Support</a>
     <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📧 Email the Kr3w</a>
   </div>
-<nav>
-  <a href="About.html">About Us</a>
-</nav>
+
+  <nav>
+    <a href="About.html" class="btn">About Us</a>
+  </nav>
+
   <!-- 🔥 Shout-Out Ticker -->
   <div class="ticker">
     <p>
