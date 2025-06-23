@@ -35,3 +35,50 @@ const hoverSound = new Audio("https://www.fesliyanstudios.com/play-mp3/6673"); /
 function addHoverSound() {
   const hoverElements = document.querySelectorAll('.cta, .nav a');
   hoverElements.forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      hoverSound.play();
+    });
+  });
+}
+document.addEventListener('DOMContentLoaded', addHoverSound);
+
+// =================== BACKGROUND MUSIC BUTTON ===================
+const music = new Audio("https://www.fesliyanstudios.com/play-mp3/6679"); // Replace with your music link
+music.loop = true;
+
+const musicButton = document.createElement("button");
+musicButton.textContent = "🎵 Play Music";
+musicButton.classList.add("btn");
+musicButton.style.position = "fixed";
+musicButton.style.top = "10px";
+musicButton.style.right = "10px";
+musicButton.onclick = function() {
+  if (music.paused) {
+    music.play();
+    musicButton.textContent = "⏸️ Pause Music";
+  } else {
+    music.pause();
+    musicButton.textContent = "🎵 Play Music";
+  }
+};
+document.addEventListener('DOMContentLoaded', () => {
+  document.body.appendChild(musicButton);
+});
+
+// =================== THEME TOGGLE BUTTON ===================
+const themeButton = document.createElement("button");
+themeButton.textContent = "🌙 Toggle Theme";
+themeButton.classList.add("btn");
+themeButton.style.position = "fixed";
+themeButton.style.top = "60px";
+themeButton.style.right = "10px";
+themeButton.onclick = function() {
+  if (document.body.style.backgroundColor === "black") {
+    document.body.style.backgroundColor = "#660000"; // Dark Red
+  } else {
+    document.body.style.backgroundColor = "black";
+  }
+};
+document.addEventListener('DOMContentLoaded', () => {
+  document.body.appendChild(themeButton);
+});
