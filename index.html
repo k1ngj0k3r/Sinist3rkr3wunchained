@@ -4,27 +4,6 @@
 <meta charset="UTF-8" />
 <title>Sinist3rKr3w: Unchained</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <body>
-
-<h1>Sinist3rKr3w: Unchained</h1>
-<!-- 🌦️ Weather Widget for Monahans, TX -->
-<div class="weather">
-  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" 
-     data-label_2="WEATHER" 
-     data-theme="dark">MONAHANS WEATHER</a>
-</div>
-<script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
-  }
-}(document,'script','weatherwidget-io-js');
-</script>
 <!-- NEXT-LEVEL Styles -->
 <style>
 body {
@@ -104,7 +83,6 @@ audio {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
-/* =================== FLAME PARTICLES =================== */
 .flame-particle {
   position: fixed;
   bottom: -30px;
@@ -126,8 +104,6 @@ audio {
     opacity: 0;
   }
 }
-
-/* =================== FLOATING QUOTES =================== */
 .floating-quote {
   position: fixed;
   font-size: 1.2rem;
@@ -146,11 +122,39 @@ audio {
     transform: translateY(-100px) scale(1.1);
   }
 }
+.news-feed {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 12px;
+}
+.news-feed h2 {
+  font-size: 1.8rem;
+  color: #ff4500;
+}
 </style>
 </head>
 <body>
 
 <h1>Sinist3rKr3w: Unchained</h1>
+<!-- 🌦️ Weather Widget for Monahans, TX -->
+<div class="weather">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
+     data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark">MONAHANS WEATHER</a>
+</div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+
+<!-- Main Text -->
 <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
 <!-- 🎬 Trailer Video -->
@@ -185,9 +189,16 @@ audio {
   <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📧 Email the Kr3w</a>
 </div>
 
+<!-- 👥 About Page Link -->
 <nav>
   <a class="btn" href="about.html">About Us</a>
 </nav>
+
+<!-- 📰 Underreported News Feed -->
+<div class="news-feed">
+  <h2>👁️ Underreported Stories</h2>
+  <iframe src="https://feed.mikle.com/widget/v2/#feedUrl=https%3A%2F%2Ftheintercept.com%2Ffeed%2F&frameId=1&siteId=1" scrolling="no" style="border:none;" width="100%" height="600px"></iframe>
+</div>
 
 <!-- 🔥 Shout-Out Ticker -->
 <div class="ticker">
