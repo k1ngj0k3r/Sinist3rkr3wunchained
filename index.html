@@ -88,6 +88,50 @@ h1, h2 {
 @keyframes scroll-left {
   100% { transform: translateX(-100%); }
 }
+
+/* =================== NEXT NEXT NEXT Level Flame Particles =================== */
+.flame-particle {
+  position: fixed;
+  bottom: -30px;
+  width: 10px;
+  height: 10px;
+  background-color: #ff4500;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9;
+  box-shadow: 0px 0px 15px #ff4500;
+  animation: rise 5s ease-out forwards;
+}
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(0.5);
+    opacity: 0;
+  }
+}
+
+/* =================== NEXT NEXT NEXT Level Floating Quotes =================== */
+.floating-quote {
+  position: fixed;
+  font-size: 1.3rem;
+  color: #ff4500;
+  text-shadow: 0px 0px 15px #ff4500;
+  pointer-events: none;
+  animation: floatQuote 4s ease-out;
+}
+@keyframes floatQuote {
+  0% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px) scale(1.1);
+  }
+}
 </style>
 </head>
 <body>
@@ -147,11 +191,22 @@ h1, h2 {
   <a href="https://ko-fi.com/" class="btn" target="_blank">☕ Donate / Support</a>
 </div>
 
-<!-- 💬 LIVE CHAT (Crisp Chat Placeholder) -->
+<!-- 💬 LIVE CHAT (Crisp Chat) -->
 <div class="section" id="chat">
   <h2>💬 Join the Conversation</h2>
   <p>Click the chat icon at the bottom-right to connect with the Kr3w!</p>
 </div>
+<!-- Crisp Chat Embed -->
+<script type="text/javascript">
+window.$crisp = [];
+window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
+(function(){
+  var d=document;
+  var s=d.createElement("script");
+  s.src="https://client.crisp.chat/l.js"; s.async=1;
+  d.getElementsByTagName("head")[0].appendChild(s);
+})();
+</script>
 
 <!-- 👥 REBELLION WALL (User Submissions via Formspree) -->
 <div class="section" id="rebellion-wall">
@@ -171,16 +226,40 @@ h1, h2 {
   <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! • Tuned in from Seminole, TX! • Neon’s got it on blast in the Rockies! • Dory’s vibin’ with us down in Texas! 🌍 Who’s next to join the wave?</p>
 </div>
 
-<!-- 💬 Crisp Chat Embed -->
-<script type="text/javascript">
-window.$crisp = [];
-window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
-(function(){
-  var d=document;
-  var s=d.createElement("script");
-  s.src="https://client.crisp.chat/l.js"; s.async=1;
-  d.getElementsByTagName("head")[0].appendChild(s);
-})();
+<!-- NEXT NEXT NEXT Level Flames & Floating Quotes Scripts -->
+<script>
+// =================== NEXT NEXT NEXT Level Flame Particles ===================
+function createFlame() {
+  const flame = document.createElement('div');
+  flame.classList.add('flame-particle');
+  flame.style.left = Math.random() * window.innerWidth + 'px';
+  flame.style.animationDuration = (2 + Math.random() * 3) + 's';
+  document.body.appendChild(flame);
+  setTimeout(() => flame.remove(), 5000);
+}
+setInterval(createFlame, 150);
+
+// =================== NEXT NEXT NEXT Level Floating Quotes ===================
+const quotes = [
+  "Rise from the ashes.",
+  "Break the chains.",
+  "Speak your truth.",
+  "Move like the flames.",
+  "Be sharp. Be loud. Be UNCHAINED."
+];
+function showFloatingQuote() {
+  const quote = quotes[Math.floor(Math.random() * quotes.length)];
+  const elem = document.createElement('div');
+  elem.classList.add('floating-quote');
+  elem.textContent = quote;
+
+  elem.style.left = Math.random() * (window.innerWidth - 300) + 'px';
+  elem.style.top = Math.random() * (window.innerHeight - 100) + 'px';
+
+  document.body.appendChild(elem);
+  setTimeout(() => elem.remove(), 4000);
+}
+setInterval(showFloatingQuote, 10000);
 </script>
 
 </body>
