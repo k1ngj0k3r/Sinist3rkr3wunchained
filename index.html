@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
 <title>Sinist3rKr3w: Unchained</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<!-- Styles for the page and special Play Button -->
+<!-- ⚡ OneSignal Push Notification -->
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function(OneSignal) {
+    await OneSignal.init({
+      appId: "4b44b33d-3da0-4552-bf3b-272eba2ce039",
+    });
+  });
+</script>
+
+<!-- ⚡ Styles -->
 <style>
 body {
   background-color: #0d0d0d;
@@ -14,74 +25,150 @@ body {
   text-align: center;
   padding: 20px;
 }
-h1 {
-  font-size: 2rem;
+h1, h2 {
   color: #ff3333;
 }
-.play-button {
-  position: relative;
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding: 12px 30px;
-  color: #fff;
+.section {
+  margin: 40px 0;
+}
+.btn {
   background-color: #ff3333;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 12px;
+  border-radius: 6px;
   text-decoration: none;
-  overflow: hidden;
+  display: inline-block;
 }
-.play-button::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -25%;
-  width: 150%;
-  height: 100%;
-  background: radial-gradient(#ff4500, rgba(255,69,0,0) 60%);
-  z-index: -1;
-  animation: flameGlow 2s infinite alternate;
-}
-@keyframes flameGlow {
-  0% {
-    transform: scaleY(1);
-    opacity: 0.7;
-  }
-  100% {
-    transform: scaleY(1.3);
-    opacity: 1;
-  }
-}
-.play-button:hover {
+.btn:hover {
   background-color: #cc0000;
+}
+.rebellion-wall form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rebellion-wall input,
+.rebellion-wall textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  width: 90%;
+  max-width: 500px;
+}
+.rebellion-wall button {
+  background-color: #ff3333;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.rebellion-wall button:hover {
+  background-color: #cc0000;
+}
+.footer-ticker {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.footer-ticker p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+@keyframes scroll-left {
+  100% { transform: translateX(-100%); }
 }
 </style>
 </head>
 <body>
 
+<!-- ⚔️ HEADER -->
 <h1>Sinist3rKr3w: Unchained</h1>
+<p>Your voice matters. Your fight is sacred. Welcome to the rebellion!</p>
 
-<!-- 🎵 Play Button 🎵 -->
-<button id="playPauseBtn" class="play-button">🎵 Play Music</button>
-
-<!-- 🎧 Hidden Stream -->
-<audio id="liveStream" src="https://stream.zeno.fm/bopyz8zwv0juv" preload="none"></audio>
-
-<!-- Scripts for Play/Pause -->
+<!-- 🌦️ WEATHER WIDGET (Monahans, TX — Fahrenheit) -->
+<div class="weather">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
+     data-label_1="MONAHANS" 
+     data-label_2="WEATHER" 
+     data-units="imperial" 
+     data-theme="dark">MONAHANS WEATHER</a>
+</div>
 <script>
-const playPauseBtn = document.getElementById('playPauseBtn');
-const liveStream = document.getElementById('liveStream');
-
-playPauseBtn.addEventListener('click', () => {
-  if (liveStream.paused) {
-    liveStream.play();
-    playPauseBtn.textContent = '⏸️ Pause Music';
-  } else {
-    liveStream.pause();
-    playPauseBtn.textContent = '🎵 Play Music';
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
   }
-});
+}(document,'script','weatherwidget-io-js');
 </script>
+
+<!-- 📰 UNDERREPORTED STORIES FEED -->
+<div class="section" id="underreported">
+  <h2>👁️ Underreported Stories</h2>
+  <div style="color:#f2f2f2; font-size:1rem;">
+    Stay informed. Stay sharp.
+  </div>
+  <ul style="list-style:none; padding:0;">
+    <li style="margin:15px 0;"><a href="https://www.reuters.com/article/us-global-warming-climate-protests-idUSKCN1XX123" class="btn" target="_blank">🔥 Climate Protests in Remote Areas</a></li>
+    <li style="margin:15px 0;"><a href="https://www.democracynow.org/2023/09/15/report-on-displaced-families" class="btn" target="_blank">📰 Displaced Families Report</a></li>
+    <li style="margin:15px 0;"><a href="https://therealnews.com/local-environmental-impact-report" class="btn" target="_blank">🌍 Environmental Impact Report</a></li>
+  </ul>
+</div>
+
+<!-- 💳 DONATION BUTTON -->
+<div class="section" id="donate">
+  <h2>💳 Support the Movement</h2>
+  <a href="https://ko-fi.com/" class="btn" target="_blank">☕ Donate / Support</a>
+</div>
+
+<!-- 💬 LIVE CHAT (Crisp Chat) -->
+<div class="section" id="chat">
+  <h2>💬 Join the Conversation</h2>
+  <p>Click the chat icon at the bottom-right to connect with the Kr3w!</p>
+</div>
+<!-- Crisp Chat Embed -->
+<script type="text/javascript">
+window.$crisp = [];
+window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
+(function(){
+  var d=document;
+  var s=d.createElement("script");
+  s.src="https://client.crisp.chat/l.js"; s.async=1;
+  d.getElementsByTagName("head")[0].appendChild(s);
+})();
+</script>
+
+<!-- 👥 REBELLION WALL (User Submissions via Formspree) -->
+<div class="section" id="rebellion-wall">
+  <h2>👥 The Rebellion Wall</h2>
+  <p>Share your voice, ideas, and truths. Let the world hear your roar!</p>
+  <div class="rebellion-wall">
+    <form action="https://formspree.io/f/xnnvglok" method="POST">
+      <input type="text" name="name" placeholder="Your Name (optional)" />
+      <textarea name="message" placeholder="What's your story?" required></textarea>
+      <button type="submit">Post to the Wall</button>
+    </form>
+  </div>
+</div>
+
+<!-- 🔥 FOOTER / TICKER -->
+<div class="footer-ticker">
+  <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! • Tuned in from Seminole, TX! • Neon’s got it on blast in the Rockies! • Dory’s vibin’ with us down in Texas! 🌍 Who’s next to join the wave?</p>
+</div>
 
 </body>
 </html>
