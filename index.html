@@ -147,9 +147,41 @@ h1, h2 {
   <a href="https://ko-fi.com/" class="btn" target="_blank">☕ Donate / Support</a>
 </div>
 
-<!-- 💬 LIVE CHAT (Crisp Chat) -->
+<!-- 💬 LIVE CHAT (Crisp Chat Placeholder) -->
 <div class="section" id="chat">
   <h2>💬 Join the Conversation</h2>
   <p>Click the chat icon at the bottom-right to connect with the Kr3w!</p>
 </div>
-<!-- Crisp
+
+<!-- 👥 REBELLION WALL (User Submissions via Formspree) -->
+<div class="section" id="rebellion-wall">
+  <h2>👥 The Rebellion Wall</h2>
+  <p>Share your voice, ideas, and truths. Let the world hear your roar!</p>
+  <div class="rebellion-wall">
+    <form action="https://formspree.io/f/xnnvglok" method="POST">
+      <input type="text" name="name" placeholder="Your Name (optional)" />
+      <textarea name="message" placeholder="What's your story?" required></textarea>
+      <button type="submit">Post to the Wall</button>
+    </form>
+  </div>
+</div>
+
+<!-- 🔥 FOOTER / TICKER -->
+<div class="footer-ticker">
+  <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! • Tuned in from Seminole, TX! • Neon’s got it on blast in the Rockies! • Dory’s vibin’ with us down in Texas! 🌍 Who’s next to join the wave?</p>
+</div>
+
+<!-- 💬 Crisp Chat Embed -->
+<script type="text/javascript">
+window.$crisp = [];
+window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
+(function(){
+  var d=document;
+  var s=d.createElement("script");
+  s.src="https://client.crisp.chat/l.js"; s.async=1;
+  d.getElementsByTagName("head")[0].appendChild(s);
+})();
+</script>
+
+</body>
+</html>
