@@ -4,246 +4,84 @@
 <meta charset="UTF-8" />
 <title>Sinist3rKr3w: Unchained</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Styles for the page and special Play Button -->
 <style>
 body {
   background-color: #0d0d0d;
   color: #f2f2f2;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
-  margin: 0;
   padding: 20px;
 }
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: #ff3333;
-  margin-bottom: 10px;
 }
-h2 {
-  font-size: 1.8rem;
-  color: #ff3333;
-  margin: 30px 0 10px 0;
-}
-video {
-  width: 100%;
-  max-width: 720px;
-  margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 0 12px #ff0000aa;
-  display: block;
-}
-audio {
-  margin: 20px auto;
-  width: 90%;
-  max-width: 500px;
-}
-.btn {
-  background-color: #ff3333;
-  color: #fff;
-  padding: 12px 24px;
-  font-size: 16px;
-  margin: 12px;
-  border: none;
-  cursor: pointer;
-  border-radius: 6px;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s;
-}
-.btn:hover {
-  background-color: #cc0000;
-}
-.fake-player {
-  background-color: #FFD700;
-  color: #000;
-  font-weight: bold;
-  padding: 12px 24px;
-  margin: 20px auto;
-  width: fit-content;
-  border-radius: 6px;
-  cursor: pointer;
-  box-shadow: 0 0 10px #ff0000aa;
-  transition: background-color 0.3s;
-}
-.fake-player:hover {
-  background-color: #e6c200;
-}
-.ticker {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFD700;
-  color: #000;
-  font-weight: bold;
-  overflow: hidden;
-  white-space: nowrap;
-  z-index: 9999;
-}
-.ticker p {
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll-left 20s linear infinite;
-}
-@keyframes scroll-left {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
-/* =================== FLAME PARTICLES =================== */
-.flame-particle {
-  position: fixed;
-  bottom: -30px;
-  width: 8px;
-  height: 8px;
-  background-color: #ff4500;
-  border-radius: 50%;
-  pointer-events: none;
-  opacity: 0.8;
-  animation: rise 5s ease-out forwards;
-}
-@keyframes rise {
-  0% { transform: translateY(0) scale(1); opacity: 1; }
-  100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
-}
-/* =================== FLOATING QUOTES =================== */
-.floating-quote {
-  position: fixed;
-  font-size: 1.2rem;
-  color: #ff4500;
-  text-shadow: 0px 0px 10px #ff4500;
-  pointer-events: none;
-  animation: floatQuote 4s ease-out;
-}
-@keyframes floatQuote {
-  0% { opacity: 1; transform: translateY(0px) scale(1); }
-  100% { opacity: 0; transform: translateY(-100px) scale(1.1); }
-}
-/* =================== UNDERREPORTED LINKS GLOW =================== */
-.underreported-link {
-  color: #ff3333;
+.play-button {
+  position: relative;
   font-size: 1.1rem;
-  text-decoration: none;
   font-weight: bold;
-  transition: text-shadow 0.3s ease, color 0.3s ease;
+  padding: 12px 30px;
+  color: #fff;
+  background-color: #ff3333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  overflow: hidden;
 }
-.underreported-link:hover {
-  color: #ff6600;
-  text-shadow: 0px 0px 10px #ff6600, 0px 0px 20px #ff6600;
+.play-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -25%;
+  width: 150%;
+  height: 100%;
+  background: radial-gradient(#ff4500, rgba(255,69,0,0) 60%);
+  z-index: -1;
+  animation: flameGlow 2s infinite alternate;
+}
+@keyframes flameGlow {
+  0% {
+    transform: scaleY(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scaleY(1.3);
+    opacity: 1;
+  }
+}
+.play-button:hover {
+  background-color: #cc0000;
 }
 </style>
 </head>
 <body>
 
 <h1>Sinist3rKr3w: Unchained</h1>
-<p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
-<!-- 🌦️ Weather Widget for Monahans (Fahrenheit) -->
-<div class="weather">
-  <a class="weatherwidget-io" 
-     href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" 
-     data-label_2="WEATHER" 
-     data-theme="dark">MONAHANS WEATHER</a>
-</div>
+<!-- 🎵 Play Button 🎵 -->
+<button id="playPauseBtn" class="play-button">🎵 Play Music</button>
+
+<!-- 🎧 Hidden Stream -->
+<audio id="liveStream" src="https://stream.zeno.fm/bopyz8zwv0juv" preload="none"></audio>
+
+<!-- Scripts for Play/Pause -->
 <script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementsById(id)){
-    js=d.createElement(s);
-    js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
+const playPauseBtn = document.getElementById('playPauseBtn');
+const liveStream = document.getElementById('liveStream');
+
+playPauseBtn.addEventListener('click', () => {
+  if (liveStream.paused) {
+    liveStream.play();
+    playPauseBtn.textContent = '⏸️ Pause Music';
+  } else {
+    liveStream.pause();
+    playPauseBtn.textContent = '🎵 Play Music';
   }
-}(document,'script','weatherwidget-io-js');
+});
 </script>
-
-<!-- 🎬 Trailer Video -->
-<video controls>
-  <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<!-- 🎙️ Sky’s Voiceover -->
-<div class="section">
-  <h2>🎙️ Sky’s Message</h2>
-  <audio controls>
-    <source src="sky_voiceover.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-</div>
-
-<!-- 📻 Zeno Radio Fallback Button -->
-<div class="section">
-  <div class="fake-player" 
-       onClick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
-    ▶️ Tap to Listen Live on Zeno
-  </div>
-</div>
-
-<!-- 🔗 Buttons -->
-<div class="section">
-  <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">🎧 Listen to the Station</a>
-  <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📝 Read the Blog</a>
-  <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">📱 TikTok</a>
-  <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Download & Support</a>
-  <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📧 Email the Kr3w</a>
-  <a class="btn" href="about.html">About Us</a>
-</div>
-
-<!-- 👁️ Underreported Stories Section -->
-<h2>👁️ Underreported Stories</h2>
-<div style="color:#f2f2f2; font-size:1rem; margin-bottom:20px;">
-  Stay informed with these often overlooked stories. Click any link to read more.
-</div>
-<ul style="list-style:none; padding:0;">
-  <li style="margin:15px 0;">
-    <a class="underreported-link" href="https://www.reuters.com/article/us-global-warming-climate-protests-idUSKCN1XX123" target="_blank">🔥 Climate Protests in Remote Areas Draw Little Attention</a>
-  </li>
-  <li style="margin:15px 0;">
-    <a class="underreported-link" href="https://www.democracynow.org/2023/09/15/report-on-displaced-families" target="_blank">📰 Democracy Now! Report on Displaced Families</a>
-  </li>
-  <li style="margin:15px 0;">
-    <a class="underreported-link" href="https://therealnews.com/local-environmental-impact-report" target="_blank">🌍 The Real News Network: Local Environmental Impact</a>
-  </li>
-</ul>
-
-<!-- 🗣️ Feedback Form -->
-<h2>Help Us Serve You Better</h2>
-<form action="https://formspree.io/f/xnnvglok" method="POST">
-  <p>Share your thoughts — fill out our listener survey!</p>
-  <label>Name (Optional):<br><input type="text" name="name"></label><br><br>
-  <label>Email (Optional):<br><input type="email" name="email"></label><br><br>
-  <label>Age Range:<br>
-    <select name="age">
-      <option>Under 18</option>
-      <option>18-24</option>
-      <option>25-34</option>
-      <option>35-44</option>
-      <option>45-54</option>
-      <option>55+</option>
-    </select>
-  </label><br><br>
-  <label>How often do you listen?<br>
-    <select name="frequency">
-      <option>Daily</option>
-      <option>Weekly</option>
-      <option>Rarely</option>
-    </select>
-  </label><br><br>
-  <label>Additional Feedback:<br><textarea name="feedback"></textarea></label><br><br>
-  <button class="btn" type="submit">Submit</button>
-</form>
-
-<!-- 🔥 Shout-Out Ticker -->
-<div class="ticker">
-  <p>
-    🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
-    Tuned in from Seminole, TX! &nbsp;&nbsp;
-    Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
-    Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?
-  </p>
-</div>
-
-<!-- NEXT-LEVEL Scripts -->
-<script src="site.js" defer></script>
 
 </body>
 </html>
