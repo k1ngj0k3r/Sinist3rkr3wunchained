@@ -8,12 +8,12 @@
 <!-- ⚡ OneSignal Push Notification -->
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
-  window.OneSignalDeferred = window.OneSignalDeferred || [];
-  OneSignalDeferred.push(async function(OneSignal) {
-    await OneSignal.init({
-      appId: "4b44b33d-3da0-4552-bf3b-272eba2ce039",
-    });
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(async function(OneSignal) {
+  await OneSignal.init({
+    appId: "4b44b33d-3da0-4552-bf3b-272eba2ce039",
   });
+});
 </script>
 
 <!-- ⚡ Styles -->
@@ -103,14 +103,8 @@ h1, h2 {
   animation: rise 5s ease-out forwards;
 }
 @keyframes rise {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100vh) scale(0.5);
-    opacity: 0;
-  }
+  0% { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
 }
 
 /* =================== NEXT NEXT NEXT Level Floating Quotes =================== */
@@ -123,19 +117,13 @@ h1, h2 {
   animation: floatQuote 4s ease-out;
 }
 @keyframes floatQuote {
-  0% {
-    opacity: 1;
-    transform: translateY(0px) scale(1);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(-100px) scale(1.1);
-  }
+  0% { opacity: 1; transform: translateY(0px) scale(1); }
+  100% { opacity: 0; transform: translateY(-100px) scale(1.1); }
 }
 </style>
 </head>
-<body>
 
+<body>
 <!-- ⚔️ HEADER -->
 <h1>Sinist3rKr3w: Unchained</h1>
 <p>Your voice matters. Your fight is sacred. Welcome to the rebellion!</p>
@@ -228,7 +216,6 @@ window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
 
 <!-- NEXT NEXT NEXT Level Flames & Floating Quotes Scripts -->
 <script>
-// =================== NEXT NEXT NEXT Level Flame Particles ===================
 function createFlame() {
   const flame = document.createElement('div');
   flame.classList.add('flame-particle');
@@ -239,7 +226,6 @@ function createFlame() {
 }
 setInterval(createFlame, 150);
 
-// =================== NEXT NEXT NEXT Level Floating Quotes ===================
 const quotes = [
   "Rise from the ashes.",
   "Break the chains.",
