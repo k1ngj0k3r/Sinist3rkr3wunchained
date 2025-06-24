@@ -38,6 +38,7 @@ video, audio {
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
+  transition: background-color 0.3s;
 }
 .btn:hover {
   background-color: #cc0000;
@@ -76,10 +77,6 @@ video, audio {
 .survey-section {
   margin: 40px 0;
 }
-.survey-section input, .survey-section select {
-  padding: 8px;
-  margin: 5px 0;
-}
 </style>
 </head>
 <body>
@@ -89,14 +86,11 @@ video, audio {
 
 <!-- 🌦️ WEATHER WIDGET (Fahrenheit)-->
 <div class="weather">
-  <a class="weatherwidget-io" 
-     href="https://forecast7.com/en/31d59n102d89/monahans/" 
+  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
      data-label_1="MONAHANS" 
      data-label_2="WEATHER" 
      data-theme="dark" 
-     data-unit="us">
-    MONAHANS WEATHER
-  </a>
+     data-unit="us">MONAHANS WEATHER</a>
 </div>
 <script>
 !function(d,s,id){
@@ -113,13 +107,13 @@ video, audio {
 <h1>Sinist3rKr3w: Unchained</h1>
 <p>Your voice matters. Your fight is sacred. Welcome to the rebellion!</p>
 
-<!-- 🎬 Trailer Video -->
+<!-- 🎬 TRAILER VIDEO -->
 <video controls>
   <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<!-- 🎙️ Sky’s Message -->
+<!-- 🎙️ Sky’s Voiceover -->
 <div class="section">
   <h2>🎙️ Sky’s Message</h2>
   <audio controls>
@@ -149,21 +143,37 @@ video, audio {
   <a class="btn" href="about.html">About Us</a>
 </nav>
 
-<!-- 👁️ Underreported Stories Section -->
+<!-- 👁️ UNDERREPORTED STORIES RSS FEED -->
 <h2>👁️ Underreported Stories</h2>
-<div id="underreported">
-  <iframe src="https://www.allsides.com/unbiased-headlines" style="width:100%; height:400px; border:none;" title="Underreported Stories"></iframe>
-</div>
+<!-- Feed Embed START -->
+<script src="https://feed.mikle.com/js/widget.js"></script>
+<script>
+feedwind_init({
+    rss_feed_url: "https://news.un.org/feed/underreported",
+    title: "Underreported Stories",
+    description: "Latest underreported news stories",
+    w: "100%",
+    h: "400",
+    fc: "#ff3333",
+    bg: "#0d0d0d",
+    rc: "#f2f2f2",
+    sc: "#ff3333",
+    font: "arial",
+    theme: "custom",
+    max_items: 10
+});
+</script>
+<!-- Feed Embed END -->
 
-<!-- 🗳️ Listener Survey -->
+<!-- 🗳️ LISTENER SURVEY FORM -->
 <div class="survey-section">
   <h2>Help Us Serve You Better</h2>
-  <p>Share your thoughts — take a moment to fill out our listener survey!</p>
+  <p>Share your thoughts — fill out our listener survey!</p>
   <form action="https://formspree.io/f/xnnvglok" method="POST">
     <label for="name">Name (Optional):</label><br/>
-    <input type="text" id="name" name="name" placeholder="Your Name"><br/><br/>
+    <input type="text" id="name" name="name"><br/><br/>
     <label for="email">Email (Optional):</label><br/>
-    <input type="email" id="email" name="email" placeholder="you@example.com"><br/><br/>
+    <input type="email" id="email" name="email"><br/><br/>
     <label for="age">Age Range:</label><br/>
     <select id="age" name="age">
       <option value="under18">Under 18</option>
@@ -182,12 +192,12 @@ video, audio {
       <option value="rarely">Rarely</option>
     </select><br/><br/>
     <label for="feedback">Additional Feedback:</label><br/>
-    <textarea id="feedback" name="feedback" placeholder="Share your thoughts..." rows="4" style="width:100%;"></textarea><br/><br/>
+    <textarea id="feedback" name="feedback" rows="4" style="width:100%;"></textarea><br/><br/>
     <button class="btn" type="submit">Submit</button>
   </form>
 </div>
 
-<!-- 🔥 Shout-Out Ticker -->
+<!-- 🔥 SHOUT-OUT TICKER -->
 <div class="ticker">
   <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp; Tuned in from Seminole, TX! &nbsp; Neon’s got it on blast in the Rockies! &nbsp; Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?</p>
 </div>
