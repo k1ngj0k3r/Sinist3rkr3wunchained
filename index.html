@@ -13,23 +13,21 @@ body {
   margin: 0;
   padding: 20px;
 }
+img.header-image {
+  max-width: 100%;
+  border-radius: 12px;
+}
 h1 {
   font-size: 2.2rem;
   color: #ff3333;
-  margin-bottom: 10px;
 }
-video {
-  width: 100%;
-  max-width: 720px;
-  margin: 20px auto;
+h2 {
+  font-size: 1.8rem;
+  color: #ff3333;
+}
+video, audio {
+  max-width: 100%;
   border-radius: 12px;
-  box-shadow: 0 0 12px #ff0000aa;
-  display: block;
-}
-audio {
-  margin-top: 20px;
-  width: 90%;
-  max-width: 500px;
 }
 .btn {
   background-color: #ff3333;
@@ -37,12 +35,9 @@ audio {
   padding: 12px 24px;
   font-size: 16px;
   margin: 12px;
-  border: none;
-  cursor: pointer;
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
-  transition: background-color 0.3s;
 }
 .btn:hover {
   background-color: #cc0000;
@@ -56,8 +51,6 @@ audio {
   width: fit-content;
   border-radius: 6px;
   cursor: pointer;
-  box-shadow: 0 0 10px #ff0000aa;
-  transition: background-color 0.3s;
 }
 .fake-player:hover {
   background-color: #e6c200;
@@ -71,7 +64,6 @@ audio {
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
-  z-index: 9999;
 }
 .ticker p {
   display: inline-block;
@@ -79,36 +71,47 @@ audio {
   animation: scroll-left 20s linear infinite;
 }
 @keyframes scroll-left {
-  0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
 }
-.flame-particle {
-  position: fixed;
-  bottom: -30px;
-  width: 8px;
-  height: 8px;
-  background-color: #ff4500;
-  border-radius: 50%;
-  pointer-events: none;
-  opacity: 0.8;
-  animation: rise 5s ease-out forwards;
+.survey-section {
+  margin: 40px 0;
 }
-@keyframes rise {
-  0% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-100vh) scale(0.5);
-    opacity: 0;
-  }
+.survey-section input, .survey-section select {
+  padding: 8px;
+  margin: 5px 0;
 }
 </style>
 </head>
 <body>
 
+<!-- 🌅 HEADER IMAGE -->
+<img src="https://via.placeholder.com/800x300.png?text=Sinist3rKr3w:+Unchained" alt="Sinist3rKr3w Unchained" class="header-image">
+
+<!-- 🌦️ WEATHER WIDGET (Fahrenheit)-->
+<div class="weather">
+  <a class="weatherwidget-io" 
+     href="https://forecast7.com/en/31d59n102d89/monahans/" 
+     data-label_1="MONAHANS" 
+     data-label_2="WEATHER" 
+     data-theme="dark" 
+     data-unit="us">
+    MONAHANS WEATHER
+  </a>
+</div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);
+    js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }}
+(document,'script','weatherwidget-io-js');
+</script>
+
 <h1>Sinist3rKr3w: Unchained</h1>
-<p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
+<p>Your voice matters. Your fight is sacred. Welcome to the rebellion!</p>
 
 <!-- 🎬 Trailer Video -->
 <video controls>
@@ -116,7 +119,7 @@ audio {
   Your browser does not support the video tag.
 </video>
 
-<!-- 🎙️ Sky’s Voiceover -->
+<!-- 🎙️ Sky’s Message -->
 <div class="section">
   <h2>🎙️ Sky’s Message</h2>
   <audio controls>
@@ -146,101 +149,47 @@ audio {
   <a class="btn" href="about.html">About Us</a>
 </nav>
 
-<!-- 🌦️ Weather Widget for Monahans, TX (Fahrenheit)-->
-<div class="weather">
-  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
-     data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" data-units="us">MONAHANS WEATHER</a>
-</div>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
-if(!d.getElementById(id)){js=d.createElement(s);
-js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
-fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-
-<!-- 👁️ Underreported Stories Placeholder Section -->
-<div style="margin:40px 0;">
-  <h2>👁️ Underreported Stories</h2>
-  <p>Check out these stories that deserve more attention:</p>
-  <ul style="list-style:none;padding:0;">
-    <li>🔥 Climate Protests in Remote Areas Draw Little Attention</li>
-    <li>📄 Democracy Now! Report on Displaced Families</li>
-    <li>🌍 Real News Network Investigates Local Environmental Impact</li>
-  </ul>
+<!-- 👁️ Underreported Stories Section -->
+<h2>👁️ Underreported Stories</h2>
+<div id="underreported">
+  <iframe src="https://www.allsides.com/unbiased-headlines" style="width:100%; height:400px; border:none;" title="Underreported Stories"></iframe>
 </div>
 
-<!-- 🎤 LISTENER SURVEY FORM STARTS HERE -->
-<div id="listener-survey" style="max-width:600px;margin:auto;padding:20px;border-radius:12px;background:#1a1a1a;color:#f2f2f2;text-align:left;">
-  <h2 style="color:#ff3333;text-align:center">Sinist3rKr3w: Unchained – Listener Survey</h2>
-  <p style="text-align:center">Help us make this space better for rebels, misfits, and fighters like you! 🔥</p>
-  
-  <form action="https://formspree.io/f/YOUR_FORMSPREE_KEY" method="POST">
-    <label>1️⃣ Where are you listening from? *</label><br/>
-    <input type="text" name="Location" required style="width:100%;margin:5px 0;padding:8px;"><br/><br/>
-
-    <label>2️⃣ How old are you? *</label><br/>
-    <select name="Age" required style="width:100%;margin:5px 0;padding:8px;">
-      <option value="Under 18">Under 18</option>
-      <option value="18–24">18–24</option>
-      <option value="25–34">25–34</option>
-      <option value="35–44">35–44</option>
-      <option value="45–54">45–54</option>
-      <option value="55+">55+</option>
+<!-- 🗳️ Listener Survey -->
+<div class="survey-section">
+  <h2>Help Us Serve You Better</h2>
+  <p>Share your thoughts — take a moment to fill out our listener survey!</p>
+  <form action="https://formspree.io/f/xnnvglok" method="POST">
+    <label for="name">Name (Optional):</label><br/>
+    <input type="text" id="name" name="name" placeholder="Your Name"><br/><br/>
+    <label for="email">Email (Optional):</label><br/>
+    <input type="email" id="email" name="email" placeholder="you@example.com"><br/><br/>
+    <label for="age">Age Range:</label><br/>
+    <select id="age" name="age">
+      <option value="under18">Under 18</option>
+      <option value="18-24">18–24</option>
+      <option value="25-34">25–34</option>
+      <option value="35-44">35–44</option>
+      <option value="45-54">45–54</option>
+      <option value="55-64">55–64</option>
+      <option value="65+">65+</option>
     </select><br/><br/>
-
-    <label>3️⃣ How did you discover Sinist3rKr3w: Unchained? *</label><br/>
-    <select name="Discovery" required style="width:100%;margin:5px 0;padding:8px;">
-      <option value="Social Media">Social Media</option>
-      <option value="Word of Mouth">Word of Mouth</option>
-      <option value="Blog or Website">Blog or Website</option>
-      <option value="Other">Other</option>
+    <label for="listen_freq">How often do you listen?</label><br/>
+    <select id="listen_freq" name="listen_freq">
+      <option value="daily">Daily</option>
+      <option value="weekly">Weekly</option>
+      <option value="monthly">Monthly</option>
+      <option value="rarely">Rarely</option>
     </select><br/><br/>
-
-    <label>4️⃣ What do you like best about the station?</label><br/>
-    <textarea name="BestPart" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
-
-    <label>5️⃣ What would you like to hear more of? *</label><br/>
-    <select name="MoreOf" required style="width:100%;margin:5px 0;padding:8px;">
-      <option value="Music">Music</option>
-      <option value="Talk Segments">Talk Segments</option>
-      <option value="Interviews">Interviews</option>
-      <option value="Underreported News">Underreported News</option>
-      <option value="Spiritual Messages">Spiritual Messages</option>
-      <option value="Other">Other</option>
-    </select><br/><br/>
-
-    <label>6️⃣ What topics matter to you the most?</label><br/>
-    <textarea name="Topics" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
-
-    <label>7️⃣ If you could change one thing about Sinist3rKr3w: Unchained, what would it be?</label><br/>
-    <textarea name="Change" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
-
-    <label>8️⃣ Would you like to join our newsletter?</label><br/>
-    <input type="email" name="Email" placeholder="Enter your email (optional)" style="width:100%;margin:5px 0;padding:8px;"><br/><br/>
-
-    <label>9️⃣ Is there anything else you’d like to share?</label><br/>
-    <textarea name="AdditionalComments" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
-
-    <div style="text-align:center;">
-      <button type="submit" style="background:#ff3333;color:#fff;padding:12px 24px;border:none;border-radius:6px;cursor:pointer;font-size:16px;">
-        🔥 Submit My Feedback
-      </button>
-    </div>
+    <label for="feedback">Additional Feedback:</label><br/>
+    <textarea id="feedback" name="feedback" placeholder="Share your thoughts..." rows="4" style="width:100%;"></textarea><br/><br/>
+    <button class="btn" type="submit">Submit</button>
   </form>
-  <p style="text-align:center;margin-top:20px;">
-    Thank you for sharing your thoughts! Stay sharp. Stay loud. Stay <strong>UNCHAINED</strong> 🔥
-  </p>
 </div>
-
-<!-- NEXT-LEVEL Scripts -->
-<script src="site.js" defer></script>
 
 <!-- 🔥 Shout-Out Ticker -->
 <div class="ticker">
-  <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
-     Tuned in from Seminole, TX! &nbsp;&nbsp;
-     Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
-     Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?</p>
+  <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp; Tuned in from Seminole, TX! &nbsp; Neon’s got it on blast in the Rockies! &nbsp; Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?</p>
 </div>
 
 </body>
