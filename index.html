@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>Sinist3rKr3w: Unchained</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-<!-- Styles -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 body {
   background-color: #0d0d0d;
   color: #f2f2f2;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   text-align: center;
   margin: 0;
-  overflow-x: hidden;
+  padding: 20px;
 }
-.hero {
-  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.5)), url('https://picsum.photos/1920/600?grayscale') center/cover no-repeat;
-  padding: 100px 20px;
-}
-.hero h1 {
-  font-size: 3rem;
+h1 {
+  font-size: 2.2rem;
   color: #ff3333;
+  margin-bottom: 10px;
 }
-.hero p {
-  font-size: 1.25rem;
+video {
+  width: 100%;
+  max-width: 720px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ff0000aa;
+  display: block;
 }
-.section {
-  padding: 30px 20px;
+audio {
+  margin-top: 20px;
+  width: 90%;
+  max-width: 500px;
 }
 .btn {
   background-color: #ff3333;
@@ -35,67 +37,52 @@ body {
   padding: 12px 24px;
   font-size: 16px;
   margin: 12px;
+  border: none;
+  cursor: pointer;
   border-radius: 6px;
   text-decoration: none;
   display: inline-block;
-  position: relative;
+  transition: background-color 0.3s;
 }
 .btn:hover {
   background-color: #cc0000;
 }
-.btn::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  box-shadow: 0 0 15px #ff3333, 0 0 30px #ff3333;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.btn:hover::before {
-  opacity: 1;
-}
-.news-item {
-  font-size: 1rem;
-  margin: 12px 0;
-}
-.news-item a {
-  color: #ff3333;
-  text-decoration: none;
-  position: relative;
-}
-.news-item a:hover {
-  text-decoration: underline;
-}
-.cta {
-  font-size: 1.25rem;
+.fake-player {
+  background-color: #FFD700;
+  color: #000;
   font-weight: bold;
-  margin: 20px 0;
-}
-.footer {
-  padding: 30px;
-  font-size: 1rem;
-  color: #888;
-}
-.footer p {
-  max-width: 600px;
-  margin: 10px auto;
-}
-#backToTop {
-  position: fixed;
-  right: 20px;
-  bottom: 40px;
-  font-size: 1.5rem;
-  color: #ff3333;
+  padding: 12px 24px;
+  margin: 20px auto;
+  width: fit-content;
+  border-radius: 6px;
   cursor: pointer;
-  display: none;
+  box-shadow: 0 0 10px #ff0000aa;
+  transition: background-color 0.3s;
 }
-#backToTop:hover {
-  color: #cc0000;
+.fake-player:hover {
+  background-color: #e6c200;
 }
-
-/* =================== FLAMES =================== */
-.flame {
+.ticker {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 9999;
+}
+.ticker p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+.flame-particle {
   position: fixed;
   bottom: -30px;
   width: 8px;
@@ -120,21 +107,16 @@ body {
 </head>
 <body>
 
-<!-- Hero Section -->
-<div class="hero">
-  <h1>Sinist3rKr3w: Unchained</h1>
-  <p>🔥 Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
-</div>
+<h1>Sinist3rKr3w: Unchained</h1>
+<p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
-<!-- Video Section -->
-<div class="section">
-  <video controls>
-    <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+<!-- 🎬 Trailer Video -->
+<video controls>
+  <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-<!-- Voiceover Section -->
+<!-- 🎙️ Sky’s Voiceover -->
 <div class="section">
   <h2>🎙️ Sky’s Message</h2>
   <audio controls>
@@ -143,13 +125,15 @@ body {
   </audio>
 </div>
 
-<!-- Radio Station Embed -->
+<!-- 📻 Zeno Radio Fallback Button -->
 <div class="section">
-  <h2>📻 Listen Live</h2>
-  <iframe src="https://stream.zeno.fm/bopyz8zwv0juv" width="100%" height="100" frameborder="0" scrolling="no"></iframe>
+  <div class="fake-player" 
+       onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv','_blank')">
+    ▶️ Tap to Listen Live on Zeno
+  </div>
 </div>
 
-<!-- Buttons Section -->
+<!-- 🔗 Buttons -->
 <div class="section">
   <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">🎧 Listen to the Station</a>
   <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📝 Read the Blog</a>
@@ -158,73 +142,106 @@ body {
   <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📧 Email the Kr3w</a>
 </div>
 
-<!-- CTA Donate Section -->
-<div class="cta">
-  🔥 Support the Movement — <a href="https://www.paypal.com/donate?business=ryan@sinist3rkr3w.it.com" target="_blank">Donate Here</a> 🔥
+<nav>
+  <a class="btn" href="about.html">About Us</a>
+</nav>
+
+<!-- 🌦️ Weather Widget for Monahans, TX (Fahrenheit)-->
+<div class="weather">
+  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" 
+     data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" data-units="us">MONAHANS WEATHER</a>
 </div>
-
-<!-- Weather Section -->
-<div class="section">
-  <h2>🌦️ Monahans, TX Weather</h2>
-  <div id="weather-widget">
-    <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" data-units="imperial">MONAHANS WEATHER</a>
-  </div>
-</div>
-
-<!-- Underreported Stories Section -->
-<div class="section">
-  <h2>👁️ Underreported Stories</h2>
-  <p>Check out these stories that deserve more attention:</p>
-  <div class="news-item">📰 <a href="https://www.climate.gov/" target="_blank">Climate Protests in Remote Areas Draw Little Attention</a></div>
-  <div class="news-item">🗞️ <a href="https://www.democracynow.org/" target="_blank">Democracy Now! Report on Displaced Families</a></div>
-  <div class="news-item">🌍 <a href="https://therealnews.com/" target="_blank">Real News Network Investigates Local Environmental Impact</a></div>
-</div>
-
-<!-- About Us Section -->
-<div class="section">
-  <h2>About Us</h2>
-  <p>Sinist3rKr3w Unchained is about rising from the ashes. We are a movement dedicated to resilience, strength, and making sure every voice is heard. From bold storytelling and fearless music to revolutionary designs and articles, we walk tall in our truth — sharp, loud, and unchained. Join the crew. Stay sharp. Stay loud. Stay UNCHAINED. 🔥</p>
-</div>
-
-<!-- Footer -->
-<div class="footer">
-  <p>© 2025 Sinist3rKr3w Unchained. All Rights Reserved.<br>Built for rebels, misfits, and fighters. Stay sharp, stay loud, stay unchained. 🔥</p>
-</div>
-
-<!-- Back To Top Button -->
-<div id="backToTop" title="Back to top"onclick="scrollToTop()">⬆️</div>
-
-<!-- Scripts -->
 <script>
-window.onscroll = function() {
-  const btn = document.getElementById('backToTop');
-  if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    btn.style.display = 'block';
-  } else {
-    btn.style.display = 'none';
-  }
-};
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// ================= FLAMES =================
-function createFlame() {
-  const flame = document.createElement('div');
-  flame.classList.add('flame');
-  flame.style.left = Math.random() * window.innerWidth + 'px';
-  flame.style.animationDuration = (2 + Math.random() * 3) + 's';
-  document.body.appendChild(flame);
-  setTimeout(() => flame.remove(), 5000);
-}
-setInterval(createFlame, 150);
-
-// ================= WEATHER WIDGET =================
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
 if(!d.getElementById(id)){js=d.createElement(s);
 js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
 fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
+
+<!-- 👁️ Underreported Stories Placeholder Section -->
+<div style="margin:40px 0;">
+  <h2>👁️ Underreported Stories</h2>
+  <p>Check out these stories that deserve more attention:</p>
+  <ul style="list-style:none;padding:0;">
+    <li>🔥 Climate Protests in Remote Areas Draw Little Attention</li>
+    <li>📄 Democracy Now! Report on Displaced Families</li>
+    <li>🌍 Real News Network Investigates Local Environmental Impact</li>
+  </ul>
+</div>
+
+<!-- 🎤 LISTENER SURVEY FORM STARTS HERE -->
+<div id="listener-survey" style="max-width:600px;margin:auto;padding:20px;border-radius:12px;background:#1a1a1a;color:#f2f2f2;text-align:left;">
+  <h2 style="color:#ff3333;text-align:center">Sinist3rKr3w: Unchained – Listener Survey</h2>
+  <p style="text-align:center">Help us make this space better for rebels, misfits, and fighters like you! 🔥</p>
+  
+  <form action="https://formspree.io/f/YOUR_FORMSPREE_KEY" method="POST">
+    <label>1️⃣ Where are you listening from? *</label><br/>
+    <input type="text" name="Location" required style="width:100%;margin:5px 0;padding:8px;"><br/><br/>
+
+    <label>2️⃣ How old are you? *</label><br/>
+    <select name="Age" required style="width:100%;margin:5px 0;padding:8px;">
+      <option value="Under 18">Under 18</option>
+      <option value="18–24">18–24</option>
+      <option value="25–34">25–34</option>
+      <option value="35–44">35–44</option>
+      <option value="45–54">45–54</option>
+      <option value="55+">55+</option>
+    </select><br/><br/>
+
+    <label>3️⃣ How did you discover Sinist3rKr3w: Unchained? *</label><br/>
+    <select name="Discovery" required style="width:100%;margin:5px 0;padding:8px;">
+      <option value="Social Media">Social Media</option>
+      <option value="Word of Mouth">Word of Mouth</option>
+      <option value="Blog or Website">Blog or Website</option>
+      <option value="Other">Other</option>
+    </select><br/><br/>
+
+    <label>4️⃣ What do you like best about the station?</label><br/>
+    <textarea name="BestPart" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
+
+    <label>5️⃣ What would you like to hear more of? *</label><br/>
+    <select name="MoreOf" required style="width:100%;margin:5px 0;padding:8px;">
+      <option value="Music">Music</option>
+      <option value="Talk Segments">Talk Segments</option>
+      <option value="Interviews">Interviews</option>
+      <option value="Underreported News">Underreported News</option>
+      <option value="Spiritual Messages">Spiritual Messages</option>
+      <option value="Other">Other</option>
+    </select><br/><br/>
+
+    <label>6️⃣ What topics matter to you the most?</label><br/>
+    <textarea name="Topics" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
+
+    <label>7️⃣ If you could change one thing about Sinist3rKr3w: Unchained, what would it be?</label><br/>
+    <textarea name="Change" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
+
+    <label>8️⃣ Would you like to join our newsletter?</label><br/>
+    <input type="email" name="Email" placeholder="Enter your email (optional)" style="width:100%;margin:5px 0;padding:8px;"><br/><br/>
+
+    <label>9️⃣ Is there anything else you’d like to share?</label><br/>
+    <textarea name="AdditionalComments" rows="3" style="width:100%;margin:5px 0;padding:8px;"></textarea><br/><br/>
+
+    <div style="text-align:center;">
+      <button type="submit" style="background:#ff3333;color:#fff;padding:12px 24px;border:none;border-radius:6px;cursor:pointer;font-size:16px;">
+        🔥 Submit My Feedback
+      </button>
+    </div>
+  </form>
+  <p style="text-align:center;margin-top:20px;">
+    Thank you for sharing your thoughts! Stay sharp. Stay loud. Stay <strong>UNCHAINED</strong> 🔥
+  </p>
+</div>
+
+<!-- NEXT-LEVEL Scripts -->
+<script src="site.js" defer></script>
+
+<!-- 🔥 Shout-Out Ticker -->
+<div class="ticker">
+  <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
+     Tuned in from Seminole, TX! &nbsp;&nbsp;
+     Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
+     Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?</p>
+</div>
 
 </body>
 </html>
