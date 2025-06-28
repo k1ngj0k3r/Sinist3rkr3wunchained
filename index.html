@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: #000000;
+      background-color: #000;
       color: #f2f2f2;
       font-family: Arial, sans-serif;
       text-align: center;
@@ -43,17 +43,27 @@
       0% { transform: translateY(0) scale(1); opacity: 1; }
       100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
     }
-    video {
-      max-width: 100%;
-      border: 2px solid #ff3333;
-      border-radius: 8px;
-      margin-bottom: 20px;
+    .floating-emoji {
+      position: fixed;
+      font-size: 24px;
+      animation: floatEmoji 5s linear infinite;
+      pointer-events: none;
+    }
+    @keyframes floatEmoji {
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh);
+        opacity: 0;
+      }
     }
   </style>
 </head>
 <body>
   <h1>Sinist3rKr3w: Unchained</h1>
-  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>  <video autoplay muted loop playsinline>
+  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>  <!-- 🔗 Linktree -->  <p><a href="https://linktree.com/k1ngj0k" target="_blank" class="btn">🔗 Explore Everything: Linktree</a></p>  <video autoplay muted loop playsinline>
     <source src="sinist3rk3r3w_trailer.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>  <section id="radio">
@@ -70,7 +80,7 @@
     <p>
       Today we raise our voices against control disguised as care. Banning candy and soda for SNAP recipients
       isn’t about health — it’s about control. Hungry people shouldn’t be policed; they should be supported.
-      Read more on <a href="https://k1ngj0k3r.substack.com" target="_blank">Substack</a> or <a href="https://k1ngj0k3r.blogspot.com" target="_blank">Blogger</a>.
+      Read more on <a href="https://k1ngj0k3r.substack.com" target="_blank">Substack</a> or <a href="https://linktree.com/k1ngj0k" target="_blank">Linktree</a>.
     </p>
   </section>  <section id="news">
     <h2>📰 Latest Underreported Stories</h2>
@@ -106,5 +116,16 @@
       setTimeout(() => flame.remove(), 5000);
     }
     setInterval(createFlame, 150);
+
+    function floatEmojis() {
+      const emoji = document.createElement('div');
+      emoji.className = 'floating-emoji';
+      emoji.style.left = Math.random() * 100 + 'vw';
+      emoji.style.bottom = '-30px';
+      emoji.textContent = '🔥';
+      document.body.appendChild(emoji);
+      setTimeout(() => emoji.remove(), 5000);
+    }
+    setInterval(floatEmojis, 500);
   </script></body>
 </html>
