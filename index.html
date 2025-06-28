@@ -1,84 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Sinist3rKr3w: Unchained</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom, #1a0000, #330000);
+      background-color: #000000;
       color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
       padding: 20px;
     }
     h1, h2 {
-      color: #ff0000;
-      text-shadow: 2px 2px 5px black;
+      color: #ff3333;
     }
-    a {
-      color: #ffcc00;
+    .btn {
+      background-color: #ff3333;
+      color: #fff;
+      padding: 12px 24px;
+      font-size: 16px;
+      margin: 12px;
+      border-radius: 6px;
       text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .flames {
-      background-image: url('https://media.giphy.com/media/3o6Zth9X1jGTyQw4qE/giphy.gif');
-      background-repeat: no-repeat;
-      background-position: bottom;
-      background-size: cover;
-      height: 200px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    .blog-link, .support-link {
       display: inline-block;
-      margin: 10px 5px;
-      background-color: #990000;
-      padding: 10px 15px;
-      border-radius: 8px;
-      color: white;
-      font-weight: bold;
     }
-    .blog-link:hover, .support-link:hover {
+    .btn:hover {
       background-color: #cc0000;
+    }
+    .flame-particle {
+      position: fixed;
+      bottom: -30px;
+      width: 10px;
+      height: 10px;
+      background-color: #ff4500;
+      border-radius: 50%;
+      pointer-events: none;
+      opacity: 0.9;
+      box-shadow: 0px 0px 15px #ff4500;
+      animation: rise 5s ease-out forwards;
+    }
+    @keyframes rise {
+      0% { transform: translateY(0) scale(1); opacity: 1; }
+      100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
+    }
+    video {
+      max-width: 100%;
+      border: 2px solid #ff3333;
+      border-radius: 8px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="flames"></div>
   <h1>Sinist3rKr3w: Unchained</h1>
-  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
-
-  <div class="section">
+  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>  <video autoplay muted loop playsinline>
+    <source src="sinist3rk3r3w_trailer.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>  <section id="radio">
     <h2>🎧 Listen to the Station</h2>
     <audio controls>
-      <source src="https://zeno.fm/radio/sinist3rkr3w" type="audio/mpeg">
+      <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
       Your browser does not support the audio element.
-    </audio><br/>
-    <a href="https://zeno.fm/radio/sinist3rkr3w" target="_blank">Open in Zeno.fm</a>
-  </div>
-
-  <div class="section">
-    <h2>📄 June 28th Blog: Food Stamps & Control</h2>
-    <p>Today we raise our voices against control disguised as care. Banning candy and soda for SNAP recipients isn’t about health — it’s about control. Hungry people shouldn’t be policed; they should be supported. Read more on <a href="https://k1ngj0k3r.substack.com" target="_blank">Substack</a> or <a href="https://k1ngj0k3r.blogspot.com" target="_blank">Blogger</a>.</p>
-  </div>
-
-  <div class="section">
-    <h2>📃 Latest Underreported Stories</h2>
+    </audio>
+    <div>
+      <a href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank" class="btn">Open in Zeno.fm</a>
+    </div>
+  </section>  <section id="blog">
+    <h2>📝 June 28th Blog: Food Stamps & Control</h2>
+    <p>
+      Today we raise our voices against control disguised as care. Banning candy and soda for SNAP recipients
+      isn’t about health — it’s about control. Hungry people shouldn’t be policed; they should be supported.
+      Read more on <a href="https://k1ngj0k3r.substack.com" target="_blank">Substack</a> or <a href="https://k1ngj0k3r.blogspot.com" target="_blank">Blogger</a>.
+    </p>
+  </section>  <section id="news">
+    <h2>📰 Latest Underreported Stories</h2>
     <ul>
-      <li><a href="https://www.texastribune.org/2025/06/27/greg-abbott-food-stamp-ban/" target="_blank">Texas Gov. Abbott Moves to Ban Soda, Candy from SNAP</a></li>
-      <li><a href="https://www.militarytimes.com/news/2025/06/27/marine-snap-cuts-security/" target="_blank">Retired Marine Warns SNAP Cuts Threaten Security</a></li>
-      <li><a href="https://www.snapsupport.org/2025/06/28/hidden-hunger-stats-2025/" target="_blank">Hidden Hunger: New Data Shows SNAP Shortfalls</a></li>
+      <li><a href="https://www.chron.com/politics/article/texas-abbott-snap-program-20329806.php" target="_blank">Texas Gov. Abbott Moves to Ban Soda, Candy from SNAP</a></li>
+      <li><a href="https://www.expressnews.com/opinion/commentary/article/snap-medicaid-cuts-20386260.php" target="_blank">Retired Marine Warns SNAP Cuts Threaten Security</a></li>
+      <li><a href="https://www.lmtonline.com/local/article/zaffirini-raymond-mclaughlin-bill-379-stance-2025-20366418.php" target="_blank">Senate Bill 379: Texas Pushes Forward SNAP Restrictions</a></li>
     </ul>
-  </div>
-
-  <div class="section">
-    <a class="support-link" href="https://cash.app/$hunt3rlee21" target="_blank">Support the Movement on CashApp</a>
-  </div>
-
-  <div class="flames"></div>
-</body>
+  </section>  <section id="donate">
+    <h2>💳 Support the Movement</h2>
+    <a href="https://cash.app/$hunt3rlee21" class="btn" target="_blank">💰 Support via Cash App</a>
+  </section>  <section id="rebellion-wall">
+    <h2>👥 The Rebellion Wall</h2>
+    <p>Share your story. Let the world hear your truth.</p>
+    <form action="https://formspree.io/f/xnnvglok" method="POST">
+      <input type="text" name="name" placeholder="Your Name (optional)">
+      <textarea name="message" placeholder="What’s your story?" required></textarea>
+      <button type="submit" class="btn">Post</button>
+    </form>
+  </section>  <footer>
+    <p>&copy; 2025 Sinist3rKr3w Unchained. All Rights Reserved.</p>
+    <nav>
+      <a href="about.html">About Us</a> |
+      <a href="order-refund-policy.html">Order & Refund Policy</a>
+    </nav>
+  </footer>  <script>
+    function createFlame() {
+      const flame = document.createElement('div');
+      flame.classList.add('flame-particle');
+      flame.style.left = Math.random() * window.innerWidth + 'px';
+      flame.style.animationDuration = (2 + Math.random() * 3) + 's';
+      document.body.appendChild(flame);
+      setTimeout(() => flame.remove(), 5000);
+    }
+    setInterval(createFlame, 150);
+  </script></body>
 </html>
