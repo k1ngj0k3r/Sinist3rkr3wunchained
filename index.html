@@ -2,88 +2,78 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinist3rKr3w | Unchained</title>
-  <link rel="stylesheet" href="styles.css" /> <!-- Optional: Use your existing CSS file -->
+  <title>Sinist3rKr3w: Unchained</title>
+  <link rel="stylesheet" href="styles.css" />
   <style>
     body {
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1a1a1a;
-      padding: 1rem;
-      text-align: center;
-      border-bottom: 2px solid #e60000;
-    }
-    header h1 {
-      margin: 0;
-      color: #e60000;
-      font-size: 2.5rem;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-      padding: 1rem;
-      background-color: #141414;
-    }
-    nav a {
-      color: #f0f0f0;
-      text-decoration: none;
-      font-weight: bold;
+      font-family: 'Arial Black', sans-serif;
+      background: url('bg_fire_texture.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
     }
     .container {
-      padding: 2rem;
       text-align: center;
+      padding: 4rem 2rem;
     }
-    .cta-button {
-      background-color: #e60000;
-      color: #fff;
+    h1 {
+      font-size: 3rem;
+      color: #ff0000;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .banner-trailer {
+      max-width: 90%;
+      margin: 2rem auto;
+      border: 5px solid #ffcc00;
+      box-shadow: 0 0 20px #000;
+    }
+    .button-container {
+      margin: 2rem 0;
+    }
+    .karma-button {
       padding: 1rem 2rem;
+      background-color: #d40000;
       border: none;
+      font-size: 1.2rem;
+      color: white;
+      cursor: pointer;
       border-radius: 12px;
-      font-size: 1.25rem;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-block;
-      box-shadow: 0 5px 15px rgba(230, 0, 0, 0.4);
-      margin-top: 2rem;
-      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 0 10px #ff0000;
+      transition: all 0.3s ease-in-out;
     }
-    .cta-button:hover {
-      background-color: #ff1a1a;
+    .karma-button:hover {
+      background-color: #ff0000;
       transform: scale(1.05);
     }
-    footer {
-      margin-top: 4rem;
-      text-align: center;
-      color: #777;
-      font-size: 0.9rem;
-      padding: 2rem 1rem;
-      border-top: 1px solid #333;
+    .floating-text {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 1.2rem;
+      animation: float 3s ease-in-out infinite;
+      color: #ffd700;
+    }
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>SINIST3RKR3W: Unchained</h1>
-  </header>  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="refund.html">Refund Policy</a>
-    <a href="karmadrop.html">Karma Drop</a>
-  </nav>  <div class="container">
-    <h2>Welcome to the Revolution</h2>
-    <p>
-      This isn't just a movement. It's a lifeline. Sinist3rKr3w represents raw truth,
-      unity through struggle, and unchained voices. Join the fire.
-    </p><a href="karmadrop.html" class="cta-button">Sponsor a Karma Drop</a>
-
-  </div>  <footer>
-    &copy; 2025 Sinist3rKr3w. Built with grit and fire.
-  </footer>
+  <div class="container">
+    <h1>SINIST3RKR3W: UNCHAINED</h1>
+    <video class="banner-trailer" controls autoplay loop muted>
+      <source src="trailer.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="button-container">
+      <a href="karmadrop.html"><button class="karma-button">Sponsor a Karma Drop</button></a>
+    </div>
+    <div class="floating-text">🔥 Still Risin’ 🔥</div>
+  </div>
 </body>
 </html>
