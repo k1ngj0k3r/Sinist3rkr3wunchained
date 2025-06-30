@@ -11,29 +11,38 @@
       text-align: center;
       margin: 0;
       padding: 20px;
+      overflow-x: hidden;
     }
     h1 {
-      font-size: 2.8rem;
+      font-size: 2.5rem;
       color: #ff3333;
-      text-shadow: 0 0 12px #ff0000;
+      margin-bottom: 10px;
     }
-    video, audio {
-      margin-top: 20px;
+    video {
       width: 90%;
       max-width: 720px;
+      margin-top: 20px;
       border-radius: 12px;
       box-shadow: 0 0 12px #ff0000aa;
+    }
+    audio {
+      margin-top: 20px;
+      width: 90%;
+      max-width: 500px;
     }
     .btn {
       background-color: #ff3333;
       color: white;
       padding: 12px 24px;
-      margin: 8px;
+      text-align: center;
+      font-size: 16px;
+      margin: 12px;
+      cursor: pointer;
       border: none;
       border-radius: 6px;
       text-decoration: none;
-      font-size: 16px;
       display: inline-block;
+      transition: background-color 0.3s;
     }
     .btn:hover {
       background-color: #cc0000;
@@ -62,6 +71,9 @@
       100% { transform: translateX(-100%); }
     }
     .floating-text {
+      position: relative;
+      width: 100%;
+      text-align: center;
       font-size: 1.5rem;
       color: #FFD700;
       animation: floatText 4s ease-in-out infinite;
@@ -71,22 +83,26 @@
       50% { transform: translateY(-10px); }
     }
     .logo {
-      width: 120px;
-      margin: 0 auto;
+      margin: 20px auto;
+      width: 150px;
     }
-    .flame {
+    .flame-bg {
       position: fixed;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
-      background: url('https://i.imgur.com/Y8zZQ6j.gif') center center repeat;
-      pointer-events: none;
+      background-image: url('https://i.imgur.com/s4KYw0z.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       opacity: 0.2;
-      z-index: 0;
+      z-index: -1;
     }
   </style>
 </head>
 <body>
-  <div class="flame"></div>
+  <div class="flame-bg"></div>
   <div class="floating-text">🔥 Rise Above the Ashes 🔥</div>  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo">  <h1>Sinist3rKr3w: Unchained</h1>
   <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>  <video autoplay muted loop>
     <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
@@ -99,9 +115,7 @@
     </audio>
   </div>  <div class="section">
     <h2>📻 Live Radio</h2>
-    <audio controls autoplay>
-      <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
-    </audio>
+    <iframe src="https://stream.zeno.fm/bopyz8zwv0juv" width="100%" height="120" frameborder="0" allow="autoplay"></iframe>
   </div>  <div class="section">
     <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
     <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
@@ -112,12 +126,18 @@
     <a class="btn" href="refund.html">💸 Refund Policy</a>
   </div>  <div class="section">
     <h2>📍 Monahans Weather</h2>
-    <iframe src="https://forecast7.com/en/31d59n102d89/monahans/" frameborder="0" width="100%" height="250"></iframe>
+    <iframe src="https://weatherwidget.io/w/" style="width:100%; height:250px; border:none; overflow:hidden;"></iframe>
   </div>  <div class="section">
     <h2>📰 Underreported News</h2>
     <iframe src="https://www.projectcensored.org" width="100%" height="500" frameborder="0"></iframe>
   </div>  <div class="ticker">
-    <p>🎧 Sinist3rKr3w reppin’ hard in Colorado! 📍 Tuned in from Seminole, TX! 🔥 Neon’s got it on blast in the Rockies! 🎙️ Dory’s vibin’ with us down in Texas! 🌍 Who's next to join the wave?</p>
+    <p>
+      🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
+      📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
+      🔥 Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
+      🎙️ Dory’s vibin’ with us down in Texas! &nbsp;&nbsp;
+      🌍 Who's next to join the wave?
+    </p>
   </div>
 </body>
 </html>
