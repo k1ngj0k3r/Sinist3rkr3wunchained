@@ -1,5 +1,4 @@
-!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,109 +11,113 @@
       text-align: center;
       margin: 0;
       padding: 20px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      color: #ff3333;
-      margin-bottom: 10px;
-    }
-    video {
-      width: 90%;
-      max-width: 720px;
-      margin-top: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 12px #ff0000aa;
-    }
-    audio {
-      margin-top: 20px;
-      width: 90%;
-      max-width: 500px;
-    }
-    .btn {
-      background-color: #ff3333;
-      color: white;
-      padding: 12px 24px;
-      text-align: center;
-      font-size: 16px;
-      margin: 12px;
-      cursor: pointer;
-      border: none;
-      border-radius: 6px;
-      text-decoration: none;
-      display: inline-block;
-      transition: background-color 0.3s;
-    }
-    .btn:hover {
-      background-color: #cc0000;
-    }
-    .section {
-      margin: 40px 0;
-    }
-    .ticker {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #FFD700;
-      color: #000;
-      font-weight: bold;
-      overflow: hidden;
-      white-space: nowrap;
-      z-index: 9999;
-    }
-    .ticker p {
-      display: inline-block;
-      padding-left: 100%;
-      animation: scroll-left 20s linear infinite;
-    }
-    @keyframes scroll-left {
-      0% { transform: translateX(0%); }
-      100% { transform: translateX(-100%); }
-    }
-    .floating-text {
-      position: absolute;
-      top: 30px;
-      width: 100%;
-      text-align: center;
-      font-size: 1.5rem;
-      color: #FFD700;
-      animation: floatText 4s ease-in-out infinite;
-    }
-    @keyframes floatText {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-    .logo {
-      margin: 20px auto;
-      width: 150px;
-    }
+    }h1 {
+  font-size: 2.5rem;
+  color: #ff3333;
+  margin-bottom: 10px;
+}
+
+video {
+  width: 90%;
+  max-width: 720px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ff0000aa;
+}
+
+audio {
+  margin-top: 20px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.btn {
+  background-color: #ff3333;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #cc0000;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.ticker {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 9999;
+}
+
+.ticker p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.floating-text {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #FFD700;
+  animation: floatText 4s ease-in-out infinite;
+}
+
+@keyframes floatText {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.logo {
+  margin: 20px auto;
+  width: 150px;
+  display: block;
+}
+
   </style>
 </head>
 <body>
-  <div class="floating-text">🔥 Rise Above the Ashes 🔥</div>
-
-  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo">
-
-  <h1>Sinist3rKr3w: Unchained</h1>
-  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
-
-  <video autoplay muted loop>
+  <div class="floating-text">🔥 Rise Above the Ashes 🔥</div>  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo">  <h1>Sinist3rKr3w: Unchained</h1>
+  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>  <video autoplay muted loop>
     <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
     Your browser does not support the video tag.
-  </video>
-
-  <div class="section">
+  </video>  <div class="section">
     <h2>🎙️ Sky’s Message</h2>
     <audio controls autoplay>
       <source src="sky_voiceover.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
-  </div>
-
-  <div class="section">
-    <iframe src="https://stream.zeno.fm/bopyz8zwv0juv" width="100%" height="120" frameborder="0" allow="autoplay"></iframe>
-  </div>
-
-  <div class="section">
+  </div>  <div class="section">
+    <h2>📻 Live Radio</h2>
+    <audio controls autoplay>
+      <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>  <div class="section">
     <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
     <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
     <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Download & Support</a>
@@ -122,19 +125,13 @@
     <a class="btn" href="about.html">🧭 About Us</a>
     <a class="btn" href="karma.html">🔥 Karma Drop</a>
     <a class="btn" href="refund.html">💸 Refund Policy</a>
-  </div>
-
-  <div class="section">
+  </div>  <div class="section">
     <h2>📍 Monahans Weather</h2>
     <iframe src="https://forecast7.com/en/31d59n102d89/monahans/" frameborder="0" width="100%" height="250"></iframe>
-  </div>
-
-  <div class="section">
+  </div>  <div class="section">
     <h2>📰 Underreported News</h2>
     <iframe src="https://www.projectcensored.org" width="100%" height="500" frameborder="0"></iframe>
-  </div>
-
-  <div class="ticker">
+  </div>  <div class="ticker">
     <p>
       🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
       📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
@@ -145,3 +142,5 @@
   </div>
 </body>
 </html>
+
+    
