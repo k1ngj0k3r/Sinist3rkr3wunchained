@@ -1,78 +1,101 @@
-<!DOCTYPE html><html lang="en">
+!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinist3rKr3w: Unchained</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Sinist3rkr3w: Unchained</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Arial Black', sans-serif;
-      background: url('bg_fire_texture.jpg') no-repeat center center fixed;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('background/rotating_logos.gif');
       background-size: cover;
-      color: white;
+      background-position: center;
+      z-index: -1;
     }
     .container {
       text-align: center;
-      padding: 4rem 2rem;
+      padding: 60px 20px;
     }
     h1 {
-      font-size: 3rem;
-      color: #ff0000;
-      text-shadow: 2px 2px 4px #000;
+      font-size: 3em;
+      color: red;
+      text-shadow: 0 0 10px #ff0000;
     }
-    .banner-trailer {
-      max-width: 90%;
-      margin: 2rem auto;
-      border: 5px solid #ffcc00;
-      box-shadow: 0 0 20px #000;
+    .video-container {
+      margin: 40px auto;
+      max-width: 720px;
+      box-shadow: 0 0 20px #ff0000;
     }
-    .button-container {
-      margin: 2rem 0;
+    video {
+      width: 100%;
+      border-radius: 10px;
     }
-    .karma-button {
-      padding: 1rem 2rem;
-      background-color: #d40000;
-      border: none;
-      font-size: 1.2rem;
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: red;
       color: white;
-      cursor: pointer;
-      border-radius: 12px;
-      box-shadow: 0 0 10px #ff0000;
-      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-top: 20px;
+      box-shadow: 0 0 10px red;
+      transition: background 0.3s ease;
     }
-    .karma-button:hover {
-      background-color: #ff0000;
-      transform: scale(1.05);
+    .button:hover {
+      background-color: darkred;
+    }
+    .radio-container {
+      margin-top: 60px;
     }
     .floating-text {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-      font-size: 1.2rem;
-      animation: float 3s ease-in-out infinite;
-      color: #ffd700;
+      animation: float 6s ease-in-out infinite;
+      font-size: 1.2em;
+      margin-top: 30px;
     }
     @keyframes float {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
     }
   </style>
 </head>
 <body>
+  <div class="background"></div>
   <div class="container">
     <h1>SINIST3RKR3W: UNCHAINED</h1>
-    <video class="banner-trailer" controls autoplay loop muted>
-      <source src="trailer.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <div class="button-container">
-      <a href="karmadrop.html"><button class="karma-button">Sponsor a Karma Drop</button></a>
+
+    <div class="video-container">
+      <video autoplay muted loop controls>
+        <source src="videos/trailer.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
+
+    <a href="karma-drop.html" class="button">Sponsor a Karma Drop</a>
+
+    <div class="radio-container">
+      <iframe
+        src="https://zeno.fm/player/sinist3rkr3w-radio"
+        width="100%"
+        height="120"
+        frameborder="0"
+        scrolling="no"
+        allow="autoplay"
+        style="border-radius: 10px; box-shadow: 0 0 20px #ff0000; margin-top: 40px;"
+      ></iframe>
+    </div>
+
     <div class="floating-text">🔥 Still Risin’ 🔥</div>
   </div>
 </body>
