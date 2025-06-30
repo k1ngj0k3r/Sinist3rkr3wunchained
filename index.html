@@ -1,116 +1,127 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinist3rKr3w: Rise Above the Ashes</title>
+  <title>Sinist3rKr3w: Unchained</title>
   <style>
     body {
-      margin:0;
-      padding:20px;
-      background:#000;
-      color:#f2f2f2;
-      font-family:'Segoe UI',sans-serif;
-      text-align:center;
-    }
-    img.logo { width:200px; margin:auto; display:block; }
-    .floating {
-      font-size:2rem;
-      color:#ff3333;
-      text-shadow:0 0 8px #f00;
-      animation:float 4s ease-in-out infinite;
-    }
-    @keyframes float {
-      0%,100% { transform:translateY(0px); }
-      50% { transform:translateY(-10px); }
-    }
-    video, audio, iframe {
-      width:90%;
-      max-width:720px;
-      margin:20px auto;
-      display:block;
-      border-radius:12px;
-      box-shadow:0 0 12px #f00;
-    }
-    .btns a {
-      background:#ff3333;
-      color:#fff;
-      padding:14px 28px;
-      margin:8px;
-      display:inline-block;
-      border:none;
-      border-radius:6px;
-      text-decoration:none;
-      font-size:1rem;
-    }
-    .btns a:hover { background:#cc0000; }
-    .ticker {
-      position:fixed;
-      bottom:0; width:100%; background:#FFD700; color:#000;
-      white-space:nowrap; overflow:hidden; font-weight:bold;
-    }
-    .ticker p {
-      display:inline-block;
-      padding-left:100%;
-      animation:scroll 20s linear infinite;
-    }
-    @keyframes scroll {
-      0% { transform:translateX(0%); }
-      100% { transform:translateX(-100%); }
-    }
-    section { margin:40px 0; }
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }header {
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #ff3333;
+  margin: 0;
+}
+
+.floating-text {
+  text-align: center;
+  color: #FFD700;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.trailer, .radio, .weather, .news, .links {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 720px;
+  padding: 20px;
+}
+
+video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ff0000aa;
+}
+
+iframe.radio-player {
+  border: none;
+  width: 100%;
+  height: 100px;
+}
+
+.btn {
+  background-color: #ff3333;
+  color: white;
+  padding: 12px 24px;
+  margin: 8px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.ticker {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 9999;
+}
+
+.ticker p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
   </style>
 </head>
 <body>
-
-  <!-- Logo -->
-  <img class="logo" src="Sinist3rKr3w_Logo.png" alt="Sinist3rKr3w Logo">
-
-  <!-- Floating Title -->
-  <div class="floating">🔥 Sinist3rKr3w: Rise Above the Ashes 🔥</div>
-
-  <!-- Trailer Video -->
-  <video controls>
-    <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
-    Your browser doesn’t support video.
-  </video>
-
-  <!-- Audio Voiceover -->
-  <audio controls>
-    <source src="sky_voiceover.mp3" type="audio/mpeg">
-    Your browser doesn’t support audio.
-  </audio>
-
-  <!-- Zeno Radio Player -->
-  <section>
-    <iframe src="https://zeno.fm/player/bopyz8zwv0juv" frameborder="0" allow="autoplay"
-      style="border-radius:12px;" width="90%" height="150"></iframe>
-  </section>
-
-  <!-- Navigation Buttons -->
-  <div class="btns">
-    <a href="about.html">About Us</a>
-    <a href="karmadrop.html">🕊️ Karma Drop</a>
-    <a href="order-refund-policy.html">📜 Refund Policy</a>
-    <a href="news.html">Underreported News</a>
-    <a href="weather.html">Weather</a>
+  <header>
+    <img src="logo.png" alt="Sinist3rKr3w Logo">
+    <h1>Sinist3rKr3w: Unchained</h1>
+    <div class="floating-text">🔥 Rise Above the Ashes 🔥</div>
+  </header>  <div class="trailer">
+    <video controls autoplay muted loop>
+      <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
+    </video>
+  </div>  <div class="radio">
+    <iframe class="radio-player" src="https://zeno.fm/player/bopyz8zwv0juv"></iframe>
+  </div>  <div class="weather">
+    <iframe src="https://forecast7.com/en/31d59n102d89/monahans/?unit=us" frameborder="0" width="100%" height="200"></iframe>
+  </div>  <div class="news">
+    <iframe src="https://www.thelastamericanvagabond.com/" frameborder="0" width="100%" height="400"></iframe>
+  </div>  <div class="links">
+    <a class="btn" href="about.html">About Us</a>
+    <a class="btn" href="karma.html">Karma Drop</a>
+    <a class="btn" href="refund.html">Refund Policy</a>
+    <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">Email Us</a>
+  </div>  <div class="ticker">
+    <p>
+      🎧 Sinist3rKr3w live in Monahans, TX! &nbsp;&nbsp;
+      🔥 Tune in from around the world! &nbsp;&nbsp;
+      📰 Fight the silence — speak truth! &nbsp;&nbsp;
+      📻 Streaming now on Zeno Radio! &nbsp;&nbsp;
+    </p>
   </div>
-
-  <!-- Placeholder Sections -->
-  <section id="news">
-    <h2>🔎 Underreported Stories</h2>
-    <!-- Live news links/widgets will go here -->
-  </section>
-
-  <section id="weather">
-    <h2>🌤️ Weather</h2>
-    <!-- Live weather widget will go here -->
-  </section>
-
-  <!-- Bottom Ticker -->
-  <div class="ticker">
-    <p>🎧 Sinist3rKr3w in the Rockies • 🌍 Who’s next to join the wave?</p>
-  </div>
-
 </body>
 </html>
