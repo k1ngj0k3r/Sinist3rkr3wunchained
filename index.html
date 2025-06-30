@@ -2,136 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sinist3rKr3w: Rise Above the Ashes</title>
   <style>
     body {
-      background-color: #000;
-      color: #fff;
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      text-align: center;
+      margin:0;
+      padding:20px;
+      background:#000;
+      color:#f2f2f2;
+      font-family:'Segoe UI',sans-serif;
+      text-align:center;
     }
-
-    header {
-      padding: 20px 10px 10px;
-    }
-
-    .logo {
-      max-width: 160px;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      font-size: 2.2rem;
-      color: #ff3333;
-      text-shadow: 0 0 10px red;
-    }
-
+    img.logo { width:200px; margin:auto; display:block; }
     .floating {
-      color: gold;
-      font-weight: bold;
-      animation: floatText 3s ease-in-out infinite alternate;
+      font-size:2rem;
+      color:#ff3333;
+      text-shadow:0 0 8px #f00;
+      animation:float 4s ease-in-out infinite;
     }
-
-    @keyframes floatText {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-10px); }
+    @keyframes float {
+      0%,100% { transform:translateY(0px); }
+      50% { transform:translateY(-10px); }
     }
-
     video, audio, iframe {
-      margin: 20px auto;
-      display: block;
-      width: 90%;
-      max-width: 720px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px #ff0000aa;
+      width:90%;
+      max-width:720px;
+      margin:20px auto;
+      display:block;
+      border-radius:12px;
+      box-shadow:0 0 12px #f00;
     }
-
-    .btn {
-      display: inline-block;
-      margin: 12px 8px;
-      padding: 12px 20px;
-      background-color: #ff3333;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      text-decoration: none;
-      box-shadow: 0 0 8px #ff0000cc;
-      transition: background-color 0.3s;
+    .btns a {
+      background:#ff3333;
+      color:#fff;
+      padding:14px 28px;
+      margin:8px;
+      display:inline-block;
+      border:none;
+      border-radius:6px;
+      text-decoration:none;
+      font-size:1rem;
     }
-
-    .btn:hover {
-      background-color: #cc0000;
-    }
-
+    .btns a:hover { background:#cc0000; }
     .ticker {
-      background-color: #FFD700;
-      color: #000;
-      font-weight: bold;
-      overflow: hidden;
-      white-space: nowrap;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      z-index: 999;
+      position:fixed;
+      bottom:0; width:100%; background:#FFD700; color:#000;
+      white-space:nowrap; overflow:hidden; font-weight:bold;
     }
-
     .ticker p {
-      display: inline-block;
-      padding-left: 100%;
-      animation: scroll-left 20s linear infinite;
+      display:inline-block;
+      padding-left:100%;
+      animation:scroll 20s linear infinite;
     }
-
-    @keyframes scroll-left {
-      0% { transform: translateX(0%); }
-      100% { transform: translateX(-100%); }
+    @keyframes scroll {
+      0% { transform:translateX(0%); }
+      100% { transform:translateX(-100%); }
     }
+    section { margin:40px 0; }
   </style>
 </head>
 <body>
 
-  <header>
-    <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo" />
-    <div class="floating">🔥 Sinist3rKr3w: Rise Above the Ashes 🔥</div>
-    <h1>Sinist3rKr3w: Rise Above the Ashes</h1>
-  </header>
+  <!-- Logo -->
+  <img class="logo" src="Sinist3rKr3w_Logo.png" alt="Sinist3rKr3w Logo">
 
-  <!-- 🎬 Trailer Video -->
+  <!-- Floating Title -->
+  <div class="floating">🔥 Sinist3rKr3w: Rise Above the Ashes 🔥</div>
+
+  <!-- Trailer Video -->
   <video controls>
     <source src="sinist3rk3w_trailer.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+    Your browser doesn’t support video.
   </video>
 
-  <!-- 🎤 Sky's Voiceover -->
+  <!-- Audio Voiceover -->
   <audio controls>
     <source src="sky_voiceover.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
+    Your browser doesn’t support audio.
   </audio>
 
-  <!-- 📻 Zeno Radio Player -->
-  <iframe src="https://zeno.fm/player/bopyz8zwv0juv" width="100%" height="120" frameborder="0" scrolling="no"></iframe>
+  <!-- Zeno Radio Player -->
+  <section>
+    <iframe src="https://zeno.fm/player/bopyz8zwv0juv" frameborder="0" allow="autoplay"
+      style="border-radius:12px;" width="90%" height="150"></iframe>
+  </section>
 
-  <!-- 🔗 Navigation Buttons -->
-  <div>
-    <a class="btn" href="about.html">About Us</a>
-    <a class="btn" href="karmadrop.html">🕊️ Karma Drop</a>
-    <a class="btn" href="order-refund-policy.html">📜 Refund Policy</a>
-    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📰 Read the Blog</a>
-    <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">📬 Contact</a>
+  <!-- Navigation Buttons -->
+  <div class="btns">
+    <a href="about.html">About Us</a>
+    <a href="karmadrop.html">🕊️ Karma Drop</a>
+    <a href="order-refund-policy.html">📜 Refund Policy</a>
+    <a href="news.html">Underreported News</a>
+    <a href="weather.html">Weather</a>
   </div>
 
-  <!-- ⛅ Placeholder for Weather & News -->
-  <div style="margin: 40px 0;">
-    <h2>🌦️ Weather & 🔥 Underreported Stories</h2>
-    <p style="color:#aaa;">Weather and news feed coming soon...</p>
-  </div>
+  <!-- Placeholder Sections -->
+  <section id="news">
+    <h2>🔎 Underreported Stories</h2>
+    <!-- Live news links/widgets will go here -->
+  </section>
 
-  <!-- 🟡 Ticker -->
+  <section id="weather">
+    <h2>🌤️ Weather</h2>
+    <!-- Live weather widget will go here -->
+  </section>
+
+  <!-- Bottom Ticker -->
   <div class="ticker">
-    <p>📍 Sinist3rKr3w is live from Texas to the world — 🔥 Who’s next to join the wave?</p>
+    <p>🎧 Sinist3rKr3w in the Rockies • 🌍 Who’s next to join the wave?</p>
   </div>
 
 </body>
