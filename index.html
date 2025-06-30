@@ -5,7 +5,8 @@
   <title>Sinist3rKr3w: Unchained</title>
   <style>
     body {
-      background-color: #0d0d0d;
+      background: url('embers.gif') no-repeat center center fixed;
+      background-size: cover;
       color: #f2f2f2;
       font-family: 'Segoe UI', sans-serif;
       text-align: center;
@@ -16,11 +17,6 @@
       font-size: 2.5rem;
       color: #ff3333;
       margin-bottom: 10px;
-    }
-    .logo {
-      margin: 20px auto;
-      width: 150px;
-      display: block;
     }
     video {
       width: 90%;
@@ -75,8 +71,8 @@
       100% { transform: translateX(-100%); }
     }
     .floating-text {
-      position: absolute;
-      top: 30px;
+      position: relative;
+      top: 0px;
       width: 100%;
       text-align: center;
       font-size: 1.5rem;
@@ -87,6 +83,10 @@
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
     }
+    .logo {
+      margin: 20px auto;
+      width: 150px;
+    }
   </style>
 </head>
 <body>
@@ -96,16 +96,13 @@
     Your browser does not support the video tag.
   </video>  <div class="section">
     <h2>🎙️ Sky’s Message</h2>
-    <audio controls>
+    <audio controls autoplay>
       <source src="sky_voiceover.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </div>  <div class="section">
-    <h2>📻 Listen Live</h2>
-    <audio controls autoplay>
-      <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
+    <h2>📻 Live Radio</h2>
+    <iframe src="https://stream.zeno.fm/bopyz8zwv0juv" width="100%" height="120" frameborder="0" allow="autoplay"></iframe>
   </div>  <div class="section">
     <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
     <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
@@ -114,23 +111,24 @@
     <a class="btn" href="about.html">🧭 About Us</a>
     <a class="btn" href="karma.html">🔥 Karma Drop</a>
     <a class="btn" href="refund.html">💸 Refund Policy</a>
-<!-- Weather Widget -->
-<div class="section">
-  <h2>📍 Monahans Weather</h2>
-  <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" >MONAHANS WEATHER</a>
-  <script>
-    !function(d,s,id){
-      var js,fjs = d.getElementsByTagName(s)[0];
-      if(!d.getElementById(id)){
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://weatherwidget.io/js/widget.min.js';
-        fjs.parentNode.insertBefore(js,fjs);
-      }
-    }(document,'script','weatherwidget-io-js');
-  </script>
-</div>
-    <div class="ticker">
+  </div>  <div class="section">
+    <h2>📍 Monahans Weather</h2>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/31d59n102d89/monahans/" data-label_1="MONAHANS" data-label_2="WEATHER" data-theme="dark" >MONAHANS WEATHER</a>
+    <script>
+      !function(d,s,id){
+        var js,fjs = d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+          js = d.createElement(s);
+          js.id = id;
+          js.src = 'https://weatherwidget.io/js/widget.min.js';
+          fjs.parentNode.insertBefore(js,fjs);
+        }
+      }(document,'script','weatherwidget-io-js');
+    </script>
+  </div>  <div class="section">
+    <h2>📰 Underreported News</h2>
+    <iframe src="https://www.projectcensored.org" width="100%" height="500" frameborder="0"></iframe>
+  </div>  <div class="ticker">
     <p>
       🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
       📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
