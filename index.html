@@ -3,120 +3,117 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sinist3rKr3w: Unchained</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
   <style>
     body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
       background-color: #000;
       color: #fff;
-      font-family: 'Orbitron', sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    h1 {
       text-align: center;
-      font-size: 2.8rem;
-      color: red;
+    }
+    header {
+      padding: 20px 0;
+      background-color: #000;
       text-shadow: 0 0 10px red;
-      margin-top: 20px;
+      color: red;
+      font-size: 2em;
     }
     nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin: 15px 0;
+      margin-bottom: 20px;
     }
     nav a {
-      color: #fdb913;
+      margin: 0 10px;
+      color: gold;
       text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1rem;
+      font-size: 1.1em;
     }
-    .section {
-      padding: 20px;
-      text-align: center;
+    .trailer, .logo, .radio, .karma {
+      margin: 20px auto;
+      max-width: 90%;
+    }
+    .karma button {
+      background-color: red;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1em;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px red;
+    }
+    section {
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 10px;
     }
     .section-title {
-      font-size: 1.6rem;
       color: red;
-      text-shadow: 0 0 5px red;
+      font-size: 1.5em;
+      margin-bottom: 10px;
     }
-    .btn {
+    .button-group a {
       display: inline-block;
-      background-color: red;
-      color: white;
-      padding: 12px 20px;
-      margin: 20px auto;
-      font-size: 1.1rem;
-      border: none;
-      border-radius: 10px;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 8px;
       text-decoration: none;
-      box-shadow: 0 0 15px red;
+      color: white;
+      background-color: red;
+      box-shadow: 0 0 8px red;
     }
-    iframe, video {
-      display: block;
-      margin: 0 auto;
-      margin-top: 15px;
-      box-shadow: 0 0 20px red;
-      border-radius: 10px;
-    }
-    .logo {
-      display: block;
-      margin: 20px auto;
-      max-width: 200px;
-    }
-    .card {
-      border: 1px solid red;
-      border-radius: 12px;
-      padding: 15px;
-      margin: 15px;
-      background-color: #111;
-      box-shadow: 0 0 15px red;
-    }
-    .floating-text {
-      animation: float 3s ease-in-out infinite;
-      color: #fdb913;
-      font-size: 1.2rem;
-      text-align: center;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
+    footer {
+      margin: 40px auto;
+      font-size: 1.2em;
+      color: orange;
     }
   </style>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo" />
-  <h1>SINIST3RKR3W: UNCHAINED</h1>  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="news.html">News</a>
-    <a href="weather.html">Weather</a>
-    <a href="refund.html">Refund Policy</a>
-    <a href="karma.html">Karma Drop</a>
-  </nav>  <div class="section">
-    <video controls width="320" height="240">
-      <source src="trailer.mp4" type="video/mp4" />
+  <img src="Sinist3rKr3w_Logo.png" alt="Sinist3rKr3w Logo" class="logo" width="100" />
+  <header>SINIST3RKR3W: UNCHAINED</header>  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#news">News</a>
+    <a href="#weather">Weather</a>
+    <a href="#refund">Refund Policy</a>
+    <a href="#karma">Karma Drop</a>
+  </nav>  <div class="trailer">
+    <video width="320" height="240" controls>
+      <source src="trailer.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKheYxAnrJH2G2we-ySGaav69M2KG3_oqh-Uv70IVQzNGSdg/viewform" target="_blank" class="btn">Sponsor a Karma Drop</a>
-  </div>  <div class="section">
-    <iframe src="https://zeno.fm/player/sinist3rkr3wradio" width="100%" height="150" frameborder="0" scrolling="no" allow="autoplay"></iframe>
-  </div>  <div class="section card">
+  </div>  <div class="karma">
+    <button onclick="location.href='https://your-karma-drop-link.com'">Sponsor a Karma Drop</button>
+  </div>  <div class="radio">
+    <iframe src="https://zeno.fm/player/sinist3rkr3w" width="100%" height="150" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+  </div>  <section id="news">
     <div class="section-title">👁️ Underreported Stories</div>
     <p>Stay informed. Stay sharp.</p>
-    <a class="btn" href="#">🔥 Climate Protests in Remote Areas</a><br/>
-    <a class="btn" href="#">📰 Displaced Families Report</a><br/>
-    <a class="btn" href="#">🌍 Environmental Impact Report</a>
-  </div>  <div class="section card">
+    <div class="button-group">
+      <a href="#">🔥 Climate Protests in Remote Areas</a>
+      <a href="#">📄 Displaced Families Report</a>
+      <a href="#">🌍 Environmental Impact Report</a>
+    </div>
+  </section>  <section id="support">
     <div class="section-title">💳 Support the Movement</div>
-    <a class="btn" href="#">☕ Donate / Support</a>
-  </div>  <div class="section card">
+    <a class="button-group" href="https://cash.app/$hunt3rlee21">☕ Donate / Support</a>
+  </section>  <section id="conversation">
     <div class="section-title">💬 Join the Conversation</div>
     <p>Click the chat icon at the bottom-right to connect with the Kr3w!</p>
-  </div>  <div class="section card">
+  </section>  <section id="rebellion">
     <div class="section-title">👥 The Rebellion Wall</div>
     <p>Share your voice, ideas, and truths. Let the world know you're part of the resistance.</p>
-  </div>  <div class="floating-text">🔥 Still Risin’ 🔥</div>
+  </section>  <section id="about">
+    <div class="section-title">📜 About Us</div>
+    <p>We are Sinist3rKr3w — born from fire, forged by truth. What we do is bigger than content — it’s a movement.</p>
+  </section>  <section id="weather">
+    <div class="section-title">🌦️ Local Weather</div>
+    <iframe src="https://forecast7.com/en/31d58n102d89/monahans/?unit=us" frameborder="0" width="100%" height="200"></iframe>
+  </section>  <section id="refund">
+    <div class="section-title">📄 Refund Policy</div>
+    <p>All Karma Drops and digital goods are final unless otherwise stated. Reach out directly for exceptional cases.</p>
+  </section>  <footer>
+    🔥 Still Risin’ 🔥
+  </footer>
 </body>
 </html>
