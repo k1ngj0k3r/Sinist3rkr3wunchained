@@ -3,126 +3,120 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sinist3rKr3w: Unchained</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
   <style>
     body {
-      margin: 0;
+      background-color: #000;
+      color: #fff;
       font-family: 'Orbitron', sans-serif;
-      background-color: #0a0a0a;
-      color: #ffffff;
-      overflow-x: hidden;
-    }
-    header, nav, main, section, footer {
-      text-align: center;
-      margin: 1em auto;
-      padding: 0.5em;
+      margin: 0;
+      padding: 0;
     }
     h1 {
+      text-align: center;
+      font-size: 2.8rem;
       color: red;
-      text-shadow: 0 0 8px red;
+      text-shadow: 0 0 10px red;
+      margin-top: 20px;
     }
-    .button {
-      background-color: red;
-      color: white;
-      padding: 1em;
-      border: none;
-      border-radius: 10px;
-      box-shadow: 0 0 10px red;
-      margin: 1em auto;
-      display: inline-block;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .highlight-box {
-      background-color: #121212;
-      border: 1px solid red;
-      border-radius: 8px;
-      padding: 1em;
-      margin: 1em;
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 15px 0;
     }
     nav a {
-      margin: 0 10px;
-      color: orange;
+      color: #fdb913;
       text-decoration: none;
       font-weight: bold;
+      font-size: 1.1rem;
     }
-    nav a:hover {
-      text-decoration: underline;
+    .section {
+      padding: 20px;
+      text-align: center;
     }
     .section-title {
-      font-size: 1.5em;
-      margin-top: 2em;
+      font-size: 1.6rem;
       color: red;
+      text-shadow: 0 0 5px red;
     }
-    .underreported li {
-      text-align: left;
-      margin-left: 2em;
-      color: yellow;
+    .btn {
+      display: inline-block;
+      background-color: red;
+      color: white;
+      padding: 12px 20px;
+      margin: 20px auto;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 15px red;
     }
-    .weather-widget {
-      margin: auto;
+    iframe, video {
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+      box-shadow: 0 0 20px red;
+      border-radius: 10px;
     }
-    .zeno {
-      margin: 2em 0;
+    .logo {
+      display: block;
+      margin: 20px auto;
+      max-width: 200px;
+    }
+    .card {
+      border: 1px solid red;
+      border-radius: 12px;
+      padding: 15px;
+      margin: 15px;
+      background-color: #111;
+      box-shadow: 0 0 15px red;
+    }
+    .floating-text {
+      animation: float 3s ease-in-out infinite;
+      color: #fdb913;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
     }
   </style>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <h1>SINIST3RKR3W: UNCHAINED</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="news.html">News</a>
-      <a href="weather.html">Weather</a>
-      <a href="refund.html">Refund Policy</a>
-      <a href="karma.html">Karma Drop</a>
-    </nav>
-  </header>  <main>
-    <div class="weather-widget">
-      <!-- Weather widget insert -->
-      <iframe src="https://forecast7.com/en/31d59n102d89/monahans/?unit=us" frameborder="0" width="100%" height="120"></iframe>
-    </div><section class="highlight-box">
-  <div class="section-title">
-    <span>👁️ Underreported Stories</span>
-  </div>
-  <p>Stay informed. Stay sharp.</p>
-  <a class="button" href="#"> 🔥 Climate Protests in Remote Areas</a><br />
-  <a class="button" href="#"> 📄 Displaced Families Report</a><br />
-  <a class="button" href="#"> 🌍 Environmental Impact Report</a>
-</section>
-
-<section>
-  <div class="section-title">
-    💳 Support the Movement
-  </div>
-  <a class="button" href="#"> ☕ Donate / Support</a>
-</section>
-
-<section>
-  <div class="section-title">
-    💬 Join the Conversation
-  </div>
-  <p>Click the chat icon at the bottom-right to connect with the Kr3w!</p>
-</section>
-
-<section>
-  <div class="section-title">
-    👥 The Rebellion Wall
-  </div>
-  <p>Share your voice, ideas, and truths. Let the world hear your roar.</p>
-</section>
-
-<section>
-  <h2>🔊 Listen to the Station</h2>
-  <div class="zeno">
-    <iframe src="https://zeno.fm/player/sinist3rkr3w" width="100%" height="120" frameborder="0" allowtransparency="true"></iframe>
-    <a href="https://zeno.fm/sinist3rkr3w" target="_blank" style="color: yellow;">Open in Zeno.fm</a>
-  </div>
-</section>
-
-  </main>  <footer>
-    <p>🔥 Still Risin’ 🔥</p>
-  </footer>
+  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo" />
+  <h1>SINIST3RKR3W: UNCHAINED</h1>  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="news.html">News</a>
+    <a href="weather.html">Weather</a>
+    <a href="refund.html">Refund Policy</a>
+    <a href="karma.html">Karma Drop</a>
+  </nav>  <div class="section">
+    <video controls width="320" height="240">
+      <source src="trailer.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKheYxAnrJH2G2we-ySGaav69M2KG3_oqh-Uv70IVQzNGSdg/viewform" target="_blank" class="btn">Sponsor a Karma Drop</a>
+  </div>  <div class="section">
+    <iframe src="https://zeno.fm/player/sinist3rkr3wradio" width="100%" height="150" frameborder="0" scrolling="no" allow="autoplay"></iframe>
+  </div>  <div class="section card">
+    <div class="section-title">👁️ Underreported Stories</div>
+    <p>Stay informed. Stay sharp.</p>
+    <a class="btn" href="#">🔥 Climate Protests in Remote Areas</a><br/>
+    <a class="btn" href="#">📰 Displaced Families Report</a><br/>
+    <a class="btn" href="#">🌍 Environmental Impact Report</a>
+  </div>  <div class="section card">
+    <div class="section-title">💳 Support the Movement</div>
+    <a class="btn" href="#">☕ Donate / Support</a>
+  </div>  <div class="section card">
+    <div class="section-title">💬 Join the Conversation</div>
+    <p>Click the chat icon at the bottom-right to connect with the Kr3w!</p>
+  </div>  <div class="section card">
+    <div class="section-title">👥 The Rebellion Wall</div>
+    <p>Share your voice, ideas, and truths. Let the world know you're part of the resistance.</p>
+  </div>  <div class="floating-text">🔥 Still Risin’ 🔥</div>
 </body>
 </html>
