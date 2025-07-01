@@ -4,67 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
- <style>
-   .spark-section {
-  position: relative;
-  background: #000; /* base black background */
-  overflow: hidden;
-  z-index: 1;
-  border: 2px solid #ff4e00;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
+  <title>Sinist3rKr3w: Unchained</title>
 
-.spark-section::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: url('https://i.gifer.com/ZZ5H.gif') center/cover no-repeat; /* ember GIF */
-  opacity: 0.15;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.spark-section * {
-  position: relative;
-  z-index: 2;
-}
-  </style>
-  body {
-    color: #f2f2f2;
-    font-family: 'Segoe UI', sans-serif;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-    color: #ff3333;
-    margin-bottom: 10px;
-  }
-
-  .logo {
-    width: 160px;
-    margin: 20px auto;
-    display: block;
-  }
- </style>
-
+  <style>
+    body {
+      background-color: #000;
+      color: #f2f2f2;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
     }
 
-    video {
+    h1 {
+      font-size: 2.5rem;
+      color: #ff3333;
+      margin-bottom: 10px;
+    }
+
+    .logo {
+      width: 160px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    video, audio {
+      margin-top: 20px;
       width: 90%;
       max-width: 720px;
-      margin-top: 20px;
       border-radius: 12px;
       box-shadow: 0 0 12px #ff0000aa;
-    }
-
-    audio {
-      margin-top: 20px;
-      width: 90%;
-      max-width: 500px;
     }
 
     .btn {
@@ -123,27 +92,48 @@
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
     }
+
+    .spark-section {
+      position: relative;
+      background: #000;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .spark-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: url('https://i.gifer.com/ZZ5H.gif') center/cover no-repeat;
+      opacity: 0.15;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .spark-section * {
+      position: relative;
+      z-index: 2;
+    }
   </style>
 </head>
 
-<body>
-
+<body class="spark-section">
   <div class="floating-text">🔥 Rise Above the Ashes 🔥</div>
 
-  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo">
+  <img src="logo.png" alt="Sinist3rKr3w Logo" class="logo" />
 
   <h1>Sinist3rKr3w: Unchained</h1>
   <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
-  <!-- 🎬 Trailer Video -->
+  <!-- 🎥 Trailer Video -->
   <video autoplay muted loop>
     <source src="sinist3rkr3w_trailer.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
-  <!-- 🎙️ Sky’s Message -->
+  <!-- 🔊 Sky’s Message -->
   <div class="section">
-    <h2>🎙️ Sky’s Message</h2>
+    <h2>🔊 Sky’s Message</h2>
     <audio controls>
       <source src="sky_voiceover.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
@@ -152,57 +142,55 @@
 
   <!-- 📻 Radio Player -->
   <div class="section">
-    <iframe src="https://stream.zeno.fm/bopyz8zwv0juv" width="100%" height="120" frameborder="0" allow="autoplay"></iframe>
+    <h2>📻 Kr3w Radio</h2>
+    <iframe src="https://stream.zeno.fm/bopyz8zvw0jvv" width="100%" height="120" frameborder="0" allow="autoplay"></iframe>
   </div>
 
   <!-- 🔗 Button Links -->
   <div class="section">
-    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
+    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📝 Read the Blog</a>
     <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
-    <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Download & Support</a>
+    <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">📦 Download & Support</a>
     <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">✉️ Email the Kr3w</a>
-    <a class="btn" href="about.html">🧭 About Us</a>
-    <a class="btn" href="karma.html">🔥 Karma Drop</a>
+    <a class="btn" href="about.html">🔥 About Us</a>
+    <a class="btn" href="karma.html">🧧 Karma Drop</a>
     <a class="btn" href="refund.html">💸 Refund Policy</a>
   </div>
-<!-- 📰 News -->
+
+  <!-- 📰 News -->
   <div class="section">
     <h2>📰 Underreported News</h2>
     <iframe src="https://www.projectcensored.org" width="100%" height="500" frameborder="0"></iframe>
-  <!-- 🌤️ Weather Display Widget -->
-<div class="section spark-section">
-  <h2>Local Weather</h2>
-  <a class="weatherwidget-io"
-     href="https://forecast7.com/en/31d6n102d9/monahans/?unit=us"
-     data-label_1="MONAHANS"
-     data-label_2="WEATHER"
-     data-theme="dark">
-     MONAHANS WEATHER
-  </a>
-</div>
-<!-- 🔥 Shout-Out Ticker -->
-<div class="ticker">
-  <p>
-    🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
-    📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
-    🔥 Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
-    🎙️ Dory’s vibin’ with us down in Texas! &nbsp;&nbsp;
-    🌍 Who's next to join the wave?
-  </p>
-</div>
+  </div>
 
-<script>
-  fetch("https://ipapi.co/json/")
-    .then(response => response.json())
-    .then(data => {
-      const ticker = document.querySelector(".ticker p");
-      const location = `${data.city}, ${data.region}`;
-      const shoutout = `🌍 Shout-out from ${location}! &nbsp;&nbsp;`;
-      ticker.innerHTML = shoutout + ticker.innerHTML;
-    })
-    .catch(error => {
-      console.error("Geo lookup failed:", error);
-    });
-</script>
+  <!-- 🌦️ Weather -->
+  <div class="section">
+    <h2>🌦️ Local Weather</h2>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/31d6n102d9/monahans/?unit=us"
+      data-label_1="MONAHANS"
+      data-label_2="WEATHER"
+      data-theme="dark">MONAHANS WEATHER</a>
+    <script>
+      !function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+          js=d.createElement(s);js.id=id;
+          js.src='https://weatherwidget.io/js/widget.min.js';
+          fjs.parentNode.insertBefore(js,fjs);
+        }
+      }(document,'script','weatherwidget-io-js');
+    </script>
+  </div>
+
+  <!-- 📢 Shout-Out Ticker -->
+  <div class="ticker">
+    <p>
+      🔥 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;&nbsp;
+      🎧 Tuned in from Seminole, TX! &nbsp;&nbsp;&nbsp;
+      💡 Neon’s got it on blast in the Rockies! &nbsp;&nbsp;&nbsp;
+      😎 Dory’s vibin’ with us down in Texas! &nbsp;&nbsp;&nbsp;
+      🤘 Who’s next to join the wave?
+    </p>
+  </div>
 </body>
 </html>
