@@ -5,18 +5,38 @@
   <title>Sinist3rKr3w: Unchained</title>
   <style>
     body {
-      background-color: #0d0d0d;
-      color: #f2f2f2;
-      font-family: 'Segoe UI', sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 20px;
-      background-image: url('https://i.gifer.com/ZZ5H.gif');
-      background-size: cover;
-      background-position: center;
-      background-repeat: repeat;
-      background-attachment: fixed;
-    }h1 {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* 🔥 Floating ember flame background */
+body::before {
+  content: "";
+  background-image: url('https://i.gifer.com/ZZ5H.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.15;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Keep everything above the ember */
+body * {
+  position: relative;
+  z-index: 1;
+}
   font-size: 2.5rem;
   color: #ff3333;
   margin-bottom: 10px;
