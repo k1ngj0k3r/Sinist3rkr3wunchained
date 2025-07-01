@@ -5,6 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
  <style>
+   .spark-section {
+  position: relative;
+  background: #000; /* base black background */
+  overflow: hidden;
+  z-index: 1;
+  border: 2px solid #ff4e00;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.spark-section::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('https://i.gifer.com/ZZ5H.gif') center/cover no-repeat; /* ember GIF */
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.spark-section * {
+  position: relative;
+  z-index: 2;
+}
+  </style>
   body {
     color: #f2f2f2;
     font-family: 'Segoe UI', sans-serif;
@@ -100,32 +125,7 @@
     }
   </style>
 </head>
-  <style>
-.spark-section {
-  position: relative;
-  background: #000; /* base black background */
-  overflow: hidden;
-  z-index: 1;
-  border: 2px solid #ff4e00;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
 
-.spark-section::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: url('https://i.gifer.com/ZZ5H.gif') center/cover no-repeat; /* ember GIF */
-  opacity: 0.15;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.spark-section * {
-  position: relative;
-  z-index: 2;
-}
-  </style>
 <body>
 
   <div class="floating-text">🔥 Rise Above the Ashes 🔥</div>
