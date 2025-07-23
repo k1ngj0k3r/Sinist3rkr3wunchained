@@ -18,10 +18,10 @@
 
     body::before {
       content: "";
-      background-image: url('https://media.giphy.com/media/l41YhZr6Rvd6VRH0g/giphy.gif'); /*🔥 Realistic flame wall */
+      background-image: url('https://media.giphy.com/media/l41YhZr6Rvd6VRH0g/giphy.gif');
       background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       opacity: 0.15;
       position: fixed;
       top: 0;
@@ -211,18 +211,18 @@
       d.getElementsByTagName("head")[0].appendChild(s);
     })();
 
-    // Live visitor popup simulation
+    // Simulate new visitor popup
     window.addEventListener("load", function () {
       setTimeout(function () {
-        document.getElementById("popup").style.display = "block";
-        setTimeout(function () {
-          document.getElementById("popup").style.display = "none";
-        }, 5000);
+        const popup = document.getElementById("popup");
+        popup.style.display = "block";
+        setTimeout(() => popup.style.display = "none", 5000);
       }, 3000);
     });
   </script>
 </body>
 </html>
+
 
 
 
