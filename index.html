@@ -18,11 +18,11 @@
 
     body::before {
       content: "";
-      background-image: url('https://i.gifer.com/origin/f7/f7790f2546b31c80e0865fc83dcfe8c5.gif');
+      background-image: url('https://media.giphy.com/media/l41YhZr6Rvd6VRH0g/giphy.gif'); /*🔥 Realistic flame wall */
       background-size: cover;
       background-position: center;
-      background-repeat: repeat;
-      opacity: 0.12;
+      background-repeat: no-repeat;
+      opacity: 0.15;
       position: fixed;
       top: 0;
       left: 0;
@@ -61,7 +61,6 @@
       background-color: #ff3333;
       color: white;
       padding: 12px 24px;
-      text-align: center;
       font-size: 16px;
       margin: 12px 6px;
       cursor: pointer;
@@ -103,13 +102,6 @@
       100% { transform: translateX(-100%); }
     }
 
-    .visitor-note {
-      margin-top: 40px;
-      font-style: italic;
-      font-size: 1.2rem;
-      color: #FFD700;
-    }
-
     form {
       margin-top: 30px;
     }
@@ -129,16 +121,23 @@
       min-height: 100px;
     }
 
-    .form-instructions {
-      margin-top: 20px;
-      color: #bbb;
+    .visitor-note {
+      margin-top: 30px;
+      color: #FFD700;
+      font-style: italic;
     }
 
-    #live-visitors {
-      margin-top: 25px;
-      font-weight: bold;
-      color: #00FF00;
-      font-size: 1.2rem;
+    #popup {
+      display: none;
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      background-color: #ff3333;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #000;
+      z-index: 9999;
     }
   </style>
 </head>
@@ -147,14 +146,14 @@
   <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
   <video controls>
-    <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
+    <source src="sinist3rkr3w_trailer.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
   <div class="section">
     <h2>🎙️ Sky’s Message</h2>
     <audio controls>
-      <source src="sky_voiceover.mp3" type="audio/mpeg">
+      <source src="sky_voiceover.mp3" type="audio/mpeg" />
       Your browser does not support the audio element.
     </audio>
   </div>
@@ -177,14 +176,6 @@
 
   <div class="visitor-note">👁️ We see you. Welcome to the fire.</div>
 
-  <div id="live-visitors">
-    👁️ Live Visitors Right Now: <span id="visitor-count">Loading...</span>
-  </div>
-
-  <div class="form-instructions">
-    💬 Want to leave your mark? Send us a message and let us know you stopped by. Or just say, "We see you too."
-  </div>
-
   <form action="https://formspree.io/f/manbevop" method="POST">
     <input type="text" name="name" placeholder="Your Name" required />
     <input type="email" name="email" placeholder="Your Email" required />
@@ -192,12 +183,12 @@
     <button type="submit" class="btn">🚀 Send It</button>
   </form>
 
-  <div class="form-instructions">
+  <div class="visitor-note">
     Or text the Kr3w directly at <strong>(432) 201-9522</strong>. 🔥
   </div>
 
   <div class="ticker">
-    <p>
+    <p id="autoShout">
       🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
       📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
       🔥 Neon’s got it on blast in the Rockies! &nbsp;&nbsp;
@@ -206,7 +197,10 @@
     </p>
   </div>
 
+  <div id="popup">🔥 New visitor just dropped in!</div>
+
   <script type="text/javascript">
+    // Crisp Chat
     window.$crisp = [];
     window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
     (function () {
@@ -217,22 +211,19 @@
       d.getElementsByTagName("head")[0].appendChild(s);
     })();
 
-    // Live visitor count script
-    async function updateVisitorCount() {
-      try {
-        const response = await fetch('https://api.countapi.xyz/hit/sinist3rkr3w.livevisitors/visits');
-        const data = await response.json();
-        document.getElementById("visitor-count").textContent = data.value;
-      } catch (error) {
-        document.getElementById("visitor-count").textContent = "Unavailable";
-      }
-    }
-
-    updateVisitorCount();
-    setInterval(updateVisitorCount, 15000);
+    // Live visitor popup simulation
+    window.addEventListener("load", function () {
+      setTimeout(function () {
+        document.getElementById("popup").style.display = "block";
+        setTimeout(function () {
+          document.getElementById("popup").style.display = "none";
+        }, 5000);
+      }, 3000);
+    });
   </script>
 </body>
 </html>
+
 
 
 
