@@ -1,124 +1,164 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sinist3rKr3w: Unchained</title>
   <style>
     body {
-  background-color: #0d0d0d;
-  color: #f2f2f2;
-  font-family: 'Segoe UI', sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-  position: relative;
-  overflow-x: hidden;
-}
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
 
-/* 🔥 Floating ember flame background */
-body::before {
-  content: "";
-  background-image: url('https://i.gifer.com/ZZ5H.gif');
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-  opacity: 0.15;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 0;
-  pointer-events: none;
-}
+    body::before {
+      content: "";
+      background-image: url('https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif');
+      background-size: cover;
+      background-position: center;
+      background-repeat: repeat;
+      opacity: 0.12;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
 
-/* Keep everything above the ember */
-body * {
-  position: relative;
-  z-index: 1;
-}
-  font-size: 2.5rem;
-  color: #ff3333;
-  margin-bottom: 10px;
-}
+    body * {
+      position: relative;
+      z-index: 1;
+    }
 
-video {
-  width: 90%;
-  max-width: 720px;
-  margin-top: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px #ff0000aa;
-}
+    h1 {
+      font-size: 2.5rem;
+      color: #ff3333;
+      margin-bottom: 10px;
+    }
 
-audio {
-  margin-top: 20px;
-  width: 90%;
-  max-width: 500px;
-}
+    video {
+      width: 90%;
+      max-width: 720px;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px #ff0000aa;
+    }
 
-.btn {
-  background-color: #ff3333;
-  color: white;
-  padding: 12px 24px;
-  text-align: center;
-  font-size: 16px;
-  margin: 12px 6px;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s;
-}
+    audio {
+      margin-top: 20px;
+      width: 90%;
+      max-width: 500px;
+    }
 
-.btn:hover {
-  background-color: #cc0000;
-}
+    .btn {
+      background-color: #ff3333;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 16px;
+      margin: 12px 6px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
 
-.section {
-  margin: 40px 0;
-}
+    .btn:hover {
+      background-color: #cc0000;
+    }
 
-.ticker {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: #FFD700;
-  color: #000;
-  font-weight: bold;
-  overflow: hidden;
-  white-space: nowrap;
-  z-index: 9999;
-}
+    .section {
+      margin: 40px 0;
+    }
 
-.ticker p {
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll-left 20s linear infinite;
-}
+    .ticker {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      z-index: 9999;
+    }
 
-@keyframes scroll-left {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-100%); }
-}
+    .ticker p {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 20s linear infinite;
+    }
 
+    @keyframes scroll-left {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    .visitor-note {
+      margin-top: 40px;
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #FFD700;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      margin: 10px 0;
+      width: 90%;
+      max-width: 500px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-instructions {
+      margin-top: 20px;
+      color: #bbb;
+    }
   </style>
 </head>
-<body>  <h1>Sinist3rKr3w: Unchained</h1>
-  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>  <!-- 🎬 Trailer Video -->  <video controls>
+<body>
+  <h1>Sinist3rKr3w: Unchained</h1>
+  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
+
+  <video controls>
     <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
     Your browser does not support the video tag.
-  </video>  <!-- 🎤 Sky's Voiceover -->  <div class="section">
+  </video>
+
+  <div class="section">
     <h2>🎙️ Sky’s Message</h2>
     <audio controls>
       <source src="sky_voiceover.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
-  </div>  <!-- 📻 Zeno Radio Button -->  <div class="section">
+  </div>
+
+  <div class="section">
     <div class="btn" onclick="window.open('https://stream.zeno.fm/bopyz8zwv0juv', '_blank')">
       ▶️ Tap to Listen Live on Zeno
     </div>
-  </div>  <!-- 🔗 Buttons -->  <div class="section">
+  </div>
+
+  <div class="section">
     <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">📻 Listen to the Station</a>
     <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
     <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
@@ -126,7 +166,26 @@ audio {
     <a class="btn" href="mailto:ryan@sinist3rkr3w.it.com">✉️ Email the Kr3w</a>
     <a class="btn" href="about.html">🧭 About Us</a>
     <a class="btn" href="refund.html">💸 Refund Policy</a>
-  </div>  <!-- 🟨 Shout-Out Ticker -->  <div class="ticker">
+  </div>
+
+  <div class="visitor-note">👁️ We see you. Welcome to the fire.</div>
+
+  <div class="form-instructions">
+    💬 Want to leave your mark? Send us a message and let us know you stopped by. Or just say, "We see you too."
+  </div>
+
+  <form action="https://formspree.io/f/yourformid" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Drop your message here..." required></textarea>
+    <button type="submit" class="btn">🚀 Send It</button>
+  </form>
+
+  <div class="form-instructions">
+    Or text the Kr3w directly at <strong>(432) 201-9522</strong>. 🔥
+  </div>
+
+  <div class="ticker">
     <p>
       🎧 Sinist3rKr3w reppin’ hard in Colorado! &nbsp;&nbsp;
       📍 Tuned in from Seminole, TX! &nbsp;&nbsp;
@@ -134,7 +193,9 @@ audio {
       🎙️ Dory’s vibin’ with us down in Texas! &nbsp;&nbsp;
       🌍 Who's next to join the wave?
     </p>
-  </div>  <!-- 💬 Crisp Chat Integration -->  <script type="text/javascript">
+  </div>
+
+  <script type="text/javascript">
     window.$crisp = [];
     window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
     (function () {
@@ -144,5 +205,6 @@ audio {
       s.async = 1;
       d.getElementsByTagName("head")[0].appendChild(s);
     })();
-  </script></body>
+  </script>
+</body>
 </html>
