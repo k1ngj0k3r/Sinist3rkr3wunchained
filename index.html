@@ -78,6 +78,39 @@
       text-align: center;
     }
 
+    #radio-player {
+      background: linear-gradient(135deg, #1a1a1a, #2d0000);
+      border: 2px solid #ff3333;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 500px;
+      box-shadow: 0 0 20px #ff333355;
+    }
+
+    #radio-status {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    #volume-control {
+      width: 200px;
+      margin: 15px 10px;
+      vertical-align: middle;
+    }
+
+    #volume-label {
+      color: #ff3333;
+      font-weight: bold;
+    }
+
     form {
       text-align: center;
       margin: 30px auto;
@@ -154,7 +187,12 @@
   </div>
 
   <div class="section">
-    <a class="btn" href="https://stream.zeno.fm/bopyz8zwv0juv" target="_blank">📻 Listen to the Station</a>
+    <div id="radio-player">
+      <div id="radio-status">🔴 Station Ready</div>
+      <button class="btn" id="radio-toggle">📻 Play Radio</button>
+      <input type="range" id="volume-control" min="0" max="100" value="70">
+      <span id="volume-label">70%</span>
+    </div>
     <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
     <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
     <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Support & Downloads</a>
@@ -190,8 +228,83 @@
       d.getElementsByTagName("head")[0].appendChild(s);
     })();
 
-    // Visitor Popup Simulation
-    window.addEventListener("load", function () {
+    // Radio Station Player
+    let radioAudio = null;
+    let isPlaying = false;
+    let reconnectAttempts = 0;
+    const maxReconnectAttempts = 5;
+    const radioUrl = "https://stream.zeno.fm/bopyz8zwv0juv";
+
+    function initRadio() {
+      radioAudio = new Audio(radioUrl);
+      radioAudio.volume = 0.7;
+
+      radioAudio.addEventListener('playing', () => {
+        document.getElementById('radio-status').textContent = '🔴 LIVE - Broadcasting Now';
+        document.getElementById('radio-toggle').textContent = '⏸️ Pause Radio';
+        isPlaying = true;
+        reconnectAttempts = 0;
+      });
+
+      radioAudio.addEventListener('pause', () => {
+        document.getElementById('radio-status').textContent = '⏸️ Station Paused';
+        document.getElementById('radio-toggle').textContent = '📻 Play Radio';
+        isPlaying = false;
+      });
+
+      radioAudio.addEventListener('waiting', () => {
+        document.getElementById('radio-status').textContent = '⏳ Buffering...';
+      });
+
+      radioAudio.addEventListener('error', (e) => {
+        console.error('Radio stream error:', e);
+        if (reconnectAttempts < maxReconnectAttempts) {
+          reconnectAttempts++;
+          document.getElementById('radio-status').textContent = `🔄 Reconnecting (${reconnectAttempts}/${maxReconnectAttempts})...`;
+          setTimeout(() => {
+            if (isPlaying) {
+              radioAudio.load();
+              radioAudio.play().catch(err => console.error('Reconnect failed:', err));
+            }
+          }, 2000);
+        } else {
+          document.getElementById('radio-status').textContent = '❌ Stream Unavailable';
+          isPlaying = false;
+        }
+      });
+
+      radioAudio.addEventListener('stalled', () => {
+        document.getElementById('radio-status').textContent = '⚠️ Stream Stalled - Reconnecting...';
+        radioAudio.load();
+        if (isPlaying) {
+          radioAudio.play().catch(err => console.error('Restart failed:', err));
+        }
+      });
+    }
+
+    window.addEventListener('load', () => {
+      initRadio();
+
+      document.getElementById('radio-toggle').addEventListener('click', () => {
+        if (!radioAudio) initRadio();
+
+        if (isPlaying) {
+          radioAudio.pause();
+        } else {
+          radioAudio.play().catch(err => {
+            console.error('Play failed:', err);
+            document.getElementById('radio-status').textContent = '❌ Unable to play - Try again';
+          });
+        }
+      });
+
+      document.getElementById('volume-control').addEventListener('input', (e) => {
+        const volume = e.target.value / 100;
+        if (radioAudio) radioAudio.volume = volume;
+        document.getElementById('volume-label').textContent = e.target.value + '%';
+      });
+
+      // Visitor Popup Simulation
       setTimeout(() => {
         document.getElementById("popup").style.display = "block";
         setTimeout(() => {
