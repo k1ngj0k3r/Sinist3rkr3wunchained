@@ -1,2 +1,7 @@
+# backups
+*.bak.*
+
+# archives
+*.zip
 node_modules/
 .env
