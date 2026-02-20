@@ -4,172 +4,62 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sinist3rKr3w: Unchained</title>
+#radio-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #111;
+  border-top: 1px solid #222;
+  padding: 10px;
+  z-index: 999;
+}
+
+.radio-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.radio-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.35; }
+  100% { opacity: 1; }
+}
+
+#radio-bar audio {
+  width: 170px;
+}
   <style>
-    body {
-      background-color: #000;
-      color: #f2f2f2;
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      overflow-x: hidden;
-      position: relative;
-    }
+<section id="radio-bar">
+  <div class="radio-inner">
+    <div class="radio-left">
+      <span class="dot"></span>
+      <span>Sinist3rKr3w Live Radio</span>
+    </div>
 
-    body::before {
-      content: "";
-      background-image: url('https://i.gifer.com/3oVz.gif'); /* Red Hot Smoke/Fire */
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      opacity: 0.2;
-      z-index: 0;
-      pointer-events: none;
-    }
-
-    body * {
-      position: relative;
-      z-index: 1;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #ff3333;
-      margin: 20px 0 10px;
-      text-align: center;
-    }
-
-    p, h2 {
-      text-align: center;
-    }
-
-    video, audio {
-      display: block;
-      margin: 20px auto;
-      width: 90%;
-      max-width: 720px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #ff0000aa;
-    }
-
-    .btn {
-      background-color: #ff3333;
-      color: white;
-      padding: 12px 24px;
-      margin: 10px;
-      border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      cursor: pointer;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    .btn:hover {
-      background-color: #cc0000;
-    }
-
-    .section {
-      padding: 20px;
-      text-align: center;
-    }
-
-    #radio-player {
-      background: linear-gradient(135deg, #1a1a1a, #2d0000);
-      border: 2px solid #ff3333;
-      border-radius: 12px;
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 500px;
-      box-shadow: 0 0 20px #ff333355;
-    }
-
-    #radio-status {
-      font-size: 1.2rem;
-      margin-bottom: 15px;
-      font-weight: bold;
-      animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.6; }
-    }
-
-    #volume-control {
-      width: 200px;
-      margin: 15px 10px;
-      vertical-align: middle;
-    }
-
-    #volume-label {
-      color: #ff3333;
-      font-weight: bold;
-    }
-
-    form {
-      text-align: center;
-      margin: 30px auto;
-    }
-
-    input, textarea {
-      width: 90%;
-      max-width: 500px;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 6px;
-      border: none;
-      font-size: 1rem;
-    }
-
-    textarea {
-      resize: vertical;
-      min-height: 100px;
-    }
-
-    .ticker {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background-color: #FFD700;
-      color: #000;
-      font-weight: bold;
-      overflow: hidden;
-      white-space: nowrap;
-      z-index: 9999;
-    }
-
-    .ticker p {
-      display: inline-block;
-      padding-left: 100%;
-      animation: scroll-left 18s linear infinite;
-    }
-
-    @keyframes scroll-left {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-100%); }
-    }
-
-    #popup {
-      display: none;
-      position: fixed;
-      bottom: 70px;
-      right: 20px;
-      background-color: #ff3333;
-      color: white;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px #000;
-      z-index: 9999;
-    }
-  </style>
-</head>
-<body>
-
+    <audio controls preload="none">
+      <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</section>
   <h1>Sinist3rKr3w: Unchained</h1>
   <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
 
