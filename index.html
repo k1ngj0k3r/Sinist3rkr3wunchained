@@ -1,219 +1,499 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#000000" />
   <title>Sinist3rKr3w: Unchained</title>
-<style>
-#radio-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: #111;
-  border-top: 1px solid #222;
-  padding: 10px;
-  z-index: 999;
-}
+  <meta name="description" content="Sinist3rKr3w Unchained — Faith. Fire. Family. Live stream, trailer, drops, and hub links." />
 
-.radio-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-}
-
-.radio-left {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  background: red;
-  border-radius: 50%;
-  animation: pulse 1.2s infinite;
-}
-
-@keyframes pulse {
-  0% { opacity: 1; }
-  50% { opacity: 0.35; }
-  100% { opacity: 1; }
-}
-
-#radio-bar audio {
-  width: 170px;
-}
-<section id="radio-bar">
-  <div class="radio-inner">
-    <div class="radio-left">
-      <span class="dot"></span>
-      <span>Sinist3rKr3w Live Radio</span>
-    </div>
-
-    <audio controls preload="none">
-      <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-</section>
-  <h1>Sinist3rKr3w: Unchained</h1>
-  <p>Your voice matters. Your fight is sacred. Welcome to the rebellion.</p>
-
-  <video controls>
-    <source src="sinist3rkr3w_trailer.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-  <div class="section">
-    <h2>🎙️ Sky’s Story</h2>
-    <audio controls>
-      <source src="sky_voiceover.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </div>
-
-  <div class="section">
-    <div id="radio-player">
-      <div id="radio-status">🔴 Station Ready</div>
-      <button class="btn" id="radio-toggle">📻 Play Radio</button>
-      <input type="range" id="volume-control" min="0" max="100" value="70">
-      <span id="volume-label">70%</span>
-    </div>
-    <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank">📖 Read the Blog</a>
-    <a class="btn" href="https://tiktok.com/@k1ngj0k3r22" target="_blank">🎬 TikTok</a>
-    <a class="btn" href="https://payhip.com/Sinist3rkr3w" target="_blank">💲 Support & Downloads</a>
-    <a class="btn" href="about.html">🧭 About Us</a>
-    <a class="btn" href="refund.html">💸 Refund Policy</a>
-  </div>
-
-  <div class="section">
-    <form action="https://formspree.io/f/manbevop" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Drop your message here..." required></textarea>
-      <button class="btn" type="submit">🚀 Send It</button>
-    </form>
-    <p>Or text the Kr3w directly at <strong>(432) 201-9522</strong>. 🔥</p>
-  </div>
-
-  <div id="popup">🔥 A visitor just dropped in!</div>
-
-  <div class="ticker">
-    <p>🎧 Sinist3rKr3w reppin’ hard! 🔥 Who’s next to join the wave? 🎤 We see you. Welcome to the fire.</p>
-  </div>
-
-  <script type="text/javascript">
-    // Crisp Chat
-    window.$crisp = [];
-    window.CRISP_WEBSITE_ID = "601fa731-a36d-4cdc-be1f-1759d7bc4d3d";
-    (function () {
-      var d = document;
-      var s = d.createElement("script");
-      s.src = "https://client.crisp.chat/l.js";
-      s.async = 1;
-      d.getElementsByTagName("head")[0].appendChild(s);
-    })();
-
-    // Radio Station Player
-    let radioAudio = null;
-    let isPlaying = false;
-    let reconnectAttempts = 0;
-    const maxReconnectAttempts = 5;
-    const radioUrl = "https://stream.zeno.fm/bopyz8zwv0juv";
-
-    function initRadio() {
-      radioAudio = new Audio(radioUrl);
-      radioAudio.volume = 0.7;
-
-      radioAudio.addEventListener('playing', () => {
-        document.getElementById('radio-status').textContent = '🔴 LIVE - Broadcasting Now';
-        document.getElementById('radio-toggle').textContent = '⏸️ Pause Radio';
-        isPlaying = true;
-        reconnectAttempts = 0;
-      });
-
-      radioAudio.addEventListener('pause', () => {
-        document.getElementById('radio-status').textContent = '⏸️ Station Paused';
-        document.getElementById('radio-toggle').textContent = '📻 Play Radio';
-        isPlaying = false;
-      });
-
-      radioAudio.addEventListener('waiting', () => {
-        document.getElementById('radio-status').textContent = '⏳ Buffering...';
-      });
-
-      radioAudio.addEventListener('error', (e) => {
-        console.error('Radio stream error:', e);
-        if (reconnectAttempts < maxReconnectAttempts) {
-          reconnectAttempts++;
-          document.getElementById('radio-status').textContent = `🔄 Reconnecting (${reconnectAttempts}/${maxReconnectAttempts})...`;
-          setTimeout(() => {
-            if (isPlaying) {
-              radioAudio.load();
-              radioAudio.play().catch(err => console.error('Reconnect failed:', err));
-            }
-          }, 2000);
-        } else {
-          document.getElementById('radio-status').textContent = '❌ Stream Unavailable';
-          isPlaying = false;
-        }
-      });
-
-      radioAudio.addEventListener('stalled', () => {
-        document.getElementById('radio-status').textContent = '⚠️ Stream Stalled - Reconnecting...';
-        radioAudio.load();
-        if (isPlaying) {
-          radioAudio.play().catch(err => console.error('Restart failed:', err));
-        }
-      });
+  <style>
+    :root{
+      --bg:#000;
+      --panel:#0b0b0b;
+      --panel2:#111;
+      --text:#f2f2f2;
+      --muted:#b8b8b8;
+      --line:#232323;
+      --accent:#ff2a2a;
+      --gold:#d7b35b;
+      --radius:16px;
+      --shadow:0 10px 30px rgba(0,0,0,.55);
+      --tickerH:44px;
+      --barH:92px;
     }
 
-    window.addEventListener('load', () => {
-      initRadio();
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:
+        radial-gradient(1200px 600px at 50% -20%, rgba(255,42,42,.18), transparent 60%),
+        radial-gradient(900px 600px at 10% 10%, rgba(215,179,91,.12), transparent 55%),
+        var(--bg);
+      color:var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height:1.4;
+      padding-bottom: calc(var(--barH) + var(--tickerH) + env(safe-area-inset-bottom));
+    }
 
-      document.getElementById('radio-toggle').addEventListener('click', () => {
-        if (!radioAudio) initRadio();
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:18px 16px 40px}
 
-        if (isPlaying) {
-          radioAudio.pause();
-        } else {
-          radioAudio.play().catch(err => {
-            console.error('Play failed:', err);
-            document.getElementById('radio-status').textContent = '❌ Unable to play - Try again';
-          });
+    /* TOP BAR */
+    .top{
+      display:flex; gap:14px; align-items:center; justify-content:space-between;
+      padding:10px 0 16px; border-bottom:1px solid var(--line);
+      position:sticky; top:0; background:rgba(0,0,0,.72); backdrop-filter: blur(10px);
+      z-index:60;
+    }
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{
+      width:42px;height:42px;border-radius:12px;
+      background: linear-gradient(135deg, rgba(255,42,42,.9), rgba(215,179,91,.55));
+      box-shadow: var(--shadow);
+      display:grid; place-items:center;
+      font-weight:900; letter-spacing:.5px;
+      user-select:none;
+    }
+    .brand h1{font-size:16px;margin:0}
+    .brand p{font-size:12px;margin:2px 0 0;color:var(--muted)}
+    .pill{
+      border:1px solid var(--line);
+      background:rgba(17,17,17,.7);
+      padding:8px 12px;border-radius:999px;
+      font-size:12px;color:var(--muted);
+      white-space:nowrap;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .pill .liveDot{
+      width:8px;height:8px;border-radius:50%;
+      background:var(--accent);
+      box-shadow:0 0 10px rgba(255,42,42,.65);
+      animation:pulse 1.2s infinite;
+    }
+
+    /* HERO GRID */
+    .hero{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap:16px;
+      align-items:start;
+    }
+    @media (max-width:860px){
+      .hero{grid-template-columns:1fr}
+    }
+
+    /* CARDS */
+    .card{
+      border:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(17,17,17,.78), rgba(10,10,10,.78));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .cardHead{padding:16px 16px 0}
+    .title{margin:0;font-size:22px;letter-spacing:.3px}
+    .subtitle{margin:8px 0 0;color:var(--muted);font-size:14px}
+    .divider{height:1px;background:var(--line);margin:14px 0}
+    .pad{padding:16px}
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:10px;
+    }
+    @media (max-width:520px){
+      .grid{grid-template-columns:1fr}
+    }
+
+    .btn{
+      display:flex; align-items:center; justify-content:space-between; gap:10px;
+      width:100%;
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.04);
+      text-decoration:none;
+      transition:transform .08s ease, background .12s ease;
+    }
+    .btn:active{transform:scale(.99)}
+    .btn:hover{background:rgba(255,255,255,.07)}
+    .btn small{color:var(--muted); display:block; margin-top:2px}
+    .tag{
+      font-size:11px;
+      padding:4px 8px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      color:var(--muted);
+      background:rgba(0,0,0,.25);
+      flex:0 0 auto;
+    }
+
+    video, audio{width:100%}
+    .media{
+      border-top:1px solid var(--line);
+      background:rgba(0,0,0,.25);
+    }
+
+    /* “DROP-IN” PING (top-right) */
+    .dropin{
+      position:fixed;
+      top:70px;
+      right:14px;
+      z-index:9999;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 12px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background:rgba(10,10,10,.88);
+      box-shadow:var(--shadow);
+      transform: translateY(-10px);
+      opacity:0;
+      pointer-events:none;
+      transition: opacity .25s ease, transform .25s ease;
+    }
+    .dropin.show{
+      opacity:1;
+      transform: translateY(0px);
+    }
+    .dropin .icon{
+      width:34px;height:34px;
+      border-radius:12px;
+      display:grid;place-items:center;
+      background:rgba(255,42,42,.14);
+      border:1px solid rgba(255,42,42,.25);
+      color:var(--text);
+      flex:0 0 auto;
+    }
+    .dropin .txt{
+      display:flex;flex-direction:column;
+      min-width:0;
+    }
+    .dropin .txt strong{
+      font-size:13px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width: 70vw;
+    }
+    .dropin .txt span{
+      font-size:12px;color:var(--muted)
+    }
+
+    /* RADIO BAR (fixed bottom) */
+    #radio-bar{
+      position:fixed;
+      left:0; right:0;
+      bottom: var(--tickerH);
+      z-index:999;
+      padding:10px 12px;
+      background:rgba(10,10,10,.92);
+      border-top:1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+    .radio-inner{
+      max-width:980px;
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    .radio-left{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width: 0;
+    }
+    .dot{
+      width:10px;height:10px;border-radius:50%;
+      background:var(--accent);
+      animation:pulse 1.2s infinite;
+      box-shadow: 0 0 12px rgba(255,42,42,.65);
+      flex:0 0 auto;
+    }
+    @keyframes pulse{0%{opacity:1}50%{opacity:.35}100%{opacity:1}}
+    .radio-title{
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+    }
+    .radio-title strong{
+      font-size:13px;
+      letter-spacing:.2px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width: 52vw;
+    }
+    .radio-title span{
+      font-size:12px;
+      color:var(--muted);
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      max-width: 52vw;
+    }
+    #radio-bar audio{
+      width: 220px;
+      max-width: 38vw;
+    }
+
+    /* TICKER (fixed bottom) */
+    #ticker{
+      position:fixed;
+      left:0; right:0;
+      bottom:0;
+      z-index:1000;
+      height: var(--tickerH);
+      background:rgba(0,0,0,.92);
+      border-top:1px solid var(--line);
+      overflow:hidden;
+      display:flex;
+      align-items:center;
+      padding:0 12px calc(env(safe-area-inset-bottom));
+      backdrop-filter: blur(10px);
+    }
+    .ticker-inner{
+      white-space:nowrap;
+      display:inline-block;
+      padding-left:100%;
+      animation: tickerMove 18s linear infinite;
+      color: var(--muted);
+      font-size:13px;
+    }
+    .ticker-inner b{color:var(--text)}
+    .ticker-inner .gold{color:var(--gold)}
+    @keyframes tickerMove{
+      0%{transform:translateX(0)}
+      100%{transform:translateX(-100%)}
+    }
+
+    .footer{
+      margin-top:16px;
+      color:var(--muted);
+      font-size:12px;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      padding-top:12px;
+      border-top:1px solid var(--line);
+    }
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}
+  </style>
+</head>
+
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="logo">SK</div>
+      <div>
+        <h1>Sinist3rKr3w: Unchained</h1>
+        <p>Faith. Fire. Family. <span class="mono">k1ngj0k3r</span></p>
+      </div>
+    </div>
+
+    <div class="pill">
+      <span class="liveDot"></span>
+      LOUD • Live • Unchained
+    </div>
+  </header>
+
+  <!-- DROP-IN TOAST -->
+  <div class="dropin" id="dropinToast" aria-live="polite">
+    <div class="icon" aria-hidden="true">
+      <!-- simple "person" icon -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+        <path d="M12 12c2.76 0 5-2.24 5-5S14.76 2 12 2 7 4.24 7 7s2.24 5 5 5Z" stroke="currentColor" stroke-width="2"/>
+        <path d="M20 22c0-4.42-3.58-8-8-8s-8 3.58-8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="txt">
+      <strong>Someone dropped in</strong>
+      <span>Welcome to the Kr3w.</span>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="hero">
+      <!-- LEFT: main hub -->
+      <div class="card">
+        <div class="cardHead">
+          <h2 class="title">This is the HQ.</h2>
+          <p class="subtitle">
+            Clean, fast, mobile-ready. Your links, your drops, your stream — in one place.
+          </p>
+          <div class="divider"></div>
+        </div>
+
+        <div class="pad">
+          <div class="grid">
+            <a class="btn" href="https://linktr.ee/K1ngj0k" target="_blank" rel="noopener noreferrer">
+              <div>
+                <div><strong>Linktree Hub</strong></div>
+                <small>Everything routes from here</small>
+              </div>
+              <span class="tag">Primary</span>
+            </a>
+
+            <a class="btn" href="https://www.youtube.com/@sinist3rkr3w" target="_blank" rel="noopener noreferrer">
+              <div>
+                <div><strong>YouTube</strong></div>
+                <small>Uploads, lives, clips</small>
+              </div>
+              <span class="tag">Video</span>
+            </a>
+
+            <a class="btn" href="https://k1ngj0k3r.substack.com" target="_blank" rel="noopener noreferrer">
+              <div>
+                <div><strong>Substack</strong></div>
+                <small>Blog series + posts</small>
+              </div>
+              <span class="tag">Blog</span>
+            </a>
+
+            <a class="btn" href="dashboard.html">
+              <div>
+                <div><strong>Dashboard</strong></div>
+                <small>Status + quick links</small>
+              </div>
+              <span class="tag">Tools</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="media pad">
+          <h3 style="margin:0 0 10px;font-size:14px;color:var(--muted);">🎥 Trailer</h3>
+          <video controls playsinline preload="metadata" src="sinist3rkr3w_trailer.mp4"></video>
+        </div>
+      </div>
+
+      <!-- RIGHT: Sky voiceover -->
+      <aside class="card">
+        <div class="pad">
+          <h3 style="margin:0 0 8px;">🎙️ Sky’s Voiceover</h3>
+          <p class="subtitle" style="margin-top:0">
+            Tap play — mobile browsers require user interaction before audio plays.
+          </p>
+          <audio controls preload="none" src="sky_voiceover.mp3"></audio>
+
+          <div class="divider"></div>
+
+          <h3 style="margin:0 0 8px;">✅ What’s live</h3>
+          <ul style="margin:0; padding-left:18px; color:var(--muted); font-size:13px;">
+            <li>Radio bar stays pinned to the bottom.</li>
+            <li>Ticker runs updates nonstop.</li>
+            <li>Drop-in ping confirms activity.</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <a class="btn" href="about.html">
+            <div>
+              <div><strong>About</strong></div>
+              <small>What Sinist3rKr3w stands for</small>
+            </div>
+            <span class="tag">Info</span>
+          </a>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div>© <span class="mono">Sinist3rKr3w</span> • Built on GitHub Pages</div>
+      <div class="mono">k1ngj0k3r.github.io/Sinist3rKr3wunchained</div>
+    </footer>
+  </main>
+
+  <!-- RADIO BAR -->
+  <div id="radio-bar">
+    <div class="radio-inner">
+      <div class="radio-left">
+        <span class="dot"></span>
+        <div class="radio-title">
+          <strong>Sinist3rKr3w Radio — LIVE</strong>
+          <span>Tap play • music + drops</span>
+        </div>
+      </div>
+
+      <audio id="livePlayer" controls preload="none">
+        <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+
+  <!-- TICKER -->
+  <div id="ticker">
+    <div class="ticker-inner" id="tickerText">
+      <b>Sinist3rKr3w</b> • Faith. Fire. Family. • <span class="gold">LIVE RADIO</span> is running •
+      Tap play below • New drops coming • Bookmark the HQ • Stay Unchained •
+    </div>
+  </div>
+
+  <script>
+    // 1) DROP-IN PING (simple + effective)
+    (function(){
+      const toast = document.getElementById('dropinToast');
+      if(!toast) return;
+
+      // show once on load
+      setTimeout(() => toast.classList.add('show'), 550);
+      setTimeout(() => toast.classList.remove('show'), 4200);
+
+      // optional: show again when user returns to the tab
+      document.addEventListener('visibilitychange', () => {
+        if(document.visibilityState === 'visible'){
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3200);
         }
       });
+    })();
 
-      document.getElementById('volume-control').addEventListener('input', (e) => {
-        const volume = e.target.value / 100;
-        if (radioAudio) radioAudio.volume = volume;
-        document.getElementById('volume-label').textContent = e.target.value + '%';
+    // 2) LIVE PLAYER “RELOAD ON ERROR” (mobile stability)
+    (function(){
+      const p = document.getElementById('livePlayer');
+      if(!p) return;
+
+      let retried = false;
+
+      p.addEventListener('error', () => {
+        if (retried) return;
+        retried = true;
+
+        const src = p.querySelector('source');
+        if (src) {
+          const base = src.src.split('?')[0];
+          src.src = base + '?t=' + Date.now();
+          p.load();
+        }
       });
+    })();
 
-      // Visitor Popup Simulation
-      setTimeout(() => {
-        document.getElementById("popup").style.display = "block";
-        setTimeout(() => {
-          document.getElementById("popup").style.display = "none";
-        }, 5000);
-      }, 3000);
-    });
+    // 3) TICKER ROTATION (optional: swap messages every ~18 seconds)
+    (function(){
+      const el = document.getElementById('tickerText');
+      if(!el) return;
+
+      const messages = [
+        "<b>Sinist3rKr3w</b> • Faith. Fire. Family. • <span class='gold'>LIVE RADIO</span> is running • Tap play below •",
+        "<b>Drop in.</b> Stay loud. Stay unchained. • New posts on Substack • New drops on YouTube •",
+        "<b>HQ ONLINE.</b> • Stream + trailer + hub links • Bookmark this page •",
+      ];
+
+      let i = 0;
+      setInterval(() => {
+        i = (i + 1) % messages.length;
+        el.innerHTML = messages[i] + " " + messages[i]; // duplicate for smooth scroll feel
+      }, 18000);
+    })();
   </script>
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-  
