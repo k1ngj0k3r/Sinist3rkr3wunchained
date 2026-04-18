@@ -1,646 +1,742 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#0b0b0b" />
-  <meta name="description" content="Sinist3rKr3w Unchained — Radio, drops, hub. Built loud." />
-
-<!-- PWA -->
-<link rel="manifest" href="manifest.webmanifest">
-
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#ff0000">
-
-<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon-32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/icons/icon-96.png">
-<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
-
-<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/icon-180.png">
-<link rel="mask-icon" href="assets/icons/maskable-192.png" color="#ff0000">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sinist3rKr3w Unchained</title>
-
+  <meta name="theme-color" content="#0b0b0b" />
+  <link rel="manifest" href="manifest.webmanifest" />
   <style>
     :root{
-      --bg:#0b0b0b;
-      --card:#121212;
-      --line:#222;
-      --text:#f3f3f3;
-      --muted:#b7b7b7;
-      --red:#c1121f;
-      --gold:#d4af37;
-      --shadow: 0 10px 30px rgba(0,0,0,.45);
-      --radius: 18px;
+      --bg:#050505;
+      --bg2:#0d0d0d;
+      --card:#101010;
+      --line:rgba(255,255,255,.08);
+      --text:#f5f5f5;
+      --muted:#c9c9c9;
+      --red:#ff2a2a;
+      --red2:#c90f0f;
+      --gold:#d7a326;
+      --gold2:#8f6610;
+      --glow-red:0 0 18px rgba(255,42,42,.35);
+      --glow-gold:0 0 18px rgba(215,163,38,.28);
+      --radius:22px;
+      --shadow:0 12px 40px rgba(0,0,0,.45);
+      --max:1180px;
     }
+
     *{box-sizing:border-box}
-    body{
+    html,body{
       margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: radial-gradient(1200px 600px at 20% -10%, rgba(193,18,31,.25), transparent 60%),
-                  radial-gradient(900px 600px at 85% 0%, rgba(212,175,55,.18), transparent 55%),
-                  var(--bg);
+      padding:0;
+      background:
+        radial-gradient(circle at top right, rgba(255,70,0,.18), transparent 26%),
+        radial-gradient(circle at top left, rgba(255,0,0,.14), transparent 22%),
+        linear-gradient(180deg,#070707 0%, #0b0b0b 40%, #050505 100%);
       color:var(--text);
+      font-family:Arial, Helvetica, sans-serif;
+      overflow-x:hidden;
     }
-    a{color:inherit;text-decoration:none}
+
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%;display:block}
+
+    .embers{
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      z-index:0;
+      overflow:hidden;
+    }
+    .ember{
+      position:absolute;
+      width:4px;
+      height:4px;
+      border-radius:50%;
+      background:rgba(255,120,40,.9);
+      box-shadow:0 0 10px rgba(255,120,40,.7);
+      animation:rise linear infinite;
+      opacity:.65;
+    }
+    @keyframes rise{
+      from{transform:translateY(0) scale(1);opacity:.7}
+      to{transform:translateY(-110vh) scale(0.4);opacity:0}
+    }
+
     .wrap{
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 20px 16px 110px;
+      position:relative;
+      z-index:1;
+      width:min(var(--max), calc(100% - 28px));
+      margin:0 auto;
     }
+
     .topbar{
+      padding:16px 0 10px;
       display:flex;
       align-items:center;
       justify-content:space-between;
       gap:12px;
-      margin-bottom: 14px;
     }
+
     .brand{
-      display:flex; align-items:center; gap:12px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-weight:900;
+      letter-spacing:.5px;
+      font-size:1.1rem;
     }
-    .logo{
-      width:44px; height:44px; border-radius: 14px;
-      background: linear-gradient(145deg, rgba(193,18,31,.35), rgba(212,175,55,.18));
-      border: 1px solid rgba(255,255,255,.10);
-      display:grid; place-items:center;
-      box-shadow: var(--shadow);
+
+    .brandMark{
+      color:var(--gold);
+      font-size:1.2rem;
+      text-shadow:var(--glow-gold);
+    }
+
+    .brandText{
       font-weight:900;
     }
-    .brand h1{
-      font-size: 16px;
-      margin:0;
-      letter-spacing:.6px;
-      text-transform:uppercase;
-    }
-    .brand p{
-      margin:0;
-      font-size: 12px;
-      color: var(--muted);
-      letter-spacing:.2px;
-    }
-    .badges{
-      display:flex; align-items:center; gap:10px; flex-wrap:wrap;
-      justify-content:flex-end;
-    }
-    .badge{
-      padding:7px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.10);
-      background: rgba(18,18,18,.75);
-      backdrop-filter: blur(8px);
-      font-size: 12px;
-      color: var(--muted);
-      display:flex; gap:8px; align-items:center;
-    }
-    .dot{
-      width:8px;height:8px;border-radius:50%;
-      background: var(--red);
-      box-shadow: 0 0 0 3px rgba(193,18,31,.18);
-    }
+    .brandText .red{color:var(--red)}
 
     .hero{
-      border-radius: var(--radius);
-      border: 1px solid rgba(255,255,255,.10);
-      background: linear-gradient(180deg, rgba(18,18,18,.85), rgba(10,10,10,.85));
-      box-shadow: var(--shadow);
-      overflow:hidden;
       position:relative;
+      border:1px solid var(--line);
+      border-radius:28px;
+      padding:26px 18px 22px;
+      background:
+        radial-gradient(circle at 80% 10%, rgba(255,110,0,.20), transparent 26%),
+        radial-gradient(circle at 18% 25%, rgba(255,20,20,.14), transparent 24%),
+        linear-gradient(180deg, rgba(24,24,24,.96), rgba(8,8,8,.96));
+      box-shadow:var(--shadow);
+      overflow:hidden;
     }
+
     .hero::before{
       content:"";
-      position:absolute; inset:-2px;
-      background: radial-gradient(600px 260px at 15% 5%, rgba(193,18,31,.25), transparent 60%),
-                  radial-gradient(600px 260px at 85% 0%, rgba(212,175,55,.20), transparent 58%);
+      position:absolute;
+      inset:0;
+      background:
+        linear-gradient(90deg, transparent, rgba(255,255,255,.03), transparent);
       pointer-events:none;
     }
-    .heroInner{
-      position:relative;
-      padding: 18px;
+
+    .heroGrid{
       display:grid;
-      grid-template-columns: 1.2fr .8fr;
-      gap: 14px;
+      grid-template-columns:1.1fr .9fr;
+      gap:22px;
+      align-items:center;
     }
-    @media (max-width:820px){
-      .heroInner{grid-template-columns: 1fr; }
+
+    .kicker{
+      color:#ffb3b3;
+      font-size:.88rem;
+      text-transform:uppercase;
+      letter-spacing:2px;
+      margin-bottom:10px;
+      opacity:.9;
     }
+
     .headline{
-      margin: 0;
-      font-size: 28px;
-      line-height: 1.05;
-      letter-spacing:.2px;
+      margin:0;
+      font-size:clamp(2.2rem, 8vw, 4.7rem);
+      line-height:.95;
+      font-weight:1000;
       text-transform:uppercase;
     }
+
+    .headline .signal{
+      color:var(--red);
+      text-shadow:0 0 22px rgba(255,42,42,.45);
+    }
+
     .sub{
-      margin: 10px 0 0;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.45;
-      max-width: 60ch;
+      margin:18px 0 0;
+      font-size:clamp(1.03rem, 3.5vw, 1.4rem);
+      line-height:1.55;
+      color:var(--muted);
+      max-width:720px;
     }
-    .ctaRow{
-      display:flex; gap:10px; flex-wrap:wrap;
-      margin-top: 14px;
+
+    .logoStage{
+      position:relative;
+      min-height:280px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
     }
+
+    .flameRing{
+      position:absolute;
+      width:min(88vw, 420px);
+      aspect-ratio:1/1;
+      border-radius:50%;
+      background:
+        radial-gradient(circle, rgba(255,180,60,.24) 0%, rgba(255,90,0,.18) 30%, transparent 65%);
+      filter:blur(8px);
+    }
+
+    .logoCard{
+      position:relative;
+      width:min(82vw, 380px);
+      aspect-ratio:1/1;
+      border-radius:28px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background:
+        radial-gradient(circle at 50% 40%, rgba(255,120,0,.2), transparent 36%),
+        linear-gradient(180deg, rgba(20,20,20,.95), rgba(6,6,6,.95));
+      border:1px solid rgba(255,255,255,.08);
+      box-shadow:0 16px 50px rgba(0,0,0,.55), 0 0 30px rgba(255,60,0,.18);
+      overflow:hidden;
+    }
+
+    .logoCard::before{
+      content:"";
+      position:absolute;
+      inset:-20%;
+      background:
+        conic-gradient(from 0deg, transparent 0deg, rgba(255,80,0,.45) 25deg, transparent 65deg, rgba(255,180,60,.45) 115deg, transparent 180deg, rgba(255,0,0,.35) 230deg, transparent 290deg, rgba(255,120,0,.45) 340deg, transparent 360deg);
+      filter:blur(18px);
+      opacity:.75;
+      animation:spin 13s linear infinite;
+    }
+
+    @keyframes spin{
+      to{transform:rotate(360deg)}
+    }
+
+    .logoInner{
+      position:relative;
+      z-index:1;
+      text-align:center;
+      padding:24px;
+    }
+
+    .sk{
+      font-size:clamp(4.3rem, 16vw, 7.8rem);
+      line-height:1;
+      font-weight:1000;
+      letter-spacing:-4px;
+      background:linear-gradient(180deg, #ffdd7a 0%, #f5a400 30%, #ff4d1f 65%, #b30000 100%);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+      text-shadow:
+        0 0 18px rgba(255,160,30,.28),
+        0 0 45px rgba(255,60,0,.18);
+    }
+
+    .logoSub{
+      margin-top:6px;
+      font-size:clamp(1rem, 3vw, 1.4rem);
+      font-weight:900;
+      letter-spacing:2px;
+    }
+
+    .logoSubSmall{
+      margin-top:6px;
+      color:#d8d8d8;
+      font-size:.95rem;
+      letter-spacing:4px;
+    }
+
+    .buttonRow{
+      display:grid;
+      grid-template-columns:repeat(4, minmax(0,1fr));
+      gap:12px;
+      margin-top:22px;
+    }
+
     .btn{
-      border-radius: 14px;
-      padding: 12px 14px;
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(18,18,18,.85);
-      color: var(--text);
-      font-weight: 700;
-      font-size: 13px;
-      letter-spacing:.2px;
+      appearance:none;
+      border:none;
+      border-radius:18px;
+      padding:15px 14px;
+      font-weight:900;
+      text-align:center;
       cursor:pointer;
-      display:inline-flex; align-items:center; gap:10px;
-      transition: transform .12s ease, border-color .12s ease;
-      user-select:none;
+      font-size:1rem;
+      transition:.2s ease;
+      min-height:58px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
     }
-    .btn:hover{ transform: translateY(-1px); border-color: rgba(212,175,55,.25); }
+
+    .btn:hover{transform:translateY(-2px)}
     .btnPrimary{
-      background: linear-gradient(180deg, rgba(193,18,31,.95), rgba(120,10,15,.95));
-      border-color: rgba(193,18,31,.55);
+      color:white;
+      background:linear-gradient(180deg, #ff3a3a, #b90e0e);
+      box-shadow:var(--glow-red);
     }
     .btnGold{
-      background: linear-gradient(180deg, rgba(212,175,55,.92), rgba(145,110,25,.92));
-      border-color: rgba(212,175,55,.55);
-      color:#111;
+      color:#181818;
+      background:linear-gradient(180deg, #f0c55e, #a87410);
+      box-shadow:var(--glow-gold);
     }
-    .panel{
-      border-radius: 16px;
-      border: 1px solid rgba(255,255,255,.10);
-      background: rgba(12,12,12,.72);
-      padding: 14px;
-      box-shadow: var(--shadow);
-    }
-    .panel h3{
-      margin:0 0 8px;
-      font-size: 12px;
-      letter-spacing:.6px;
-      text-transform:uppercase;
-      color: var(--muted);
-    }
-    .row{
-      display:flex; align-items:center; justify-content:space-between;
-      gap:10px; flex-wrap:wrap;
-    }
-    .mini{
-      font-size: 12px;
-      color: var(--muted);
-      line-height:1.35;
-    }
-    .now{
-      font-weight:800;
-      letter-spacing:.3px;
-      text-transform:uppercase;
+    .btnDark{
+      color:#fff;
+      background:linear-gradient(180deg, #1d1d1d, #0f0f0f);
+      border:1px solid rgba(255,255,255,.12);
     }
 
-    .grid{
-      margin-top: 14px;
+    .section{
+      margin-top:18px;
+      border:1px solid var(--line);
+      border-radius:24px;
+      padding:18px;
+      background:
+        linear-gradient(180deg, rgba(17,17,17,.96), rgba(8,8,8,.96));
+      box-shadow:var(--shadow);
+    }
+
+    .sectionTitle{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 14px;
+      font-size:clamp(1.6rem, 6vw, 2.6rem);
+      color:var(--red);
+      font-weight:1000;
+      letter-spacing:.2px;
+    }
+
+    .latestGrid{
       display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
+      grid-template-columns:320px 1fr;
+      gap:18px;
+      align-items:center;
     }
-    @media (max-width:820px){ .grid{grid-template-columns: 1fr;} }
 
-    .media{
-      border-radius: 16px;
-      overflow:hidden;
-      border: 1px solid rgba(255,255,255,.10);
-      background: rgba(18,18,18,.85);
-      box-shadow: var(--shadow);
+    .thumbCard{
+      border-radius:20px;
+      min-height:220px;
+      background:
+        radial-gradient(circle at 50% 35%, rgba(255,130,0,.2), transparent 35%),
+        linear-gradient(180deg,#171717,#090909);
+      border:1px solid rgba(255,255,255,.08);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow:0 0 20px rgba(255,70,0,.15);
     }
-    .mediaHeader{
-      padding: 12px 12px 10px;
-      border-bottom: 1px solid rgba(255,255,255,.08);
-      display:flex; align-items:center; justify-content:space-between; gap:10px;
+
+    .thumbSK{
+      font-size:5.4rem;
+      font-weight:1000;
+      letter-spacing:-3px;
+      background:linear-gradient(180deg, #ffe18b 0%, #f2aa0a 30%, #ff4f1f 65%, #b90000 100%);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+      text-shadow:0 0 20px rgba(255,80,0,.28);
     }
-    .mediaHeader .title{
-      font-weight:900;
+
+    .eyebrow{
+      color:#ff9a9a;
       text-transform:uppercase;
-      letter-spacing:.5px;
-      font-size: 12px;
-    }
-    video{
-      width:100%;
-      display:block;
-      background:#000;
+      letter-spacing:2px;
+      font-size:.85rem;
+      font-weight:800;
+      margin-bottom:8px;
     }
 
-    /* bottom radio bar */
-    .radioBar{
-      position:fixed;
-      left:0; right:0; bottom:0;
-      background: rgba(10,10,10,.92);
-      border-top: 1px solid rgba(255,255,255,.10);
-      backdrop-filter: blur(10px);
-      padding: 10px 12px;
-      z-index: 999;
+    .postTitle{
+      font-size:clamp(1.8rem, 5vw, 3rem);
+      line-height:1.04;
+      margin:0 0 10px;
+      font-weight:1000;
     }
-    .radioInner{
-      max-width: 980px;
-      margin: 0 auto;
+
+    .postText{
+      margin:0;
+      color:var(--muted);
+      font-size:clamp(1rem, 3vw, 1.2rem);
+      line-height:1.6;
+    }
+
+    .quote{
+      margin-top:14px;
+      font-style:italic;
+      color:#d7d7d7;
+      font-size:1.02rem;
+    }
+
+    .postActions{
+      display:flex;
+      gap:12px;
+      margin-top:18px;
+      flex-wrap:wrap;
+    }
+
+    .triple{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:14px;
+      margin-top:18px;
+    }
+
+    .miniCard{
+      border-radius:22px;
+      padding:18px;
+      min-height:220px;
+      border:1px solid rgba(255,255,255,.08);
+      background:
+        radial-gradient(circle at top, rgba(255,80,0,.12), transparent 28%),
+        linear-gradient(180deg, #141414, #090909);
+      box-shadow:var(--shadow);
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+    }
+
+    .miniCard h3{
+      margin:10px 0 8px;
+      font-size:1.45rem;
+      line-height:1.05;
+    }
+
+    .miniCard p{
+      margin:0;
+      color:var(--muted);
+      line-height:1.55;
+    }
+
+    .iconBig{
+      font-size:2.2rem;
+      text-shadow:0 0 12px rgba(255,120,0,.3);
+    }
+
+    .radio{
+      margin-top:18px;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:24px;
+      padding:18px;
+      background:
+        radial-gradient(circle at left, rgba(255,80,0,.16), transparent 25%),
+        linear-gradient(180deg,#111,#080808);
+      box-shadow:var(--shadow);
+    }
+
+    .radioTop{
       display:flex;
       align-items:center;
       justify-content:space-between;
       gap:12px;
       flex-wrap:wrap;
     }
-    .radioLeft{
-      display:flex; align-items:center; gap:12px; min-width: 260px;
+
+    .radioTitle{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-size:1.55rem;
+      font-weight:1000;
     }
-    .pill{
-      padding:6px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.12);
-      background: rgba(18,18,18,.85);
-      font-size: 12px;
-      display:flex; align-items:center; gap:8px;
+
+    .live{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border-radius:999px;
+      padding:8px 12px;
+      background:rgba(255,42,42,.12);
+      border:1px solid rgba(255,42,42,.3);
+      color:#ff8f8f;
+      font-weight:800;
+      font-size:.9rem;
     }
-    .listener{
-      color: var(--muted);
-      font-size: 12px;
+
+    .playerRow{
+      margin-top:16px;
+      display:flex;
+      align-items:center;
+      gap:14px;
+      flex-wrap:wrap;
     }
-    .ticker{
-      max-width: 980px;
-      margin: 10px auto 0;
+
+    .playBtn{
+      width:64px;
+      height:64px;
+      border-radius:50%;
+      border:none;
+      font-size:1.45rem;
+      font-weight:900;
+      cursor:pointer;
+      color:#fff;
+      background:linear-gradient(180deg, #ff3939, #aa0f0f);
+      box-shadow:var(--glow-red);
+    }
+
+    .bar{
+      flex:1 1 280px;
+      height:10px;
+      border-radius:999px;
+      background:#1c1c1c;
       overflow:hidden;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.10);
-      background: rgba(18,18,18,.75);
-      box-shadow: var(--shadow);
+      border:1px solid rgba(255,255,255,.08);
     }
+
+    .barFill{
+      width:38%;
+      height:100%;
+      background:linear-gradient(90deg, #ff3b3b, #ffc14f);
+      box-shadow:0 0 18px rgba(255,80,0,.3);
+    }
+
+    .ticker{
+      margin:18px 0 28px;
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:18px;
+      padding:13px 16px;
+      background:#090909;
+      color:#e6e6e6;
+      font-size:1rem;
+      overflow:hidden;
+      white-space:nowrap;
+    }
+
     .ticker span{
       display:inline-block;
-      white-space:nowrap;
-      padding: 10px 16px;
-      animation: scroll 18s linear infinite;
-      color: var(--muted);
-      font-size: 12px;
-      letter-spacing:.2px;
+      padding-left:100%;
+      animation:tickerMove 18s linear infinite;
     }
-    @keyframes scroll{
-      from{ transform: translateX(100%); }
-      to{ transform: translateX(-100%); }
+
+    @keyframes tickerMove{
+      from{transform:translateX(0)}
+      to{transform:translateX(-100%)}
     }
-    .smallLink{
-      color: var(--muted);
-      text-decoration: underline;
-      font-size: 12px;
+
+    footer{
+      padding:0 0 30px;
+      color:#9f9f9f;
+      text-align:center;
+      font-size:.92rem;
+    }
+
+    @media (max-width: 980px){
+      .heroGrid,
+      .latestGrid,
+      .triple{
+        grid-template-columns:1fr;
+      }
+
+      .logoStage{
+        min-height:240px;
+      }
+
+      .buttonRow{
+        grid-template-columns:1fr 1fr;
+      }
+    }
+
+    @media (max-width: 640px){
+      .wrap{
+        width:calc(100% - 18px);
+      }
+
+      .hero{
+        padding:20px 14px 18px;
+        border-radius:24px;
+      }
+
+      .section,.radio{
+        padding:15px;
+      }
+
+      .buttonRow{
+        grid-template-columns:1fr;
+      }
+
+      .postActions{
+        flex-direction:column;
+      }
+
+      .btn{
+        width:100%;
+      }
+
+      .topbar{
+        padding-top:12px;
+      }
     }
   </style>
 </head>
-
 <body>
+  <div class="embers" aria-hidden="true">
+    <div class="ember" style="left:6%; bottom:-20px; animation-duration:11s; animation-delay:0s;"></div>
+    <div class="ember" style="left:14%; bottom:-40px; animation-duration:15s; animation-delay:1s;"></div>
+    <div class="ember" style="left:21%; bottom:-10px; animation-duration:12s; animation-delay:4s;"></div>
+    <div class="ember" style="left:33%; bottom:-30px; animation-duration:18s; animation-delay:2s;"></div>
+    <div class="ember" style="left:49%; bottom:-25px; animation-duration:13s; animation-delay:0.5s;"></div>
+    <div class="ember" style="left:58%; bottom:-18px; animation-duration:17s; animation-delay:3.2s;"></div>
+    <div class="ember" style="left:70%; bottom:-35px; animation-duration:14s; animation-delay:1.7s;"></div>
+    <div class="ember" style="left:82%; bottom:-14px; animation-duration:16s; animation-delay:2.7s;"></div>
+    <div class="ember" style="left:91%; bottom:-22px; animation-duration:12s; animation-delay:5s;"></div>
+  </div>
+
   <div class="wrap">
     <div class="topbar">
       <div class="brand">
-        <div class="logo">SK</div>
-        <div>
-          <h1>Sinist3rKr3w Unchained</h1>
-          <p>Built loud. Built real. Built to move.</p>
-        </div>
+        <span class="brandMark">♛</span>
+        <span class="brandText">SINIST3R<span class="red">KR3W</span></span>
       </div>
-
-      <div class="badges">
-        <div class="badge"><span class="dot"></span><span class="now">LIVE OPS</span></div>
-        <div class="badge">⚡ <span id="statusText">Ready</span></div>
-        <div class="badge">👀 <span id="listenerText">—</span></div>
-      </div>
-
     </div>
-<section style="padding:30px; background:#111; color:#fff; margin:20px 0; border:1px solid #333; border-radius:12px;">
-  <h2 style="color:#ff2a2a; margin-bottom:15px;">What I Do</h2>
-
-  <ul style="color:#ccc; line-height:1.8; padding-left:20px; margin:0;">
-    <li>Short-form video content for TikTok and YouTube</li>
-    <li>Story-driven blog writing and personal storytelling</li>
-    <li>Brand messaging and audience-focused content</li>
-    <li>Creative direction built around emotion and engagement</li>
-  </ul>
-</section>
 
     <section class="hero">
-      <div class="heroInner">
+      <div class="heroGrid">
         <div>
-          <h2 class="headline">This isn’t a page.<br/>It’s a signal.</h2>
+          <div class="kicker">Sinist3rKr3w Unchained</div>
+          <h1 class="headline">
+            THIS ISN’T A PAGE.<br>
+            IT’S A <span class="signal">SIGNAL.</span>
+          </h1>
           <p class="sub">
-            If you’re here, you’re not lost — you’re early.
-            Tap in, hit play, and move with the Kr3w.
+            If you’re here, you’re not lost — you’re early. Tap in, hit play, and move with the Kr3w.
           </p>
 
-          <div class="ctaRow">
-            <a class="btn btnPrimary" href="https://linktr.ee/k1ngj0k" target="_blank" rel="noopener noreferrer">
-              🔗 Open Linktree Hub
-            </a>
-
-            <button class="btn btnGold" id="installBtn" style="display:none;">
-              📲 Install App
-            </button>
-<a class="btn btnPrimary" href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-4" target="_blank">
-📖 God's Got Us Part 4
-</a>
-
-<a class="btn btnGold" href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-5?utm_source=share&utm_medium=android&r=38hr6i" target="_blank">
-🔥 God's Got Us Part 5
-</a>
-    <section style="padding:30px; background:#111; color:#fff; margin:20px 0 40px 0; border:1px solid #333; border-radius:12px;">
-  <h2 style="color:#ff2a2a; margin-bottom:10px;">Follow the Movement</h2>
-
-  <p style="margin-bottom:15px;">
-    Catch the latest videos, updates, and drops on TikTok.
-  </p>
-
-  <a href="https://www.tiktok.com/@k1ngj0k3r22"
-     target="_blank"
-     style="display:inline-block; background:#ff2a2a; color:#fff; padding:10px 15px; border-radius:8px; text-decoration:none; font-weight:bold;">
-    Open TikTok →
-  </a>
-</section>
-
-            <button class="btn" id="playRadioBtn">
-              🔊 Play Radio
-            </button>
-
-            <button class="btn" id="playSkyBtn">
-              🎙️ Play Sky Voiceover
-            </button>
+          <div class="buttonRow">
+            <a class="btn btnPrimary" href="https://linktr.ee/" target="_blank">🔗 Open Hub</a>
+            <a class="btn btnGold" href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-5?utm_source=share&utm_medium=android&r=38hr6i" target="_blank">🔥 God’s Got Us Part 5</a>
+            <a class="btn btnDark" href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-4" target="_blank">📖 Read Part 4</a>
+            <button class="btn btnDark" id="installBtn">⬇ Install App</button>
           </div>
-
-          <p class="mini" style="margin-top:10px;">
-            Tip: phones block autoplay. First tap unlocks audio. ✅
-          </p>
         </div>
 
-        <div class="panel">
-          <h3>Today’s Moves</h3>
-          <div class="row">
-            <div>
-              <div class="now">Daily Pack</div>
-              <div class="mini">Post → Hub → repeat. No guessing.</div>
+        <div class="logoStage">
+          <div class="flameRing"></div>
+          <div class="logoCard">
+            <div class="logoInner">
+              <div class="sk">SK</div>
+              <div class="logoSub">Sinist3rKr3w</div>
+              <div class="logoSubSmall">UNCHAINED</div>
             </div>
-            <a class="smallLink" href="./dashboard.html">Open Dashboard</a>
-          </div>
-
-          <hr style="border:none;border-top:1px solid rgba(255,255,255,.08);margin:12px 0;" />
-
-          <div class="row">
-            <div>
-              <div class="now">Radio Stream</div>
-              <div class="mini">Drops + music + momentum.</div>
-            </div>
-            <div class="pill"><span class="dot"></span><span id="radioState">OFF</span></div>
-          </div>
-
-          <div style="margin-top:10px;" class="mini">
-            This hub stays loud even when life gets noisy.
           </div>
         </div>
       </div>
     </section>
 
-    <section class="grid">
-      <div class="media">
-        <div class="mediaHeader">
-          <div class="title">Trailer</div>
-          <a class="smallLink" href="./sinist3rkr3w_trailer.mp4" target="_blank" rel="noopener noreferrer">Open</a>
+    <section class="section">
+      <h2 class="sectionTitle">🔥 Latest Writing</h2>
+      <div class="latestGrid">
+        <div class="thumbCard">
+          <div class="thumbSK">SK</div>
         </div>
-        <video controls playsinline preload="metadata" poster="">
-          <source src="./sinist3rkr3w_trailer.mp4" type="video/mp4" />
-          Your browser can’t play this video.
-        </video>
-      </div>
 
-      <div class="media">
-        <div class="mediaHeader">
-          <div class="title">Sky Voiceover</div>
-          <a class="smallLink" href="./sky_voiceover.mp3" target="_blank" rel="noopener noreferrer">Open</a>
-        </div>
-  
-<section style="padding:30px; background:#111; color:#fff; margin:20px 0 40px 0; border:1px solid #333; border-radius:12px; position:relative; z-index:5;">
-
-  <h2 style="color:#ff2a2a; margin-bottom:10px;">Latest Writing</h2>
-
-  <p style="margin-bottom:15px;">
-    A real-life reflection on faith, pressure, and trusting God when the plan isn’t clear.
-  </p>
-
-  <a href="blog/gods-got-us-1.html"
-     style="display:inline-block; background:#ff2a2a; color:#fff; padding:10px 15px; border-radius:8px; text-decoration:none;">
-    Read the Blog →
-  </a>
-
-<section style="padding:20px; margin:20px 0; background:#0a0a0a; color:#fff; border-radius:12px; border:1px solid #222;">
-  <h2 style="color:#ff4444;">🔥 Latest Drop</h2>
-
-  <h3>God’s Got Us – Part 2: When Nothing Makes Sense</h3>
-
-  <p>
-    When life doesn’t make sense, you’ve got two choices—
-    trust God… or let doubt take over.
-  </p>
-
-  <p style="font-style:italic;">
-    “God’s got us… even when we can’t see it.”
-  </p>
-
-  <a href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-2-when-nothing-makes"
-     target="_blank"
-     style="display:inline-block; margin-top:10px; padding:10px 15px; background:#ff4444; color:#fff; text-decoration:none; border-radius:8px;">
-    Read Part 2
-  </a>
-</section>
-
-<section style="padding:20px; margin:20px 0; background:#0a0a0a; color:#fff; border-radius:12px; border:1px solid #222;">
-  <h2 style="color:#ff4444;">✝️ Latest Blog</h2>
-
-  <h3>God’s Got Us – Part 3: Not the End of the Story</h3>
-
-  <p>
-    Easter reminds us that the story isn’t over. Even in the waiting, even in the struggle,
-    God is still working.
-  </p>
-
-  <p style="font-style:italic; color:#ccc;">
-    “Faith isn’t about having everything figured out. It’s about moving forward anyway—knowing you’re not doing it alone.”
-  </p>
-
-  <a href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-3-not-the-end-of?utm_source=share&utm_medium=android&r=38hr6i"
-     target="_blank"
-     style="display:inline-block; margin-top:10px; padding:10px 15px; background:#ff4444; color:#fff; text-decoration:none; border-radius:8px;">
-    Read Part 3
-  </a>
-</section>
-
-<section style="padding:30px; background:#111; color:#fff; margin:20px 0; border:1px solid #333; border-radius:12px; text-align:center;">
-  <h2 style="color:#ff2a2a; margin-bottom:15px;">Work With Me</h2>
-
-  <p style="color:#ccc; margin-bottom:20px;">
-    Available for content creation, storytelling, editing, and brand-focused creative work.
-  </p>
-
-  <a href="mailto:lotterryan6@gmail.com"
-     style="display:inline-block; padding:12px 20px; background:#ff2a2a; color:#fff; border-radius:8px; text-decoration:none; font-weight:bold;">
-    Contact Me →
-  </a>
-</section>
-
-        <div style="padding:12px;">
-          <p class="mini" style="margin:0 0 10px;">
-            Tap play to hear the voice that sets the tone.
+        <div>
+          <div class="eyebrow">Newest Drop</div>
+          <h3 class="postTitle">God’s Got Us – Part 5: Still Here, Still Held</h3>
+          <p class="postText">
+            Still standing. Still believing. In the chaos of uncertainty, God meets us right where we are.
           </p>
+          <div class="quote">“God’s got us… even when we can’t see it.”</div>
 
-          <div class="row">
-            <button class="btn btnPrimary" id="skyInlineBtn">🎧 Play</button>
-            <button class="btn" id="skyStopBtn">⛔ Stop</button>
+          <div class="postActions">
+            <a class="btn btnPrimary" href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-5?utm_source=share&utm_medium=android&r=38hr6i" target="_blank">Read Part 5 →</a>
+            <a class="btn btnDark" href="https://open.substack.com/pub/k1ngj0k3r/p/gods-got-us-part-4" target="_blank">Read Part 4</a>
           </div>
-
-          <p class="mini" style="margin-top:10px;">
-            If it doesn’t play, tap once anywhere then hit play again.
-          </p>
         </div>
       </div>
     </section>
-  
-</section>
-  <!-- Bottom radio / ticker -->
-  <div class="radioBar">
-    <div class="radioInner">
-      <div class="radioLeft">
-        <div class="pill">🔥 Sinist3rKr3w Radio</div>
-        <div class="listener">Stream: Zeno.fm</div>
+
+    <section class="triple">
+      <div class="miniCard">
+        <div>
+          <div class="iconBig">🎧</div>
+          <h3>Listen Live</h3>
+          <p>Tap into Sinist3rKr3w Radio and keep the signal running.</p>
+        </div>
+        <button class="btn btnPrimary" id="playRadioBtn">Play Radio</button>
       </div>
 
-      <div class="ctaRow" style="margin:0;">
-        <button class="btn btnPrimary" id="radioToggleBtn">▶ Play</button>
-        <a class="btn" href="./dashboard.html">📊 Ops</a>
-        <a class="btn" href="https://linktr.ee/k1ngj0k" target="_blank" rel="noopener noreferrer">🔗 Hub</a>
+      <div class="miniCard">
+        <div>
+          <div class="iconBig">📱</div>
+          <h3>Follow the Movement</h3>
+          <p>Catch the latest videos, updates, and drops on TikTok and beyond.</p>
+        </div>
+        <a class="btn btnPrimary" href="https://www.tiktok.com/@k1ngj0k3r22" target="_blank">Open TikTok</a>
       </div>
+
+      <div class="miniCard">
+        <div>
+          <div class="iconBig">🛒</div>
+          <h3>Join the Kr3w</h3>
+          <p>Merch, drops, and movement pieces built for people who don’t blend in.</p>
+        </div>
+        <a class="btn btnGold" href="#" target="_blank">Join Now</a>
+      </div>
+    </section>
+
+    <section class="radio">
+      <div class="radioTop">
+        <div class="radioTitle">🔥 Sinist3rKr3w Radio</div>
+        <div class="live">● Live Now</div>
+      </div>
+
+      <div style="margin-top:8px;color:#bfbfbf;">Stream: Zeno.fm</div>
+
+      <div class="playerRow">
+        <button class="playBtn" id="playBtn">▶</button>
+        <div class="bar"><div class="barFill"></div></div>
+        <a class="btn btnDark" href="dashboard.html">📊 Ops</a>
+        <a class="btn btnDark" href="https://linktr.ee/" target="_blank">🔗 Hub</a>
+      </div>
+
+      <audio id="radioPlayer" preload="none">
+        <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <div class="ticker">
+      <span>⚠️ We don’t blend in. We build. We speak truth. We move different. ⚠️</span>
     </div>
 
-    <div class="ticker" aria-label="ticker">
-      <span id="tickerText">
-        ⚠️ We don’t blend in. We build. | Tap PLAY to go live. | Linktree is the hub. | Drops rotate. Truth stays. | Sinist3rKr3w Unchained.
-      </span>
-    </div>
-  
-  <!-- audio elements -->
-  <audio id="radio" preload="none" crossorigin="anonymous">
-    <source src="https://stream.zeno.fm/bopyz8zwv0juv" type="audio/mpeg" />
-  </audio>
-  <audio id="sky" preload="none">
-    <source src="./sky_voiceover.mp3" type="audio/mpeg" />
-  </audio>
+    <footer>
+      © 2026 Sinist3rKr3w Unchained. All Rights Reserved.
+    </footer>
+  </div>
 
   <script>
-    // ===== PWA service worker =====
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./service-worker.js").catch(()=>{});
-      });
+    const player = document.getElementById('radioPlayer');
+    const playBtn = document.getElementById('playBtn');
+    const playRadioBtn = document.getElementById('playRadioBtn');
+
+    function toggleRadio(){
+      if (!player) return;
+      if (player.paused) {
+        player.play().then(() => {
+          playBtn.textContent = '❚❚';
+        }).catch(() => {
+          alert('Tap play again if your phone blocks autoplay.');
+        });
+      } else {
+        player.pause();
+        playBtn.textContent = '▶';
+      }
     }
 
-    // ===== Install button =====
-    let deferredPrompt = null;
-    const installBtn = document.getElementById("installBtn");
+    playBtn?.addEventListener('click', toggleRadio);
+    playRadioBtn?.addEventListener('click', toggleRadio);
 
-    window.addEventListener("beforeinstallprompt", (e) => {
+    const installBtn = document.getElementById('installBtn');
+    let deferredPrompt = null;
+
+    window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
       deferredPrompt = e;
-      installBtn.style.display = "inline-flex";
     });
 
-    installBtn?.addEventListener("click", async () => {
-      if (!deferredPrompt) return;
-      deferredPrompt.prompt();
-      await deferredPrompt.userChoice;
-      deferredPrompt = null;
-      installBtn.style.display = "none";
-    });
-
-    // ===== Fake listener count (tasteful illusion) =====
-    const listenerText = document.getElementById("listenerText");
-    function bumpListeners(){
-      const base = 2;
-      const extra = Math.floor(Math.random()*7); // 0..6
-      const val = base + extra;
-      listenerText.textContent = `${val} listening`;
-    }
-    bumpListeners();
-    setInterval(bumpListeners, 45000);
-
-    // ===== Audio controls =====
-    const radio = document.getElementById("radio");
-    const sky = document.getElementById("sky");
-
-    const radioState = document.getElementById("radioState");
-    const statusText = document.getElementById("statusText");
-    const radioToggleBtn = document.getElementById("radioToggleBtn");
-    const playRadioBtn = document.getElementById("playRadioBtn");
-    const playSkyBtn = document.getElementById("playSkyBtn");
-    const skyInlineBtn = document.getElementById("skyInlineBtn");
-    const skyStopBtn = document.getElementById("skyStopBtn");
-
-    function setRadioUI(on){
-      radioState.textContent = on ? "ON" : "OFF";
-      statusText.textContent = on ? "Streaming" : "Ready";
-      radioToggleBtn.textContent = on ? "⏸ Pause" : "▶ Play";
-      if(on){
-        radioToggleBtn.classList.add("btnPrimary");
+    installBtn?.addEventListener('click', async () => {
+      if (deferredPrompt) {
+        deferredPrompt.prompt();
+        deferredPrompt = null;
       } else {
-        radioToggleBtn.classList.remove("btnPrimary");
+        alert('Install prompt will show when supported by your browser.');
       }
-    }
-
-    async function playRadio(){
-      try{
-        sky.pause();
-        sky.currentTime = 0;
-        await radio.play();
-        setRadioUI(true);
-      }catch(e){
-        statusText.textContent = "Tap again";
-      }
-    }
-
-    function pauseRadio(){
-      radio.pause();
-      setRadioUI(false);
-    }
-
-    async function playSky(){
-      try{
-        pauseRadio();
-        await sky.play();
-        statusText.textContent = "Voiceover";
-      }catch(e){
-        statusText.textContent = "Tap again";
-      }
-    }
-
-    function stopSky(){
-      sky.pause();
-      sky.currentTime = 0;
-      statusText.textContent = "Ready";
-    }
-
-    radioToggleBtn.addEventListener("click", () => {
-      if(radio.paused) playRadio();
-      else pauseRadio();
     });
-
-    playRadioBtn.addEventListener("click", () => playRadio());
-    playSkyBtn.addEventListener("click", () => playSky());
-    skyInlineBtn.addEventListener("click", () => playSky());
-    skyStopBtn.addEventListener("click", () => stopSky());
-
-    // If stream errors, show status
-    radio.addEventListener("error", () => {
-      statusText.textContent = "Stream error";
-      setRadioUI(false);
-    });
-    radio.addEventListener("pause", () => setRadioUI(false));
-    radio.addEventListener("play", () => setRadioUI(true));
   </script>
 </body>
 </html>
