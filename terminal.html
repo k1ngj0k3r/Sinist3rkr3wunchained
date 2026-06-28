@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinist3rKr3w Terminal</title>
+
+<style>
+body{
+    background:#000;
+    color:#00ff66;
+    font-family:monospace;
+    margin:0;
+    padding:20px;
+}
+
+#terminal{
+    max-width:1000px;
+    margin:auto;
+}
+
+h1{
+    color:#ff2a2a;
+}
+
+input{
+    width:100%;
+    background:black;
+    color:#00ff66;
+    border:none;
+    outline:none;
+    font-family:monospace;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="terminal">
+
+<h1>Sinist3rKr3w Terminal</h1>
+
+<p>Type <b>help</b> to begin.</p>
+
+<div id="output"></div>
+
+<input id="command" autofocus>
+
+</div>
+
+<script>
+
+const output=document.getElementById("output");
+const input=document.getElementById("command");
+
+input.addEventListener("keydown",function(e){
+
+if(e.key==="Enter"){
+
+let cmd=input.value.toLowerCase();
+
+output.innerHTML+="<p>> "+cmd+"</p>";
+
+switch(cmd){
+
+case "help":
+
+output.innerHTML+=`
+<p>
+about<br>
+radio<br>
+media<br>
+projects<br>
+gods<br>
+clear
+</p>
+`;
+
+break;
+
+case "about":
+
+output.innerHTML+="<p>Sinist3rKr3w Unchained - Where you matter most.</p>";
+
+break;
+
+case "radio":
+
+window.location="radio.html";
+
+break;
+
+case "media":
+
+window.location="media.html";
+
+break;
+
+case "projects":
+
+window.location="lists.html";
+
+break;
+
+case "gods":
+
+window.location="gods-got-us.html";
+
+break;
+
+case "clear":
+
+output.innerHTML="";
+
+break;
+
+default:
+
+output.innerHTML+="<p>Unknown command.</p>";
+
+}
+
+input.value="";
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
