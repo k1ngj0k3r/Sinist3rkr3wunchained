@@ -1,0 +1,49 @@
+/* ===== Shared Navigation ===== */
+
+.topNav{
+    position:sticky;
+    top:0;
+    z-index:999;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    padding:14px;
+    margin:0 0 30px;
+    background:rgba(10,10,10,.90);
+    backdrop-filter:blur(14px);
+    border-bottom:2px solid #ff3030;
+    box-shadow:0 0 30px rgba(255,50,50,.25);
+}
+
+.topNav a{
+    color:#f5f5f5;
+    text-decoration:none;
+    font-weight:700;
+    padding:10px 16px;
+    border-radius:12px;
+    transition:.25s;
+}
+
+.topNav a:hover{
+    color:#fff;
+    background:#ff3030;
+    box-shadow:0 0 18px rgba(255,48,48,.6);
+}
+
+.topNav .active{
+    background:#ff3030;
+    color:#fff;
+}
+
+@media(max-width:700px){
+    .topNav{
+        gap:6px;
+        padding:10px;
+    }
+
+    .topNav a{
+        font-size:.9rem;
+        padding:8px 12px;
+    }
+}
