@@ -1,0 +1,52 @@
+
+body{
+  background:
+    radial-gradient(circle at top right, rgba(255,42,42,.18), transparent 28%),
+    radial-gradient(circle at bottom left, rgba(0,180,255,.10), transparent 30%),
+    linear-gradient(180deg,#050505,#0b0b0b,#050505);
+}
+
+.card,.miniCard,.logoCard{
+  background:rgba(17,17,17,.78)!important;
+  border:1px solid rgba(255,255,255,.12)!important;
+  box-shadow:0 0 25px rgba(255,42,42,.12)!important;
+  backdrop-filter:blur(8px);
+}
+
+.btn,a.btn{
+  box-shadow:0 0 18px rgba(255,42,42,.22);
+}
+
+.btn:hover,a.btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 0 25px rgba(255,42,42,.45);
+}
+
+h1,.headline,.sectionTitle{
+  text-shadow:0 0 18px rgba(255,42,42,.35);
+}
+
+.live,.signal{
+  animation:pulseGlow 1.8s infinite alternate;
+}
+
+@keyframes pulseGlow{
+  from{filter:drop-shadow(0 0 3px rgba(255,42,42,.4))}
+  to{filter:drop-shadow(0 0 14px rgba(255,42,42,.9))}
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background:repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,.025),
+    rgba(255,255,255,.025) 1px,
+    transparent 1px,
+    transparent 5px
+  );
+  opacity:.18;
+  z-index:9999;
+}
