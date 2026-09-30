@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Wall | Sinist3rKr3w Unchained</title>
+
+  <meta name="theme-color" content="#09090b">
+  <meta name="description"
+        content="The Wall — thoughts, updates, media drops, faith, radio and signals from Sinist3rKr3w Unchained.">
+
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <style>
+    :root{
+      --bg:#050506;
+      --panel:#0d0d0f;
+      --panel2:#121216;
+      --line:rgba(255,255,255,.11);
+      --text:#f5f5f7;
+      --muted:#aaaab3;
+      --red:#ff343f;
+      --red2:#ba101d;
+      --pink:#ff9da4;
+      --gold:#e4ad31;
+      --green:#31db82;
+      --shadow:0 16px 45px rgba(0,0,0,.48);
+      --radius:25px;
+      --max:760px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      margin:0;
+      min-height:100vh;
+      padding-bottom:105px;
+
+      color:var(--text);
+
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+      background:
+        radial-gradient(
+          circle at 15% 10%,
+          rgba(120,0,255,.09),
+          transparent 25%
+        ),
+        radial-gradient(
+          circle at 85% 20%,
+          rgba(255,25,45,.10),
+          transparent 27%
+        ),
+        linear-gradient(
+          180deg,
+          #08080a 0%,
+          #080709 45%,
+          #040405 100%
+        );
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    button{
+      font:inherit;
+    }
+
+    /* =========================
+       HEADER
+    ========================== */
+
+    .header{
+      position:sticky;
+      top:0;
+      z-index:100;
+
+      background:rgba(7,7,9,.94);
+      backdrop-filter:blur(18px);
+
+      border-bottom:1px solid var(--line);
+    }
+
+    .headerInner{
+      max-width:var(--max);
+      margin:auto;
+
+      padding:17px 18px;
+
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:15px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:10px;
+
+      font-size:1.18rem;
+      font-weight:1000;
+      letter-spacing:.4px;
+    }
+
+    .brandGold{
+      color:var(--gold);
+    }
+
+    .brandRed{
+      color:var(--red);
+    }
+
+    .headerButton{
+      width:48px;
+      height:48px;
+
+      border-radius:16px;
+      border:1px solid var(--line);
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+
+      background:#111116;
+
+      font-size:1.4rem;
+    }
+
+    /* =========================
+       MAIN
+    ========================== */
+
+    .wrap{
+      width:min(var(--max), calc(100% - 24px));
+      margin:auto;
+    }
+
+    .wallHero{
+      padding:30px 5px 20px;
+    }
+
+    .wallTitleRow{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-end;
+      gap:15px;
+    }
+
+    .wallTitle{
+      margin:0;
+
+      font-size:clamp(2.3rem, 10vw, 4.3rem);
+      line-height:.92;
+
+      font-weight:1000;
+      letter-spacing:-2px;
+    }
+
+    .wallTitle span{
+      color:var(--red);
+    }
+
+    .signal{
+      color:var(--pink);
+
+      text-transform:uppercase;
+      letter-spacing:2px;
+
+      font-weight:900;
+      font-size:.78rem;
+    }
+
+    .wallIntro{
+      color:var(--muted);
+
+      font-size:1.04rem;
+      line-height:1.55;
+
+      max-width:600px;
+
+      margin:15px 0 0;
+    }
+
+    /* =========================
+       PROFILE STRIP
+    ========================== */
+
+    .profileStrip{
+      margin:5px 0 22px;
+
+      border:1px solid var(--line);
+      border-radius:22px;
+
+      padding:14px;
+
+      display:flex;
+      align-items:center;
+      gap:13px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,35,50,.08),
+          rgba(255,255,255,.025)
+        );
+
+      box-shadow:var(--shadow);
+    }
+
+    .avatar{
+      width:57px;
+      height:57px;
+
+      border-radius:16px;
+
+      object-fit:cover;
+
+      background:#111;
+
+      border:1px solid rgba(255,255,255,.1);
+    }
+
+    .profileInfo{
+      flex:1;
+      min-width:0;
+    }
+
+    .profileName{
+      font-size:1.12rem;
+      font-weight:1000;
+    }
+
+    .profileHandle{
+      margin-top:3px;
+
+      color:var(--muted);
+      font-size:.91rem;
+    }
+
+    .online{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+
+      color:#b8ffd6;
+
+      font-size:.75rem;
+      font-weight:900;
+    }
+
+    .dot{
+      width:8px;
+      height:8px;
+
+      border-radius:50%;
+
+      background:var(--green);
+
+      box-shadow:0 0 12px rgba(49,219,130,.8);
+    }
+
+    /* =========================
+       FILTERS
+    ========================== */
+
+    .filters{
+      display:flex;
+      gap:9px;
+
+      overflow-x:auto;
+
+      padding:0 0 17px;
+
+      scrollbar-width:none;
+    }
+
+    .filters::-webkit-scrollbar{
+      display:none;
+    }
+
+    .filter{
+      flex:0 0 auto;
+
+      border:1px solid var(--line);
+      border-radius:999px;
+
+      padding:10px 15px;
+
+      background:#101014;
+
+      color:#d4d4da;
+
+      font-size:.87rem;
+      font-weight:900;
+    }
+
+    .filter.active{
+      color:white;
+
+      border-color:rgba(255,52,63,.55);
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(255,52,63,.27),
+          rgba(150,10,20,.22)
+        );
+    }
+
+    /* =========================
+       POSTS
+    ========================== */
+
+    .feed{
+      display:grid;
+      gap:18px;
+    }
+
+    .post{
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+
+      padding:18px;
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(17,17,19,.97),
+          rgba(9,9,11,.98)
+        );
+
+      box-shadow:var(--shadow);
+    }
+
+    .postHeader{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .postAvatar{
+      width:48px;
+      height:48px;
+
+      border-radius:14px;
+
+      object-fit:cover;
+
+      background:#151519;
+
+      border:1px solid rgba(255,255,255,.09);
+    }
+
+    .postMeta{
+      flex:1;
+    }
+
+    .postAuthor{
+      font-weight:1000;
+      font-size:1.02rem;
+    }
+
+    .postTime{
+      margin-top:3px;
+
+      color:var(--muted);
+      font-size:.84rem;
+    }
+
+    .type{
+      color:var(--pink);
+
+      font-size:.72rem;
+      font-weight:1000;
+
+      letter-spacing:1.5px;
+      text-transform:uppercase;
+    }
+
+    .postBody{
+      margin-top:17px;
+
+      font-size:1.08rem;
+      line-height:1.62;
+
+      color:#eeeeF2;
+    }
+
+    .postBody p{
+      margin:0 0 13px;
+    }
+
+    .postBody p:last-child{
+      margin-bottom:0;
+    }
+
+    .quote{
+      margin-top:16px;
+
+      padding:14px 0 14px 17px;
+
+      border-left:4px solid var(--red);
+
+      font-size:1.14rem;
+      line-height:1.4;
+
+      font-weight:1000;
+
+      color:#f6f6f8;
+    }
+
+    /* =========================
+       MEDIA CARD
+    ========================== */
+
+    .mediaCard{
+      margin-top:17px;
+
+      min-height:210px;
+
+      border-radius:20px;
+      border:1px solid var(--line);
+
+      display:flex;
+      align-items:flex-end;
+
+      overflow:hidden;
+
+      background:
+        radial-gradient(
+          circle at 50% 30%,
+          rgba(255,40,50,.22),
+          transparent 32%
+        ),
+        radial-gradient(
+          circle at 15% 80%,
+          rgba(90,0,255,.20),
+          transparent 35%
+        ),
+        #09090c;
+    }
+
+    .mediaOverlay{
+      width:100%;
+
+      padding:22px;
+
+      background:
+        linear-gradient(
+          transparent,
+          rgba(0,0,0,.92)
+        );
+    }
+
+    .mediaIcon{
+      font-size:2.6rem;
+    }
+
+    .mediaTitle{
+      margin-top:8px;
+
+      font-size:1.5rem;
+      font-weight:1000;
+    }
+
+    .mediaSub{
+      margin-top:4px;
+
+      color:#c0c0c8;
+    }
+
+    /* =========================
+       ACTIONS
+    ========================== */
+
+    .postActions{
+      margin-top:17px;
+      padding-top:14px;
+
+      border-top:1px solid rgba(255,255,255,.08);
+
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      gap:8px;
+    }
+
+    .action{
+      min-height:43px;
+
+      border:1px solid transparent;
+      border-radius:14px;
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:7px;
+
+      color:#bdbdc5;
+
+      background:transparent;
+
+      font-weight:900;
+      font-size:.87rem;
+
+      cursor:pointer;
+    }
+
+    .action:hover{
+      background:#151519;
+      border-color:var(--line);
+      color:white;
+    }
+
+    .actionDisabled{
+      cursor:default;
+      opacity:.55;
+    }
+
+    /* =========================
+       LINK BUTTON
+    ========================== */
+
+    .linkButton{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+
+      margin-top:17px;
+
+      min-height:48px;
+
+      padding:0 18px;
+
+      border-radius:15px;
+
+      color:white;
+
+      font-weight:1000;
+
+      background:
+        linear-gradient(
+          180deg,
+          var(--red),
+          var(--red2)
+        );
+
+      box-shadow:0 0 20px rgba(255,35,50,.16);
+    }
+
+    /* =========================
+       END SIGNAL
+    ========================== */
+
+    .endSignal{
+      text-align:center;
+
+      padding:32px 10px 12px;
+
+      color:var(--muted);
+    }
+
+    .endSignal strong{
+      display:block;
+
+      color:white;
+
+      margin-bottom:7px;
+    }
+
+    /* =========================
+       BOTTOM NAV
+    ========================== */
+
+    .bottomNav{
+      position:fixed;
+
+      left:0;
+      right:0;
+      bottom:0;
+
+      z-index:200;
+
+      background:rgba(5,5,6,.96);
+
+      border-top:1px solid var(--line);
+
+      backdrop-filter:blur(18px);
+    }
+
+    .bottomInner{
+      max-width:var(--max);
+      margin:auto;
+
+      display:grid;
+      grid-template-columns:repeat(5, 1fr);
+    }
+
+    .navItem{
+      min-height:82px;
+
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+
+      gap:5px;
+
+      color:#a9a9b1;
+
+      font-size:.76rem;
+      font-weight:900;
+    }
+
+    .navIcon{
+      font-size:1.65rem;
+    }
+
+    .navItem.active{
+      color:white;
+    }
+
+    .navItem.active .navIcon{
+      filter:
+        drop-shadow(
+          0 0 8px rgba(255,52,63,.45)
+        );
+    }
+
+    /* =========================
+       MOBILE
+    ========================== */
+
+    @media(max-width:520px){
+
+      .wrap{
+        width:calc(100% - 20px);
+      }
+
+      .post{
+        padding:16px;
+      }
+
+      .wallHero{
+        padding-top:25px;
+      }
+
+      .postActions{
+        gap:3px;
+      }
+
+      .action{
+        font-size:.79rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="headerInner">
+
+      <a href="index.html" class="brand">
+        <span class="brandGold">♛</span>
+
+        <span>
+          SINIST3R<span class="brandRed">KR3W</span>
+        </span>
+      </a>
+
+      <a
+        href="index.html"
+        class="headerButton"
+        aria-label="Return home"
+      >
+        🏠
+      </a>
+
+    </div>
+  </header>
+
+
+  <main class="wrap">
+
+    <!-- WALL INTRO -->
+    <section class="wallHero">
+
+      <div class="wallTitleRow">
+
+        <h1 class="wallTitle">
+          🧱 THE <span>WALL</span>
+        </h1>
+
+        <div class="signal">
+          LIVE SIGNAL
+        </div>
+
+      </div>
+
+      <p class="wallIntro">
+        Thoughts, updates, faith, media and whatever is moving
+        through the Kr3w. No algorithm required.
+      </p>
+
+    </section>
+
+
+    <!-- PROFILE -->
+    <section class="profileStrip">
+
+      <img
+        src="assets/watcher.png"
+        class="avatar"
+        alt="Sinist3rKr3w"
+      >
+
+      <div class="profileInfo">
+
+        <div class="profileName">
+          J0k3r
+        </div>
+
+        <div class="profileHandle">
+          @k1ngj0k3r22
+        </div>
+
+      </div>
+
+      <div class="online">
+        <span class="dot"></span>
+        ONLINE
+      </div>
+
+    </section>
+
+
+    <!-- FILTERS -->
+    <div class="filters">
+
+      <div class="filter active">
+        All Signals
+      </div>
+
+      <div class="filter">
+        💭 Thoughts
+      </div>
+
+      <div class="filter">
+        🔥 Faith
+      </div>
+
+      <div class="filter">
+        🎬 Media
+      </div>
+
+      <div class="filter">
+        📻 Radio
+      </div>
+
+      <div class="filter">
+        📢 Updates
+      </div>
+
+    </div>
+
+
+    <!-- FEED -->
+    <section class="feed">
+
+
+      <!-- POST 1 -->
+      <article class="post">
+
+        <div class="postHeader">
+
+          <img
+            src="assets/watcher.png"
+            class="postAvatar"
+            alt=""
+          >
+
+          <div class="postMeta">
+
+            <div class="postAuthor">
+              J0k3r
+            </div>
+
+            <div class="postTime">
+              Latest signal
+            </div>
+
+          </div>
+
+          <div class="type">
+            Thought
+          </div>
+
+        </div>
+
+        <div class="postBody">
+
+          <p>
+            Some days the win isn't having everything figured out.
+            It's refusing to stop while you're figuring it out.
+          </p>
+
+          <div class="quote">
+            A million thoughts. A mile a minute.<br>
+            Still here. Still walking. Still knocking.
+          </div>
+
+        </div>
+
+        <div class="postActions">
+
+          <button
+            class="action actionDisabled"
+            title="Reactions coming later"
+          >
+            🖤 React
+          </button>
+
+          <button
+            class="action actionDisabled"
+            title="Comments coming later"
+          >
+            💬 Comment
+          </button>
+
+          <button
+            class="action"
+            onclick="shareWall()"
+          >
+            ↗ Share
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <!-- POST 2 -->
+      <article class="post">
+
+        <div class="postHeader">
+
+          <img
+            src="assets/watcher.png"
+            class="postAvatar"
+            alt=""
+          >
+
+          <div class="postMeta">
+
+            <div class="postAuthor">
+              Sinist3rKr3w
+            </div>
+
+            <div class="postTime">
+              God's Got Us
+            </div>
+
+          </div>
+
+          <div class="type">
+            Faith
+          </div>
+
+        </div>
+
+        <div class="postBody">
+
+          <p>
+            The road doesn't have to make sense before you take the
+            next step.
+          </p>
+
+          <p>
+            Sometimes rebuilding looks less like a breakthrough and
+            more like getting up tomorrow and doing it again.
+          </p>
+
+        </div>
+
+        <a
+          href="gods-got-us.html"
+          class="linkButton"
+        >
+          📖 Read God's Got Us →
+        </a>
+
+        <div class="postActions">
+
+          <button class="action actionDisabled">
+            🖤 React
+          </button>
+
+          <button class="action actionDisabled">
+            💬 Comment
+          </button>
+
+          <button
+            class="action"
+            onclick="shareWall()"
+          >
+            ↗ Share
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <!-- POST 3 -->
+      <article class="post">
+
+        <div class="postHeader">
+
+          <img
+            src="assets/watcher.png"
+            class="postAvatar"
+            alt=""
+          >
+
+          <div class="postMeta">
+
+            <div class="postAuthor">
+              J0k3r
+            </div>
+
+            <div class="postTime">
+              Creator signal
+            </div>
+
+          </div>
+
+          <div class="type">
+            Media
+          </div>
+
+        </div>
+
+        <div class="postBody">
+
+          <p>
+            Sometimes the simplest post is the one that connects.
+          </p>
+
+          <p>
+            No giant production. No pretending.
+            Just a thought somebody else might understand.
+          </p>
+
+        </div>
+
+        <div class="mediaCard">
+
+          <div class="mediaOverlay">
+
+            <div class="mediaIcon">
+              🎬
+            </div>
+
+            <div class="mediaTitle">
+              Latest Media
+            </div>
+
+            <div class="mediaSub">
+              Videos, experiments and creator drops.
+            </div>
+
+          </div>
+
+        </div>
+
+        <a
+          href="media.html"
+          class="linkButton"
+        >
+          ▶ Open Media Vault
+        </a>
+
+        <div class="postActions">
+
+          <button class="action actionDisabled">
+            🖤 React
+          </button>
+
+          <button class="action actionDisabled">
+            💬 Comment
+          </button>
+
+          <button
+            class="action"
+            onclick="shareWall()"
+          >
+            ↗ Share
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <!-- POST 4 -->
+      <article class="post">
+
+        <div class="postHeader">
+
+          <img
+            src="assets/watcher.png"
+            class="postAvatar"
+            alt=""
+          >
+
+          <div class="postMeta">
+
+            <div class="postAuthor">
+              Sinist3rKr3w Radio
+            </div>
+
+            <div class="postTime">
+              Broadcasting
+            </div>
+
+          </div>
+
+          <div class="type">
+            Radio
+          </div>
+
+        </div>
+
+        <div class="postBody">
+
+          <p>
+            💀 The signal is live.
+          </p>
+
+          <p>
+            Keep Sinist3rKr3w Radio running while you scroll,
+            work, build or just disappear into your own head for
+            a while.
+          </p>
+
+        </div>
+
+        <a
+          href="radio.html"
+          class="linkButton"
+        >
+          📻 Listen Live
+        </a>
+
+        <div class="postActions">
+
+          <button class="action actionDisabled">
+            🖤 React
+          </button>
+
+          <button class="action actionDisabled">
+            💬 Comment
+          </button>
+
+          <button
+            class="action"
+            onclick="shareWall()"
+          >
+            ↗ Share
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <!-- POST 5 -->
+      <article class="post">
+
+        <div class="postHeader">
+
+          <img
+            src="assets/watcher.png"
+            class="postAvatar"
+            alt=""
+          >
+
+          <div class="postMeta">
+
+            <div class="postAuthor">
+              Sinist3rKr3w
+            </div>
+
+            <div class="postTime">
+              Kr3w update
+            </div>
+
+          </div>
+
+          <div class="type">
+            Update
+          </div>
+
+        </div>
+
+        <div class="postBody">
+
+          <p>
+            This site isn't finished.
+          </p>
+
+          <p>
+            That's kind of the point.
+          </p>
+
+          <p>
+            We're building it in public — one page, one idea and
+            one signal at a time.
+          </p>
+
+          <div class="quote">
+            We don't blend in. We build.
+          </div>
+
+        </div>
+
+        <div class="postActions">
+
+          <button class="action actionDisabled">
+            🖤 React
+          </button>
+
+          <button class="action actionDisabled">
+            💬 Comment
+          </button>
+
+          <button
+            class="action"
+            onclick="shareWall()"
+          >
+            ↗ Share
+          </button>
+
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- END -->
+    <div class="endSignal">
+
+      <strong>
+        ⚡ END OF CURRENT SIGNAL
+      </strong>
+
+      More hits The Wall when there's something worth saying.
+
+    </div>
+
+  </main>
+
+
+  <!-- BOTTOM NAV -->
+  <nav class="bottomNav">
+
+    <div class="bottomInner">
+
+      <a
+        href="index.html"
+        class="navItem"
+      >
+        <span class="navIcon">🏠</span>
+        Home
+      </a>
+
+      <a
+        href="radio.html"
+        class="navItem"
+      >
+        <span class="navIcon">📻</span>
+        Radio
+      </a>
+
+      <a
+        href="wall.html"
+        class="navItem active"
+      >
+        <span class="navIcon">🧱</span>
+        Wall
+      </a>
+
+      <a
+        href="apparel.html"
+        class="navItem"
+      >
+        <span class="navIcon">👕</span>
+        Shop
+      </a>
+
+      <a
+        href="index.html#signals"
+        class="navItem"
+      >
+        <span class="navIcon">☰</span>
+        More
+      </a>
+
+    </div>
+
+  </nav>
+
+
+  <script>
+
+    async function shareWall(){
+
+      const shareData = {
+        title: "The Wall | Sinist3rKr3w Unchained",
+        text: "Tap into The Wall on Sinist3rKr3w Unchained.",
+        url: window.location.href
+      };
+
+      if(navigator.share){
+
+        try{
+          await navigator.share(shareData);
+        }
+        catch(error){
+          /* User cancelled share */
+        }
+
+      } else {
+
+        try{
+          await navigator.clipboard.writeText(
+            window.location.href
+          );
+
+          alert("Wall link copied.");
+        }
+        catch(error){
+
+          alert(
+            "Copy this link: " +
+            window.location.href
+          );
+
+        }
+
+      }
+
+    }
+
+  </script>
+
+
+  <!-- Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-73D8T38VH3">
+  </script>
+
+  <script>
+
+    window.dataLayer =
+      window.dataLayer || [];
+
+    function gtag(){
+      dataLayer.push(arguments);
+    }
+
+    gtag("js", new Date());
+
+    gtag(
+      "config",
+      "G-73D8T38VH3"
+    );
+
+  </script>
+
+</body>
+</html>
