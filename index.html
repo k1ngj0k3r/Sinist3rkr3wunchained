@@ -357,6 +357,59 @@
       .profileMain{grid-template-columns:126px 1fr}
       .avatar{width:126px;height:126px}
     }
+    
+/* SINIST3RKR3W NETWORK */
+.networkGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.networkCard {
+  padding: 18px 14px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: linear-gradient(180deg, #191921, #101016);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: .2s ease;
+}
+
+.networkCard:hover,
+.networkCard:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--purple);
+}
+
+.networkCard .icon {
+  font-size: 1.8rem;
+}
+
+.networkCard h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.networkCard p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .8rem;
+  line-height: 1.5;
+}
+
+.networkCard .explore {
+  margin-top: auto;
+  color: var(--gold);
+  font-size: .8rem;
+  font-weight: 900;
+}
+
+@media (max-width: 540px) {
+  .networkGrid {
+    grid-template-columns: 1fr;
+  }
+}
   </style>
 
   <script type="application/ld+json">
@@ -564,6 +617,48 @@
             </a>
           </div>
         </section>
+        
+<section class="section" id="network">
+  <div class="sectionHead">
+    <h2>👑 Explore the Kr3w</h2>
+    <span class="eyebrow">One Network</span>
+  </div>
+
+  <div class="networkGrid">
+
+    <a class="networkCard" href="news.html">
+      <div class="icon">📰</div>
+      <h3>Sinist3rKr3w Media</h3>
+      <p>
+        Independent news, original stories,
+        videos, and community coverage.
+      </p>
+      <span class="explore">Explore Media →</span>
+    </a>
+
+    <a class="networkCard" href="apparel.html">
+      <div class="icon">👕</div>
+      <h3>Sinist3rKr3w Shop</h3>
+      <p>
+        Discover Unchained apparel,
+        merchandise, and original designs.
+      </p>
+      <span class="explore">Shop the Kr3w →</span>
+    </a>
+
+    <a class="networkCard" href="lists.html">
+      <div class="icon">🛡️</div>
+      <h3>Sinist3rKr3w Community</h3>
+      <p>
+        Learn about Dark Angels,
+        our community mission, and
+        ways to connect with the Kr3w.
+      </p>
+      <span class="explore">Join the Community →</span>
+    </a>
+
+  </div>
+</section>
 
         <div class="ticker" aria-hidden="true">
           <span>⚠️ WE DON'T BLEND IN. WE BUILD. WE SPEAK TRUTH. WE MOVE DIFFERENT. • WHERE YOU MATTER MOST. ⚠️</span>
