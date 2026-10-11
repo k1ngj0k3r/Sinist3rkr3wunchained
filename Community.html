@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090b">
+  <meta name="description" content="Sinist3rkr3w Community — Dark Angels, Zello, and a place where you matter most.">
+  <title>Community | Sinist3rkr3w Unchained</title>
+  <link rel="stylesheet" href="assets/css/cyber.css">
+
+  <style>
+    :root {
+      --bg: #070709;
+      --panel: #111118;
+      --text: #f5f5f7;
+      --muted: #aaaab5;
+      --line: rgba(255,255,255,.1);
+      --red: #ff3434;
+      --purple: #9b5cff;
+      --gold: #e4b44c;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: Inter, Arial, sans-serif;
+      background:
+        radial-gradient(circle at 15% 0%, rgba(155,92,255,.2), transparent 350px),
+        radial-gradient(circle at 90% 15%, rgba(255,52,52,.15), transparent 300px),
+        var(--bg);
+      min-height: 100vh;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .container {
+      width: min(1050px, calc(100% - 28px));
+      margin: auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(7,7,9,.9);
+      padding: 18px 0;
+    }
+
+    .headerInner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .brand {
+      font-weight: 900;
+      letter-spacing: 1px;
+    }
+
+    .brand span { color: var(--red); }
+
+    .homeLink {
+      color: var(--gold);
+      font-size: .9rem;
+      font-weight: 800;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 15px 45px;
+    }
+
+    .crown {
+      font-size: 3rem;
+      color: var(--gold);
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.4rem);
+      margin: 12px 0;
+    }
+
+    .hero p {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .highlight { color: var(--red); }
+
+    .mission {
+      text-align: center;
+      background: linear-gradient(180deg, #17171f, #0d0d12);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 30px 22px;
+      margin-bottom: 28px;
+    }
+
+    .mission h2 { color: var(--gold); }
+
+    .mission p {
+      color: #d6d6df;
+      line-height: 1.8;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin: 25px 0;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #181820, #101016);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 28px 22px;
+    }
+
+    .card .icon { font-size: 2.3rem; }
+
+    .card h2 { margin: 15px 0 10px; }
+
+    .card p {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 13px 19px;
+      border-radius: 13px;
+      font-weight: 900;
+      transition: .2s;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+
+    .red {
+      background: linear-gradient(180deg, #ff4545, #b50e1c);
+      color: white;
+    }
+
+    .purple {
+      background: linear-gradient(180deg, #a874ff, #6830b8);
+      color: white;
+    }
+
+    .gold {
+      background: linear-gradient(180deg, #f2cb69, #a97814);
+      color: #17120a;
+    }
+
+    .values {
+      margin: 35px 0;
+      text-align: center;
+    }
+
+    .values h2 { margin-bottom: 22px; }
+
+    .valueGrid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .value {
+      background: #121218;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px 12px;
+      font-weight: 800;
+    }
+
+    .value span {
+      display: block;
+      font-size: 1.7rem;
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 35px 20px;
+      background: linear-gradient(135deg, rgba(155,92,255,.15), rgba(255,52,52,.12));
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      margin: 35px 0;
+    }
+
+    .cta p { color: var(--muted); }
+
+    footer {
+      text-align: center;
+      color: #92929d;
+      padding: 35px 10px 45px;
+      font-size: .85rem;
+    }
+
+    @media (max-width: 650px) {
+      .grid { grid-template-columns: 1fr; }
+      .valueGrid { grid-template-columns: 1fr; }
+      .hero { padding-top: 45px; }
+      .headerInner { flex-wrap: wrap; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container headerInner">
+      <a href="index.html" class="brand">
+        SINIST3R<span>KR3W</span> ♛
+      </a>
+      <a href="index.html" class="homeLink">← Home</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="crown">♛</div>
+      <h1>THE <span class="highlight">KR3W</span> COMMUNITY</h1>
+      <p>
+        More than a name. More than a brand.
+        A place to connect, encourage one another,
+        and build something meaningful together.
+      </p>
+      <p><strong>Where You Matter Most.</strong></p>
+    </section>
+
+    <section class="mission">
+      <h2>🖤 Our Mission</h2>
+      <p>
+        Sinist3rkr3w is building a community rooted in
+        respect, resilience, belonging, and standing
+        against bullying. We believe people deserve
+        to be heard, treated with dignity, and given
+        opportunities to connect with others.
+      </p>
+    </section>
+
+    <div class="grid">
+      <section class="card">
+        <div class="icon">🛡️</div>
+        <h2>Dark Angels</h2>
+        <p>
+          Our anti-bullying community initiative.
+          Connect with others, encourage kindness,
+          and help create a culture where people
+          stand up for one another.
+        </p>
+        <a class="button red"
+           href="https://m.me/j/qXdQFOhUUc9lL7As/?send_source=gc%3Acopy_invite_link_t"
+           target="_blank"
+           rel="noopener noreferrer">
+          Join Dark Angels →
+        </a>
+      </section>
+
+      <section class="card">
+        <div class="icon">🎙️</div>
+        <h2>Sinist3rkr3w Zello</h2>
+        <p>
+          Join real-time walkie-talkie conversations
+          through our Zello community invitation.
+          App access or approval may be required.
+        </p>
+        <a class="button purple"
+           href="https://zlo.app/2ncw3r?z=0&amp;link_source=recents_invite_cell"
+           target="_blank"
+           rel="noopener noreferrer">
+          Join Zello →
+        </a>
+      </section>
+    </div>
+
+    <section class="values">
+      <h2>What We Stand For</h2>
+      <div class="valueGrid">
+        <div class="value">
+          <span>🤝</span>
+          Respect
+        </div>
+        <div class="value">
+          <span>🛡️</span>
+          Standing Against Bullying
+        </div>
+        <div class="value">
+          <span>🖤</span>
+          Community & Belonging
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Be Part of Something Bigger</h2>
+      <p>
+        Explore our media, discover our merchandise,
+        and stay connected with the Kr3w.
+      </p>
+      <a class="button gold" href="index.html">
+        Explore Sinist3rkr3w →
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    Sinist3rkr3w Unchained<br>
+    Where You Matter Most.<br>
+    © 2026 Sinist3rkr3w
+  </footer>
+</body>
+</html>
