@@ -1,0 +1,35 @@
+name: Update KR3W WIRE News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch news headlines
+        run: python scripts/fetch_news.py
+
+      - name: Commit updated headlines
+        run: |
+          git config user.name "KR3W WIRE Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/headlines.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update KR3W WIRE headlines"
+            git push
+          fi
