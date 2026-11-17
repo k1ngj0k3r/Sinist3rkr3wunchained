@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       display: inline-block;
       white-space: nowrap;
       padding-left: 100%;
-      animation: kr3w-scroll 32s linear infinite;
+      animation: kr3w-scroll 65s linear infinite;
     }
 
     @keyframes kr3w-scroll {
