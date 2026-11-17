@@ -105,7 +105,13 @@ document.addEventListener('DOMContentLoaded', async () => {
       return;
     }
 
-    const headlines = data.headlines.slice(0, 10);
+    const regions = ['US', 'OHIO', 'WORLD'];
+
+    const selected = regions.flatMap(region =>
+      data.headlines
+        .filter(item => item.category === region)
+        .slice(0, 5)
+    );
 
     track.replaceChildren();
 
@@ -113,15 +119,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     intro.textContent = '🔴 KR3W WIRE • 🖤 SINIST3RKR3W NEWS • ';
     track.appendChild(intro);
 
-    headlines.forEach(item => {
+    selected.forEach(item => {
       const link = document.createElement('a');
 
-      link.textContent = `🌎 ${item.title} • `;
+      const regionIcon = {
+        US: '🇺🇸',
+        OHIO: '🏙️',
+        WORLD: '🌎'
+      }[item.category] || '📰';
+
+      const developing = item.priority === 'DEVELOPING';
+
+      link.textContent = developing
+        ? `🟠 DEVELOPING • ${regionIcon} ${item.title} • `
+        : `${regionIcon} ${item.title} • `;
+
       link.href = item.url;
       link.target = '_blank';
       link.rel = 'noopener noreferrer';
 
-      link.style.color = '#ffffff';
+      link.style.color = developing ? '#ffcc80' : '#ffffff';
       link.style.textDecoration = 'none';
       link.style.marginRight = '20px';
 
