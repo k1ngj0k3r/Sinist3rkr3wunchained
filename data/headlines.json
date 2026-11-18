@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17T22:02:56.926243+00:00",
+  "updated": "2026-11-18T03:42:30.728900+00:00",
   "headlines": [
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
       "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
@@ -87,9 +87,9 @@
     },
     {
       "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Video: Divers search submerged truck in Columbus, Ohio, retention pond - cedarnews.net",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcWxzVzlfaXhPV0J5MFp5eUZvZDJaT0d4cUZHUm83Wk9TRjBNbkxHM3dER2NSZVZ0YWZhakxzT3F1N0pRSEZITGl5akRpSzhtQU9kM05JQUpsQjJia1ZteFR4bGUwUV9BbGN2d0lIclBsbVZaWnVrcnNNQ2RsdWxVaTZBTWptN2V0NWtXQndGelVMODl0UklzZ25kNlJKdTA0SUFTM0hmSm0wUFhV?oc=5",
+      "priority": "DEVELOPING",
+      "title": "Breaking the cycle: Northeast Ohio father confronts childhood trauma to build a better future for his children - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNOGZtY01DbDdhODN4RDBpX2p5UEJfTFZYRjhjamZZaGZOT3JycWl3TVFBX2xqTnJ2aVZuS2ZNOTIwZmlGRFFYTzd0bmZaTkVBYjRYTUhGb1FQZ0tCT2VIY1p2c1YxejcyLU90X3BXNDM3UHpzbDZ3QmF0aWFYWlhlTEo4Mkw4VnFQcllIM2RVcS1ic2VGU0w4X0diaGlTSWR6amdwazUtM0VXVGI4aTRlWnZyZlJnM2JYMUd3cXFhYV9YNjlCaWR4bFF4ZDljcHJjRGVzal8ySWtMZVNTQkE3cEQ4WWM1MlRDVXZhRzZCTzY0VkpxQTNWVjFOMDVmS3l6R20zdDRGbm1STEstZkVJcXhlVUt6QThkYXhrbjUtNXpONUU?oc=5",
       "source": "Google News"
     },
     {
@@ -102,8 +102,15 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Data Center Industry Reassesses Ohio After Voters Reject 21 Local Ballot Measures - WOWO",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdnlRSzBxcDM2TFdzc3dWRHhXWGRkNXZSR05vYkl4YTFacV9DZjBvdlNCZnVRRmlEYjJsMGIwN3dKcVF2c1NxSGFLSE5tak5aM2xrc05KWFhEYmdjMDV6UDhWVXMzY2hCVGlWTVpuZGFwaHdsYUoyREtpRm5OMkEtVkw2TWc3SVlFTFpsQ1FfeDBxdFBEaHNOQVQ2enBrd1ZJ?oc=5",
+      "title": "Ohio State moves into bubble territory of latest College Football Playoff rankings - On3",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUURBTkk2Si1kMldkOHlzeFVQaVVaYThiM1dXSFA5ajhyVzlyanF0V0p3MktVODA2a0RyRklVNjRoOHNZbUoyYVF6dmk0NVlKdVl6c3hLR0xQblZYNVFWOFBXbENsQ0VpMmNONDdLNXk5QVotTEx2VjNsUkhOcDRNVWxkZG5YSTQtV2ptUTRJUTF5bjM3WTEwSFVhcENncDdPRmFGanBfdUxkU1VMYlFEMDFmQkUwSmphaDdpMGJrX3YwSWVNcExzc2F3RGlCYVE?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "She went to college to become a social worker. Now she's joined the skilled trades - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEcwclQtNkQ0aXd3VTdqSWEzazJXcjF2YVJHV2Y4MUMwaml1Yl9YNjRUY0d6blNKektlazB5NlRoMllvZU5ZODF3Q05uVmtybjU2ZnJwS2FZdy1tVWpQb3QwaVl1T0xVSzN4aFlta3FPR1RJVE9pOTM2WGF0clR5ME9FcmxqQkpjRkNNOENkUjBTaWR5d3NPdW5SS0EyTERXTEE?oc=5",
       "source": "Google News"
     },
     {
@@ -122,6 +129,13 @@
     },
     {
       "category": "WORLD",
+      "priority": "DEVELOPING",
+      "title": "Thomas Markle charged over child sex abuse material in Philippines",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
       "priority": "GENERAL",
       "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
       "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
@@ -130,15 +144,8 @@
     {
       "category": "WORLD",
       "priority": "DEVELOPING",
-      "title": "Russian military plane crashes killing all 19 on board",
+      "title": "Russian military plane crashes, killing all 19 on board",
       "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-      "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
