@@ -1,32 +1,39 @@
 {
-  "updated": "2026-11-18T03:42:30.728900+00:00",
+  "updated": "2026-11-18T13:00:58.135554+00:00",
   "headlines": [
     {
       "category": "US",
+      "priority": "DEVELOPING",
+      "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+      "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
       "priority": "GENERAL",
-      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
       "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Carney looks to China as Trump tariffs squeeze Canada's car industry",
-      "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+      "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+      "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
-      "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "US loses measles elimination status after 26 years amid record case numbers",
-      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+      "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+      "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -39,36 +46,29 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+      "title": "US loses measles elimination status after 26 years amid record case numbers",
+      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "We couldn't afford a house alone, so we bought one with strangers",
-      "url": "https://www.bbc.co.uk/news/articles/c5742lwdyzglo?at_medium=RSS&at_campaign=rss",
+      "title": "Linares in ICE detention and facing deportation",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-      "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "US bank services returning to normal after major outage",
-      "url": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
+      "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
+      "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -80,9 +80,9 @@
     },
     {
       "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio AI Summit returns to Columbus Wednesday with focus on applied AI and infrastructure - Ohio Tech News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkFLR29uTzFzaG5Vd1JfWjVKcUZkMW1adksxdjd4Y0NFWlFjUDFJWno4SHRpOS0xemk5MEtKTjBnN3JaeVZ3WElFX1ZxaFZoa3lqM0Npc2lDNlNKaFotVG1GMl9TNW91Tkdia2h3MWxtR3hwSy04bjBXQm5zQWh4aWZhc1A0ZWtVenlkMWFidTB0VFlQTF9tNFlfYkZLMTVFaFFmLS1ILUJPT05TWGgyVERSMU5nMHgtcFE?oc=5",
+      "priority": "DEVELOPING",
+      "title": "USPSA Race Gun Nationals \u2014 Columbus, Ohio \u2014 Shooting USA - cedarnews.net",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU2FVNElZX2Z6OU1LS1V2emJ3cEFfVzQySHN3cTUyS0VlWG15c3FRdzUySnpBTjNyckFHNVdDTWZId2ZHNTkxaS16ZW5OYWpZUDgtVnNLbTJLaFZtSTFTaUJSWGVzeEREd0l1dDE2YW1EUVkzTzFFQnMzWl9ObnZJX2tLbjU1YmFjcFZpaGhwTjFuZw?oc=5",
       "source": "Google News"
     },
     {
@@ -94,16 +94,9 @@
     },
     {
       "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Football: Breaking Down MAC Tiebreakers and Ohio\u2019s path to Detroit - The Post",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVXIyazladTRaa194RnhoZGg0X1JkSW5aSS15SXZRX1VXeXZfMDVMdkYzTGRFbkhYdFZuWkNKaTZQNmZGaFlDdW1XYWNTdDlpVEx0eV9tWEN4eW9GM0w3SDRZMFRRNUtoaGNpdjV6MHRtZVBXLXZ5SjRlT1RzZDZaNXAxaWZQSTJhLTlMbmotY1VnclozUUE4dERvanZXbF9wbTlR?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio State moves into bubble territory of latest College Football Playoff rankings - On3",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUURBTkk2Si1kMldkOHlzeFVQaVVaYThiM1dXSFA5ajhyVzlyanF0V0p3MktVODA2a0RyRklVNjRoOHNZbUoyYVF6dmk0NVlKdVl6c3hLR0xQblZYNVFWOFBXbENsQ0VpMmNONDdLNXk5QVotTEx2VjNsUkhOcDRNVWxkZG5YSTQtV2ptUTRJUTF5bjM3WTEwSFVhcENncDdPRmFGanBfdUxkU1VMYlFEMDFmQkUwSmphaDdpMGJrX3YwSWVNcExzc2F3RGlCYVE?oc=5",
+      "title": "Ohio State Moves up Six Spots to No. 14 in Latest CFP Rankings - Eleven Warriors",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXlPX1FXZ091X2c0QmlSenBWRnpVa0J1TXRGZnRUOHphenpqcFYydktIcE42X3pRLUM4bXR5MU9ROVBVdFZrSU9hWVFUY0Y3TWtRX0NwZTU4ekh6eUxxUVJ2Mk5lb1FCbnpXTWg1dHpjZVZZQ1Y0cm50cWJhOXNoaQ?oc=5",
       "source": "Google News"
     },
     {
@@ -116,36 +109,36 @@
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "How the attack on Crimean Bridge unfolded",
-      "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+      "title": "Bancroft sandpaper claims heap pressure on Cummins",
+      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
-      "priority": "DEVELOPING",
-      "title": "Thomas Markle charged over child sex abuse material in Philippines",
+      "priority": "GENERAL",
+      "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
+      "url": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
+      "url": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
       "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-      "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "DEVELOPING",
-      "title": "Russian military plane crashes, killing all 19 on board",
-      "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
