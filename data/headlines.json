@@ -1,11 +1,60 @@
 {
-  "updated": "2026-11-18T13:00:58.135554+00:00",
+  "updated": "2026-11-18T21:26:40.890546+00:00",
   "headlines": [
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
+      "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
+      "title": "Torrential rain causes widespread flooding in South Florida",
+      "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
     {
       "category": "US",
       "priority": "DEVELOPING",
       "title": "Rubio says US not 'under systemic attack' after series of tech outages",
       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Why Carney is looking to China as Canada's car industry comes under US pressure",
+      "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -23,66 +72,31 @@
       "source": "BBC News"
     },
     {
-      "category": "US",
+      "category": "OHIO",
       "priority": "GENERAL",
-      "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
-      "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
-      "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "'Everyone's talking about it' - GTA 6 generates huge hype ahead of release",
-      "url": "https://www.bbc.co.uk/news/videos/c6gqx1qkdy9do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "US loses measles elimination status after 26 years amid record case numbers",
-      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Linares in ICE detention and facing deportation",
-      "url": "https://www.bbc.co.uk/sport/boxing/articles/cknv4q197dymo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "How important are Nvidia and Jensen Huang to the US economy?",
-      "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Jeff Bezos says he was 'heavily involved' in casting Robert Pattinson as new Bond",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1eejk292o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
+      "title": "Why the CFP Committee's Latest Rankings Reveal Is Great News for Ohio State Football - Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV1JDT2tvV3ljZDlNVElWbTcwMDdLWnBKYWVsbnFwUm1HUGhPY1dlRjFMZFJ0MUIzNjR0dVVYckRnZEhGSGloVl96LXJYeE5qdWE2MUVQUGNUdU4tTDdmNk5rQjNHQXpIZ2Z2cGdtX1VJZ2dEMEprSXNJNXB6QW8xaGdSUkNnOXJfVEpfRUNZRjBDSWVCckpxbTl0MjFkTm41Z3JreWl6ZGlzNTZGYS1wLW5YMWZvdWdYaTVneWQ1d2ttRXpDdGhwRnkteWRUbHNDcGx0NHp5QkFaekU?oc=5",
+      "source": "Google News"
     },
     {
       "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Juveniles involved in northeast Columbus crash that caused life-threatening injury - NBC4 WCMH-TV",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQl94U1BDRGVGTTR2b0t3cVdnd0QzNzhZSnI0X3NqZk9uOTBISFl5Zm4zLWZINkNSUEhGN3dnVXNaRUU4b3FDV1BHM2h4VlBIN1ZRMnlxdXVlSzVOclczU04xNnFDS21pZXFEaTdOTEJuV2NuYU9hOTg3aTBhZF94Y2R4TUUycnd3NGxiaEhBV0NjUExHS0lJb29SajJKdGJMNXlJWjQySGZWdkhrSGdWUmxmemlyd2Jfa3hLZkxrSW13eEpmckU1V21R0gHPAUFVX3lxTFBweklrVzJGMGlGLWRBb1pyTFFiR1lvYkZTOF9uU19GOV92QnZidmNfa0JhWDV0SFZTZmszaHI1VmpKQ3JySUwzTDBiYUNac1Vpb0NRS1RhS2hZbzRmMk1DR2RBbVhRR1hQS0NGWkl1RVdMaXRPLXl5ZzJpNHZhdnpwUzd0ZjZsVVBLWDdIV1lpT04tbFlOQ0Z5dG9hclZ5cjlrSkNXMFNqTGNKeExCc1JuYXdfd2lpVW92U3llLVhLanRsb1JvWjZTRlMxTS1Dcw?oc=5",
+      "priority": "GENERAL",
+      "title": "Ohio lawmakers jam one gun rights bill into another before sending to DeWine - WYSO Public Radio",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbndVaHM2bHRzQVVzeFpzb1loNXN1UmNiTzZfaVJ2YUFzTmkxanBZZ1NDby1BVW9PZjdIWFhmY1FONUFGclV2OG83REl4ZEJBeXl3NGs5NEJmc25yNzFvbENTa2ZpYmNnZU5VbFdrUG8xVmlfQkJJMVYwcUtHVVVSZlF6LVhHWXVIMXVJVDVDbzB5QlQ1by1NUnRCSmJrT3BfbTZwM1J6NWxXTTY2?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Ohio State Makes Huge Leap in the Most Recent College Football Playoff Ranking - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQk5pRmZLdlFJR2xOcGMzUkl1SC04ZDN3WTBzMk5KTWJsU0J3dnpkdVZLaE5JeV9uclZyZjlseGV3dVFCQmtMcXhhMWtmZWVnVUpzQVRVZC1pcHlBSFFXVDlGTjJqUUhWaGJoUGlSSGJPQ095anBQUHQwdi1ESG0xRg?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "USPSA Race Gun Nationals \u2014 Columbus, Ohio \u2014 Shooting USA - cedarnews.net",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU2FVNElZX2Z6OU1LS1V2emJ3cEFfVzQySHN3cTUyS0VlWG15c3FRdzUySnpBTjNyckFHNVdDTWZId2ZHNTkxaS16ZW5OYWpZUDgtVnNLbTJLaFZtSTFTaUJSWGVzeEREd0l1dDE2YW1EUVkzTzFFQnMzWl9ObnZJX2tLbjU1YmFjcFZpaGhwTjFuZw?oc=5",
+      "title": "Search for gunmen continues after 12 wounded at outdoor Ohio festival - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZHRU1EN2pqSkFqTHV2SEdyc3BrYXBSOTg2SmwzZ05rWkRhU00yaUNySjlPQjFWSms3eEFHbXZ4aWxDOVZHTElaTDlNVzZCWjFpczNyQjRCUjZIYWF6UW9mbVBSdE5BUUNieWJyZGVtbVlHOWdJcE9BTjJHQ2x5ODhGR3VJOEN6YW1qalB0WU5lekM2ZGfSAZsBQVVfeXFMTmJUbEZ1Q2szeXBOTnFvYnJoS1ZrTXdVSHhjblcxSVZZdjRrYm1uVGlNR2pmcWtuUUxneWtlbkhDZ0ZudzNHR2ZpRDB5WW9TQlhRamJlaTJTV1JIZjUwcVVKM2pzLU80VXI1NkQzVmlkZ0pwYXdPLXBnSDFyNk55QWd4dURELWRPX2VWbktUa2JLQVBBSVdBOXdIYjA?oc=5",
       "source": "Google News"
     },
     {
@@ -95,50 +109,71 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio State Moves up Six Spots to No. 14 in Latest CFP Rankings - Eleven Warriors",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdXlPX1FXZ091X2c0QmlSenBWRnpVa0J1TXRGZnRUOHphenpqcFYydktIcE42X3pRLUM4bXR5MU9ROVBVdFZrSU9hWVFUY0Y3TWtRX0NwZTU4ekh6eUxxUVJ2Mk5lb1FCbnpXTWg1dHpjZVZZQ1Y0cm50cWJhOXNoaQ?oc=5",
+      "title": "Wright-Patt invests $460K into Ohio nonprofits, largest investment in fund history - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenpTOEo0bGZ3VGJYb2I4VndPSFh2MWFfQWdBWkVxeU5MN1lRZ0lfT2NCQk5GcWV0M0RHaGxoUWdPbHd3Um51c0NZNDVzRldOTlRydUVqX0ZLNnJtTU5JMFV3TFNrRl9feEFyMnZNRmZJcXBqbDRXODdBZFNrTFRRanJnTUJkejdUSlBpdURuZzFXSV9XVlU5UllINkpheG9aZUg0WFpB?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "She went to college to become a social worker. Now she's joined the skilled trades - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEcwclQtNkQ0aXd3VTdqSWEzazJXcjF2YVJHV2Y4MUMwaml1Yl9YNjRUY0d6blNKektlazB5NlRoMllvZU5ZODF3Q05uVmtybjU2ZnJwS2FZdy1tVWpQb3QwaVl1T0xVSzN4aFlta3FPR1RJVE9pOTM2WGF0clR5ME9FcmxqQkpjRkNNOENkUjBTaWR5d3NPdW5SS0EyTERXTEE?oc=5",
+      "title": "Tri-State peace pavilion earns top Ohio parks award as community landmark - WKRC",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQc3doR3MyQ3EtUDdqR1V1ZXE0ckdQM1A2b0pLZWhGaVpfYURIeWhfTGNzVUZjREF5WEljOU1ITExoMmVrTWFEckI3VW9sREVKb2VoRUNfUTdGcFRCSHZJSlM3VUdPT2FEY25BNEZQOFpNamRMblhpc0VYeG1lTEdiRWZhM3pRaG1oNVh0R0llcFFhMWVJNzJWN3cyYkhGN2hUS2FlbVhmS2REeEJ0c0diMHdmNmJYN201RkF6XzRRaXBBU3piZVBKcGlDQ2NiVklsREFxTE5KVVM0YV9aZnF6WXg0ZUk3ZGF6clVMeF9YVmJ3LXFnTUNpR2E1TUNtWkEtaFUxSW1Sdm5WU01YbDA0VHdvQmdGOHlEN0pqQU9kYktZQldJenBOWWFJMUZPWFM5?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Circle K debuts Caf\u00e9 + Market concept in Ohio, drawing on GetGo's playbook - CSP Daily News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVl9uM3MxNlF0Q01SS1E4djhqV19TU04wNjI1bjRwTmdDUW9MT3FQQTByaU01NkFTdWgxUm12WkpjX283TmM2eWstbDQ0Uk4wRjVySGhVNVhRMUtzb0s0emlHcmlqLU5GQnMzVW5mWXplNEV2ODFuTGo0WGQ2bTNkQlg4REpMRkU2NXBaSUZWcWZuR1VwaWVTV0hpdkZ6amRmVzNweXZRdGxSUQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Locals recognized on OSSCA All-Ohio lists - Weirton Daily Times",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlY5SjRLMllCWXdHcjlEQ21OOUNqZEFJVFRoam1CLWpOX2c3LU0yeXNUeDQtNURZZ25MTE54S0VvYUp2bzRFUVRTTG1ZRFZUVEJhNXROSlIybTdKenZTTGFGRmdKc3AtUEFNWkdGcDBBT0kzRHlocTJiajFubkgwMGUxRl9UV2ZKTHMwYThfckJ3RGhrOGc?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Democrat flips Ohio House seat in Wood County, thin margins trigger automatic recount - WTVG",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY05YQl93N0N5cGIzOXBpUFh5YlhnaHd0TTFlNUtoakU3YUtBeGtxTEVBVklsbHFyLTRaTnBNMlZIczRVbmJQUV92S2VlLWJyX2stX3VUZ0NpS1BoRG1icm5IekE0OVIwVl93NW5wemtaT0FXcm1TR250Tk5NZzBsbVlwazRkUC1BODZLaWdDbURKOVRPQzdZSUNPVVJ1NzJUWmVrY3VfMkR0bnJQVVlBTFdUWEdiNDhXNWMxbE93?oc=5",
       "source": "Google News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Bancroft sandpaper claims heap pressure on Cummins",
-      "url": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss",
+      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
-      "url": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
-      "url": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+      "title": "William and Kate meet PM Modi as they wrap up India tour",
+      "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
