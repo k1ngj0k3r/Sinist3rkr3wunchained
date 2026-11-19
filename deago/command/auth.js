@@ -12,6 +12,44 @@ if (!config || !window.supabase) {
     config.supabaseKey
   );
 
+  const forgot = document.getElementById("forgot-password");
+
+  if (forgot) {
+    forgot.addEventListener("click", async (event) => {
+      event.preventDefault();
+
+      const email = document.getElementById("email").value.trim();
+
+      if (!email) {
+        message.textContent =
+          "Enter your email address, then tap Forgot Password.";
+        return;
+      }
+
+      forgot.style.pointerEvents = "none";
+      message.textContent = "Requesting password recovery email...";
+
+      const { error } = await client.auth.resetPasswordForEmail(
+        email,
+        {
+          redirectTo:
+            "https://sinist3rkr3w.com/deago/command/reset-password.html"
+        }
+      );
+
+      forgot.style.pointerEvents = "";
+
+      if (error) {
+        message.textContent =
+          "Unable to send recovery email. Please try again later.";
+        return;
+      }
+
+      message.textContent =
+        "If this account exists, a password recovery email has been requested. Check your inbox.";
+    });
+  }
+
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
 
