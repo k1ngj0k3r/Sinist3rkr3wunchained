@@ -1,25 +1,18 @@
 {
-  "updated": "2026-11-18T21:26:40.890546+00:00",
+  "updated": "2026-11-19T03:24:55.509357+00:00",
   "headlines": [
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
-      "priority": "GENERAL",
-      "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
-      "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "priority": "DEVELOPING",
+      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -32,6 +25,13 @@
     {
       "category": "US",
       "priority": "DEVELOPING",
+      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
       "title": "Torrential rain causes widespread flooding in South Florida",
       "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
@@ -39,8 +39,22 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -58,20 +72,6 @@
       "source": "BBC News"
     },
     {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Nvidia says it won't reinstate Huang as it reports soaring sales",
-      "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
       "category": "OHIO",
       "priority": "GENERAL",
       "title": "Why the CFP Committee's Latest Rankings Reveal Is Great News for Ohio State Football - Sports Illustrated",
@@ -80,16 +80,16 @@
     },
     {
       "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio lawmakers jam one gun rights bill into another before sending to DeWine - WYSO Public Radio",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbndVaHM2bHRzQVVzeFpzb1loNXN1UmNiTzZfaVJ2YUFzTmkxanBZZ1NDby1BVW9PZjdIWFhmY1FONUFGclV2OG83REl4ZEJBeXl3NGs5NEJmc25yNzFvbENTa2ZpYmNnZU5VbFdrUG8xVmlfQkJJMVYwcUtHVVVSZlF6LVhHWXVIMXVJVDVDbzB5QlQ1by1NUnRCSmJrT3BfbTZwM1J6NWxXTTY2?oc=5",
+      "priority": "DEVELOPING",
+      "title": "BREAKING: In-state 2027 edge Damion King flips to Ohio State - 247Sports",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3prRzI0LUI3Mk9ZMUFHT21keVhYa3dOMHRjYXBBdmhURnlmRmV3S3F2VktYLTJzbTd2ZEZhUERSanl2X2hFdTdaQlZRbmtNa1h2T0xqdzRPX0NUNWdLY0xndjF0cjh1VDRRZGtjbVprUFk0blZOMVktYzEzU0JDWGxCYVNrRnpzMUtFVnZfd0M2ZFp5emlXUTFnb0JQTkJVX3VSck9EcXJscjVXZmpIcnBWMDM4VXJJUmdxNVVtMDFhZ0RxNFdF?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio State Makes Huge Leap in the Most Recent College Football Playoff Ranking - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQk5pRmZLdlFJR2xOcGMzUkl1SC04ZDN3WTBzMk5KTWJsU0J3dnpkdVZLaE5JeV9uclZyZjlseGV3dVFCQmtMcXhhMWtmZWVnVUpzQVRVZC1pcHlBSFFXVDlGTjJqUUhWaGJoUGlSSGJPQ095anBQUHQwdi1ESG0xRg?oc=5",
+      "title": "Ohio passes bill ending restrictions on loaded guns in cars, lowering permitless concealed carry age to 18 - Springfield News-Sun",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPM3ppWWZDR2RHUXMyc2FldWRobVBiNnpDZGRBenlQc09VSXI0V0lOLW1RSnp0TkdQbl9fbW1hcjNPUDRLb1JYUlNuWjRORXpJWWlTMHVrVF9BaDY2dC1KTExDU3loc2dHTTBSb1VtbkRwT2xvcDJ3NHJmby1BR3FnWjBxNW5YeVNlaW4tQjBpX2pEV2dZeG5hOUdjbzhYX2paVUMxZFVUbDhnUHNWb0hUSzdRWVFXdkZJVW52clB1WGk1cGhwNDVIQ3Fxb3g0M2JzX0FDUEZkS19pM1ZVZ0NXQTdqVXRUTEI4R3RXY05hX2o0eDhROHhIOHg5STNLazNVTlJ0bU51a2txZThseVlOekhSOTltUFNSV0E?oc=5",
       "source": "Google News"
     },
     {
@@ -97,6 +97,34 @@
       "priority": "DEVELOPING",
       "title": "Search for gunmen continues after 12 wounded at outdoor Ohio festival - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZHRU1EN2pqSkFqTHV2SEdyc3BrYXBSOTg2SmwzZ05rWkRhU00yaUNySjlPQjFWSms3eEFHbXZ4aWxDOVZHTElaTDlNVzZCWjFpczNyQjRCUjZIYWF6UW9mbVBSdE5BUUNieWJyZGVtbVlHOWdJcE9BTjJHQ2x5ODhGR3VJOEN6YW1qalB0WU5lekM2ZGfSAZsBQVVfeXFMTmJUbEZ1Q2szeXBOTnFvYnJoS1ZrTXdVSHhjblcxSVZZdjRrYm1uVGlNR2pmcWtuUUxneWtlbkhDZ0ZudzNHR2ZpRDB5WW9TQlhRamJlaTJTV1JIZjUwcVVKM2pzLU80VXI1NkQzVmlkZ0pwYXdPLXBnSDFyNk55QWd4dURELWRPX2VWbktUa2JLQVBBSVdBOXdIYjA?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Miami University official named one of Ohio's top cyber security defenders - Journal-News.com",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQW1uZmJMa3lXM3hpRWplVTZEOEZ2OTN6YS1WT1Nia1hzRE11UHp6U0FyQU5GRnM2Z0ROb1k1RTZMZmRvRFNvdlVsQkFvdEhUQW1TZl9MRUlyMXRRckVhZVluVVNPWHRvTWRfeWdscG81S2xFT216dHVCaWs5bzJJcUtSbTVSSmNydW1xWS04Q0w4RzVnVTBiVzFSTnQ0WGdjbG9VWldHcHRlb085bGhMSFlJV2htN0ZTcGdqSVJjbVBPQjNEdkl2WnNiYzg1emhLa1NTOVJ3dG1uOHVmalBQMjFGVTdvQjl4RVVYX0hObw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Ohio lawmakers pass new abortion restrictions - NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkxtOUZCMU9QRFdrUjh6VVNFd2JZVlkzNmtBZHlSay1XZGt1Sk40dnlaWERaN0ZXdFk4U28xWFRjLXhja01WcTZJcHZMWlJITE9oemMwRHhvc1d1V3BKcFAwUVRVcTlrOTVzbUNieV9pOGRBaGxDbXpuVTduOWJUaS1iQ3VkUUEtNGg4?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Abortion measures take center stage at Ohio Statehouse - Spectrum Noticias",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXJocEh6MjdVdzRjd3V4amY2Wk5UeFdyYlJ5dkRVa1k3aEdjNTd5ZlBOUnFUZm5KWE1Ma1BXbjh0dVVVbm5PSmFRUi1Uc3JRRUM0N1BFU1Q3dF9NRjdOQ3FoRHNDSU5kcE9wa1RXTElETjFubnBsa1BFY3dubHFCSnhhRnAzbk4xaDEtOFdSTEltUG9Cczc4U2dKM1BMY25Id3ZLVnNwR0xiQQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Tri-State peace pavilion earns top Ohio parks award as community landmark - WKRC",
+      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQc3doR3MyQ3EtUDdqR1V1ZXE0ckdQM1A2b0pLZWhGaVpfYURIeWhfTGNzVUZjREF5WEljOU1ITExoMmVrTWFEckI3VW9sREVKb2VoRUNfUTdGcFRCSHZJSlM3VUdPT2FEY25BNEZQOFpNamRMblhpc0VYeG1lTEdiRWZhM3pRaG1oNVh0R0llcFFhMWVJNzJWN3cyYkhGN2hUS2FlbVhmS2REeEJ0c0diMHdmNmJYN201RkF6XzRRaXBBU3piZVBKcGlDQ2NiVklsREFxTE5KVVM0YV9aZnF6WXg0ZUk3ZGF6clVMeF9YVmJ3LXFnTUNpR2E1TUNtWkEtaFUxSW1Sdm5WU01YbDA0VHdvQmdGOHlEN0pqQU9kYktZQldJenBOWWFJMUZPWFM5?oc=5",
       "source": "Google News"
     },
     {
@@ -109,36 +137,8 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Wright-Patt invests $460K into Ohio nonprofits, largest investment in fund history - The Business Journals",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNenpTOEo0bGZ3VGJYb2I4VndPSFh2MWFfQWdBWkVxeU5MN1lRZ0lfT2NCQk5GcWV0M0RHaGxoUWdPbHd3Um51c0NZNDVzRldOTlRydUVqX0ZLNnJtTU5JMFV3TFNrRl9feEFyMnZNRmZJcXBqbDRXODdBZFNrTFRRanJnTUJkejdUSlBpdURuZzFXSV9XVlU5UllINkpheG9aZUg0WFpB?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Tri-State peace pavilion earns top Ohio parks award as community landmark - WKRC",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQc3doR3MyQ3EtUDdqR1V1ZXE0ckdQM1A2b0pLZWhGaVpfYURIeWhfTGNzVUZjREF5WEljOU1ITExoMmVrTWFEckI3VW9sREVKb2VoRUNfUTdGcFRCSHZJSlM3VUdPT2FEY25BNEZQOFpNamRMblhpc0VYeG1lTEdiRWZhM3pRaG1oNVh0R0llcFFhMWVJNzJWN3cyYkhGN2hUS2FlbVhmS2REeEJ0c0diMHdmNmJYN201RkF6XzRRaXBBU3piZVBKcGlDQ2NiVklsREFxTE5KVVM0YV9aZnF6WXg0ZUk3ZGF6clVMeF9YVmJ3LXFnTUNpR2E1TUNtWkEtaFUxSW1Sdm5WU01YbDA0VHdvQmdGOHlEN0pqQU9kYktZQldJenBOWWFJMUZPWFM5?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Circle K debuts Caf\u00e9 + Market concept in Ohio, drawing on GetGo's playbook - CSP Daily News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVl9uM3MxNlF0Q01SS1E4djhqV19TU04wNjI1bjRwTmdDUW9MT3FQQTByaU01NkFTdWgxUm12WkpjX283TmM2eWstbDQ0Uk4wRjVySGhVNVhRMUtzb0s0emlHcmlqLU5GQnMzVW5mWXplNEV2ODFuTGo0WGQ2bTNkQlg4REpMRkU2NXBaSUZWcWZuR1VwaWVTV0hpdkZ6amRmVzNweXZRdGxSUQ?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Locals recognized on OSSCA All-Ohio lists - Weirton Daily Times",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlY5SjRLMllCWXdHcjlEQ21OOUNqZEFJVFRoam1CLWpOX2c3LU0yeXNUeDQtNURZZ25MTE54S0VvYUp2bzRFUVRTTG1ZRFZUVEJhNXROSlIybTdKenZTTGFGRmdKc3AtUEFNWkdGcDBBT0kzRHlocTJiajFubkgwMGUxRl9UV2ZKTHMwYThfckJ3RGhrOGc?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Democrat flips Ohio House seat in Wood County, thin margins trigger automatic recount - WTVG",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY05YQl93N0N5cGIzOXBpUFh5YlhnaHd0TTFlNUtoakU3YUtBeGtxTEVBVklsbHFyLTRaTnBNMlZIczRVbmJQUV92S2VlLWJyX2stX3VUZ0NpS1BoRG1icm5IekE0OVIwVl93NW5wemtaT0FXcm1TR250Tk5NZzBsbVlwazRkUC1BODZLaWdDbURKOVRPQzdZSUNPVVJ1NzJUWmVrY3VfMkR0bnJQVVlBTFdUWEdiNDhXNWMxbE93?oc=5",
+      "title": "OHSAA vote could separate Ohio public, private school sports tournaments - WTOL",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOWmxMYnk5ekQtelFyWGRQc1JYdVQ0MWFHLWdVYnliNkJGSzAzcmNmMm1oMC1tRzBXN3JyTTE3Ylp0a2hHVjhNTU13aS1NckxpR09wLThFeW11WVgyYnhTZ0Y4V3h3SEpQdlJ0RGNMb3k4MTQxcko1a25wVU1JdF9HbVE2QkZNcWs5S19aMUdoUnV2b05RbFl0alAyQWNZM1NnTkxSbk1Gb0ZQY1UzOUtpcEs2c3lpdE4wY21PeXAtdjUtZ29hNnVtS0w2V2ZzdmNJTlRXZU9SdlpJUlZMb2txSy1pSEZ4a1NvaGV2VGVFM2NkRHo2VnpmSFJWdGw5X0U0bGppZTZkeWRnZ2xGWkw0TXZhaHpmeUMzTkVkTg?oc=5",
       "source": "Google News"
     },
     {
@@ -158,22 +158,22 @@
     {
       "category": "WORLD",
       "priority": "GENERAL",
+      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Crimean Bridge attacked again, Russian official says",
+      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "William and Kate meet PM Modi as they wrap up India tour",
-      "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
