@@ -1,11 +1,53 @@
 {
-  "updated": "2026-11-19T13:01:39.150881+00:00",
+  "updated": "2026-11-19T21:30:27.711021+00:00",
   "headlines": [
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Analysis: Trilateral summit high on spectacle, short on substance",
+      "url": "https://www.bbc.co.uk/news/articles/cwn70vrjlg8ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "What did Trump, Xi and Putin get out of their historic meeting?",
+      "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Susan Smith denied parole again 32 years after drowning her two sons",
+      "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
     {
       "category": "US",
       "priority": "GENERAL",
       "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
       "url": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+      "url": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -30,87 +72,108 @@
       "source": "BBC News"
     },
     {
-      "category": "US",
+      "category": "OHIO",
       "priority": "GENERAL",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
+      "title": "Catching Our Eye News Roundup, Nov. 19, 2026 - Ohio Capital Journal",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRENtRlVXRVhhTF9wUnlPYzZQaUhpeFVlOEdqNFNEYlZQUTdlc05Hbl9keVhxYTRTM2liaEJNcE1OUnFhaDhoVVduenQzcGU4cTBjSVdLN25uMnFacEk1Q0VhbF9BcGlCRUg3MDBjd1dLRXFST0JHXy1DZkhhNmpBTURxZzhkcFM2bi1vbg?oc=5",
+      "source": "Google News"
     },
     {
       "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "13-year-old driver dies after northeast Columbus crash - NBC4 WCMH-TV",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZWtQN3hwRmxDVlNvSENFQVlReGs3SGpjRmVDVGVMTDY5VGd3YTBlMHhCdUNWQmNMVmw5NFBlQzFNTEJvOG5zeXc5cEsyQWVEY1R6MFJFS0x5RHFOMzhRRTRIVC0weVNkVWZoNGZfVWRQQWlJWklEZ00yRVVpRlBjOFE5T2NCQUlEbWQ2Z0ZoSnVKdDJlaHAwam9ZRmtsY0RicEpXT1F4bGhxLWM4TlZkWkstRdIBuAFBVV95cUxPTnIxQzdYanhrTmdBd0dUVWhxSWJEUFFtQ1pVQ1NHT00waEVwTnBEOV9YenRnNmpfZzlYMjB3SXhWRHNzTlNnRXN6MG9PN3l4dnc2RGVhaEJCV0Q3dUMybFVPZjZKdklFV1V4dUxBQjFNRE5wMG9pUS0zRHRrcElnMUFVblJqOW5QX0k5TGVKOXo4bDhaRDEzTk9IMGJWeUdpTlRIOG1zdWVHczZmdFpjYy1UQ0RyMFZG?oc=5",
+      "priority": "GENERAL",
+      "title": "Neff College Launches First Financial Technology Degree in Ohio - UToledo News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlEzZkxtY0F0X2tqM2c5NFk2cXhfWHlka043OG5VczNQa3VMdkt3eUlCTE1kdDN2UjVyd252S1FjZ012REw5QVRKM3ZsX0J0Y1JPVW5La2VsRkhpZFJhdGdrMEZicFk4WTR6MzdxcUZaa21yb3V4ZDU5ZFV4QUpSUmtsREoyTmNDaHJUWlFOTFpZR0E0UFgtci11UlFOVDBjRUpfem1udmg3VThHcWc?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Area lawmakers given leadership positions in Ohio Senate next year - Springfield News-Sun",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQ0tzV1kzZ2d2ZWtMUDJSMnBTT0J3X1NFcllMWTVGUV9xYnBjUUJSZU00VlgxRHI3eWVPSTQ0bUl2Q1FOaVpJbXdoUHUyLTFZRi03T2JZcWgyUmpndGk5TGhKX3U3ZFI0Y3k2dXdWNkM1czMtZ3lDSWhrVjcyTzYzdmdZckxtQkZaa3ppUlpkT0lmYWJzRXVxQWhwYXFnSkZ5X0o1TEtVRnhkS3FjWlN6NVE0SHBxRGt6R3hqc2RpVk9nWDE3Uzh2cUN1eEtwMDA3WWlScWZBYXJkNnJKQzRUS1c0V0lxSV9zUzZ6djJn?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Your northwest Ohio holiday bucket list: 11 'Good Days' of Christmas - WTOL",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZlZCMHBfSVp1Nng4cDNwMVZtbnlFOUNaS0RvOVFnTFZEbjJHRVZ6QmhublNpMUMyRnJZb2lsV2pDWXVDcDlRa3QtUHREMHp2RlNwTzRqRG5kSFdTaVUxckpNOXhpMkZLcnNRRkwzQVl0NlJGTGkySWU3SHplVDdKaV90YV9rNE9MUktMQW9UWkZXSDNvclpYb3Vjb3VVWGxfRjFXZkZhZlduOTVuM0VjdWpfYUc3a0x5S2xCQmt3dWtYUDNIYTlRd2d2U2FyQ0ZuYlB3Y0pCMkwyUFRaOVc4?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Story and Video: Best Of The Ohio Valley brings together top businesses, organizations - Martins Ferry Times Leader",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdGtOYmFic3FUVkFmRm5PcjZsX05ZODZqajlzZkVxeG1JTGM0em5VSUhNSk9rUXVoLUhZd3R1N1JYSExQakRvdVZPUDZ6OTYxVVZlckxnNlFuZnN6WDJkWHpYTlBFNGU2MHA3NmFFb0lDSFA1MGtCNzR2MFlaTDA5OE5TV0NhQUt3OVV2QWNQTVZfR01uSVRHT0RkNGhWMkp2YjlwUm5OWXNsQWRhN2ZpZVdDb1NQc3BoWVdNSm1yRGZJLWtwY2pIMmFpTjhoakdfRi0xNEpfd1FmMUU?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Why the CFP Committee's Latest Rankings Reveal Is Great News for Ohio State Football - Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV1JDT2tvV3ljZDlNVElWbTcwMDdLWnBKYWVsbnFwUm1HUGhPY1dlRjFMZFJ0MUIzNjR0dVVYckRnZEhGSGloVl96LXJYeE5qdWE2MUVQUGNUdU4tTDdmNk5rQjNHQXpIZ2Z2cGdtX1VJZ2dEMEprSXNJNXB6QW8xaGdSUkNnOXJfVEpfRUNZRjBDSWVCckpxbTl0MjFkTm41Z3JreWl6ZGlzNTZGYS1wLW5YMWZvdWdYaTVneWQ1d2ttRXpDdGhwRnkteWRUbHNDcGx0NHp5QkFaekU?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Ohio senators consider eliminating data center sales tax exemption - Dayton Daily News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY1lvODRrX0Q5R1gzbUdLbTFhbENHTjFERy1mS2VXa3pZNzFvdF8waWlQbTJHWWExSkNIdmpiWXJNWVRJQW11Q3NHYUM3MkRvMDE0bmFZc3pxZk4yYWx6bWlFdVZuZ1VlN3RnQWpELWtVUlpFU2FvM0V3alVkcF9zaVNybmVPQmUxNmlVN2JuYlZWYTFL?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Comedian Matt Rife announces first-ever stadium performance in Columbus - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObHVOVVFqR2x6amMyWG5kSHRyWEtIbHc4Y0VqX053aHVNVEk1anJpMmhySnYxaWN4YUk2UHJPLXJEZTlueUtoQVh5YVpNUmZ2aXB1SERDRDNiZTZPcmFfN0dCLVo2ckRqTnM4ZHUxYWpKNFkxc0psQnh0SW14cEp4X1JQb1FrMnJHUWFRTW5feG1TbmJyY05HVldHMnkzRmNEZ3JfdmV0aVR5MzNMbXlYMGkteGM4RXZSY3hUbk5FaGY2d1Y1cnIwT1dhM2g?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "See some of the top headlines in Columbus, Ohio on Nov. 19 - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR0VXam9QTVNYUGlCQ01NakZOaWxlZXZzZ1Jmb2x2akFZX3NyU0VKMGtyLUkwRzBKYjNFX1Jqal9JaTFYQ3h2TmJYQU82bXVLWkxSM0VlUVRiWk44WC0yUUQ0VC1wRThiVjlhU3lINE9Zd2w5SGJ3MVdIUmtwaTFRRFFPRWhNNjA?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Study finds mental illness costs Ohio economy at least $24 billion annually, with rural counties hardest hit - WV News",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa0RrdWxSMVFlaVI2dkxPNUVhcUhsVlJNd0Zvc3AwVWw1SW15SWo1MnNZSnlnLS1lX1JRbFRWYnhMYlY0UUd3LU0zOFhjVTFoMUpZOHNGSjZiWDFkWkF4dTh3MEZZS2YyRGVKWS0ydVZUYm8tSk1iVmhwUzUxczdrUEdNSnNWQnlrRktSZi1lMFh2ejBNX1FnX3FwOU5rak95UFJUbHhUemdSaVdoTmgxUmdHUGFhTzlxVkt5XzBsVGdkNEc0aW4yVU9RY3lFSlF4azhoTFZnRnFidVhlQ3FMeDRlU3l5VXkxNVpVQlRRdzl2OVdSVzNWZ0RZbUVPTHUwUWszQy1aVE9falU?oc=5",
       "source": "Google News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-      "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
+      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+      "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "DEVELOPING",
-      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
       "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Crimean Bridge attacked again, Russia says",
+      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
       "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-      "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "'It's a dream come true' \u2013 South African DJ celebrates featuring in GTA 6",
-      "url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
