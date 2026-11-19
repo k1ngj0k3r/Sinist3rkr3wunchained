@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D.E.A.G.O. Founder Command</title>
+<style>
+body {
+  margin: 0;
+  background: #090b12;
+  color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #171b27;
+  padding: 24px;
+  text-align: center;
+  border-bottom: 2px solid #c62828;
+}
+h1 { color: #ef4444; }
+main { padding: 20px; max-width: 900px; margin: auto; }
+.card {
+  background: #171b27;
+  border: 1px solid #343b4b;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.card h2 { color: #ef4444; }
+.status { color: #fbbf24; }
+</style>
+</head>
+<body>
+<header>
+<h1>🛡️ D.E.A.G.O. COMMAND</h1>
+<p>Founder Leadership Dashboard</p>
+</header>
+<p id="access-status" style="text-align:center">Verifying leadership access...</p>
+<main id="command-content" hidden>
+<div class="card">
+<h2>👑 Shadow Op Command</h2>
+<p>Leadership authorization required.</p>
+<p class="status">Dashboard interface under construction.</p>
+</div>
+<div class="card">
+<h2>📋 Recruitment Operations</h2>
+<p>Applications and candidate reviews.</p>
+<p><a href="./recruitment/" style="color:#fca5a5">Open Recruitment Operations →</a></p>
+</div>
+<div class="card">
+<h2>👥 Membership Management</h2>
+<p>Member records and organizational roles.</p>
+</div>
+<div class="card">
+<h2>📊 Operations Overview</h2>
+<p>Administrative activity and progress tracking.</p>
+</div>
+</main>
+<div style="text-align:center;padding:20px"><button id="logout" hidden>Secure Logout</button></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="./config.js"></script>
+<script src="./dashboard-auth.js"></script>
+</body>
+</html>

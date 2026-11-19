@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1">
+<title>D.E.A.G.O. Recruitment Command</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #090b10;
+  color: #f4f4f5;
+  font-family: Arial, sans-serif;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.command {
+  width: 100%;
+  max-width: 420px;
+  background: #151923;
+  border: 1px solid #343b49;
+  border-radius: 16px;
+  padding: 28px;
+}
+h1 {
+  color: #ef4444;
+  text-align: center;
+  font-size: 25px;
+}
+.subtitle {
+  text-align: center;
+  color: #a1a1aa;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+label {
+  display: block;
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 13px;
+  margin-top: 8px;
+  background: #090b10;
+  border: 1px solid #475569;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  background: #b91c1c;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.notice {
+  margin-top: 20px;
+  text-align: center;
+  color: #a1a1aa;
+  font-size: 12px;
+}
+</style>
+</head>
+<body>
+<main class="command">
+  <h1>🛡️ D.E.A.G.O. COMMAND</h1>
+  <p class="subtitle">
+    AUTHORIZED LEADERSHIP ACCESS
+  </p>
+
+  <form id="login">
+    <label for="email">Email Address</label>
+    <input id="email" type="email"
+           autocomplete="username" required>
+
+    <label for="password">Password</label>
+    <input id="password" type="password"
+           autocomplete="current-password" required>
+
+    <button type="submit">SECURE LOGIN</button>
+  </form>
+
+  <p id="message" role="status"
+     aria-live="polite" class="notice">
+    Authentication connection pending.
+  </p>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="./config.js"></script>
+<script src="./auth.js"></script>
+</body>
+</html>
