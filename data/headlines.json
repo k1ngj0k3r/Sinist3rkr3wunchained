@@ -1,53 +1,18 @@
 {
-  "updated": "2026-11-19T03:24:55.509357+00:00",
+  "updated": "2026-11-19T13:01:39.150881+00:00",
   "headlines": [
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
-      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+      "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
+      "url": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
-      "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Torrential rain causes widespread flooding in South Florida",
-      "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
-      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+      "title": "Florida pastor found guilty over role in assassination of Haitian president",
+      "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -60,120 +25,92 @@
     {
       "category": "US",
       "priority": "DEVELOPING",
-      "title": "Rubio says US not 'under systemic attack' after series of tech outages",
-      "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+      "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Why Carney is looking to China as Canada's car industry comes under US pressure",
-      "url": "https://www.bbc.co.uk/news/articles/cq98xlz09ye0o?at_medium=RSS&at_campaign=rss",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
-      "category": "OHIO",
+      "category": "US",
       "priority": "GENERAL",
-      "title": "Why the CFP Committee's Latest Rankings Reveal Is Great News for Ohio State Football - Sports Illustrated",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV1JDT2tvV3ljZDlNVElWbTcwMDdLWnBKYWVsbnFwUm1HUGhPY1dlRjFMZFJ0MUIzNjR0dVVYckRnZEhGSGloVl96LXJYeE5qdWE2MUVQUGNUdU4tTDdmNk5rQjNHQXpIZ2Z2cGdtX1VJZ2dEMEprSXNJNXB6QW8xaGdSUkNnOXJfVEpfRUNZRjBDSWVCckpxbTl0MjFkTm41Z3JreWl6ZGlzNTZGYS1wLW5YMWZvdWdYaTVneWQ1d2ttRXpDdGhwRnkteWRUbHNDcGx0NHp5QkFaekU?oc=5",
-      "source": "Google News"
+      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+      "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
+      "url": "https://www.bbc.co.uk/news/articles/cm2d93z0e9gjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
+      "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+      "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "BREAKING: In-state 2027 edge Damion King flips to Ohio State - 247Sports",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3prRzI0LUI3Mk9ZMUFHT21keVhYa3dOMHRjYXBBdmhURnlmRmV3S3F2VktYLTJzbTd2ZEZhUERSanl2X2hFdTdaQlZRbmtNa1h2T0xqdzRPX0NUNWdLY0xndjF0cjh1VDRRZGtjbVprUFk0blZOMVktYzEzU0JDWGxCYVNrRnpzMUtFVnZfd0M2ZFp5emlXUTFnb0JQTkJVX3VSck9EcXJscjVXZmpIcnBWMDM4VXJJUmdxNVVtMDFhZ0RxNFdF?oc=5",
+      "title": "13-year-old driver dies after northeast Columbus crash - NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZWtQN3hwRmxDVlNvSENFQVlReGs3SGpjRmVDVGVMTDY5VGd3YTBlMHhCdUNWQmNMVmw5NFBlQzFNTEJvOG5zeXc5cEsyQWVEY1R6MFJFS0x5RHFOMzhRRTRIVC0weVNkVWZoNGZfVWRQQWlJWklEZ00yRVVpRlBjOFE5T2NCQUlEbWQ2Z0ZoSnVKdDJlaHAwam9ZRmtsY0RicEpXT1F4bGhxLWM4TlZkWkstRdIBuAFBVV95cUxPTnIxQzdYanhrTmdBd0dUVWhxSWJEUFFtQ1pVQ1NHT00waEVwTnBEOV9YenRnNmpfZzlYMjB3SXhWRHNzTlNnRXN6MG9PN3l4dnc2RGVhaEJCV0Q3dUMybFVPZjZKdklFV1V4dUxBQjFNRE5wMG9pUS0zRHRrcElnMUFVblJqOW5QX0k5TGVKOXo4bDhaRDEzTk9IMGJWeUdpTlRIOG1zdWVHczZmdFpjYy1UQ0RyMFZG?oc=5",
       "source": "Google News"
     },
     {
-      "category": "OHIO",
+      "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Ohio passes bill ending restrictions on loaded guns in cars, lowering permitless concealed carry age to 18 - Springfield News-Sun",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPM3ppWWZDR2RHUXMyc2FldWRobVBiNnpDZGRBenlQc09VSXI0V0lOLW1RSnp0TkdQbl9fbW1hcjNPUDRLb1JYUlNuWjRORXpJWWlTMHVrVF9BaDY2dC1KTExDU3loc2dHTTBSb1VtbkRwT2xvcDJ3NHJmby1BR3FnWjBxNW5YeVNlaW4tQjBpX2pEV2dZeG5hOUdjbzhYX2paVUMxZFVUbDhnUHNWb0hUSzdRWVFXdkZJVW52clB1WGk1cGhwNDVIQ3Fxb3g0M2JzX0FDUEZkS19pM1ZVZ0NXQTdqVXRUTEI4R3RXY05hX2o0eDhROHhIOHg5STNLazNVTlJ0bU51a2txZThseVlOekhSOTltUFNSV0E?oc=5",
-      "source": "Google News"
+      "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+      "url": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
     },
     {
-      "category": "OHIO",
+      "category": "WORLD",
       "priority": "DEVELOPING",
-      "title": "Search for gunmen continues after 12 wounded at outdoor Ohio festival - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZHRU1EN2pqSkFqTHV2SEdyc3BrYXBSOTg2SmwzZ05rWkRhU00yaUNySjlPQjFWSms3eEFHbXZ4aWxDOVZHTElaTDlNVzZCWjFpczNyQjRCUjZIYWF6UW9mbVBSdE5BUUNieWJyZGVtbVlHOWdJcE9BTjJHQ2x5ODhGR3VJOEN6YW1qalB0WU5lekM2ZGfSAZsBQVVfeXFMTmJUbEZ1Q2szeXBOTnFvYnJoS1ZrTXdVSHhjblcxSVZZdjRrYm1uVGlNR2pmcWtuUUxneWtlbkhDZ0ZudzNHR2ZpRDB5WW9TQlhRamJlaTJTV1JIZjUwcVVKM2pzLU80VXI1NkQzVmlkZ0pwYXdPLXBnSDFyNk55QWd4dURELWRPX2VWbktUa2JLQVBBSVdBOXdIYjA?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Miami University official named one of Ohio's top cyber security defenders - Journal-News.com",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQW1uZmJMa3lXM3hpRWplVTZEOEZ2OTN6YS1WT1Nia1hzRE11UHp6U0FyQU5GRnM2Z0ROb1k1RTZMZmRvRFNvdlVsQkFvdEhUQW1TZl9MRUlyMXRRckVhZVluVVNPWHRvTWRfeWdscG81S2xFT216dHVCaWs5bzJJcUtSbTVSSmNydW1xWS04Q0w4RzVnVTBiVzFSTnQ0WGdjbG9VWldHcHRlb085bGhMSFlJV2htN0ZTcGdqSVJjbVBPQjNEdkl2WnNiYzg1emhLa1NTOVJ3dG1uOHVmalBQMjFGVTdvQjl4RVVYX0hObw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio lawmakers pass new abortion restrictions - NBC4 WCMH-TV",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkxtOUZCMU9QRFdrUjh6VVNFd2JZVlkzNmtBZHlSay1XZGt1Sk40dnlaWERaN0ZXdFk4U28xWFRjLXhja01WcTZJcHZMWlJITE9oemMwRHhvc1d1V3BKcFAwUVRVcTlrOTVzbUNieV9pOGRBaGxDbXpuVTduOWJUaS1iQ3VkUUEtNGg4?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Abortion measures take center stage at Ohio Statehouse - Spectrum Noticias",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMXJocEh6MjdVdzRjd3V4amY2Wk5UeFdyYlJ5dkRVa1k3aEdjNTd5ZlBOUnFUZm5KWE1Ma1BXbjh0dVVVbm5PSmFRUi1Uc3JRRUM0N1BFU1Q3dF9NRjdOQ3FoRHNDSU5kcE9wa1RXTElETjFubnBsa1BFY3dubHFCSnhhRnAzbk4xaDEtOFdSTEltUG9Cczc4U2dKM1BMY25Id3ZLVnNwR0xiQQ?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Tri-State peace pavilion earns top Ohio parks award as community landmark - WKRC",
-      "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxQc3doR3MyQ3EtUDdqR1V1ZXE0ckdQM1A2b0pLZWhGaVpfYURIeWhfTGNzVUZjREF5WEljOU1ITExoMmVrTWFEckI3VW9sREVKb2VoRUNfUTdGcFRCSHZJSlM3VUdPT2FEY25BNEZQOFpNamRMblhpc0VYeG1lTEdiRWZhM3pRaG1oNVh0R0llcFFhMWVJNzJWN3cyYkhGN2hUS2FlbVhmS2REeEJ0c0diMHdmNmJYN201RkF6XzRRaXBBU3piZVBKcGlDQ2NiVklsREFxTE5KVVM0YV9aZnF6WXg0ZUk3ZGF6clVMeF9YVmJ3LXFnTUNpR2E1TUNtWkEtaFUxSW1Sdm5WU01YbDA0VHdvQmdGOHlEN0pqQU9kYktZQldJenBOWWFJMUZPWFM5?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Breaking the cycle: Northeast Ohio father confronts childhood trauma to build a better future for his children - WKYC",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNOGZtY01DbDdhODN4RDBpX2p5UEJfTFZYRjhjamZZaGZOT3JycWl3TVFBX2xqTnJ2aVZuS2ZNOTIwZmlGRFFYTzd0bmZaTkVBYjRYTUhGb1FQZ0tCT2VIY1p2c1YxejcyLU90X3BXNDM3UHpzbDZ3QmF0aWFYWlhlTEo4Mkw4VnFQcllIM2RVcS1ic2VGU0w4X0diaGlTSWR6amdwazUtM0VXVGI4aTRlWnZyZlJnM2JYMUd3cXFhYV9YNjlCaWR4bFF4ZDljcHJjRGVzal8ySWtMZVNTQkE3cEQ4WWM1MlRDVXZhRzZCTzY0VkpxQTNWVjFOMDVmS3l6R20zdDRGbm1STEstZkVJcXhlVUt6QThkYXhrbjUtNXpONUU?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "OHSAA vote could separate Ohio public, private school sports tournaments - WTOL",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOWmxMYnk5ekQtelFyWGRQc1JYdVQ0MWFHLWdVYnliNkJGSzAzcmNmMm1oMC1tRzBXN3JyTTE3Ylp0a2hHVjhNTU13aS1NckxpR09wLThFeW11WVgyYnhTZ0Y4V3h3SEpQdlJ0RGNMb3k4MTQxcko1a25wVU1JdF9HbVE2QkZNcWs5S19aMUdoUnV2b05RbFl0alAyQWNZM1NnTkxSbk1Gb0ZQY1UzOUtpcEs2c3lpdE4wY21PeXAtdjUtZ29hNnVtS0w2V2ZzdmNJTlRXZU9SdlpJUlZMb2txSy1pSEZ4a1NvaGV2VGVFM2NkRHo2VnpmSFJWdGw5X0U0bGppZTZkeWRnZ2xGWkw0TXZhaHpmeUMzTkVkTg?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-      "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-      "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Crimean Bridge attacked again, Russian official says",
+      "title": "Crimean Bridge attacked again, Russia says",
       "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+      "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "'It's a dream come true' \u2013 South African DJ celebrates featuring in GTA 6",
+      "url": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
