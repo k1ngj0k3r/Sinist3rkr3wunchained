@@ -482,6 +482,24 @@
           </div>
         </section>
 
+
+        <section class="card section" id="featuredAnthem" style="margin-bottom:18px;text-align:center">
+          <div class="eyebrow">⭐ OFFICIAL FEATURED ANTHEM ⭐</div>
+          <h2 style="margin:12px 0">Sinist3rkr3w stands tall</h2>
+          <p>🎸 k1ngj0k3r · Sinist3rKr3w Media</p>
+          <p style="font-size:14px">Where You Matter Most. 🖤</p>
+
+          <audio id="anthemPlayer" controls preload="metadata"
+                 style="width:100%;margin-top:12px">
+            <source src="assets/music/anthem.mp3" type="audio/mpeg">
+            Your browser does not support audio playback.
+          </audio>
+
+          <p id="anthemStatus" style="font-size:12px;opacity:.8">
+            Scroll here to hear our anthem, or press Play.
+          </p>
+        </section>
+
         <section class="card section playerCard" id="radio">
           <div class="playerTitle">
             <div>
@@ -832,5 +850,53 @@
     🛡️ ENTER D.E.A.G.O.
   </a>
 </div>
+
+<script id="anthemAutoplayScript">
+document.addEventListener("DOMContentLoaded", () => {
+  const section = document.getElementById("featuredAnthem");
+  const anthem = document.getElementById("anthemPlayer");
+  const radio = document.getElementById("radioPlayer");
+  const status = document.getElementById("anthemStatus");
+
+  if (!section || !anthem) return;
+
+  let attempted = false;
+
+  const observer = new IntersectionObserver(entries => {
+    const visible = entries[0].isIntersecting;
+
+    if (visible && !attempted) {
+      attempted = true;
+
+      if (radio && !radio.paused) radio.pause();
+
+      anthem.muted = false;
+
+      anthem.play().then(() => {
+        status.textContent = "🎵 Now playing: Sinist3rkr3w stands tall";
+      }).catch(() => {
+        status.textContent = "▶ Tap Play to hear our anthem!";
+      });
+    }
+
+    if (!visible && !anthem.paused) {
+      anthem.pause();
+    }
+  }, { threshold: 0.5 });
+
+  observer.observe(section);
+
+  anthem.addEventListener("play", () => {
+    if (radio && !radio.paused) radio.pause();
+  });
+
+  if (radio) {
+    radio.addEventListener("play", () => {
+      if (!anthem.paused) anthem.pause();
+    });
+  }
+});
+</script>
+
 </body>
 </html>
