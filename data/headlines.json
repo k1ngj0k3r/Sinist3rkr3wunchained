@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T21:30:27.711021+00:00",
+  "updated": "2026-11-20T03:12:16.991296+00:00",
   "headlines": [
     {
       "category": "US",
@@ -11,8 +11,36 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "What did Trump, Xi and Putin get out of their historic meeting?",
-      "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Why Canada is embracing AI data centres while the US pushes back",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "US army warns detonation of unstable explosives will create toxic plume",
+      "url": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "From premature baby to social media star - Famed hippo Fiona dies",
+      "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -25,51 +53,37 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Susan Smith denied parole again 32 years after drowning her two sons",
-      "url": "https://www.bbc.co.uk/news/articles/ckdd1y09eqjmo?at_medium=RSS&at_campaign=rss",
+      "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+      "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
-      "url": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump posthumously pardons US baseball legend Pete Rose",
+      "url": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
-      "url": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
+      "title": "California targets Nvidia in China AI chip probe",
+      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
-      "category": "US",
+      "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
+      "title": "2026 Fast 50: See the companies leading economic growth in Central Ohio - Columbus Business First - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYlFXalVOR2FLMWpzNnBLLWVEbktrLTZHZVdHa3FURDhJYVc5aF9pVHowYTc4bTU1amw5cGxUS0E0UndwNTNrQ1lMQkd1ZTRpNnM4SEFiSnJ5RkFmSWJyNmJCWDd4X1lqZktVc1NNc0dpb0JaelZGaXU1eE54RXRyTmZWVGVTM1E?oc=5",
+      "source": "Google News"
     },
     {
-      "category": "US",
+      "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Florida pastor found guilty over role in assassination of Haitian president",
-      "url": "https://www.bbc.co.uk/news/articles/cm702q0lg50po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-      "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
+      "title": "Barricade situation inside Willoughby Hills home prompts heavy police response - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUFJkbWxVT3hhR3ZpMVZvSVFUdFdzcmZmN1Jrc04tVTB4aGRyMGpKbzQ4ZUNUcExhUGsxeWVWdmpGdjl2Y2NyN0x5a1R6V29wQmxpbFJmd1pNQWdHb1FtdFNzcW1Uc0NLckhGV2NGZEo5eERobXZIaGloVFhKWWdFYnBPRC00YnZOU19KNW5vSlRISmwySXAzdFlnaXVTaDk3STRlb2p6b0JXaS1GWU1JOTZqY3dkdXA5SlowOGJ0RWFGWGswd1VhZEpoZFRhdTBqcG43SzJLU21zQ3FVMEJUV3dPYTRsZzlPS09iU3ZVSklzbmtQZGNKNWxxejJYbkNKSFYwZ0twRngzZw?oc=5",
+      "source": "Google News"
     },
     {
       "category": "OHIO",
@@ -81,22 +95,29 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Neff College Launches First Financial Technology Degree in Ohio - UToledo News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYlEzZkxtY0F0X2tqM2c5NFk2cXhfWHlka043OG5VczNQa3VMdkt3eUlCTE1kdDN2UjVyd252S1FjZ012REw5QVRKM3ZsX0J0Y1JPVW5La2VsRkhpZFJhdGdrMEZicFk4WTR6MzdxcUZaa21yb3V4ZDU5ZFV4QUpSUmtsREoyTmNDaHJUWlFOTFpZR0E0UFgtci11UlFOVDBjRUpfem1udmg3VThHcWc?oc=5",
+      "title": "Proposed Ohio bill looking to expand public safety technology incites mixed reactions - WTOL",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYWlLSHJSZjVnZEtPWEF6Q3h0aGRoUENVbWdaUjctNDctVHJFMldSRDdoVnpHNHRfaklsVEFiaVlBbXhjNkd0SmJ5YUZYb0gza3c3MEdSTUhoWFh0QnBZNkY4bEJnRU5tTllXSzQxTjBaaEptLTIyNE5sQzFtaHJQZkx5RGJreVhZRGtqR2JILXZsRUZoYUFfU1ZoSUtIaFBySktHM29kaDJ6VnFQZWh1MWFMdkZxTDhHVGNjUnVUNW4wcU9GRjhISnNTb0VLZW5WeXJTOTZsaEZtS3ZJOEt2NU5WODNMZVViSE1pTjBMdXNPb0Jf?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Area lawmakers given leadership positions in Ohio Senate next year - Springfield News-Sun",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQ0tzV1kzZ2d2ZWtMUDJSMnBTT0J3X1NFcllMWTVGUV9xYnBjUUJSZU00VlgxRHI3eWVPSTQ0bUl2Q1FOaVpJbXdoUHUyLTFZRi03T2JZcWgyUmpndGk5TGhKX3U3ZFI0Y3k2dXdWNkM1czMtZ3lDSWhrVjcyTzYzdmdZckxtQkZaa3ppUlpkT0lmYWJzRXVxQWhwYXFnSkZ5X0o1TEtVRnhkS3FjWlN6NVE0SHBxRGt6R3hqc2RpVk9nWDE3Uzh2cUN1eEtwMDA3WWlScWZBYXJkNnJKQzRUS1c0V0lxSV9zUzZ6djJn?oc=5",
+      "title": "Ohio lawmakers push gun reform bill through lame-duck session - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMkJwbFRNcDJwajlWRFVRalA2Ml9Yc2ttRmQyTFN1OURvbGJOWWdZRDYyYWhrQTQwM21XdjJjY204SkdTa3lKTHBJX09YOXVBZ1h5X29tdUNMdTY2UENzeHhRTmprcWdFamhUOFl0TGE2UDBuT2xzV0ZoN1FXeDJCbGliTDl6bE0yVEZ4dWdBQ0treEtKc21aRUM0NnZYU3FRNElxMExnazYwTjBjVWptWmJBMTZtZDhqeXNhRU9aWlhSM1BRdkhUMm92aVdkUnVHcW1iODNURQ?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Your northwest Ohio holiday bucket list: 11 'Good Days' of Christmas - WTOL",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZlZCMHBfSVp1Nng4cDNwMVZtbnlFOUNaS0RvOVFnTFZEbjJHRVZ6QmhublNpMUMyRnJZb2lsV2pDWXVDcDlRa3QtUHREMHp2RlNwTzRqRG5kSFdTaVUxckpNOXhpMkZLcnNRRkwzQVl0NlJGTGkySWU3SHplVDdKaV90YV9rNE9MUktMQW9UWkZXSDNvclpYb3Vjb3VVWGxfRjFXZkZhZlduOTVuM0VjdWpfYUc3a0x5S2xCQmt3dWtYUDNIYTlRd2d2U2FyQ0ZuYlB3Y0pCMkwyUFRaOVc4?oc=5",
+      "title": "Officers on scene after man barricades himself inside Willoughby Hills home: PD - FOX 8 News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNU1YVmFla0VTeGhtX0k2bHpGNXBsUjRRVldLeFFkSlpPWDE4U2hxeDdhUEh6MDNZTld2WUp1WnpZeTJCRlNBVVdxNVZIVXVJQ2dzX3JrNkh4MU5VdElSMjdwSDVFTkVBcjEzZEJGTmRTaGQzaWJfalJmS0d1MWxRX05BOWlnLWlpUWpOMVAtSDF6aGxINkU2RFlHU3A1Z3hzLUFz0gGoAUFVX3lxTE1MMmktRUphWXJWWkplcHZaM21MLVFfREc5X0xmeDdtdnVOckdvV21OYldFbGMwbW9ncGhqMmtwNU9yVFJhYUJ3VHFDX01RTWw0T3JIR3RfM2FnUFFDVmdRVXlrVDFJaWxIbDhPd2Y0cjJHTGtHS0ZyMkpSUi1JV3VzaUxSU0FRM3Jnb3Axc3N1eGkzNTU3YzF3dWxrdzhGMjBjRDRGbHRiTQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Why the CFP Committee's Latest Rankings Reveal Is Great News for Ohio State Football - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZ0xRRkw5Q2ZuczYyZHowWldZOVZUVHVGRUZiQ2ZNWXRJdkNpN0ZyX2c0VGJ4ZjJsdVo3WXM4ZV9hTW5YTUtuQ2laNGI5MDdHUGRLdDdYUWlTQXI0WHFWdEpkQVR6TGtwd1pFMHZDTFZOQzY1cnd1dVc2WHpmMEZLZFBPbmlUdVd6ZkNF?oc=5",
       "source": "Google News"
     },
     {
@@ -109,29 +130,8 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Why the CFP Committee's Latest Rankings Reveal Is Great News for Ohio State Football - Sports Illustrated",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV1JDT2tvV3ljZDlNVElWbTcwMDdLWnBKYWVsbnFwUm1HUGhPY1dlRjFMZFJ0MUIzNjR0dVVYckRnZEhGSGloVl96LXJYeE5qdWE2MUVQUGNUdU4tTDdmNk5rQjNHQXpIZ2Z2cGdtX1VJZ2dEMEprSXNJNXB6QW8xaGdSUkNnOXJfVEpfRUNZRjBDSWVCckpxbTl0MjFkTm41Z3JreWl6ZGlzNTZGYS1wLW5YMWZvdWdYaTVneWQ1d2ttRXpDdGhwRnkteWRUbHNDcGx0NHp5QkFaekU?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio senators consider eliminating data center sales tax exemption - Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY1lvODRrX0Q5R1gzbUdLbTFhbENHTjFERy1mS2VXa3pZNzFvdF8waWlQbTJHWWExSkNIdmpiWXJNWVRJQW11Q3NHYUM3MkRvMDE0bmFZc3pxZk4yYWx6bWlFdVZuZ1VlN3RnQWpELWtVUlpFU2FvM0V3alVkcF9zaVNybmVPQmUxNmlVN2JuYlZWYTFL?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Comedian Matt Rife announces first-ever stadium performance in Columbus - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObHVOVVFqR2x6amMyWG5kSHRyWEtIbHc4Y0VqX053aHVNVEk1anJpMmhySnYxaWN4YUk2UHJPLXJEZTlueUtoQVh5YVpNUmZ2aXB1SERDRDNiZTZPcmFfN0dCLVo2ckRqTnM4ZHUxYWpKNFkxc0psQnh0SW14cEp4X1JQb1FrMnJHUWFRTW5feG1TbmJyY05HVldHMnkzRmNEZ3JfdmV0aVR5MzNMbXlYMGkteGM4RXZSY3hUbk5FaGY2d1Y1cnIwT1dhM2g?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "See some of the top headlines in Columbus, Ohio on Nov. 19 - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR0VXam9QTVNYUGlCQ01NakZOaWxlZXZzZ1Jmb2x2akFZX3NyU0VKMGtyLUkwRzBKYjNFX1Jqal9JaTFYQ3h2TmJYQU82bXVLWkxSM0VlUVRiWk44WC0yUUQ0VC1wRThiVjlhU3lINE9Zd2w5SGJ3MVdIUmtwaTFRRFFPRWhNNjA?oc=5",
+      "title": "OPINION: Relief for Ohio businesses starts with credit card competition - Dayton Daily News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRENJbXpRVTRRMEE5Y25hLXp4NUpWSVpNQ3FVZk5DR3JZSXByWG55N2EzdU4td3Zkc0praVV5VXFFeHVDdDlSNTJySGJDbE5MckVoanVDOUxTSFZzbkE2MXFhRjdRNHU2WGZjTGxJcVhSZGJpblJTck9yMHpZQ241eWp1VkJpNHhRaEVUQXlPbE9NSzFx?oc=5",
       "source": "Google News"
     },
     {
@@ -140,6 +140,20 @@
       "title": "Study finds mental illness costs Ohio economy at least $24 billion annually, with rural counties hardest hit - WV News",
       "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQa0RrdWxSMVFlaVI2dkxPNUVhcUhsVlJNd0Zvc3AwVWw1SW15SWo1MnNZSnlnLS1lX1JRbFRWYnhMYlY0UUd3LU0zOFhjVTFoMUpZOHNGSjZiWDFkWkF4dTh3MEZZS2YyRGVKWS0ydVZUYm8tSk1iVmhwUzUxczdrUEdNSnNWQnlrRktSZi1lMFh2ejBNX1FnX3FwOU5rak95UFJUbHhUemdSaVdoTmgxUmdHUGFhTzlxVkt5XzBsVGdkNEc0aW4yVU9RY3lFSlF4azhoTFZnRnFidVhlQ3FMeDRlU3l5VXkxNVpVQlRRdzl2OVdSVzNWZ0RZbUVPTHUwUWszQy1aVE9falU?oc=5",
       "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Reineke helping develop leaked bill to let utilities take private land before court ruling - TiffinOhio.net",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVElUOU1WTDBxVUV5dnc0X1I2bHN4TnpNeFZDbWtFbVlJYzlpU0FycVNKWURUNGIydWtnb1RESmtEMkl3QTFCaWRaWS1RYVctX19uV1F0ZW43eEt0RTk2SEMzV1l2TmFPSVM3TUFvN0VBTFlZdFBpbHd5Q1dONFhmd0hVSy02LUg2MzQ0?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+      "url": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
     },
     {
       "category": "WORLD",
@@ -151,15 +165,15 @@
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -167,13 +181,6 @@
       "priority": "DEVELOPING",
       "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
       "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-      "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
