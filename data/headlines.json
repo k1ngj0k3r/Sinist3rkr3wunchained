@@ -1,13 +1,6 @@
 {
-  "updated": "2026-11-21T09:47:40.454243+00:00",
+  "updated": "2026-11-21T17:29:24.603354+00:00",
   "headlines": [
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
     {
       "category": "US",
       "priority": "GENERAL",
@@ -18,15 +11,8 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
-      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -39,8 +25,22 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "US declassifies more UFO footage filmed in the Middle East",
-      "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -53,15 +53,8 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Miami or Vice City? Tour the real-world inspiration for GTA 6",
-      "url": "https://www.bbc.co.uk/news/videos/c8wy5d43zp9qo?at_medium=RSS&at_campaign=rss",
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -72,17 +65,17 @@
       "source": "BBC News"
     },
     {
-      "category": "OHIO",
+      "category": "US",
       "priority": "GENERAL",
-      "title": "Ohio lawmakers pass bill to lower concealed carry age to 18, loosen gun rules in vehicles - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQzJJS0lzZzd4NXhWNjZ6eE5Mb0pPUzdNSjFvalo5d1RDZVRyNDlDeEV4UDJ0VnJfcWZGZm94R2dSYTNuOURGMUY5WTZ3ekJEM2xUb2NwWG1wOWp3LUtIdzZTdHdrTjUyZnpWbzd4d2cyNmoweFpBVEtjVldZS3pzNHVSWG1tUEFpd3c?oc=5",
-      "source": "Google News"
+      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Zaxbys is coming back to Ohio. Columbus has longer to wait - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORXZ2TDBrTzVZN0ZKYTduYjF5MGJJRzhSRmpjRHNBZng3WnRoNlJnTVFCelFpYTNKUUFjTFFrU1gwUWM0VFE5cXpvOHRRbkVRbDMwQ1JHNUZUY0JOelNZTW8zZVVpTGVMVkNwc0NqTXc3OEllcW03M2JsU1pyTXVLeUpSLS1haGNXZGhv?oc=5",
+      "title": "Votes in limbo: Ohio counties divided over whether votes should count - Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWDBnWFI5bGZkWjFUME5DbGJIY1ppZHczbEZrMzlEM1piNlpoM3dXSGxKZ3Z0Q3VYTVQ1MngxQmEwaHZVbHY2c2lWaDlXLXE3NHpKVnRydnFxbExuMlNpd3VJeXc4LVdhcTR2UEF2a05GU3JiaHctTWg4QmFZUW5EcXNTaWoteWFWajhoUTQ3TXZNdkY0YzRYNUhGTUFLaEJzQURUMkNBWDFhcG54SmlaMnQtTU85YmJTLS1sVk4tdw?oc=5",
       "source": "Google News"
     },
     {
@@ -95,8 +88,15 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Votes in limbo: Ohio counties divided over whether votes should count - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWDBnWFI5bGZkWjFUME5DbGJIY1ppZHczbEZrMzlEM1piNlpoM3dXSGxKZ3Z0Q3VYTVQ1MngxQmEwaHZVbHY2c2lWaDlXLXE3NHpKVnRydnFxbExuMlNpd3VJeXc4LVdhcTR2UEF2a05GU3JiaHctTWg4QmFZUW5EcXNTaWoteWFWajhoUTQ3TXZNdkY0YzRYNUhGTUFLaEJzQURUMkNBWDFhcG54SmlaMnQtTU85YmJTLS1sVk4tdw?oc=5",
+      "title": "Zaxbys is coming back to Ohio. Columbus has longer to wait - Mahoning Matters",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrbmZYT3J0OENtNFZYbDExcDZhLUhXblJRRjg5ZlFEck5sYzF2cEdpdWp1VVRpSGpCdk5uXzUwdEUyWm1Pak5fT0UzZ0FDSC1EVmo2OGVfRVFtTEhIbnJNVy1nODBiYnRCN1ExTkNnVG9oamZ5U3NUVQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Ohio lawmakers pass bill to lower concealed carry age to 18, loosen gun rules in vehicles - Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQzJJS0lzZzd4NXhWNjZ6eE5Mb0pPUzdNSjFvalo5d1RDZVRyNDlDeEV4UDJ0VnJfcWZGZm94R2dSYTNuOURGMUY5WTZ3ekJEM2xUb2NwWG1wOWp3LUtIdzZTdHdrTjUyZnpWbzd4d2cyNmoweFpBVEtjVldZS3pzNHVSWG1tUEFpd3c?oc=5",
       "source": "Google News"
     },
     {
@@ -109,15 +109,8 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Feister family takes OHSAA back to court after latest Massillon (OH) suspensions - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNd1M0OU1aV1BZdEtEWE1tdFI0VWQ2TXdXcVBCNm5CWG83VWZQN1BjTW9kRC13cnVkWVJUTHJXZlRjT1J1dUNxUVNkMzhpVnppZk5Ya25pOXk1TkZ3NHN5S0Y5UnFRZjdpYVNMRkhwcVV6OG11UjY3Nl9NMlNoVVUycDhKclp5ZVU?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio could keep letting some 17-year-olds marry. Here\u2019s why the law may stay - AL.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWjZqNFFCNVk2RFY3V2pja19ieEVzSG0yZmVibnlSUUNFV3o1MEhmU0NDaWFZSERGc1VFcWVCaDZ2RlI5TkJHNTVHMmNQeUpXNVpCOHFHaFREeDNnU1ZQUEtzUHoyTjVFa2pEYVJJakFsTDBGdkhsSDJWcjB2cVlmMERVYUVway00NmlkOWc2MWowWF8xdGwyLWxkRUo1Z3hRYTRFUjRydHA5MzNtTDJjN9IBxAFBVV95cUxQOFZCek1YcnNleklUejR1N0toZ2owaWZvM0puTk1WNy11UDRrdk90ay1BR2Z2UVUyMnpUdF9FQTlUUHNmNFhPNjhXWlpUTHB1RGVqdzVZdktTTTRDb2VKOFBoUXNqWHl4cTJUUHE1ck9CdDJKS0RmSFRWblpNTl9wMDZnSXc1YW5KQ1U5dWVoZHZDUTlPV05ZZGhmUkY1NVpJYmUzY0JiQnM5U1BfcXRaamVpM2F6N19HYlBmTjRlZHBHYUxv?oc=5",
+      "title": "Local nature writer's new book explores Ohio's beauty - Advertiser-Tribune",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ1JQZUZQODNVaC1sWTI2UFN1b2ZfSFJXdTlQVW9VU1BBNG9pMXlkV0lxcEtXUXNQVml0aTVudHp2bEhmQzMzUnVpcGtHbmR2V2dUeDZjczE2RzUxNnJkMzJDMXI1TFU1bTE0alBRTGROTW5Nd1VxZXN3RHlMMXFBd0RpbDdmOF9pSEJPcFdvSEVjaGpTN2lrek9VRDg?oc=5",
       "source": "Google News"
     },
     {
@@ -137,22 +130,15 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Colorado\u2019s Gideon Lampron returns to Ohio as the same star linebacker - Colorado Springs Gazette",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQ0RYZDFad2VFd3ZvTmQ1dEY3bGxiUkFVRmlYbk5hTDdTVzRIU1NCWU5wRjM5cE9QdUV6blpFbDFKeURRVm83anIwZ05vUFNBcXhFbzdzQ3d5UFJGOW9MQ2pmYVRjdjNKX2c1NW0tTU80MVFBYjRwRzN5RmRPVGp0a2lta3VnVnlOaWNTcFpfSkl6MV9meDExSVVLUlhPR2ZSTnc?oc=5",
+      "title": "Ohio approves two large power plants exclusively for data centers - Signal Cleveland",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaFZxdGllS3JNdXJNVmlPMURJRVpVMUlxblp2MlFweDZ6aVJmb0pycW84VzRwXzV5Tkt6bE94UGJSX0c2WnpFbEtvR3AxY1JXOC1CR1Z5UWxiMHplVDVNUXNrajRaWnlxVGFkQVlFVzR3NEdxMW45ZEhUdXcxZ1VfWWp1S1hLdl9SWExUS19RWHpZQ1oxcjJRNk5B?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Boil Water Advisory in effect for portions of Ohio County - WBKO",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRlZXaDdDMjQ3LV9OUGtqc2tvUm8xbWJNU1hxazJvQ0tzLWhudWRDSmdoMGxPVTFQclBweUNkR2JPTHA1U1hpa185Y2ZhdlFVSEk5bmFuR19JeDdEVjJvOHZWVkxZcjVhQktUcGFBOWxtQzJFeHdFemt0MWZaZHZCV19HRFpDcWFWdHgwd09Raw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Someone set fire to an Ohio church. There's a $5,000 reward - Lexington Herald Leader",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03dU40aHlBRnF1TU13X2NpdmpTR1RXVTFoNENmWTFkb3hsTHJPYW5Sa25qUU4yaHdkYWJhbWZuSkZLV0lGbjNVMWd3RnR4aGhZaWNKYTNBT3FUWEhVZEpQbXdpTHNPWGdMWkJKY2Fob085TVRMOTJFWU5lOFd1Zw?oc=5",
+      "title": "Garaway Races Past Monroe Central For Ohio D-VI, Region 23 Championship - The Intelligencer",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHkxd0laVHNLTDJKVjB6NXktOHU1SmJsOGs2ZnRCTGx0OGFlekhRQ2xjZmpQVkYyWUVxdGZ6aDBGZmZaSUFaZ0RlLU1OblhKWDlNMktFODhfZ2FDM0x1YnVYSFZaZ2ZOaFQ2OWF4UGZFQmlQWFE5U1cyVXRQaEotLXBaZ2lvTXhJS2lieE5SVjBPdTFPWG4xc3E3V09KNlp5bEFzUW5QcGlhMTIxWkJLOV9mSkdTbzBaRHdSUXVpLUZwZnZSc3JVNmdn?oc=5",
       "source": "Google News"
     },
     {
@@ -165,15 +151,29 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Garaway Races Past Monroe Central For Ohio D-VI, Region 23 Championship - The Intelligencer",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNHkxd0laVHNLTDJKVjB6NXktOHU1SmJsOGs2ZnRCTGx0OGFlekhRQ2xjZmpQVkYyWUVxdGZ6aDBGZmZaSUFaZ0RlLU1OblhKWDlNMktFODhfZ2FDM0x1YnVYSFZaZ2ZOaFQ2OWF4UGZFQmlQWFE5U1cyVXRQaEotLXBaZ2lvTXhJS2lieE5SVjBPdTFPWG4xc3E3V09KNlp5bEFzUW5QcGlhMTIxWkJLOV9mSkdTbzBaRHdSUXVpLUZwZnZSc3JVNmdn?oc=5",
+      "title": "Ohio House passes bill to expand employment opportunities for juvenile offenders - WTVG",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTVlVZ2tkZ09ocHRsbVJhdEZRTkpxQWg3NDlkM3lfVHQzeE4zLXJGUWhsN2g0VWFQXy1zckprb0s4QnhFUTUwQzc4WV9iOW5jdU4xWUhTM09LdGN4Wm42RTRiMHgtRmh4WjJCQ3Y1MzJuV0p6WDRHRzBpMkZ2RDB0VHdncU5WR083TmtpQ3RoNmxiM3dvbWQ1SzRDcVE0a0NMajVrcWMxa25UZlFLUXFydVlqcw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "How a burner phone and motorcycle purchase led to conviction in Ohio couple's murder - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmxEdkZ2MVNxWW5uQ1RQQXJ0ZnQxTUlhWTNKVFNYNGt2MjVFTGJ5Y3c3TzBLMk5nSUJyZGFvRXVLZTRMUnZPblZpU2VMZUVMelNkUTZFTEdNSDVsUkl6X1Z2QnlDMEVxeU5SQk9rcjhiWW5ZOHhQejlkMlJncjJDSnJIbFhYLUR4alFFWXN0dm9iVHlibDNVLTdab0d0c2pvdXdGb9IBqgFBVV95cUxQZjRacW5TdHhLMXRoZEZSMWlBdjFnQmt2WUpfUVF4bjg2U29GLTMtbV9LbVhlazY3cVQwdFhmTVVwVzVFOVZNQzBBVUhwOWtHQlJDZndjWGh3M0FEQldoMkpVOGRqNHc2Y0IyZS1QWFFnLWpua3N4Z1huN2QtaXVMbElXQW51TjNyR3NyZmp5VVREVTZXV1ZadzRMR0Y2QnJFRVMwMXhBVGNEUQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Someone set fire to an Ohio church. There's a $5,000 reward - Lexington Herald Leader",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03dU40aHlBRnF1TU13X2NpdmpTR1RXVTFoNENmWTFkb3hsTHJPYW5Sa25qUU4yaHdkYWJhbWZuSkZLV0lGbjNVMWd3RnR4aGhZaWNKYTNBT3FUWEhVZEpQbXdpTHNPWGdMWkJKY2Fob085TVRMOTJFWU5lOFd1Zw?oc=5",
       "source": "Google News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -193,15 +193,15 @@
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Man convicted of starting Palisades fire in Los Angeles",
-      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
-      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
