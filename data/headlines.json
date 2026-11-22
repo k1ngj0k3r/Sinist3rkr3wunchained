@@ -1,32 +1,11 @@
 {
-  "updated": "2026-11-22T11:19:53.008828+00:00",
+  "updated": "2026-11-22T19:36:43.341289+00:00",
   "headlines": [
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Trump threatens ban on US firms building AI data centres overseas",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "FBI reportedly investigating apparent hack of its criminal database",
-      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
+      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
+      "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -39,15 +18,50 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Removal of hat inside Fiona the hippo was 'impossible', Cincinnati Zoo says",
-      "url": "https://www.bbc.co.uk/news/articles/cwly43km54n6o?at_medium=RSS&at_campaign=rss",
+      "title": "Lock of former US President George Washington's hair sells for $4,000",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Miley Cyrus marries Maxx Morando in California ceremony",
+      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -58,24 +72,17 @@
       "source": "BBC News"
     },
     {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
-      "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Sheriff: 2 injured in crash on I-270 in northeastern Franklin County - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLXluQ1hRajF0cWE3aVY0WGNrQmM2eF90M08ydGNSYmU2VXNkaFRlbVhfcWNtWXRMM1JISHVubU1Ka1NyVXVIaVk5ZVk2S29PcmduZXNNeTJWb0ZWZ3l0ZUViMmdmUmFwYlhEZXNYdVVpVjdfaTRhNWpreU9mLWRGY0R3Nm9ZU3BkTjdiZ19QOVk2QTFFb05BUkRGdnJ6Q3duMzgwSERGckZUS1RHam5PQl9yOUVfWUtaSjhjT3dPVHJETGxNNlhPSjR0Z1VUaGY3QjMyS29IMA?oc=5",
+      "source": "Google News"
     },
     {
       "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Crash shuts down all lanes of I-270 West in northeast Franklin County - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLXluQ1hRajF0cWE3aVY0WGNrQmM2eF90M08ydGNSYmU2VXNkaFRlbVhfcWNtWXRMM1JISHVubU1Ka1NyVXVIaVk5ZVk2S29PcmduZXNNeTJWb0ZWZ3l0ZUViMmdmUmFwYlhEZXNYdVVpVjdfaTRhNWpreU9mLWRGY0R3Nm9ZU3BkTjdiZ19QOVk2QTFFb05BUkRGdnJ6Q3duMzgwSERGckZUS1RHam5PQl9yOUVfWUtaSjhjT3dPVHJETGxNNlhPSjR0Z1VUaGY3QjMyS29IMA?oc=5",
+      "priority": "GENERAL",
+      "title": "Ohio teenager shares frustration over series of car break-ins - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOX21yRjhOQWI5U3Rad3FnNHJ5OHJoWnJNZU96ZHJsZ2dfRUI3SlRVMTZiMUpKYWtzTW1VVlk2ZkFxLVp2SHNEejJHMHZCRnFIUjd4R2hyMUJfd3hiZEotblEzNUVJSEs0cG1HMGhpR2lROE0zLWVFTWd0OTdBOWRla3NOSzlfUlRJRzBHVHh1VHJZcEVYNkRHU0MxNzc5eWVGek9NaXNCUlVfVEpvS0d3X3J6RkV5VnV2aW00RklrZkdFMWhKenUwck1oeGJjVTdLeUlqZEhTVkp0NzhtNEE?oc=5",
       "source": "Google News"
     },
     {
@@ -88,29 +95,43 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "10TV News at 11PM Saturday - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNmhwOWlheXpUNG00RWZkWG1SUUxYUEFMdk9GUmM1NU9HVFllc3Q1M2xMVjFLWEZRbFVhaFFWQ0p1cWplT3JqNWROTzVHQlZBQThIVXNKbGtMLWNVNDZrbVRrSU5aMFE5Vy1mYWNld2c2d1kwTGlma3R1dVAxWWlsQXU5VjR5dldLNnktVkFPTm92UDhtMjk5OERJLTRJTnVLY29NcG40dExzTmtVTld0TA?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
       "title": "Tomorrow's Top 25 Today: Ohio State, Indiana, UCLA fall in college football rankings amid Big Ten chaos - CBS Sports",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS2lObU9rZmZ3WDhzRFZwbElHakF6LU9fYW1YZVBQYWZTeVFLX0ZCbWVDaVRmbVJJTDBaM2llc1J3TjUzYmlDTlpEa3dJclFYd0NFSDRmYmdMVHVlZDljcndwNURJNnRXNUlIdUp0M0RYN1E0bk1NSTg5YlAyLUE5XzNqbnljRlVvVC12aUctd2RPckpGOVNXZWprc0d5TmNHbERKQ3dKQQ?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - Durango Herald",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeUo0LW1nZThjZ0ZPUGk1Q1ZZTjBLWFZMUW4yMDlVZF9NeVZvSXBvWGN4N0Y2RVNMRXg3T19QRHA1SkJ5NWVlQXFpMmFQQzZjQXJ3bjhDYVo0QTY1VF9DWGhYSEZSUE5SVURLbTBUWUg4Wkx1Vk9CcF90ODlwN1hESXhRaFZZMHZUOW8wNlo1bDNOSjhtT050TWFVV1UtQ2U1S2pVNUtjN1l4QjlVeF9rWXUxOFI5S2JmWHUxM0JVV0pWV21EYmpPcHJJcDhETVZm?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Why Ohio State's Nebraska loss is historically disastrous - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdXVDUF9lcWNuODgxSWJNNGRPeks2TXZsa25Nb1RoaXZEZHBSUmhWN1NCa0VkSUNiYUYybHFXQmVhRjJWVVN0WUFRbjNkQ0NlZnBOdy0zUDU1eGJESjJ2TFZXckJpRXg1QzZaWDZ0MGE3aVdNLUZValNDRlpmbkstZ3Z0enk?oc=5",
+      "title": "Two Goals Remain As Ohio State Loses Its Fourth - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRTNjMkdVbWI0b2ZINjdENDZ1SDlqbE9aTWY2NU9VQnBURzZPLWtmd1VsRGFNZUVweVE0WlV3WWx6MzMtSVU1R2FmRDA3b0dqTlBtWnl4T2NtYWVSMl9WaVV2eVRLdGM5Z09RX3lENEdJUGZCNUw5Si1HMDRHVDRkLWRR?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "At least 3 killed in shooting during baby shower in US state of Ohio - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdVByN3k5S2RzRVhZaVFBbVhsVWl6ckRYeFlxMzcxMFc5S0pCdmxJV2ZYYWFYY215d0FpbEZWbDRZWXRFUGQ4QXJ2b0d4R19Zbjk4bGpSdGtfYTItZk1UNHk0N0hxa3dnUUY1SXJMa2VPUDByNzFaQlFrNVpzNDR5S0hwb2NCUkZtOVpRNWJYbU9DMVZnSFh3bmFNeGNzWFFjS2RfSy1kYklLWXd0Q3J3?oc=5",
+      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - SFGATE",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnY3TnVzbkw2RGdWWC1rM1ZZTTNvRzE3SHZYVlJ6M0tPR0ZfdUxmUmk3N3U5eGJNdjVUNlRBWVNfYlpRQ3k5b25iUDVHTjF3NHR0OUNicTBKYWpHMGRsMEoxSlRkQ2NSSUZPUE5zOVlqZzBaamVVamI1bFZXYTJXMFQ3RkM4Y2NmbVpJUF9FRGRPLUo4b2I0bQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - The Killeen Daily Herald",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTWNPOHhfUF8wZFJxanBPWjl2NlNaTngxVUVRQ1dpRnFGUnVsckV2NVFhYXFBMzJndk0yR0dpcUh6N0Z4QmFwRmdocEY2X0lVSWh5aHN2a3NpQkpDNEw5Zng3OEo0ZlJ4LUZJNTJRbW9rYjhidU96YWZDQWd3SGk3UTZqWlJhLXpDa29CeS04TmdWLXBnd0hQRGx0LUhwb2xPRGE1WUlaUnlad1UzOUhMSXJuUkpuVms4S0c4a3U2YURLLUJpX0YxNUNmeUVUMnlqOHZBaTYyMUJCSV9zM0k3X1plVWRtYlE?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "At least 3 killed in shooting in US state of Ohio - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2pCVkFISDNwTmdLbTZNSkR1aDVUSFJ1RUk2XzJmRld4SmxlNGg1b2E2TzR1LVd3N1lsbHBoZzhsU2g3UVRxbG1uVC1NM2YxWWt5VS14b29mclVOOVdmR1RLai1nMjZHelVHYURoX01XWkFVZldnUUI5QnhKQnhBS3pTUmFBdzZtTU5WRF9FU0c2NHJGekE?oc=5",
       "source": "Google News"
     },
     {
@@ -128,59 +149,38 @@
       "source": "Google News"
     },
     {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Two Goals Remain As Ohio State Loses Its Fourth - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRTNjMkdVbWI0b2ZINjdENDZ1SDlqbE9aTWY2NU9VQnBURzZPLWtmd1VsRGFNZUVweVE0WlV3WWx6MzMtSVU1R2FmRDA3b0dqTlBtWnl4T2NtYWVSMl9WaVV2eVRLdGM5Z09RX3lENEdJUGZCNUw5Si1HMDRHVDRkLWRR?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Local nature writer's new book explores Ohio's beauty - Advertiser-Tribune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQ1JQZUZQODNVaC1sWTI2UFN1b2ZfSFJXdTlQVW9VU1BBNG9pMXlkV0lxcEtXUXNQVml0aTVudHp2bEhmQzMzUnVpcGtHbmR2V2dUeDZjczE2RzUxNnJkMzJDMXI1TFU1bTE0alBRTGROTW5Nd1VxZXN3RHlMMXFBd0RpbDdmOF9pSEJPcFdvSEVjaGpTN2lrek9VRDg?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio teenager shares frustration over series of car break-ins - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOX21yRjhOQWI5U3Rad3FnNHJ5OHJoWnJNZU96ZHJsZ2dfRUI3SlRVMTZiMUpKYWtzTW1VVlk2ZkFxLVp2SHNEejJHMHZCRnFIUjd4R2hyMUJfd3hiZEotblEzNUVJSEs0cG1HMGhpR2lROE0zLWVFTWd0OTdBOWRla3NOSzlfUlRJRzBHVHh1VHJZcEVYNkRHU0MxNzc5eWVGek9NaXNCUlVfVEpvS0d3X3J6RkV5VnV2aW00RklrZkdFMWhKenUwck1oeGJjVTdLeUlqZEhTVkp0NzhtNEE?oc=5",
-      "source": "Google News"
-    },
-    {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "South Korea education minister resigns over exam cheating scandal",
-      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+      "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Russia-bound ship attacked in Gulf of Finland",
-      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "title": "What's next after no deal at COP31 climate talks?",
+      "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "DEVELOPING",
-      "title": "Three killed and dozens missing after fire at Indonesian factory",
-      "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "DEVELOPING",
+      "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
+      "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "title": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
