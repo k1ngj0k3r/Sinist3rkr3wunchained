@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T19:36:43.341289+00:00",
+  "updated": "2026-11-23T00:50:46.969656+00:00",
   "headlines": [
     {
       "category": "US",
@@ -46,13 +46,6 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Trump threatens ban on US firms building AI data centres overseas",
-      "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
       "title": "They were fined $811m for conning detained migrants, but the scams didn't stop",
       "url": "https://www.bbc.co.uk/news/articles/cqgm0zlkgrm2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
@@ -60,15 +53,15 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
-      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump says US flight systems are 'ancient' but 'safe' after ground stop",
+      "url": "https://www.bbc.co.uk/news/articles/cr930ney9d1po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "title": "Ghanaian boy killed in US 'deserved so much better', says New York Mayor Mamdani",
+      "url": "https://www.bbc.co.uk/news/articles/cv8e07825l90o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -81,8 +74,22 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio teenager shares frustration over series of car break-ins - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOX21yRjhOQWI5U3Rad3FnNHJ5OHJoWnJNZU96ZHJsZ2dfRUI3SlRVMTZiMUpKYWtzTW1VVlk2ZkFxLVp2SHNEejJHMHZCRnFIUjd4R2hyMUJfd3hiZEotblEzNUVJSEs0cG1HMGhpR2lROE0zLWVFTWd0OTdBOWRla3NOSzlfUlRJRzBHVHh1VHJZcEVYNkRHU0MxNzc5eWVGek9NaXNCUlVfVEpvS0d3X3J6RkV5VnV2aW00RklrZkdFMWhKenUwck1oeGJjVTdLeUlqZEhTVkp0NzhtNEE?oc=5",
+      "title": "Ohio senators consider eliminating data center sales tax exemption - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLWp3djhmMXI4dlJnOFJpanRKTllOZVFaMW9wOFc3TEJySWVhZm40QWJNUkZhbkVvb0YzZzNMN1E1R095UzJtLXptSV80Q2pyOFVfSElpS1VfRUtadkR3TU9YTFhoTXg4ZzhKY0ZJaDdkNGEzNGNQOWlNdmFrWGNQNmRmTTBia0tBbGhHdkJnSHNaQ2t2eG1WQzRsTHRlODVzWGRWWGRyYk43TkZabThKRXNuUnB4QnVNLUlweE85WDRrb3I0MTNQU3R4UHZqeUJ4YTBkUG9XWWdxUQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "3News at 6P - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOEdFUkVvcEhZUFQ4bmJqcmNnQy1fWmpXXzZOcUxiQVF1ek8ySmx2QmtYV3Z3VVl1MTNjV0lpVkY5d01MckMzQkNyS1d5THhMdkZ4WkVXU0FWVVpELTAzb0V6WC1VUWtXU3VOV1JUYkVkM2tLdk9aX29NbmlfSDRDRDZpWWwyLTV5ZEVvY2lHbERsVzh5TVhsNzJqTQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - Durango Herald",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeUo0LW1nZThjZ0ZPUGk1Q1ZZTjBLWFZMUW4yMDlVZF9NeVZvSXBvWGN4N0Y2RVNMRXg3T19QRHA1SkJ5NWVlQXFpMmFQQzZjQXJ3bjhDYVo0QTY1VF9DWGhYSEZSUE5SVURLbTBUWUg4Wkx1Vk9CcF90ODlwN1hESXhRaFZZMHZUOW8wNlo1bDNOSjhtT050TWFVV1UtQ2U1S2pVNUtjN1l4QjlVeF9rWXUxOFI5S2JmWHUxM0JVV0pWV21EYmpPcHJJcDhETVZm?oc=5",
       "source": "Google News"
     },
     {
@@ -102,50 +109,36 @@
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - Durango Herald",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeUo0LW1nZThjZ0ZPUGk1Q1ZZTjBLWFZMUW4yMDlVZF9NeVZvSXBvWGN4N0Y2RVNMRXg3T19QRHA1SkJ5NWVlQXFpMmFQQzZjQXJ3bjhDYVo0QTY1VF9DWGhYSEZSUE5SVURLbTBUWUg4Wkx1Vk9CcF90ODlwN1hESXhRaFZZMHZUOW8wNlo1bDNOSjhtT050TWFVV1UtQ2U1S2pVNUtjN1l4QjlVeF9rWXUxOFI5S2JmWHUxM0JVV0pWV21EYmpPcHJJcDhETVZm?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Two Goals Remain As Ohio State Loses Its Fourth - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRTNjMkdVbWI0b2ZINjdENDZ1SDlqbE9aTWY2NU9VQnBURzZPLWtmd1VsRGFNZUVweVE0WlV3WWx6MzMtSVU1R2FmRDA3b0dqTlBtWnl4T2NtYWVSMl9WaVV2eVRLdGM5Z09RX3lENEdJUGZCNUw5Si1HMDRHVDRkLWRR?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
       "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - SFGATE",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWnY3TnVzbkw2RGdWWC1rM1ZZTTNvRzE3SHZYVlJ6M0tPR0ZfdUxmUmk3N3U5eGJNdjVUNlRBWVNfYlpRQ3k5b25iUDVHTjF3NHR0OUNicTBKYWpHMGRsMEoxSlRkQ2NSSUZPUE5zOVlqZzBaamVVamI1bFZXYTJXMFQ3RkM4Y2NmbVpJUF9FRGRPLUo4b2I0bQ?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - The Killeen Daily Herald",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTWNPOHhfUF8wZFJxanBPWjl2NlNaTngxVUVRQ1dpRnFGUnVsckV2NVFhYXFBMzJndk0yR0dpcUh6N0Z4QmFwRmdocEY2X0lVSWh5aHN2a3NpQkpDNEw5Zng3OEo0ZlJ4LUZJNTJRbW9rYjhidU96YWZDQWd3SGk3UTZqWlJhLXpDa29CeS04TmdWLXBnd0hQRGx0LUhwb2xPRGE1WUlaUnlad1UzOUhMSXJuUkpuVms4S0c4a3U2YURLLUJpX0YxNUNmeUVUMnlqOHZBaTYyMUJCSV9zM0k3X1plVWRtYlE?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "At least 3 killed in shooting in US state of Ohio - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT2pCVkFISDNwTmdLbTZNSkR1aDVUSFJ1RUk2XzJmRld4SmxlNGg1b2E2TzR1LVd3N1lsbHBoZzhsU2g3UVRxbG1uVC1NM2YxWWt5VS14b29mclVOOVdmR1RLai1nMjZHelVHYURoX01XWkFVZldnUUI5QnhKQnhBS3pTUmFBdzZtTU5WRF9FU0c2NHJGekE?oc=5",
+      "priority": "GENERAL",
+      "title": "Nebraska ends 31-game losing streak against ranked opponents as it buries No. 14 Ohio State's playoff chances - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNOUdjV0JpYktNc1hEWWYtYkFobUtHbldxcDJyN2VNanVGcTlGMjB5eUo0Mm9VQ2NFUi1YZXJ6NG9IamU3cUlUNWx6TFNDd29tVjZsN3lNakRXaXJwdC1DeFFmV3J6WWVwTGk0dmZfU0M5ZEF6NGpWclRRcGRHSnJjeXFVYmY5dTVVc0ROeFNaWFpBRktTQ09oY2haZVliNTQ3SUhrSHhXRjJzT0pzYzZ4MjJxMTl1R0MyRXpObDhoQnlaT1B1NXNWai1xUjhMeE1UanoxVUZaWGlmTTRXV3Mzd2gzVmJyam5KblhlMlByWGdDZXFnUjd5QWFsbnZEU2NnbW93VEhqcnNRZlVyT2RtTTlBdVc?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Democrat John Kulewicz projected to win Ohio Attorney General's race - WLWT",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQblJGMlpsMFprbDBDRVljTlh0RGlwd29CS2hyNVdjNk5KY2pkWVZMMmkwd2tseHQ3Y09yUjBWOGx3OC1uZWJRSWM0cjNwMHhQbTBJVmI1dWZhV3NVRFRob0NmYXBmVnZvVjBiUDV6XzBpcVJNY053OGd4c2I5Wm8tNmVXUVpxeGxiQUZiYVB4ZTRKeFlKSElqR05Rcw?oc=5",
+      "title": "Ohio State barely hangs onto spot in latest AP Poll - On3",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWjQxaEJKWmtMLTY4aWhsVElGQkhUVkV3SGdlejk4Z0ljZEViY3dIc3FuQ1p3MGdsMjVyVUtqdzQxeWY0X2N5dHFFakZJY2tQMHdOX2tTTHFNMV83S1E4WWZJMG9Zd1ZfcktXNEJ6UGlySXdXSUNLbVZtT3V1SFBNV0t4dE1MSTdWNnFJeDNWckxSTVNHSGV2UlhzR21pLWo3QTRJQmxn?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "3 killed, one injured in a shooting in US State of Ohio - Mehr News Agency",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRVpocXBkV3dSU09KQUJITjJobktqNDVtM3NScW5INmt4ZHh4VGRaTWZJaHhYckZkbS10YVdmSElYcG5sU00tZEN0TXVTdVR6aTFqUGxwX1pzbU5TNTdSd3FaZFZtaVhZQXY5X0ZFV21OVW96ZUI0ZHM0LVZ4Q1Q5T0laUjJzS0VRR1p6ZUNwTEpKdkEw?oc=5",
+      "title": "Three killed, one injured in shooting at Ohio baby shower, police say - FOX 10 Phoenix",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW9LTzhHUmZOR0ptQVo0TktVWW5aRi1qaWFNVkpLX1pTcFJwQ0pxc2JHMXF6b0RrMUp3RVVxREl5Uk9EeXhEZ2lUYW1ITEhVc0Y3LV9aWU5KeE1DNlNsU0RCMS1rUU9CWDNPMHZ3b3h5NXVJN19qbGl5T3dJSG54Wi1KOXhxenNVc0tZdUNHeTd0QVlpZTVJRFlPUQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Winning Mega Millions numbers for the $629 million jackpot on Friday, Nov. 20, 2026: See all the prizes hit in Ohio - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQNXNRSl9EUk50R212RzNGVW4yUnljVTFFemdxN3VWTHQ1Y05ZTlFhRHJ6OV85a0E5YjF6d2p2eXJ4TFEyNUMzNlY0SGR6TWZpTDlIQzd3Tl9KUGx3MHZfMWVuSUtoNU5VLUUzTGdTQXlDd1ZOVkZnX1dRLWt3UnpoazBDaEVOSnZ5RERXMEQwdW5STFdqUDc4Y0h1cF9ILXJNNW5NRkp4YkFuYzdDOWg3dFpYUXJ4N2MwMWwyc0hJdnhTTG0xcjZFcU1qVlZERldfcDFzYVZIOGhfWnRfcFhVNHl6X1l1SzdxMkFZX2xET01xUzBHb1UteTNrMVhnajU1M3hpV282TzF5c0NlbHBHeVZLSDY?oc=5",
       "source": "Google News"
     },
     {
