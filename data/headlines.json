@@ -1,11 +1,46 @@
 {
-  "updated": "2026-11-23T09:00:11.351769+00:00",
+  "updated": "2026-11-23T21:20:02.224077+00:00",
   "headlines": [
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-      "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
+      "title": "Analysis: Why Jensen Huang proved too big to fire",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+      "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "First Lady Melania Trump welcomes this year's White House Christmas tree",
+      "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Trump orders US military not to detonate toxic explosives in Iowa without court approval",
+      "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
+      "url": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -25,13 +60,6 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Lock of former US President George Washington's hair sells for $4,000",
-      "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
       "title": "Miley Cyrus marries Maxx Morando in California ceremony",
       "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
@@ -39,22 +67,85 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o?at_medium=RSS&at_campaign=rss",
+      "title": "Lock of former US President George Washington's hair sells for $4,000",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "Sheriff: 2 injured in crash on I-270 in northeastern Franklin County - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLXluQ1hRajF0cWE3aVY0WGNrQmM2eF90M08ydGNSYmU2VXNkaFRlbVhfcWNtWXRMM1JISHVubU1Ka1NyVXVIaVk5ZVk2S29PcmduZXNNeTJWb0ZWZ3l0ZUViMmdmUmFwYlhEZXNYdVVpVjdfaTRhNWpreU9mLWRGY0R3Nm9ZU3BkTjdiZ19QOVk2QTFFb05BUkRGdnJ6Q3duMzgwSERGckZUS1RHam5PQl9yOUVfWUtaSjhjT3dPVHJETGxNNlhPSjR0Z1VUaGY3QjMyS29IMA?oc=5",
+      "title": "Two dead after three-vehicle crash in Columbus involving buses - NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdl8walY0UW1STjdBenRlYVp1RVo1S2JMRURGQ3pSSHpBSTV4aEdseURwR3dXdk9UTUhGcGNDcmhLTTc1d1YzaEVuU3pGTXlyM09jcXdaVDgzVWVkWWw3dXp6dzVodVJfOUJFWXB3bVhJenI2UW1OREg0YnFuMmhqdE1xQWpfY1VaQUJxVDRZanBEWi04akgtRktrUmlWRVAxQ0RJcFNXZXRaQ3V1YW9PRFdQcFk0MVVPOXpIN1hnRjA2X3hrMC1nSlUtUdIB0AFBVV95cUxOMGVSZDVmakt4T1d5d1VwVTRSN0Z0dGN5NmliTWxjR09Mbld3OW92X18xTloxNnA3LXp1THUyOG5PZWVsQkkzOVo0NmhkYXZWMzg3Q1NLQVVaR1JLRnd2eU1oTTdVR09PT3A1TjBQZmN0UnNtUURoRlYyZm81TDlTdzJmc2l0RWwybU5LTUdoeWFYRERobWtubWs5b0ZmdUNKcGRLM1hOZnhDd2dWdW5PMXNiTFYyNnFvVVBnMzRmOE9ZTk1hbUlNTjlCX2pFUmJa?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "2 COTA bus drivers killed, several injured in crash near Ohio State Fairgrounds - WSYX",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUU05Q0ZIVmpEc1VvNWdxR3BRbHdQRUJZMy16eGEySkpFTjA0eS1neUs0LUdnNHN2TTR6TmpNc1g0R2JZeXhkWXpFemVGb24tRVN6S183aG9wTG1LMEI4ZmlVVUppUmxtc2ozbDZlMWtIVjhELVdIWUgtbkF1U1U4RzJiRHNRclNGRWtweWRVWGNHQmZodnV3dWQzLU90eTJwZXg1aGIwWkkzaVJfcUs4MVdSNUtIQWJaQm0tbWlYTQ?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "10TV News at 11PM Sunday - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZHV5Wi1zME9TUWwtSElrcW1LSEZNTU9tNjZzQTYxX1psZHZfRFlkRXMxblFRUGRnakRKS3BHWG9vQm4xZ0dyVjMtVTJpeHZUNmFRQUJtTTlpVTdLTlcxSHNveldZQmJGNEdsZkdNMTByZV9mVDhPVWVVVWpKMzFMSnZ4aXdzOEQwcWVqZFhreHZfaEZQM3dHdHVGOEFCS2MycmZNaTdrdjlfbTJzY3c?oc=5",
+      "title": "Northeast Ohio girls basketball preseason rankings 2026-27: St. Vincent-St. Mary starts at the top - Cleveland.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdnpIRjRTQy1jMVhwcGR4TVkyNUVERHMyc1lCcDQ4QjY1alpFclY3T1V1QlJjYWlvTnBKSWFPcWlvOHpORFg3cnM1ZC16VkVsS1BDU1ZvNmJ2dndPUjE2M0duWHB3dHd1cGJLMDVxOVBvVjllWlhwY1RJSTVWdmZaSUh1UDhWSUozMzFyOVFmOUVEMGJEQUJ3cmtpamI1ZGo1X2xRdnVDVndRclVkOGUxcVpYbG8tbG5ESGdVLWVJbHJPV1ZLZFpxdVliN3psTExyNGtRemltMHo?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Two central Ohio bus drivers killed, nine others injured after head-on crash - SFGATE",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOXU4NV8zMUYzNnl3X2xqQy1Valh3UnhFcENaaEtMelVyclF1WlRtRU9CVEJUbGNqNFlSbHlTZi11ZDlEMUxyNl8wTFZjY1IxSHBlem5EY1hhSTh2VjM1S3RmaUZZcncyYWRYdGJ4eWJmQWlNNTY1LXR0WWlvd0hqM0YwN095WVEwMl94N2lsOWJ5aU5Wa0VGTjZrbko?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Former Gov. Ted Strickland honored with Ohio State Fairgrounds building - Dayton Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWUItOE5CcFVuUUExa3ItZDB4VnEwbWN5dkpScmJJS29nNzUwendpWVEtVE91X1hicFIwZzIzNXQwQzk0WGtSSkx4MnBoQnJwaDgyVXVzR2k3RTBrTm5DSDRmS2JuMVpxc0VYM0hHQmdoTWxQNndvQlFPcFZreTlpOXl5UkJ0ejRBV2wtdmg3bHJCT1lVN1g1RVlrR3lQc05reUN2N2VkYXZ5X2tQX3hXTkNuT0lmSExxMDNqUUlBQTdQN0lqZHpVZ05GWldsempMNUlaMThVaWU1cHpyUkNkZEZxWE8zTnFPLUdSRkNLOA?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Two Ohio transit drivers killed after head-on crash - WSFA",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS0h2Si12VUFRaHVnV3RmSWw1YTdtZ0kyaFNZaGptaVU3VXk3UlVvRHFUWUZ6RkFtek0zaEFvdHJOQ1NUb3lxQ0luMC1EYkRIM25yQlFJNXhtSU4zQWdmUVVsenpHWmhDTkx5QTUyYkZybjNGOWRKejEzUW1iZ0JIOVFFZy00bTBsVVN6TzM3TUNway0w?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "$84 million Bridgeworks joins Ohio City developments - NEOtrans",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlpjbGZyMEJ3LXBMQUYzdGhQY0JBUWZPRDZJM3NRNERZOXZQNVV4Y2lkTW95b1ZQOWNnenBmTXZhQV80Qll4RElSZThkX3ZLaEtENG9XaThWcGxTVFh1WTNJa3dybXNzOC1IS3lrUlhJazhIbzZtRENRaUV3VU5PZFFTWG9HZ29UZXV4dXBabw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Alabama 8-year-old killed by car in Ohio was \u2018incredible teammate, cherished friend\u2019 - AL.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNFBNUWtUeDZGbDd0ajlrdk9aUGZpMzl4N0dwWXZ0clVWdHBPZDNCemRiTm0tWjdRUEdWZlZJOFZPMkFwTXAxZnlQUzA1YVFCaXJacGY0bC1XaDBVaVlfY19JVjBrMWhXQ01UMjhTelFwREJCakQySHo3TEVGV0NVZnNTSHVHMWp4aXlkTzFFaUlMbnVMMjlMNzUxMjNyMUJMUlYxOThqeHZ2dEVfM3d5MEJhaXJscXNyR0HSAc4BQVVfeXFMTTdpaXJOSzBEN3pHYlA1bGVCRl9TVUdiX1FBOTNuaE1MYkE2QXJHSG9nUVgwRnJXdk9aMFZJNkVRRnZQaWp4QkZRaUQ3VUJJTUtZZ2t3TVBFZjRkX2dIU180QXlKdzdIeVE1S2ZxbGJuT2FHVjZ1Q0g5S0RfODhYS0JOVHU5VTFndUQ5THlLVjEtRGIwMWN0YzY3MnFzX3BYQ1JqamRyb1g1Uy0zbFVINlhpYXJnS19SaTNDcjZFWFZQZURWM1ZSNDFfaDAtN2c?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "A New Musical Hitting Local Stages! - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbi1SckZLREVUc0lJT3Y0VTE2ZFBvZlM3WmhhOFc1OGc1emRxZkVtbV9BMGVoOW9OLTRNX1Y3OWdzX3hnbmotQTRIV2pBRnprYUZOWHBlYVFmMmtjNmJZaHhzQXJTVmlCdmFwdHVBaXlsRmhNUjlFMG03OXJmYUFHNjZhRGVYNmhzMFVBQkVXZDhSMWlrVVRUVjUtZTFXbnBQS3JhNzBhcTNhTFVXVHNzRlFDSFYwbHBwc3c0S014Wjc4dm96bjVrNkxyb0o5aFdWUlNHR0ptRFk?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Emotional support dog stolen from Northeast Ohio car wash after jumping out of vehicle - Cleveland 19 News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaWYxMzZ0ZjJrZEhCUWZYTklVYWhVdVRGSndjNFNBT0hSOWNOXzJyRlFSQmpuOU5oT2xFQmszbjRoMC1reDQ3cDV6RGxrWlM3SUFtbjdhZkJKVDlJbmV6LU9fM3R6SVNaZUxHYkI0RmFfdUtadW5fd2dvTWIyVFo1bmVsemNsNzYzNXR4aXZ1LVJvRkcyV3pyX2xQWkh3TmR6T2ZYbjFyNzhKUkRCZzZYSVp0b1NQQmlEckE?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Two central Ohio bus drivers killed, nine others injured after head-on crash - Star Beacon",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQTTdsVVQ2VWpmZExXcVc3WEZybWFoS2FMbDJWUFF6VmtOU2k3bkFCZ090MmJIeFVnU0V1WHp5a3lvelY3V0hUWkhtSGZmNXB5M01WSUNRVFlQbHFVTGwtRGYyS3JhX3V2dHlKcG9KelQ5ZkI2bDVKejIyV1ZMcm5TekhqQzNfak9nU3dtX3hLelRVNzhWaXB3b2lHZFJzd09UclVTX2tKV0l4YzBvRjdFamhic2JTdEhuR3FlVHlUQkQ1VVl2TFBkMzZsR0tWOVRaV0xMUnNqc3JvOS1PTnNHblhyZGRQVnNHblRlWXpFakk?oc=5",
       "source": "Google News"
     },
     {
@@ -65,94 +156,38 @@
       "source": "Google News"
     },
     {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio Swim and Dive\u2019s Schweikert, Szoke Break Records on Final Day of Navy Fall Invite - ohiobobcats.com",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUTkwNUF0bkdVRkMxcDhpNG1RODhxZDZOeDc1b3NOR2ZiRDBzSGZrbHFHZTVHd1o2RVQybzRXTS1GS3NTOUJyWkNnZ0tKeDZuZlZiT2ZsU1VTWTA1YTdHUEVMdEJMVHViZE1tSDlCQVBvNkdVMjV2Vm5ndXp3NWVUaGp4YzloOV91V1BpY2FQSzd2UTVaMkMxQmJZQjVuNzlkTzFMMTNuSnBteUk5bjhTZjFBWnhsSjl5VlQtVE13ZWNhX2V2UnZqOWs2dHYzRmtDdl9aRjhYOF9SOG9nNXB0MmNwUTA?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Nebraska ends 31-game losing streak against ranked opponents as it buries No. 14 Ohio State's playoff chances - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNOUdjV0JpYktNc1hEWWYtYkFobUtHbldxcDJyN2VNanVGcTlGMjB5eUo0Mm9VQ2NFUi1YZXJ6NG9IamU3cUlUNWx6TFNDd29tVjZsN3lNakRXaXJwdC1DeFFmV3J6WWVwTGk0dmZfU0M5ZEF6NGpWclRRcGRHSnJjeXFVYmY5dTVVc0ROeFNaWFpBRktTQ09oY2haZVliNTQ3SUhrSHhXRjJzT0pzYzZ4MjJxMTl1R0MyRXpObDhoQnlaT1B1NXNWai1xUjhMeE1UanoxVUZaWGlmTTRXV3Mzd2gzVmJyam5KblhlMlByWGdDZXFnUjd5QWFsbnZEU2NnbW93VEhqcnNRZlVyT2RtTTlBdVc?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Republicans lose supermajority in Ohio House - The Post",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNV005MF94VmdtXy1HeTlwQkROYl91QnVwdnNKeVNIQjVxNDFsYnBfSTh2TnJrQVBaaklKMzZqWnppWkFrVG9ndjExSThONHp0TFlEMHRzZkxtLUoxVHAzRlcwT3FMczRFTXhsLWVoUEcxTTdvdm5SeUpwMm85N0RfaUtxMGNsUXVjVmNzeUlZclZTLTliMGc?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Tomorrow's Top 25 Today: Ohio State, Indiana, UCLA fall in college football rankings amid Big Ten chaos - CBS Sports",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS2lObU9rZmZ3WDhzRFZwbElHakF6LU9fYW1YZVBQYWZTeVFLX0ZCbWVDaVRmbVJJTDBaM2llc1J3TjUzYmlDTlpEa3dJclFYd0NFSDRmYmdMVHVlZDljcndwNURJNnRXNUlIdUp0M0RYN1E0bk1NSTg5YlAyLUE5XzNqbnljRlVvVC12aUctd2RPckpGOVNXZWprc0d5TmNHbERKQ3dKQQ?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Police: 3 killed and 1 wounded in shooting at Ohio baby shower; 1 man in custody - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTUpUTkE3U2txdHYybUxYZlo3WFl0SHhzNUVhVUIyWWJ0djhrVU92dXdLUFZ4cjJLTEtpT21WLWhRYlZ1WHZhdkZKRF9seHJ0VUdjYnNwZ3RmS3kwQlVDNWM1aThISVh6TjEyZ1I1QkU5UktUdjV5OG1Xa056Z2VCT0t0X0p6dnhoQmxMRFJLTWLSAZYBQVVfeXFMTXJESWdiaFRwbmZETWx2U180SmRLaWUxdTh1eHV1QXRtZjE3T2pSMWw0Wk00Y0o4UXlkUU5ON2RPX3I1RGdkTGZQNXBTSFNIMlJCZjZVRjBxZU4wMlZjTGFtNnN6cURJYnNGb3ZyQkdsSjY1T0tyVHBFdGhpSXNvVndkdm84SWlYVGc3Vk84dlk1UVlWdFpR?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio: human fatalities caused by dogs since 2012 - Animals 24-7",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQzE2Mmc0MktWeVZDZzJnc3ZRTHczazI0VGFObWRSOFBNbHczdTdxOVg1SkxkN3lPZDZXa3NCQlFtajJSM3p0NENSQjZMM0lVakJPMW1YNnBYZUZJQ1lXeUhfWG12aDdfNk1xR2tLWmpPSHRLQlo4anJOak1mRkdKTTJ2UUZsSDU5Tjl0SVMwejQ?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio senators consider eliminating data center sales tax exemption - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPLWp3djhmMXI4dlJnOFJpanRKTllOZVFaMW9wOFc3TEJySWVhZm40QWJNUkZhbkVvb0YzZzNMN1E1R095UzJtLXptSV80Q2pyOFVfSElpS1VfRUtadkR3TU9YTFhoTXg4ZzhKY0ZJaDdkNGEzNGNQOWlNdmFrWGNQNmRmTTBia0tBbGhHdkJnSHNaQ2t2eG1WQzRsTHRlODVzWGRWWGRyYk43TkZabThKRXNuUnB4QnVNLUlweE85WDRrb3I0MTNQU3R4UHZqeUJ4YTBkUG9XWWdxUQ?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Three killed, one injured in shooting at Ohio baby shower, police say - FOX 10 Phoenix",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW9LTzhHUmZOR0ptQVo0TktVWW5aRi1qaWFNVkpLX1pTcFJwQ0pxc2JHMXF6b0RrMUp3RVVxREl5Uk9EeXhEZ2lUYW1ITEhVc0Y3LV9aWU5KeE1DNlNsU0RCMS1rUU9CWDNPMHZ3b3h5NXVJN19qbGl5T3dJSG54Wi1KOXhxenNVc0tZdUNHeTd0QVlpZTVJRFlPUQ?oc=5",
-      "source": "Google News"
-    },
-    {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "Longest-ever UN climate talks end with no deal as deep divisions exposed",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Five takeaways from the failed climate talks COP31",
-      "url": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-      "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Russian ships hit by Ukrainian drones off Libya coast, Zelensky says",
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "WORLD",
-      "priority": "DEVELOPING",
-      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-      "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "priority": "GENERAL",
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+      "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+      "url": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "What failure of COP31 reveals about a divided world",
+      "url": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
