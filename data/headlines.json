@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-24T05:59:40.341754+00:00",
+  "updated": "2026-11-24T17:40:31.561675+00:00",
   "headlines": [
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "US court unseals heavily redacted records on Ilhan Omar home search",
+      "url": "https://www.bbc.co.uk/news/articles/c6n831lzl5y1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Will bad weather disrupt Thanksgiving travel?",
+      "url": "https://www.bbc.co.uk/news/videos/c5742n4741keo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
     {
       "category": "US",
       "priority": "GENERAL",
@@ -32,8 +46,8 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
-      "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
+      "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+      "url": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -53,28 +67,21 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
-      "url": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
-      "url": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Miley Cyrus marries Maxx Morando in California ceremony",
-      "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
+      "title": "Seattle airport operator 'outraged' over ICE arrest of two passengers",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy479wz91no?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "Two central Ohio bus drivers killed, nine others injured after head-on crash - ABC News - Breaking News, Latest News and Videos",
+      "title": "Columbus City Council honors two COTA bus drivers killed in Weinland Park crash - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYVowM2V1RW1Kd3Vjdy0xbnRvc01uVENHd1oyM21PQzlaTjVWVm5JT0UwaU5kWG4yaWRLSGMwaUNkSmM0WXBVeE9xbG5VTVJJMTFrYVpiS1ZQZmdodm0yVTVCTkpaWnpLUE1NeDZIMHhZVm5lS0VCbjhJSTFTRDdRYjhIVGQ4N1hKUE1FeDVzMWtZbmx2SlBkTGc0dTNmblI4M0xiUjVrSE1Ca0g5SU5vR3NUT3hJWVJlbG03THBzNFlsa2pPMnpmODBFZmxaNUpvRkd6RnBsaEpId2tsaHZ5TjhsN0cxNWVLSWlkdw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "2 bus drivers are killed in head-on crash and 9 others are injured, Ohio police say - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOW5pTU9JZDJ1ZFR3MEhVdW54dEx0Vnh1ajVYTG9LVEJXbnpDOFlKeDI4SXRtQzFGRGxkQ2Z1a0wtUzJhNG5GaE9WdU1PVTF0S2tlSUoxOWFWaUsyY05CU3p0TlBGV1o5eE5Bck5MNmd1SUVtVjBxblpZU1MxTV9KQnRUV0hPdXAzYnpuTDRYQ2JUWVgyUkUxetIBngFBVV95cUxOUFpUV0pITXR1R0FXZkVyZm5tOER5SXAySlBqSXZ1VGY1NVlqa1JpRjhVZkExNVlReGNJcEZPbHBZeWNSX3BEMnNkMUV3WGxZR0RXcmpLNEpKbjdpbjlvMzRJYmI3ZXU3VlBvUGkxWHhjZWkxOGJVRXhqWXZyN19mdmh3TUF6MW5HTHhYM0dwbUpVbThNY3kzTmZBUGgzUQ?oc=5",
       "source": "Google News"
     },
@@ -87,23 +94,30 @@
     },
     {
       "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Clara Baumgartner Obituary (1945 - 2026) - Columbus Grove, OH - The Lima News - Legacy obituary",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeUVWSlAxUkVQR1V6YVZZLXp1SkNZVVZrZFU4dXIyaGZUVEQzWW9Mdjc1SXNfNzRPN2lKbHNPWDkyOU5FSmp5WHpnck1mdmdlNk5HaE40NXFQMjZXcEVrOU84YWpXcE5NUkxWRnFvTUk4YnBGOGN0UkJieGQtb2ZPLXZTTEJzMGFFRVhLSHpkcjhhb0k?oc=5",
+      "priority": "DEVELOPING",
+      "title": "Columbus COTA bus crash: 2 bus drivers killed identified as longtime employees - NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdl8walY0UW1STjdBenRlYVp1RVo1S2JMRURGQ3pSSHpBSTV4aEdseURwR3dXdk9UTUhGcGNDcmhLTTc1d1YzaEVuU3pGTXlyM09jcXdaVDgzVWVkWWw3dXp6dzVodVJfOUJFWXB3bVhJenI2UW1OREg0YnFuMmhqdE1xQWpfY1VaQUJxVDRZanBEWi04akgtRktrUmlWRVAxQ0RJcFNXZXRaQ3V1YW9PRFdQcFk0MVVPOXpIN1hnRjA2X3hrMC1nSlUtUdIB0AFBVV95cUxOMGVSZDVmakt4T1d5d1VwVTRSN0Z0dGN5NmliTWxjR09Mbld3OW92X18xTloxNnA3LXp1THUyOG5PZWVsQkkzOVo0NmhkYXZWMzg3Q1NLQVVaR1JLRnd2eU1oTTdVR09PT3A1TjBQZmN0UnNtUURoRlYyZm81TDlTdzJmc2l0RWwybU5LTUdoeWFYRERobWtubWs5b0ZmdUNKcGRLM1hOZnhDd2dWdW5PMXNiTFYyNnFvVVBnMzRmOE9ZTk1hbUlNTjlCX2pFUmJa?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "The New York Times. . Two bus drivers were killed and nine others were injured on Monday in a head-on collision between two city buses in Columbus, Ohio, officials said. - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPandscHViRTA1VXZaaDBMaWlKZF9HR2c2aVJhaFpSM0tnME9lQmtIUjJjVzREQ2I5emRGdmt3SFJTRHhYZTRSelZNQ0wza0lBc01iWEhCNm1ZMGFvbVRXcnFUV01jc2syTmF5dEljRTRDMnFRU0YwVEIwWU5fR1oxNjJpSDNKeHctVEhMeU5xdUtQVGdOMlVOWFFQdWMzUnJLYVNSU0hheGN4QUtXa21HUGxReFBIMm42UWdHRnRnWHpWY2VpVzhKeS11X05jM1Y4S1cw?oc=5",
+      "title": "3News from 7-9A - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZFNSUlY4UEFsRXdwb3hDSXllTUZhNVhfYkZHTVJGN285TEVDdmFmNU93Y1ZoTnhRelh2UFI1V2NtUjV4Q2ZnUUxVelIzbzNZLUlQUTdfdlRScm1fT2ZibHo0RHJzYnJoakRDandhNEpHYVpNWE9zSW1OREl3Mms3MklsYmJ3UklEMi1ZdHpMYjhseF9HWHViNklQa0pfWFdm?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "After latest report, Ohio EPA won't say Medina County landfill system is protective of human health: 3News Investigates - WKYC",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOMktVX1ZmbnhabTRvMDQyNjZoYWh2ZTkwUWRvX2tmTWQ2ZE40U1plb2pxN1Rhb3FVeTFsaklBZzlTSVNQTlFEWkN5ekJJNVd5b3REMzBDdjVlSWtwZndYNlpLR3FsTUlmaWlyUGs3alZ5ZDNBdGFkWjVuVlhESFNVLXB1SkFmWlE1cTBmQ2F2SmQ3bTBKb0J2VjNJVFRlNHJQNmVDaDBoMEIyMFFyZkVMSnMzOVMyMGdaVVhyakpjN2t5c2lIay1CSVVHckNjblplcTB0NXJqTndXcGhZTUpvcENnSGxyY3dWcU1xVnpnT3NhclJDNkxLWHZnZ01JSWpfLWVNM1ItQ0RpSVhkbnNPQkt4WFpqWlZhLWNsNUJ3?oc=5",
+      "title": "How Ohio is trying to understand sexual violence on college campuses - Springfield News-Sun",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMW9wd1RKcnczZ3h6TmVjWElSdlNIdXpjS3Jmb0MyUks3amtGbzhXUTJZTmNoVloza1FpMTlSOGp4Qlp6TWhNWUZ5eTBZaEoyNFJIbmx3ckxkaG9WSG1qTVYwbFd2LVljNkpGNFk0UVZJY3JkU0NkdkQxd3BmWmc2ZUV5RWdfaGdzRWtVV2tOa1M4MHVCUk50SWRCV0NHMk1zMlJnYWI3empRREpDMTFWUExXamd3OHBFM1hqQWRlTmM2dWRPZkpsa1NoSFNFOHhQc1REN1RkX3R0TUhBY2xGdXhoa0FSQ3AxZXE3LXdUYUQ?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "OSHP troopers to focus on impaired, distracted driving over Thanksgiving holiday weekend - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMHdwVGpqM04yM3JtbHN3bGtud29fejZRSXFmZHBuc0hsaWhBZGx5VkVKWXZXbHNZaGlvVjl4SE9QdkJ2NXljOG5BZ2dsRnZpMVBaS19QMzcyQ1FwNnJPbDJ1a3F2OTVKX1o4SmYwZ2xoRmtrZzNoejZ6cnFUd2llQm1EN21ZUzFBMDdSRXFyYXBtdzJ0bklQXzIxZWF1Wkg0dDVEdTNxV2N1Smt0cmUzdVlLaDk5TzRXM19tMmFvQXRyblFfS0RGd2FNWUJ1LVFNS1N5NHYxRE14RHpuTW1jZ2pHT0NDZw?oc=5",
       "source": "Google News"
     },
     {
@@ -116,29 +130,22 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "$84 million Bridgeworks joins Ohio City developments - NEOtrans",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTlpjbGZyMEJ3LXBMQUYzdGhQY0JBUWZPRDZJM3NRNERZOXZQNVV4Y2lkTW95b1ZQOWNnenBmTXZhQV80Qll4RElSZThkX3ZLaEtENG9XaThWcGxTVFh1WTNJa3dybXNzOC1IS3lrUlhJazhIbzZtRENRaUV3VU5PZFFTWG9HZ29UZXV4dXBabw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "2 bus drivers are killed in head-on crash and 9 others are injured, Ohio police say - ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSDN5elpMWGlRa2M3R3FQX0VBcGZQR3FRanZ0S0lJVDVna2pPektuN1AzbFJLNF9rb194bXowUlFZLU1aZXhDSm92Q05aNEhmUU00aFFjTC03TnB1QnZRTy1IVmJiVmZfZ212cnA4U2I2VXRwWnF1V0xWZ29Md0FDZno4cGFQWmh6QU5aQ1FiQ2hZVlkyR2tyNjRZWHZOZXcyUkZKLVA1dnQ0UTlwNFduM3B2U2lSUnlzYmVTdDNQQ1NSMk55aFoxWGNNUkE?oc=5",
+      "title": "Michigan to start Bryce Underwood in The Game against Ohio State - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU2g1cTA5SjBlXzBqZHE5eS1oUGpxQlJxSFdEemFSMlB3dmlSczBmaEYzQ1hBYUR0YmxWRTlGU0E0SkdqYmJCYUx0UUVwM3IwWDk5VDdkcFR6aGk0aDdFcDZGTjV2eFZRY0t5ZkpVM2VIZTh3elQ5NWZaSDY4X0xxSzBicTc1Y1U5SUQ2Y2t1MzJuY2tyRTh5bHF6X3J3N0ZvYUZTT2pwWnBGWmU2OWVmVmJST1VfNlJXTmF3Z29FYmMxUWs2VmhYczZpeHdmNDVtaHRoUWlBcDg4RXM?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "What\u2019s next for Ohio property tax reform? Little expected this year - Springfield News-Sun",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORW5PcE5Kcl9yLUFPWVNvdWRlRjE2VmxKZktUMEkwYUZIOU42cVNvYWsyNVl1WFZTRjV2b2I5ZjNCUnJ3OW9YMkFwZW5udEVFMEcweXpUZlNCX0k2S1pFN19meHFUR3BKMXpid21OTHVZbmVBN2lCc3lZSVNha2FNVnlQRm1wZ0l1bFM1anNTeDhvMk45UVJPaWUxRnhVOWhlZjA0T093R0I3YXZJNGMxdkJBY0VPNnRPS1Fsd3JRbGRLYnRhTVBaNUJvcXVoZEhibThBQmZHVElCNGNjbzV3VFpUOWhmcVFIYUNaYWtR?oc=5",
+      "title": "Ohio officials warn shoppers about scams ahead of Black Friday, Cyber Monday - WTOL",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNml0aTJxY1ZpdXZPNE1IckNuZjd2ZFRIWk5kS2VfMjQ5blFxdVJUMUJTZjdlNXpwRzRtd2hraWtSY0J5REQ3bVcybzlPSnV2VVc3UnZ5NWZycWFpNTdrc0RQSFRSalZ2TEdxYWJHZ3diMXhLZzRkZXdvcVZMNWVJVDJqT3prSVdnbFVSdWRQM2ZPQlhBWWlGa3RHdkxfWVZrYlRoZUNtSkphUEdLUW9fd2FlUE9fcjhhUTlIeHoxNkhlanFubTBQVS00STRPWVVTUGlwczFnMmJkR19hU09zRVVORnVFaEVvWFpKaA?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Two central Ohio bus drivers killed, nine others injured after head-on crash - KRQE",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR3ZtNVFvMGlMVmFZdzZmbkxJOVMzcExjd2taUnVlX0Z0QmJiT2lDOVJmZ2NnMmRxOXFpbmluQkZUN09lcnZwYlN4bV93NlBoZGVtVGNIb3lfTFlDSF9vaHFtMnZfVHpla2UtTTBFa3ZweXQzbXp5d0doQVBmMnU3OVdzMC02LWdNWE16UUl0S2pIeHkzSUVyLUp0RWh1YnZEejZoMG5TQzhoa0xxZmloZ2VoN3NFY2ZPdUHSAboBQVVfeXFMUEd2bTVRbzBpTFZhWXc2Zm5MSTlTM3BMY3drWlJ1ZV9GdEJiYk9pQzlSZmdjZzJkcTlxaW5pbkJGVDdPZXJ2cGJTeG1fdzZQaGRlbVRjSG95X0xZQ0hfb2hxbTJ2X1R6ZWtlLU0wRWt2cHl0M216eXdHaEFQZjJ1NzlXczAtNi1nTVhNelFJdEtqSHh5M0lFci1KdEVodWJ2RHo2aDBuU0M4aGtMcWZpaGdlaDdzRWNmT3VB?oc=5",
+      "priority": "GENERAL",
+      "title": "Gun-rights advocates, law enforcement clash over Ohio bill to lower concealed carry age - FOX19 | Cincinnati",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYUZlWHJQbnRTUzRtS01QdEE2N0pRcGhaR3VnazB6WTBMZzdrNFRmREVvTTlHalB0NFV3aFFEWGtLb2hCTlNvamQyMXZKM3JKM1RqUzdkdlRnX3lFUEUtbmR5LTBlMlozSF9fdl9wWU5MdlcxTkYzUV9LVkk1MC1yaTZ5SE0wTlpHMEc4LUxOQ1JSTjZrcnAxckJjVzVuMUIxdXpJOTVtUUpuSkdFMlBqUVI1TVZpMjNr?oc=5",
       "source": "Google News"
     },
     {
@@ -151,16 +158,30 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "3News at 6:30P - WKYC",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcVdLX0JmZmkzaUE2cjNpUzdyZWZJUVd6azFvci10N3ZvRkQ1bjZ5NnlkQnpYYjJGOXFON1RHZjJTa2hvejVhci01MmMxZHN5TzVWZ0pmeUl4TzNUTFlLUDFNYUhxWFhLaHVKUWtoUjYxMWJiZF9SSlk4X3BHa1lXLXFQbU15eVpJSzlHdW4tS3A1ckZRMzVTcFR1WngxQQ?oc=5",
+      "title": "CSU sees 25% enrollment drop, other Ohio public universities stay steady - Dayton Daily News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMVZoQ3Y0TzVTOG83aUZVYzVXQlJIaUVnbkhsUDg2LWF5M2JBOFFuR0puVDNxVVNSQUNhSm82dGpMcEpLcXBCcFhvVFlXYi1rSzI0OFhWZ3dfblpGTVNlWTRiVmN1X2ktZlZ3RWIzMGhwc3EwQURTVkp4YkJEZDJnQ0hMSHRBRF9rbnAySW96NXJXSk51?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "$98 million civil judgment awarded in Ohio rape that could not be prosecuted - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTFRPUkdoaG95MWVSNEdBYnMwbm9UdFNpclhQQktnNENNRGFnSUkxR0s2c0pnYV9QYVBGM0o4Yk5zUG5lRjRkcEJ2aVBTbEU4RWpDVEE2RHJyYjFTV0hHcUQ0Z1NSUkFudzduUlpvRXc5ZnVob1JpVHVxQUl5Wmp2UXJpMDhPZU5yd2ltdHlfa00zOWdYSzFGalowSHRPUTBnMWhoQXdIY2VmUQ?oc=5",
+      "title": "Shadyside council talks trash with Ohio Valley Waste Systems - Martins Ferry Times Leader",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeDQySFpZSkFaeUgtX1Q2NXR2RnBSYkF6UHZPZ3hXYWlpalVQNVRjbjc1WW96ZDY3M29hcjJrVFRkWmp4aG5vZlRYZFJKclRhSmQ5UnlYZjQwWXpUN0IxeFlyejVqUzR0ZVR2U0VwbkdYSzM5UURyckhNS0ZBZUZUT2F3YTF5bVZ0aFdSczZDMHFXeDZ4NzRtaUtic1FEM0JOYTVVV0x4LTVPSVFicVVNVDNySGtQdkF4alJZ?oc=5",
       "source": "Google News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "What Jensen Huang's return teaches China's Xi about Trump",
+      "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
     },
     {
       "category": "WORLD",
@@ -172,29 +193,15 @@
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
+      "title": "Land mine casualties soar in Syria, two years after war",
+      "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
       "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Gis\u00e8le Pelicot 'humiliated' after nude photos sent to media to promote book",
-      "url": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-      "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
