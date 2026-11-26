@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T22:30:08.891277+00:00",
+  "updated": "2026-11-26T05:00:22.604237+00:00",
   "headlines": [
     {
       "category": "US",
@@ -11,15 +11,22 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "US stocks fall further as fears over AI intensify",
-      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "title": "Macy's postpones Thanksgiving parade due to severe weather",
+      "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
+      "title": "California warns of flooding as King Tides peak over Thanksgiving",
+      "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Macy's postpones Thanksgiving parade due to weather",
-      "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+      "title": "FedEx plane overshoots Miami runway, with flights briefly suspended at airport",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -32,6 +39,27 @@
     {
       "category": "US",
       "priority": "GENERAL",
+      "title": "Four-time MVP Rodgers released and may have played last NFL game",
+      "url": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "US approves SpaceX plan to send a million data satellites to space",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
+      "title": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+      "url": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "US",
+      "priority": "GENERAL",
       "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
       "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
@@ -39,36 +67,8 @@
     {
       "category": "US",
       "priority": "GENERAL",
-      "title": "Canadian astronaut welcomes baby girl  from space station",
-      "url": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "She spent decades as an FBI agent and this is the case she could not let go",
-      "url": "https://www.bbc.co.uk/news/articles/c539g1pwy3wyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "What's driving up the cost of your Thanksgiving turkey?",
-      "url": "https://www.bbc.co.uk/news/videos/cw99e4x4x84no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "DEVELOPING",
-      "title": "Two children among six dead after plane crash off Mississippi coast",
-      "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "Kilmar \u00c1brego Garc\u00eda arrives in Spain, ending Trump deportation battle",
-      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "title": "US stocks fall further as fears over AI intensify",
+      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -81,8 +81,8 @@
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "Columbus City Council honors two COTA bus drivers killed in Weinland Park crash - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYVowM2V1RW1Kd3Vjdy0xbnRvc01uVENHd1oyM21PQzlaTjVWVm5JT0UwaU5kWG4yaWRLSGMwaUNkSmM0WXBVeE9xbG5VTVJJMTFrYVpiS1ZQZmdodm0yVTVCTkpaWnpLUE1NeDZIMHhZVm5lS0VCbjhJSTFTRDdRYjhIVGQ4N1hKUE1FeDVzMWtZbmx2SlBkTGc0dTNmblI4M0xiUjVrSE1Ca0g5SU5vR3NUT3hJWVJlbG03THBzNFlsa2pPMnpmODBFZmxaNUpvRkd6RnBsaEpId2tsaHZ5TjhsN0cxNWVLSWlkdw?oc=5",
+      "title": "2 Columbus transit bus drivers killed, 9 injured in head-on crash during morning rush hour - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWtTN3oxcGNwSVVseWJtUmJWOEhpc2tEeGpIRlNNLVZucWR4c21iajlUY243Z0pGaDdoM2p6LWFZNnFtSEkybU5jcWozZzM5TDZQUWtqN0hnTkVTelVwSFZWRmJsbzhNZ0ZoUkUtRjBYdGQtNGhtMXY3S21zWkZYUUx1MzVLZEZQOXJmVW5ZeEtRVU9IMzRYVg?oc=5",
       "source": "Google News"
     },
     {
@@ -90,13 +90,6 @@
       "priority": "GENERAL",
       "title": "No. 14 Vanderbilt beats Ohio State, 72-66, as Tyler Tanner hits go-ahead shot late - News-Herald",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM1l1OVcwNjh1cnVyMHdPSDIzWjg0NXhjNjJLUTZadExBeW1qcG9YR3c5cng2VmFqa05vSUp1NGZkU0IxOFFqTGt0MlQ0ZkdIemIxX20wdEc5Sk5xaDc3TU5DTTRIYTBPNUthUHppVkxFSjlKUHNHOU1OaTV4bEpmeFRHZy1mcF9JQ080dnBPbHdON3FHWHRHcG83TGc3a3Y1MlNNSTRLUUxGaWpBR0RjWDgtSnE1SjlSN29n?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "2 Columbus transit bus drivers killed, 9 injured in head-on crash during morning rush hour - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMWtTN3oxcGNwSVVseWJtUmJWOEhpc2tEeGpIRlNNLVZucWR4c21iajlUY243Z0pGaDdoM2p6LWFZNnFtSEkybU5jcWozZzM5TDZQUWtqN0hnTkVTelVwSFZWRmJsbzhNZ0ZoUkUtRjBYdGQtNGhtMXY3S21zWkZYUUx1MzVLZEZQOXJmVW5ZeEtRVU9IMzRYVg?oc=5",
       "source": "Google News"
     },
     {
@@ -109,6 +102,20 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
+      "title": "3News at 6:30P - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMkk3NVc4OXYwU2diYjQwYWtMbmZ4WEpIalB3Mk5YTG9JQXF3V3RBODA0MndoMWd2UTFUOXVtb2VkbEh0c0l6R0U5QlYwZ21iRnlIeHhDUlY3YklDb0d6RzgzWGJHb1RtRUx6aURNSEJvUDNFRGtZMklwQ1lDTzZSOVJEY1FEWklndEZLX3B6N2hrdVdNYTBkbkxWR1dYZw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Harmony Project delivers 450 Thanksgiving meals across central Ohio - NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNndVckNXbGNiOEdKbWhITlUycXF3SEE3cHVTTm9DSWhQbTdodXU1X3NfNEtXMl9YMFl5TGwyQzlRbVNsUU90blBibUdDNDUzSmJPdkJrX1BXMmJHME9BM3NNX2EyT29VRTBjMnFwc1owbGRCQlVLdjhXMHVVTWVqLWJPQm1yc3lWbXFfUmhnTF9xcDlvcGlpM3paQmR2TC1vcE9oZVE0Rk4?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
       "title": "Invenergy appeals Sloopy Solar denial to Ohio Supreme Court - Springfield News-Sun",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOd19vNmFhbzhzamc5QnJ4aDB4OE1KY1AzZnVma3NnUHBIRHdYNEhTaFBBYzN4d2xYaFE1WFVjZGx3WnpqNlBPSERwVjdlZmkwaVRpOU1NazlDazFueWxjSDNjanV3TDZMMlBLc3lsajZKLXJvblE1N2t0eEZNNDZmdG5pOERzSGZJRUdLRVItUDIwX3ZyeW91bklxZzZ4UGtTU3p2VkZMc1hpU2RTbVQzNTE3UENVSlhrbDh0Y1J0ZUFYc1ZfX1JnVUFlT25wQU04dGYzSXVBR1NNMUdIMF91bkZ3WGw?oc=5",
       "source": "Google News"
@@ -116,36 +123,29 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Vance serves up turkey and 'unfiltered' conversation to Air Force troops at an Ohio base - WISN",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY1BxY2pHN1VPUGxaNk96TTYySXpXYllVQnNtTDFpUXJ4b2tQNDlPaW5Nbml4SjlYRnAzUGgzNG44MGFmVGtIMWtOeENZNk1WWkVyNHdKVFctVUR6ZnJ1eHlXODlrb0pXTFl1Z2J0SUktWExLQmpPOFFNYTJfbDFlSUYyTjNWTWpSUTdv?oc=5",
+      "title": "Mid-Ohio Valley groups seek support for Giving Tuesday - Marietta Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa05rTHRVV2RMbzZFRTBuOVNFWE1xQy0xeFVRNVdjYUpselQwdlk5LXlaMW9LNzRwcjdZTk1mZUhEc0RVRUd1ZHctdTFua2lKUURaaWZFcGNfNmh2dmI2UGRHOGVYYTM3M2NNU0xqdGdTaURHUkpLSXh2Ymc1cFZDTU04LWlBQVZqcXFrNGNXMGk5LV9JT1F2eUNBQzl4aGs?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "After latest report, Ohio EPA won't say Medina County landfill system is protective of human health - WKYC",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNZ2tGZkFTSTB2OVdEckhXbE1sbE5aRHVSelY1X2JJb2xYUWdzaUJrZnZ6cWtYTkVBQXlOa0N3R2tmWHVSMXEyRUxkVjhxc0Q5LWIzMjdjeTZwRkhTVFZFWF9qUnNwdm5Td3BtTTZMQXg0OVFSTHdsa2drc2VPeEd0V3c4OHEyMVRGVDRTd1BSMVhNQmNVTXJxam4teDhNLWtET1AwaUxmR08teGNHdDV6SFBGV0tLcWwxek1sNm9IdmJ4dG0yWEZGNXpGU1dDRTNSUy03bFR4aFNEMEdxbkhUemRGM2w0VHpWR0dubFRXRGh6N2Vob2tTTVNKTkpLVmFUaUNrWmVmbGtJTENXN25XLVJn?oc=5",
+      "title": "FAREWELL: Ohio State's Jeremiah Smith to BREAK Records and Cement Legacy in Rivalry Finale - WTOL",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQX01YbXhDSy15QnprNjRjWnZWQVEwa1dQdzFaNWl0Wk5ma3oyeWZBbVlmMGNlUTdUdkxqYlN1d3FldEtyRktuOG9JV3RsNkwxX1drb3RvMWQzNndfbWFWbUFRakZiWWdDOUEzSDNRRjAzU0t5Rnc3aEtyY1A1ZXhMNHlFQXQ2a3BqaDFzSFFWNWJ5THpyR0NDVWh1emZDMDlySVZwdHlfU1VUOFplb3NoOXduOEcyeDIwaGpUQ2hpX1AwbjdxYWpia2dqSkIyQ0tteGtFVmY3eTQ3ZUhVRFR4NVNHR1RsSUwweTl3bV9XcnJ6Ynh2UkNOTktKekRIazlLYzFCalRiQWhlY1h4WWJUX1B3dFQzRDFTZk9leWFzbWlnSVhGdXkxRzFOVHUza2VkMXVWeA?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Vance is set to serve up turkey to Air Force troops at an Ohio base pitched as Space Academy home - LancasterOnline",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYjhLT1diZE5oYU9nMTZreGNWX09iamJ6M3VpS1E1dHhLWE04LWtfazZmZjB0TEljWEtjOEdiQ2FuTWFTbzlrbWU1aW1JNnFRY1JnXzc1dUlSV0MyZVExdkNLVEdGRTdDU3BxSlJDTzNBV0VPcG5zTWRhMFFjZUZCVHBTSlk2NmxTWXZlTjVzRFM1NVJLUmQxaHRUZ2xLOFZ6Y013bVdVOEpMQWZXMmtzalR3a3lpMHRlNVIxZFhkU3VtYVNDN0NXZmVOTWh6d2NSTWNXUTlQZEcwUm15Q05mYzBzOXF1Nnd2b0RZQUVCOWU?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "DEVELOPING",
-      "title": "Vance is set to serve up turkey to Air Force troops at an Ohio base pitched as Space Academy home - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWFY2WmVKVDROeEppX2l0MmRVYVY1VGNSUXZ1Q0M2ZlF0LUpaNklSZlJMdmlGblc3TkNCc0tXYlQ2ZGlscjZGYzhRazdpS1E3djJMX3oxaHJRbW5TQlJNbndnaW9sNmhveXZhdDE1cFFPYkZKR0loS2IySzY2bDJsOE1zOUczeHk4OVNmblc4WlrSAZYBQVVfeXFMUFhpWlY5WkdDU3l5aTFJWHNVbjMxdnJqbzJwZlJkQm90MEVJSE5KV0NheEpOZ1FoSEVCSWpLb1hVX1hsRmlkUEVHblVIVXNTdVo5bXJGbnN1SkVaLURTUEUwUGRvc2FXVUQ4UG04WHVWZ2tTTWJYSU1jVDE0YUNMWGg5eEl5UTRjSlFON19PeTNvU0NRaXd3?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Mid-Ohio Valley groups seek support for Giving Tuesday - The Parkersburg News and Sentinel",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXBIUFR0U1lHRVJoV0EwbFJSdWFWQV8zZ2J1R3JXNUNmUTZmdHp4RklwaVVCdnhOZE1NWnVEUk5ES3pKWDUtLUlIb0EyeWJzeFNPMXNkekUtd1VhWE1NV01jX0dicnJvbWZOMzdYVVgtZ2RzanFXb2JtUXR2RWlwek91V1oxSGtxcEV6Rzl6RGE5SjdZZEdEMEgzOG5yRU5ESkVCbE5LTmIxVGphM0xJTw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "VP Vance speaks to reporters at Ohio Air Force Base - LiveNOW from FOX",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMZkN3NEJ2aFFBZkhnak1MeFpKWmxWSU5Nb2VDaXZORmpZV29sRV9hRVN3RHNUNi1yaDZDY3FXaFNISzdWOGMxc2ZpSnJoUU1DSWE4UXQxbVdfT1RMNEhLYkpvTdIBaEFVX3lxTE1FQlBEbmJmY3NoT29QNTd4TGhEOGh4TUJYSkFOMXJPMW9LUV9LdVNJTEZ1bTd6aEVMRzdlZDl5WUNxSVZvdng4bFZpY3ZpdE4yZWExUkF0aHNFaVNFNzU5c3Njc1lKUE5m?oc=5",
+      "title": "29-year-old man killed in Ross County crash involving a semi - 10TV",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQc0cwN3dEbUhVRDhYSFAzTzdocHltSzc2bHBxRVFQTGgyTmNkb2xkS1Yza2NtaHpkelBiYkMwX2dLUjJqd0pCUWgwRURfVWJ1TUt4VnJlWUlNc0xta2pLakV6cXVWMlZPRHNDMTRabEx6aG84aHh0OHlJcVdXQlVqY3ctcEMzSXh2QXQ2dFpXNEFVZG91RXR6dG8tNjlHRVNVdWQ4bXdJdl9pLTRMbXIw?oc=5",
       "source": "Google News"
     },
     {
@@ -158,15 +158,8 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio attorney indefinitely suspended after citing AI cases in court - Springfield News-Sun",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQWGpxYjVmeFFSWlBqMWQ4QkdXTzRUUXlwV1k1aDNoRXNBcEtvbUJRa0lXOXc3cks3ZE9OeVkyZzhSRWFoOEJFTmw5OFZyZm1PZTU3blFNSHpGY1ZuR3lRdllrazlmeGhWS196Q3oxdjA5eEhlSDhfODE3S1dIM3ZGQVVQVmNoRFdwS0RqVXl1TjMtUTBaa1ZodGRaelJ5bjdyeVdzZnRfVDBISENibjFvZUJIMEVUd19qeU9aaUFBeklPazUyYUdFeExWTW84Y2JmaUJCZzhBd0RZMThFTDJLM2daYTQ3aFZIUDZCZmc1aw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "After latest report, Ohio EPA won't say Medina County landfill system is protective of human health: 3News Investigates - WKYC",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOMktVX1ZmbnhabTRvMDQyNjZoYWh2ZTkwUWRvX2tmTWQ2ZE40U1plb2pxN1Rhb3FVeTFsaklBZzlTSVNQTlFEWkN5ekJJNVd5b3REMzBDdjVlSWtwZndYNlpLR3FsTUlmaWlyUGs3alZ5ZDNBdGFkWjVuVlhESFNVLXB1SkFmWlE1cTBmQ2F2SmQ3bTBKb0J2VjNJVFRlNHJQNmVDaDBoMEIyMFFyZkVMSnMzOVMyMGdaVVhyakpjN2t5c2lIay1CSVVHckNjblplcTB0NXJqTndXcGhZTUpvcENnSGxyY3dWcU1xVnpnT3NhclJDNkxLWHZnZ01JSWpfLWVNM1ItQ0RpSVhkbnNPQkt4WFpqWlZhLWNsNUJ3?oc=5",
+      "title": "Ohio Supreme Court rules deputy unreasonably prolonged traffic stop for canine sniff - NBC4 WCMH-TV",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTDVFRU83dThjeXZEeFlZWnM5MEVaUVpfX2kzUTJPTG9iUmlJd2JtbFV5cVRCaGtJRm5xU2x2ejI4M241MUVsM2drZ3E5anlYOGNPY3ZJSTFlS0R3Qy13RU92c3U1cFhXQ1FObVVzcjhDVE5VVkhHclB3NjRySlg3NE1FdnYzV0hYdENBRzJoTi1qb05NVnRHd2stUE1jZENJS2ZOcGozLTE0VHFMa19UR09tREtWZEtBNE5lRUNMc3J2d2F0UUhPLVpFaHTSAdIBQVVfeXFMUHlqNW1QUWVVZUlnakxvUGZ4WHZZMGh3a2gtb29nYXNsUHVOYUZNVVNxRGFFSlY0QkdTNW0wOHZoUEh1Y1dlTHJWeWlQald3X0txZW84aUx1MGV5SU4xM3VzOUxkYlktZEpTMUNNd1ZXZDdGRXU0Z3lHUWNIUXd5cEdteW1xMXRhUjN0THJNSzFyaHotR2VhOEp5MlRzY0F2MTZwMm9RLURRUXpDbmI2bFl5RHJFU3VDaEtOMG1rZWhKX2hRX0ZjU0hOVlVUeVp1QlVn?oc=5",
       "source": "Google News"
     },
     {
@@ -186,6 +179,13 @@
     {
       "category": "WORLD",
       "priority": "GENERAL",
+      "title": "Has global jihadism failed, or is it simply changing shape?",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
       "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
       "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
@@ -195,13 +195,6 @@
       "priority": "GENERAL",
       "title": "North Korea expels Swiss diplomat in sanctions row",
       "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
-      "url": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     }
   ]
