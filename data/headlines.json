@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-26T23:50:52.092968+00:00",
+  "updated": "2026-11-27T08:26:58.741287+00:00",
   "headlines": [
+    {
+      "category": "US",
+      "priority": "DEVELOPING",
+      "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
     {
       "category": "US",
       "priority": "GENERAL",
@@ -65,13 +72,6 @@
       "source": "BBC News"
     },
     {
-      "category": "US",
-      "priority": "GENERAL",
-      "title": "US announces new tariffs on host of countries including China",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
       "category": "OHIO",
       "priority": "GENERAL",
       "title": "Columbus-area Black Friday shopping guide: hour-by-hour for 2026 - NBC4 WCMH-TV",
@@ -83,13 +83,6 @@
       "priority": "GENERAL",
       "title": "Ohio State Buckeyes dealt rough news away from Columbus ahead of rivalry game against Michigan - A to Z Sports",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQNHlvb1NkY3VURW94bDNKUVkxYW5pQ1JYdjRwNl91dEd5UEE4MnJOcVF2T1oybE0xM3ZVUjlYUmNPNXlCVDRfM2lleTEzWVBkbms4UUJGR0FvM3hoOGYyYkdPWnhwNDJpN21rQTkyRmVBQnhSdU9TbVNDYXJSTmxhMXV4S2Q0QTRSRTdfQlctTVEzXzhuZTBvQWZsSDVsYkRiTThudVM1djR1dmRGU19lREY2dTFkeFZpX2wxZkNXYnVpb0VFV2NWRHVDaVNTMmFUMFlvM3d5cUJ5bDByLXpHaGpQU0dRZ016TXl5a0dvVFRjZw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "No. 14 Vanderbilt beats Ohio State, 72-66, as Tyler Tanner hits go-ahead shot late - News-Herald",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM1l1OVcwNjh1cnVyMHdPSDIzWjg0NXhjNjJLUTZadExBeW1qcG9YR3c5cng2VmFqa05vSUp1NGZkU0IxOFFqTGt0MlQ0ZkdIemIxX20wdEc5Sk5xaDc3TU5DTTRIYTBPNUthUHppVkxFSjlKUHNHOU1OaTV4bEpmeFRHZy1mcF9JQ080dnBPbHdON3FHWHRHcG83TGc3a3Y1MlNNSTRLUUxGaWpBR0RjWDgtSnE1SjlSN29n?oc=5",
       "source": "Google News"
     },
     {
@@ -108,23 +101,23 @@
     },
     {
       "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Ohio police find 3 dead people after getting call of an 'unwanted guest' at a home - ABC7 Bay Area",
-      "url": "https://news.google.com/rss/articles/CBMiggdBVV95cUxQXzVPNjROM3hvQ0R1dEJvVkVNU2xmdXN0RmRwblJOcmk4UlBvS1hmSklhYlNOOW52Rk1nM0FONVI3YnZFd2FoTGdSYkJxSHllSGVDQll0d0xvMEVuMkwyQmRhcmFfUG91ZWhYZ1lvWGFBUldXczV5WGw2THRSei13UFBla3REVEpReHlhQXBTdnVrMGRpWkk2eTdiZTQ5SUVQU09vRkVzeFdURFQ3S0VDUkZDSXVzNmE5RG9QQjNzc0pkNnpDMGUyNFpvek80bGFVaXY2WlpOblRiS0haNE1GQ0Q4Y3NpNERURURiSGFTVFVFbm1jVV9ta2F5RnVubUpxNGdJT21Hdkp3X19WdHo0X19MVW1SU3Y5dTFBanpYLWFKMmpjUl9WNzZrZVl3OUVIQlR0Ynp5MVkwdm81dURFWWotaTFQdFhORWcxcTdXQVIxTFp0czNNcFpjVFQyaXhIUEhwTkZYcU9xY0FabVk3Sk0tYy1ONWdYVFBIOUZiNlc3RFZEaFhCcXppcmRONmNzRlhzcVpYdl9RdFdDQndmRnlZN0V5V0w3MzFYTWlhWVJOT0lWU1VGN2VGTFIxZkxrakpvdTFjRzdaVjhHcndIT2M2dVltTzRNZDRkRmxjRjdHOTh1c3psWFJHUnh6d2ZXTGhVTTk1TDRnR0tTMnk4VmVXbGZ6MENOczlaRUFOY3g0UlMxdks5dmxoQ2s1cmFpM0Q3NnlPNWpzV01zV19WQ2Z1b0IxZmRLRlFtaGVTSFhtcFQ4NGpMVjRWbzhkNXdYYVVDY0F4MEFFSERQNlBXQzZyM0dyMThZSERHU1FSb3djLTVwUEJUQjVSWVBEMTNSYjU2bWxHTXBWNDI2bDJOcENqelRpa0tvekZKWTJhQkNHSlo1WklLMkVCZEZ0QXYzaDBhQXZ0ZjY2Y3JTTGNkSk15RHk1aU9lazcxVEVfY1BIekZ4ZUVJRC04dmtxdEVjMzN3UlZyMXVQazg2MllLRmREblRVejV6MndLREpCUDRhNkV4aFJVN0h0eS15RnM3bEhCdEEwMGhzbGpfcHBVdTFncXZWYUtsWVJTZ010UXZDS0FjNlJvQWZsLTdzb2Q2bDNST3k0R0lrTnBxNnpjRElJSWZaODBBS3RIMkdpdjVhM3d5UERSa1A0ZU5QZGV3RlNnZlNQSXhNOXF5U2VqZTRn?oc=5",
+      "priority": "DEVELOPING",
+      "title": "Search for gunmen continues after 12 wounded at outdoor Ohio festival - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHZHRU1EN2pqSkFqTHV2SEdyc3BrYXBSOTg2SmwzZ05rWkRhU00yaUNySjlPQjFWSms3eEFHbXZ4aWxDOVZHTElaTDlNVzZCWjFpczNyQjRCUjZIYWF6UW9mbVBSdE5BUUNieWJyZGVtbVlHOWdJcE9BTjJHQ2x5ODhGR3VJOEN6YW1qalB0WU5lekM2ZGfSAZsBQVVfeXFMTmJUbEZ1Q2szeXBOTnFvYnJoS1ZrTXdVSHhjblcxSVZZdjRrYm1uVGlNR2pmcWtuUUxneWtlbkhDZ0ZudzNHR2ZpRDB5WW9TQlhRamJlaTJTV1JIZjUwcVVKM2pzLU80VXI1NkQzVmlkZ0pwYXdPLXBnSDFyNk55QWd4dURELWRPX2VWbktUa2JLQVBBSVdBOXdIYjA?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Columbus, Ohio weather forecast for Nov. 26, 2026 | Rain and wind throughout Thanksgiving Day - 10TV",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWUc1Wm9zT292TmhBbll3VTBlX01ES0FKT1d2X2tVX0NHNEZ6ZC1MMDZWNmR3MnRrbjBvb0ZESncxZEp2QThONmQ1VklMOVllM3RSUHhqZl9DUEdPYmhqLWlRRVNpeDF1T0tJVERPRWowX0pPdkFwZGRJYVY1RE1SaDZPVFpMYk1fcFgxZVIxUVpYZ3FySzdkZTFoVWpVZjlZMVhnOWd2cGV1YzVEZVNNRWpsLUExcUo3V1pQWGstcy1zWTg1cjBDRHBnVFBCS0N0ZWg0czZReTJfYXdNVGtoNnlUNmRfczVIRnJzM2Yyd05aUTFqUlZUTWdCeWJHckxvNkx3?oc=5",
+      "title": "LAST CHANCE for Ohio State to Salvage the Season? Here's How They Beat TTUN... - WKYC",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOQzBVZXJsYk5aRVNjakw1SnN5QzdBYW5vSldWdWJfY3kzTVdxQ0JHTnpHT2VjOU9sYUNQdDRrT3ZJYXFMQkQ1ZEU1UWVfOEJSVWtTRDB0QUd5LTZ4MHdpRVVkMGJFcnFJdjJKVWtBXzEteUx5dVg4WFV0YVVqa083WkhfU2lvMFotUUFmOTFFM3hpUHhBR282Mm9GYmRzM2FDQW82Z3NEU1hmMVhnTXFZc0xYbGxvRlYtS0RaajBwcl9MbWxaYkRlZWtKYVc3aUhtbFVRdTFJYVI1QXVJb25sYnotSzBNY3NpTW9kYXhoWVgwU3BhV1FBZ3d2X0JzalAwcUZLR3AtRGF4dVcxRlhNZkQ5QkdQUHZHdDZTVTV3?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio stands as mirror of the nation in countering gerrymandering efforts - Ohio Capital Journal",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUM2N0syQ21zLWp6dnZJbVRuMGszWHRBYXlRY1lhWWlCbXZweTE2RTdDMDZtSktOa2RfUXZ6amNSNHVDcXd1RWxaeVoxaVZuVkhHbDdLNEhiaTNsbjM5WUo4RmhaME9uSmkxSnZGLTc1Y05PMGg5TTk3ZHJGNGhZb252SGUtekJwRUh6anpheFhHLWlOOXNKanJtUmJDZU5yRFEyS0l0NTItMWdldWpscVpKSTFaQQ?oc=5",
+      "title": "Ohio Valley Mall gears up for Small Business Saturday - Martins Ferry Times Leader",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHQwOHJqc0hTWGttRURXdERseGlicGtzUmxjWGplVDBob09lbnpZS3d1T1c0MUFfZzJ5eUFvNDB6SmFBTnJFakZ2bjN5bmRnc3A3clNwckFjNlBuemxKdDZRbHJ3Z1hqaEotQl9mUUFkcUhQMVk1T1cxUlg4YWZwWS1WakFfQjJzT21iclpGOWwxZFFmZm92QjRoYW5HZWdaaGFIQzJ6blBIVFVUWXl0cm1B?oc=5",
       "source": "Google News"
     },
     {
@@ -132,20 +125,6 @@
       "priority": "GENERAL",
       "title": "Black Friday hour-by-hour guide: When stores open in central Ohio - NBC4 WCMH-TV",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUm80YkFIUmVMZDlVSlpvR1NaYzBKVWhBNjd2LUoyV0xCTzhHVDBHOUlvVlJUenJrc1RMTm5kSkgtYV96RmZodl9DVHRjbmhXVDJadlptTWFxdWF0cVNpN3BnazF3SkZaWW95MXBkQ0FubmtJeDl3cU9UNG52MC12U1dBbHpzVFdVNWtJZzhPVUQ2QUJKNTFrQmhZd0c5aENCY1VrcA?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "DEVELOPING",
-      "title": "Three people charged in Sheetz gift card scam in Western Pa. - WTAE",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZW1SYzBjaENoRnBmTkhfRGhoeUhmOVJ3U09tMkxMblZYa2dzZzhJSGJlb3otZDNLV1hMOXNQY09ldjZQbFl1VXlpU2lGVUk2QTdLU1BTSnFDM2ZJc0Vvd2J2bWgtaVo1R3gtYUIzUDJBNnRVTlExaGRIQ1NuUkwxS0MzSXN3WjJ4NEcyY0ZqTGRBdw?oc=5",
-      "source": "Google News"
-    },
-    {
-      "category": "OHIO",
-      "priority": "GENERAL",
-      "title": "Winning Powerball numbers for the $31 million jackpot on Nov. 25, 2026: See all the prizes hit in Ohio - WKYC",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOERQUVRwYmtRMzZET0I4SXBNMml5MWNWclotODFVUUhQLWFYYzhjQ3R5QTN6VXRDMFNnSWo0RElrc2R2bkRya3k0cnpqb1RKWk5qWE0wU3cyN0NYOFMyaGp5cF8tcDAxNXprMTVPLWF5akY2YUhKT3gyRDQ2Wk12dEd5YUR1SEhjcmtaS2lETGM1dkdWYUMtdUprUTNfam9lamM3NGltZkgtbHhEYVRQamlERk1OaEdENWhlcS1PUzdCTGxWNENJU2dkVXpYRkdQTkRtNHpzc1NmTC11N0ZqX2gzZ1E2ejFMMEI4Z2dsbVFIUTZZanZRN1p1SFcwZw?oc=5",
       "source": "Google News"
     },
     {
@@ -158,29 +137,50 @@
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "Ohio venison for the needy: Bag an extra deer so others don\u2019t go hungry - Cleveland.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR29QR0FZRUlqNHhvcE5GdW82WTZqRlJObjk5UG5Ub1BRaGFCWnl1SllvaGdkTkJmYVVzdlM1bVd6MU5OR3UycUp3R1NIR2FZbDR6NlJWY1laMThsVzJpUndDOHg4Q0FjNkFkRjltUzFSMXBNWlB5QnFpRTcxQkYwdjM0cklhWnU2cU1DeUVmVFFCSU8tcXpvdTlDSkNBb1EwcWdWZ0Y0N21XZk44d2dFSF9OMNIBxwFBVV95cUxPWVEyV3RqOVZ6UUM2czAxZXB4YjVrY0NoTm9rLXdNQVpLdDd3MjZtbWk5aXZ1N2N3QjlGMTdNSld2SGdSajFkRmFtMW9zQjhOUmdFamlKUjFXYWpfdmVpRkpIdUNHQ3ViSEV2ZUpjQ2NTaHhfRk8xMXYyRmR1MGdaazVJbndNUXdVeHdCZ0I4V1VKaXJrOTdPXzI3aG85UDVVUS1oREMyc01QLURackkzdmFfUHpnM0E2cE5zenFDcjE0QmluMWsw?oc=5",
+      "title": "Ohio stands as mirror of the nation in countering gerrymandering efforts - Ohio Capital Journal",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUM2N0syQ21zLWp6dnZJbVRuMGszWHRBYXlRY1lhWWlCbXZweTE2RTdDMDZtSktOa2RfUXZ6amNSNHVDcXd1RWxaeVoxaVZuVkhHbDdLNEhiaTNsbjM5WUo4RmhaME9uSmkxSnZGLTc1Y05PMGg5TTk3ZHJGNGhZb252SGUtekJwRUh6anpheFhHLWlOOXNKanJtUmJDZU5yRFEyS0l0NTItMWdldWpscVpKSTFaQQ?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "OPINION: Our parks are more than green space. They\u2019re common ground - Springfield News-Sun",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNW1UUjdHb0t6X01hcF9KbHhSTWhvZEpOTjc1QkYxVHZYaU9XY0syTm0tY0liRG5RNFJVcUloVHdjVEc4TC11YXJVb1VtSjZPdU9tckVFX2JDQXhQaF9wY2RDYzhwNTZHZDZ6OENCUnRDOTNWRzR2SndCXy12aE9TZjc5U0w4MXQ3S3VyeFZzZHE4d2RMSW1BeDMyUDRmNjNTbzNpZGZuWW9KRnFaVWRfWnk2dnFTVFRSV1VFR0tucG1JYlZmWU9qZHlWREJpaU5BNHBPZk1TYVgwQUwwc19zQWxvR29KVWppaDFUNW5jei0xdEFBakpR?oc=5",
+      "title": "Eagles net All-Ohio soccer honors - Morning Journal - News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEhUTUFfa2ZkdWplelJoTUVkQ2hGQk1YN245ejdsbnBfZ1FoRTJ1M2JOcHZyUlRwV1pXUkIwZDZpaUhJUDIza0hYdUhtWS00RjI2QnFzTlJfbHMzLTdUZ1NJS1hham82N3ZUNVBkdHNSdHl1Ni1QTXNPdkF4TG15OEpZOXJiQ1lncFBBVjVjMWFoY09uWXVVaHYtZWJ3Zw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "DEVELOPING",
+      "title": "Three people charged in Sheetz gift card scam in Western Pa. - WTAE",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZW1SYzBjaENoRnBmTkhfRGhoeUhmOVJ3U09tMkxMblZYa2dzZzhJSGJlb3otZDNLV1hMOXNQY09ldjZQbFl1VXlpU2lGVUk2QTdLU1BTSnFDM2ZJc0Vvd2J2bWgtaVo1R3gtYUIzUDJBNnRVTlExaGRIQ1NuUkwxS0MzSXN3WjJ4NEcyY0ZqTGRBdw?oc=5",
       "source": "Google News"
     },
     {
       "category": "OHIO",
       "priority": "GENERAL",
-      "title": "For 50 years, Ohio was home to Macy's Thanksgiving Day Parade balloons - NBC4 WCMH-TV",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZl9BMWUtaGVISnRFNGE4ZHl0V2Fzd3hVLTFoZFVTcEhwVkt5MkJuV2NJZVdyTHAxTnNSTW0tLWpuX184YmpHTVlkNUFuUlRsOHFxQ0k2S2JMMkxYQlp2V2RLR3NaWFRpZ2R1MEdOdlB1Q3QzamdTUUhOZnkwcGZpbXVsQVpoaHYzNldUVnZnTXpmbHRSZGlnNlBqTzVvaDVNd3UtdTVwOGQydw?oc=5",
+      "title": "Swanton woman\u2019s death being investigated - WTVG",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1IOHVvcmlnTURsM2xTR0kzOVFmSFNyTXJILUU2YWNvLWVER0diQnJmLTh0YWJQS21YYXJaMUlFUU56N3VKRVBzZngyd3g4V3J0Mi1QZmlRN3hEc3dFa2NpSFV1aHN2TjZycUlTcU5TQ044OGc1YTQ1Vl9qM3lRUdIBkgFBVV95cUxPZHc0MkNjOHJEQjNwc2J0dklHTlE2T252blZjbngwUF9IUHVmUlhyZ1NMOVRQc0VpY19GQ3dOUGpGY2JfTG41UElOMzQwSk1vdmFyNU1sVGxNOVNJdkJ3YS05MmFhVkd0WUtCRjlkZFk5bWEtV3NiejRvcW1WM3c3dS1qbVM2V0NJSXVGV0pld1FVdw?oc=5",
+      "source": "Google News"
+    },
+    {
+      "category": "OHIO",
+      "priority": "GENERAL",
+      "title": "Travis Kelce's $5.35 million Ohio mansion carries a $120,000 tax bill, with $72,000 potentially benefitin - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNYlFqZlcwek9Zckg0cWszYkNkemZGaVBjSnRfcklGbmhPN0lhZ1NtcGhJSzNRbFRINWN2cjBDRkwtVGJjTlJPT3F3T1JjdG05cXY0X21oVDRfbFN3ZFJpalpaNUZTY3ZxangwMWhNNUFhMkFuV3dwUGQtR3M0VTcyUXBzdDVjamUtV185MVlhYmMzM3JfbHdFNlFwcFVzTnJfLUZhYUhEX0Y1emdfcVNacFdaeXh3UExtR1pmZW1lbzhJM3M2X1N5dTc0VmNFS3dYd0RQUzFTTDlfY1F0MnNkaXdBUThFUXpKR0Q4RFlnRUluSUFQUkZWcFZYQmVFRnpCamNDd3VwbzlCdFJ4V2NfSnctRTlnbWVlakow0gGgAkFVX3lxTFBfWVlQb3BHWDI4SlIxMU5uWVBPWVBrdUJKZ1dpUU9GM0VWTHhZN2ZJbGduVmFYa0NsbERvYlM2cUNwRGVkb0loZ1l2RF8yZ2pab0Y2U205blljanFKa1NPaUlnbGNkZ01LMVV0LUhySU1wSHJMZ2ZraUpVbFN2cHRsSlpFcmk2em9fUU1qYTRqNDRSZndjVTE1anNQaHhNUlhVVXNCMmdMeE9WMzAwNHhidmZsTEg5MzlHeFlXNnJLNmducGkwNjVVRjFqUzJVNFFGZUh6Tk9DT3Z0REdraXVkVUNwMzRVTUF0b3ljcm1QZUFyY3BlY21Tb0JzaWpRVmp4OWxYRmFPcmFoR1BScENYVnZTWVpWbTFaOHAzT2NIVA?oc=5",
       "source": "Google News"
     },
     {
       "category": "WORLD",
       "priority": "GENERAL",
-      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+      "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
       "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News"
+    },
+    {
+      "category": "WORLD",
+      "priority": "GENERAL",
+      "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+      "url": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
@@ -195,13 +195,6 @@
       "priority": "GENERAL",
       "title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
       "url": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News"
-    },
-    {
-      "category": "WORLD",
-      "priority": "GENERAL",
-      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
       "source": "BBC News"
     },
     {
